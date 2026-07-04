@@ -1,3 +1,0 @@
-/dobot_homing_srv:
-  ros__parameters:
-    homing_position: [150.0, 0.0, 100.0, 0.0]

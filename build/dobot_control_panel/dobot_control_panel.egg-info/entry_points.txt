@@ -1,3 +1,0 @@
-[console_scripts]
-dobot_control_panel = dobot_control_panel.main:main
-

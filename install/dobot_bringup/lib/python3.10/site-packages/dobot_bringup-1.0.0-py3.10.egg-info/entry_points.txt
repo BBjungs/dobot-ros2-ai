@@ -1,3 +1,0 @@
-[console_scripts]
-set_tool_null = dobot_bringup.set_tool_null:main
-

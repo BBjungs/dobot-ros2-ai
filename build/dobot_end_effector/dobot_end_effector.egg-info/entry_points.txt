@@ -1,4 +1,0 @@
-[console_scripts]
-gripper_server = dobot_end_effector.gripper_server:main
-suction_cup_server = dobot_end_effector.suction_cup_server:main
-

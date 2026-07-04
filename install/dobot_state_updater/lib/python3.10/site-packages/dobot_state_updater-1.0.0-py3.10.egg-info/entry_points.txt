@@ -1,3 +1,0 @@
-[console_scripts]
-state_publisher = dobot_state_updater.dobot_state_publ:main
-

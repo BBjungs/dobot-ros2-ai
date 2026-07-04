@@ -1,8 +1,0 @@
-Built target ament_cmake_python_copy_dobot_driver
-running egg_info
-writing dobot_driver.egg-info/PKG-INFO
-writing dependency_links to dobot_driver.egg-info/dependency_links.txt
-writing top-level names to dobot_driver.egg-info/top_level.txt
-reading manifest file 'dobot_driver.egg-info/SOURCES.txt'
-writing manifest file 'dobot_driver.egg-info/SOURCES.txt'
-Built target ament_cmake_python_build_dobot_driver_egg

@@ -1,2 +1,11 @@
 .tokensave/
 .tokensave
+build/
+install/
+log/
+.tokensave/
+*.pyc
+__pycache__/
+.env
+*.bag
+*.db3

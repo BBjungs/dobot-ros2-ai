@@ -1,9 +1,0 @@
--- run_test.py: invoking following command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_msgs':
- - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/jetson/dobot-magician/build/dobot_msgs/test_results/dobot_msgs/lint_cmake.xunit.xml
-
-
-No problems found
-
-
--- run_test.py: return code 0
--- run_test.py: verify result file '/home/jetson/dobot-magician/build/dobot_msgs/test_results/dobot_msgs/lint_cmake.xunit.xml'

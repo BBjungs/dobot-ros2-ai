@@ -1,7 +1,0 @@
-[0.168s] Invoking command in '/home/jetson/dobot-magician/build/dobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --build /home/jetson/dobot-magician/build/dobot_msgs -- -j6 -l6
-[2.896s] failed to create symbolic link '/home/jetson/dobot-magician/build/dobot_msgs/ament_cmake_python/dobot_msgs/dobot_msgs' because existing path cannot be removed: Is a directory
-[2.897s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_dobot_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_dobot_msgs] Error 1
-[2.897s] gmake[1]: *** [CMakeFiles/Makefile2:440: CMakeFiles/ament_cmake_python_symlink_dobot_msgs.dir/all] Error 2
-[2.898s] gmake: *** [Makefile:146: all] Error 2
-[2.898s] [  1%] Built target dobot_msgs__rs
-[2.946s] Invoked command in '/home/jetson/dobot-magician/build/dobot_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --build /home/jetson/dobot-magician/build/dobot_msgs -- -j6 -l6
