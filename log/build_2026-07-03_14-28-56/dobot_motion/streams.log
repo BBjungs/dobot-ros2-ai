@@ -1,0 +1,22 @@
+[5.411s] Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_motion': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/dobot-magician/build/dobot_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_motion/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_motion build --build-base /home/jetson/dobot-magician/build/dobot_motion/build install --record /home/jetson/dobot-magician/build/dobot_motion/install.log --single-version-externally-managed install_data
+[6.654s] running egg_info
+[6.657s] writing ../../../build/dobot_motion/dobot_motion.egg-info/PKG-INFO
+[6.658s] writing dependency_links to ../../../build/dobot_motion/dobot_motion.egg-info/dependency_links.txt
+[6.659s] writing entry points to ../../../build/dobot_motion/dobot_motion.egg-info/entry_points.txt
+[6.660s] writing requirements to ../../../build/dobot_motion/dobot_motion.egg-info/requires.txt
+[6.660s] writing top-level names to ../../../build/dobot_motion/dobot_motion.egg-info/top_level.txt
+[6.666s] reading manifest file '../../../build/dobot_motion/dobot_motion.egg-info/SOURCES.txt'
+[6.668s] writing manifest file '../../../build/dobot_motion/dobot_motion.egg-info/SOURCES.txt'
+[6.669s] running build
+[6.670s] running build_py
+[6.671s] running install
+[6.673s] running install_lib
+[6.676s] running install_data
+[6.677s] running install_egg_info
+[6.683s] removing '/home/jetson/dobot-magician/install/dobot_motion/lib/python3.10/site-packages/dobot_motion-1.0.0-py3.10.egg-info' (and everything under it)
+[6.685s] Copying ../../../build/dobot_motion/dobot_motion.egg-info to /home/jetson/dobot-magician/install/dobot_motion/lib/python3.10/site-packages/dobot_motion-1.0.0-py3.10.egg-info
+[6.687s] running install_scripts
+[6.734s] Installing PTP_server script to /home/jetson/dobot-magician/install/dobot_motion/lib/dobot_motion
+[6.734s] Installing sliding_rail_server script to /home/jetson/dobot-magician/install/dobot_motion/lib/dobot_motion
+[6.735s] writing list of installed files to '/home/jetson/dobot-magician/build/dobot_motion/install.log'
+[6.849s] Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_motion' returned '0': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/dobot-magician/build/dobot_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_motion/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_motion build --build-base /home/jetson/dobot-magician/build/dobot_motion/build install --record /home/jetson/dobot-magician/build/dobot_motion/install.log --single-version-externally-managed install_data

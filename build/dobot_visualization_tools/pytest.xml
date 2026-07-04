@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="3" time="1.519" timestamp="2026-07-03T13:56:55.932169" hostname="jetson-orin"><testcase classname="dobot_visualization_tools.test.test_copyright" name="test_copyright" time="0.637"><failure message="AssertionError: Found errors&#10;assert 1 == 0">test/test_copyright.py:23: in test_copyright
+    assert rc == 0, 'Found errors'
+E   AssertionError: Found errors
+E   assert 1 == 0</failure></testcase><testcase classname="dobot_visualization_tools.test.test_flake8" name="test_flake8" time="0.450"><failure message="AssertionError: Found 71 code style errors / warnings:&#10;  ./dobot_visualization_tools/trajectory_markers.py:14:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_visualization_tools/trajectory_markers.py:21:28: E261 at least two spaces before inline comment&#10;  ./dobot_visualization_tools/trajectory_markers.py:24:32: E231 missing whitespace after ','&#10;  ./dobot_visualization_tools/trajectory_markers.py:24:34: E231 missing whitespace after ','&#10;  ./dobot_visualization_tools/trajectory_markers.py:25:33: E231 missing whitespace after ','&#10;  ./dobot_visualization_tools/trajectory_markers.py:25:35: E231 missing whitespace after ','&#10;  ./dobot_visualization_tools/trajectory_markers.py:34:41: E261 at least two spaces before inline comment&#10;  ./dobot_visualization_tools/trajectory_markers.py:41:5: E303 too many blank lines (3)&#10;  ./dobot_visualization_tools/trajectory_markers.py:48:9: F841 local variable 'ex' is assigned to but never used&#10;  ./dobot_visualization_tools/trajectory_markers.py:54:100: E501 line too long (122 &gt; 99 characters)&#10;  ./dobot_visualization_tools/trajectory_markers.py:57:9: E303 too many blank lines (2)&#10;  ./dobot_visualization_tools/trajectory_markers.py:78:1: W293 blank line contains whitespace&#10;  ./dobot_visualization_tools/trajectory_markers.py:84:27: E712 comparison to True should be 'if cond is True:' or 'if cond:'&#10;  ./dobot_visualization_tools/trajectory_markers.py:88:100: E501 line too long (123 &gt; 99 characters)&#10;  ./dobot_visualization_tools/trajectory_markers.py:90:1: W293 blank line contains whitespace&#10;  ./dobot_visualization_tools/trajectory_markers.py:104:11: W292 no newline at end of file&#10;  ./dobot_visualization_tools/int_marker.py:1:1: F401 'sys' imported but unused&#10;  ./dobot_visualization_tools/int_marker.py:4:100: E501 line too long (113 &gt; 99 characters)&#10;  ./dobot_visualization_tools/int_marker.py:18:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_visualization_tools/int_marker.py:39:54: E261 at least two spaces before inline comment&#10;  ./dobot_visualization_tools/int_marker.py:39:55: E262 inline comment should start with '# '&#10;  ./dobot_visualization_tools/int_marker.py:41:54: E261 at least two spaces before inline comment&#10;  ./dobot_visualization_tools/int_marker.py:41:55: E262 inline comment should start with '# '&#10;  ./dobot_visualization_tools/int_marker.py:53:9: F841 local variable 'ex' is assigned to but never used&#10;  ./dobot_visualization_tools/int_marker.py:98:9: E303 too many blank lines (3)&#10;  ./dobot_visualization_tools/int_marker.py:109:9: E303 too many blank lines (2)&#10;  ./dobot_visualization_tools/int_marker.py:109:100: E501 line too long (112 &gt; 99 characters)&#10;  ./dobot_visualization_tools/int_marker.py:111:100: E501 line too long (114 &gt; 99 characters)&#10;  ./dobot_visualization_tools/int_marker.py:137:100: E501 line too long (121 &gt; 99 characters)&#10;  ./dobot_visualization_tools/int_marker.py:139:100: E501 line too long (121 &gt; 99 characters)&#10;  ./dobot_visualization_tools/int_marker.py:153:100: E501 line too long (120 &gt; 99 characters)&#10;  ./dobot_visualization_tools/int_marker.py:155:100: E501 line too long (122 &gt; 99 characters)&#10;  ./dobot_visualization_tools/int_marker.py:160:9: E303 too many blank lines (2)&#10;  ./dobot_visualization_tools/int_marker.py:185:5: E303 too many blank lines (2)&#10;  ./dobot_visualization_tools/int_marker.py:188:30: E261 at least two spaces before inline comment&#10;  ./dobot_visualization_tools/int_marker.py:188:31: E262 inline comment should start with '# '&#10;  ./dobot_visualization_tools/int_marker.py:222:41: W291 trailing whitespace&#10;  ./dobot_visualization_tools/int_marker.py:223:41: W291 trailing whitespace&#10;  ./dobot_visualization_tools/int_marker.py:224:41: W291 trailing whitespace&#10;  ./dobot_visualization_tools/int_marker.py:226:13: E265 block comment should start with '# '&#10;  ./dobot_visualization_tools/int_marker.py:249:13: E265 block comment should start with '# '&#10;  ./dobot_visualization_tools/int_marker.py:251:1: W293 blank line contains whitespace&#10;  ./dobot_visualization_tools/int_marker.py:252:13: E303 too many blank lines (2)&#10;  ./dobot_visualization_tools/int_marker.py:252:100: E501 line too long (273 &gt; 99 characters)&#10;  ./dobot_visualization_tools/int_marker.py:258:100: E501 line too long (100 &gt; 99 characters)&#10;  ./dobot_visualization_tools/int_marker.py:267:5: E303 too many blank lines (3)&#10;  ./dobot_visualization_tools/int_marker.py:294:14: E225 missing whitespace around operator&#10;  ./dobot_visualization_tools/int_marker.py:308:50: W291 trailing whitespace&#10;  ./dobot_visualization_tools/int_marker.py:315:1: W293 blank line contains whitespace&#10;  ./dobot_visualization_tools/int_marker.py:317:9: E303 too many blank lines (2)&#10;  ./dobot_visualization_tools/int_marker.py:317:25: E231 missing whitespace after ','&#10;  ./dobot_visualization_tools/int_marker.py:317:33: E231 missing whitespace after ','&#10;  ./dobot_visualization_tools/int_marker.py:319:22: E225 missing whitespace around operator&#10;  ./dobot_visualization_tools/int_marker.py:339:14: E221 multiple spaces before operator&#10;  ./dobot_visualization_tools/int_marker.py:352:1: W293 blank line contains whitespace&#10;  ./dobot_visualization_tools/int_marker.py:355:9: E303 too many blank lines (3)&#10;  ./dobot_visualization_tools/int_marker.py:357:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_visualization_tools/camera_range.py:12:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_visualization_tools/camera_range.py:19:28: E261 at least two spaces before inline comment&#10;  ./dobot_visualization_tools/camera_range.py:23:5: E303 too many blank lines (2)&#10;  ./dobot_visualization_tools/camera_range.py:30:9: F841 local variable 'ex' is assigned to but never used&#10;  ./dobot_visualization_tools/camera_range.py:38:9: E303 too many blank lines (3)&#10;  ./dobot_visualization_tools/camera_range.py:38:100: E501 line too long (109 &gt; 99 characters)&#10;  ./dobot_visualization_tools/camera_range.py:59:9: E303 too many blank lines (2)&#10;  ./dobot_visualization_tools/camera_range.py:69:1: W293 blank line contains whitespace&#10;  ./dobot_visualization_tools/camera_range.py:83:11: W292 no newline at end of file&#10;  ./dobot_visualization_tools/dobot_range.py:12:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_visualization_tools/dobot_range.py:33:9: F841 local variable 'ex' is assigned to but never used&#10;  ./dobot_visualization_tools/dobot_range.py:58:9: E303 too many blank lines (2)&#10;  ./dobot_visualization_tools/dobot_range.py:68:1: W293 blank line contains whitespace&#10;  ./dobot_visualization_tools/dobot_range.py:82:11: W292 no newline at end of file&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 71 code style errors / warnings:
+E     ./dobot_visualization_tools/trajectory_markers.py:14:1: E302 expected 2 blank lines, found 1
+E     ./dobot_visualization_tools/trajectory_markers.py:21:28: E261 at least two spaces before inline comment
+E     ./dobot_visualization_tools/trajectory_markers.py:24:32: E231 missing whitespace after ','
+E     ./dobot_visualization_tools/trajectory_markers.py:24:34: E231 missing whitespace after ','
+E     ./dobot_visualization_tools/trajectory_markers.py:25:33: E231 missing whitespace after ','
+E     ./dobot_visualization_tools/trajectory_markers.py:25:35: E231 missing whitespace after ','
+E     ./dobot_visualization_tools/trajectory_markers.py:34:41: E261 at least two spaces before inline comment
+E     ./dobot_visualization_tools/trajectory_markers.py:41:5: E303 too many blank lines (3)
+E     ./dobot_visualization_tools/trajectory_markers.py:48:9: F841 local variable 'ex' is assigned to but never used
+E     ./dobot_visualization_tools/trajectory_markers.py:54:100: E501 line too long (122 &gt; 99 characters)
+E     ./dobot_visualization_tools/trajectory_markers.py:57:9: E303 too many blank lines (2)
+E     ./dobot_visualization_tools/trajectory_markers.py:78:1: W293 blank line contains whitespace
+E     ./dobot_visualization_tools/trajectory_markers.py:84:27: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+E     ./dobot_visualization_tools/trajectory_markers.py:88:100: E501 line too long (123 &gt; 99 characters)
+E     ./dobot_visualization_tools/trajectory_markers.py:90:1: W293 blank line contains whitespace
+E     ./dobot_visualization_tools/trajectory_markers.py:104:11: W292 no newline at end of file
+E     ./dobot_visualization_tools/int_marker.py:1:1: F401 'sys' imported but unused
+E     ./dobot_visualization_tools/int_marker.py:4:100: E501 line too long (113 &gt; 99 characters)
+E     ./dobot_visualization_tools/int_marker.py:18:1: E302 expected 2 blank lines, found 1
+E     ./dobot_visualization_tools/int_marker.py:39:54: E261 at least two spaces before inline comment
+E     ./dobot_visualization_tools/int_marker.py:39:55: E262 inline comment should start with '# '
+E     ./dobot_visualization_tools/int_marker.py:41:54: E261 at least two spaces before inline comment
+E     ./dobot_visualization_tools/int_marker.py:41:55: E262 inline comment should start with '# '
+E     ./dobot_visualization_tools/int_marker.py:53:9: F841 local variable 'ex' is assigned to but never used
+E     ./dobot_visualization_tools/int_marker.py:98:9: E303 too many blank lines (3)
+E     ./dobot_visualization_tools/int_marker.py:109:9: E303 too many blank lines (2)
+E     ./dobot_visualization_tools/int_marker.py:109:100: E501 line too long (112 &gt; 99 characters)
+E     ./dobot_visualization_tools/int_marker.py:111:100: E501 line too long (114 &gt; 99 characters)
+E     ./dobot_visualization_tools/int_marker.py:137:100: E501 line too long (121 &gt; 99 characters)
+E     ./dobot_visualization_tools/int_marker.py:139:100: E501 line too long (121 &gt; 99 characters)
+E     ./dobot_visualization_tools/int_marker.py:153:100: E501 line too long (120 &gt; 99 characters)
+E     ./dobot_visualization_tools/int_marker.py:155:100: E501 line too long (122 &gt; 99 characters)
+E     ./dobot_visualization_tools/int_marker.py:160:9: E303 too many blank lines (2)
+E     ./dobot_visualization_tools/int_marker.py:185:5: E303 too many blank lines (2)
+E     ./dobot_visualization_tools/int_marker.py:188:30: E261 at least two spaces before inline comment
+E     ./dobot_visualization_tools/int_marker.py:188:31: E262 inline comment should start with '# '
+E     ./dobot_visualization_tools/int_marker.py:222:41: W291 trailing whitespace
+E     ./dobot_visualization_tools/int_marker.py:223:41: W291 trailing whitespace
+E     ./dobot_visualization_tools/int_marker.py:224:41: W291 trailing whitespace
+E     ./dobot_visualization_tools/int_marker.py:226:13: E265 block comment should start with '# '
+E     ./dobot_visualization_tools/int_marker.py:249:13: E265 block comment should start with '# '
+E     ./dobot_visualization_tools/int_marker.py:251:1: W293 blank line contains whitespace
+E     ./dobot_visualization_tools/int_marker.py:252:13: E303 too many blank lines (2)
+E     ./dobot_visualization_tools/int_marker.py:252:100: E501 line too long (273 &gt; 99 characters)
+E     ./dobot_visualization_tools/int_marker.py:258:100: E501 line too long (100 &gt; 99 characters)
+E     ./dobot_visualization_tools/int_marker.py:267:5: E303 too many blank lines (3)
+E     ./dobot_visualization_tools/int_marker.py:294:14: E225 missing whitespace around operator
+E     ./dobot_visualization_tools/int_marker.py:308:50: W291 trailing whitespace
+E     ./dobot_visualization_tools/int_marker.py:315:1: W293 blank line contains whitespace
+E     ./dobot_visualization_tools/int_marker.py:317:9: E303 too many blank lines (2)
+E     ./dobot_visualization_tools/int_marker.py:317:25: E231 missing whitespace after ','
+E     ./dobot_visualization_tools/int_marker.py:317:33: E231 missing whitespace after ','
+E     ./dobot_visualization_tools/int_marker.py:319:22: E225 missing whitespace around operator
+E     ./dobot_visualization_tools/int_marker.py:339:14: E221 multiple spaces before operator
+E     ./dobot_visualization_tools/int_marker.py:352:1: W293 blank line contains whitespace
+E     ./dobot_visualization_tools/int_marker.py:355:9: E303 too many blank lines (3)
+E     ./dobot_visualization_tools/int_marker.py:357:1: E302 expected 2 blank lines, found 1
+E     ./dobot_visualization_tools/camera_range.py:12:1: E302 expected 2 blank lines, found 1
+E     ./dobot_visualization_tools/camera_range.py:19:28: E261 at least two spaces before inline comment
+E     ./dobot_visualization_tools/camera_range.py:23:5: E303 too many blank lines (2)
+E     ./dobot_visualization_tools/camera_range.py:30:9: F841 local variable 'ex' is assigned to but never used
+E     ./dobot_visualization_tools/camera_range.py:38:9: E303 too many blank lines (3)
+E     ./dobot_visualization_tools/camera_range.py:38:100: E501 line too long (109 &gt; 99 characters)
+E     ./dobot_visualization_tools/camera_range.py:59:9: E303 too many blank lines (2)
+E     ./dobot_visualization_tools/camera_range.py:69:1: W293 blank line contains whitespace
+E     ./dobot_visualization_tools/camera_range.py:83:11: W292 no newline at end of file
+E     ./dobot_visualization_tools/dobot_range.py:12:1: E302 expected 2 blank lines, found 1
+E     ./dobot_visualization_tools/dobot_range.py:33:9: F841 local variable 'ex' is assigned to but never used
+E     ./dobot_visualization_tools/dobot_range.py:58:9: E303 too many blank lines (2)
+E     ./dobot_visualization_tools/dobot_range.py:68:1: W293 blank line contains whitespace
+E     ./dobot_visualization_tools/dobot_range.py:82:11: W292 no newline at end of file
+E   assert 1 == 0</failure></testcase><testcase classname="dobot_visualization_tools.test.test_pep257" name="test_pep257" time="0.117" /></testsuite></testsuites>

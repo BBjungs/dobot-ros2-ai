@@ -1,0 +1,19 @@
+[2.072s] Invoking command in '/home/jetson/dobot-magician/build/dobot_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake /home/jetson/dobot-magician/src/magician_ros2/dobot_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/dobot-magician/install/dobot_driver
+[3.174s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.175s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.175s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.327s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.336s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.350s] -- Added test 'lint_cmake' to check CMake code style
+[3.359s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.382s] -- Added test 'xmllint' to check XML markup files
+[3.478s] -- Configuring done
+[3.478s] -- Generating done
+[3.478s] -- Build files have been written to: /home/jetson/dobot-magician/build/dobot_driver
+[3.479s] Invoked command in '/home/jetson/dobot-magician/build/dobot_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake /home/jetson/dobot-magician/src/magician_ros2/dobot_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/dobot-magician/install/dobot_driver
+[3.480s] Invoking command in '/home/jetson/dobot-magician/build/dobot_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --build /home/jetson/dobot-magician/build/dobot_driver -- -j6 -l6
+[3.740s] failed to create symbolic link '/home/jetson/dobot-magician/build/dobot_driver/ament_cmake_python/dobot_driver/dobot_driver' because existing path cannot be removed: Is a directory
+[3.741s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_dobot_driver.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_dobot_driver] Error 1
+[3.747s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/ament_cmake_python_symlink_dobot_driver.dir/all] Error 2
+[3.751s] gmake: *** [Makefile:146: all] Error 2
+[3.755s] Invoked command in '/home/jetson/dobot-magician/build/dobot_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --build /home/jetson/dobot-magician/build/dobot_driver -- -j6 -l6

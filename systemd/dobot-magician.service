@@ -1,0 +1,14 @@
+[Unit]
+Description=Dobot Magician control stack, USB camera, and web interface
+
+[Service]
+Type=simple
+WorkingDirectory=/home/jetson/dobot-magician
+EnvironmentFile=/home/jetson/dobot-magician/config/dobot-autostart.env
+ExecStart=/home/jetson/dobot-magician/scripts/start_dobot_autostart.sh
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+
+[Install]
+WantedBy=default.target

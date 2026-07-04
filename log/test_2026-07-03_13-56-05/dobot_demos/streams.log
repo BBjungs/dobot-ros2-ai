@@ -1,0 +1,50 @@
+[0.904s] Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_demos': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_demos:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_demos/pytest.xml --junit-prefix=dobot_demos -o cache_dir=/home/jetson/dobot-magician/build/dobot_demos/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_demos/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.875s] Traceback (most recent call last):
+[2.875s]   File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[2.875s]     return _run_code(code, main_globals, None,
+[2.875s]   File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[2.875s]     exec(code, run_globals)
+[2.875s]   File "/usr/lib/python3/dist-packages/pytest/__main__.py", line 5, in <module>
+[2.875s]     raise SystemExit(pytest.console_main())
+[2.875s]   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 185, in console_main
+[2.875s]     code = main()
+[2.876s]   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 143, in main
+[2.876s]     config = _prepareconfig(args, plugins)
+[2.876s]   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 318, in _prepareconfig
+[2.876s]     config = pluginmanager.hook.pytest_cmdline_parse(
+[2.876s]   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+[2.876s]     return self._hookexec(self, self.get_hookimpls(), kwargs)
+[2.876s]   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+[2.876s]     return self._inner_hookexec(hook, methods, kwargs)
+[2.876s]   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+[2.877s]     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+[2.877s]   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 203, in _multicall
+[2.877s]     gen.send(outcome)
+[2.877s]   File "/usr/lib/python3/dist-packages/_pytest/helpconfig.py", line 100, in pytest_cmdline_parse
+[2.877s]     config: Config = outcome.get_result()
+[2.877s]   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 80, in get_result
+[2.877s]     raise ex[1].with_traceback(ex[2])
+[2.877s]   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+[2.877s]     res = hook_impl.function(*args)
+[2.878s]   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 1003, in pytest_cmdline_parse
+[2.878s]     self.parse(args)
+[2.878s]   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 1283, in parse
+[2.878s]     self._preparse(args, addopts=addopts)
+[2.878s]   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 1172, in _preparse
+[2.878s]     self.pluginmanager.load_setuptools_entrypoints("pytest11")
+[2.878s]   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 297, in load_setuptools_entrypoints
+[2.878s]     plugin = ep.load()
+[2.878s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+[2.878s]     module = import_module(match.group('module'))
+[2.879s]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[2.879s]     return _bootstrap._gcd_import(name[level:], package, level)
+[2.879s]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[2.879s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[2.879s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[2.879s]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[2.879s]   File "/usr/lib/python3/dist-packages/_pytest/assertion/rewrite.py", line 170, in exec_module
+[2.879s]     exec(co, module.__dict__)
+[2.879s]   File "/home/jetson/.local/lib/python3.10/site-packages/anyio/pytest_plugin.py", line 15, in <module>
+[2.879s]     from _pytest.scope import Scope
+[2.880s] ModuleNotFoundError: No module named '_pytest.scope'
+[4.629s] Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_demos' returned '1': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_demos:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_demos/pytest.xml --junit-prefix=dobot_demos -o cache_dir=/home/jetson/dobot-magician/build/dobot_demos/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_demos/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

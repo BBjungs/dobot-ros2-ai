@@ -1,0 +1,404 @@
+[0.758s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'test']
+[0.759s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test', build_base='build', install_base='install', merge_install=False, test_result_base=None, retest_until_fail=0, retest_until_pass=0, abort_on_error=False, return_code_on_test_failure=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], ctest_args=None, python_testing=None, pytest_args=None, pytest_with_coverage=False, unittest_args=None, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff9f214a30>, verb_extension=<colcon_core.verb.test.TestVerb object at 0xffff9f1e74c0>, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0xffff9f1e74c0>>, mixin_verb=('test',))
+[1.335s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[1.335s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[1.335s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[1.335s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[1.335s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) discover
+[1.335s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[1.336s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/jetson/dobot-magician'
+[1.336s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.336s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore'
+[1.336s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore_ament_install'
+[1.336s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_pkg']
+[1.336s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_pkg'
+[1.337s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_meta']
+[1.337s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_meta'
+[1.337s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ros']
+[1.337s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ros'
+[1.418s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['cmake', 'python']
+[1.418s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'cmake'
+[1.419s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python'
+[1.419s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['python_setup_py']
+[1.419s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python_setup_py'
+[1.419s] colcon.colcon_core.package_identification Level 1 _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.419s] colcon.colcon_core.package_identification Level 1 _identify(build) by extension 'ignore'
+[1.419s] colcon.colcon_core.package_identification Level 1 _identify(build) ignored
+[1.420s] colcon.colcon_core.package_identification Level 1 _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.420s] colcon.colcon_core.package_identification Level 1 _identify(install) by extension 'ignore'
+[1.420s] colcon.colcon_core.package_identification Level 1 _identify(install) ignored
+[1.420s] colcon.colcon_core.package_identification Level 1 _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.421s] colcon.colcon_core.package_identification Level 1 _identify(log) by extension 'ignore'
+[1.421s] colcon.colcon_core.package_identification Level 1 _identify(log) ignored
+[1.421s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.421s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore'
+[1.421s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore_ament_install'
+[1.421s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_pkg']
+[1.421s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_pkg'
+[1.421s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_meta']
+[1.421s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_meta'
+[1.422s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ros']
+[1.422s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ros'
+[1.422s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['cmake', 'python']
+[1.422s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'cmake'
+[1.422s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python'
+[1.422s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['python_setup_py']
+[1.422s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python_setup_py'
+[1.422s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.423s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extension 'ignore'
+[1.423s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extension 'ignore_ament_install'
+[1.423s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extensions ['colcon_pkg']
+[1.423s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extension 'colcon_pkg'
+[1.423s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extensions ['colcon_meta']
+[1.423s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extension 'colcon_meta'
+[1.423s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extensions ['ros']
+[1.423s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extension 'ros'
+[1.423s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extensions ['cmake', 'python']
+[1.423s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extension 'cmake'
+[1.424s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extension 'python'
+[1.424s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extensions ['python_setup_py']
+[1.424s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extension 'python_setup_py'
+[1.424s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.424s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extension 'ignore'
+[1.424s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extension 'ignore_ament_install'
+[1.425s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extensions ['colcon_pkg']
+[1.425s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extension 'colcon_pkg'
+[1.425s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extensions ['colcon_meta']
+[1.425s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extension 'colcon_meta'
+[1.425s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extensions ['ros']
+[1.425s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extension 'ros'
+[1.431s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_bringup' with type 'ros.ament_python' and name 'dobot_bringup'
+[1.431s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extensions ['ignore', 'ignore_ament_install']
+[1.431s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extension 'ignore'
+[1.431s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extension 'ignore_ament_install'
+[1.432s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extensions ['colcon_pkg']
+[1.432s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extension 'colcon_pkg'
+[1.432s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extensions ['colcon_meta']
+[1.432s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extension 'colcon_meta'
+[1.432s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extensions ['ros']
+[1.432s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extension 'ros'
+[1.433s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_control_panel' with type 'ros.ament_python' and name 'dobot_control_panel'
+[1.434s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extensions ['ignore', 'ignore_ament_install']
+[1.434s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extension 'ignore'
+[1.434s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extension 'ignore_ament_install'
+[1.434s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extensions ['colcon_pkg']
+[1.434s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extension 'colcon_pkg'
+[1.434s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extensions ['colcon_meta']
+[1.434s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extension 'colcon_meta'
+[1.434s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extensions ['ros']
+[1.434s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extension 'ros'
+[1.436s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_demos' with type 'ros.ament_python' and name 'dobot_demos'
+[1.436s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.436s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extension 'ignore'
+[1.436s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extension 'ignore_ament_install'
+[1.437s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extensions ['colcon_pkg']
+[1.437s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extension 'colcon_pkg'
+[1.437s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extensions ['colcon_meta']
+[1.437s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extension 'colcon_meta'
+[1.437s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extensions ['ros']
+[1.437s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extension 'ros'
+[1.438s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_description' with type 'ros.ament_cmake' and name 'dobot_description'
+[1.439s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[1.439s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extension 'ignore'
+[1.439s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extension 'ignore_ament_install'
+[1.439s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extensions ['colcon_pkg']
+[1.439s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extension 'colcon_pkg'
+[1.439s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extensions ['colcon_meta']
+[1.439s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extension 'colcon_meta'
+[1.439s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extensions ['ros']
+[1.439s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extension 'ros'
+[1.441s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_diagnostics' with type 'ros.ament_python' and name 'dobot_diagnostics'
+[1.441s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.441s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extension 'ignore'
+[1.441s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extension 'ignore_ament_install'
+[1.441s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extensions ['colcon_pkg']
+[1.441s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extension 'colcon_pkg'
+[1.441s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extensions ['colcon_meta']
+[1.442s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extension 'colcon_meta'
+[1.442s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extensions ['ros']
+[1.442s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extension 'ros'
+[1.443s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_driver' with type 'ros.ament_cmake' and name 'dobot_driver'
+[1.443s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extensions ['ignore', 'ignore_ament_install']
+[1.443s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extension 'ignore'
+[1.443s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extension 'ignore_ament_install'
+[1.443s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extensions ['colcon_pkg']
+[1.443s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extension 'colcon_pkg'
+[1.444s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extensions ['colcon_meta']
+[1.444s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extension 'colcon_meta'
+[1.444s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extensions ['ros']
+[1.444s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extension 'ros'
+[1.445s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_end_effector' with type 'ros.ament_python' and name 'dobot_end_effector'
+[1.445s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extensions ['ignore', 'ignore_ament_install']
+[1.445s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extension 'ignore'
+[1.446s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extension 'ignore_ament_install'
+[1.446s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extensions ['colcon_pkg']
+[1.446s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extension 'colcon_pkg'
+[1.446s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extensions ['colcon_meta']
+[1.446s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extension 'colcon_meta'
+[1.446s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extensions ['ros']
+[1.446s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extension 'ros'
+[1.447s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_homing' with type 'ros.ament_python' and name 'dobot_homing'
+[1.448s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[1.448s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extension 'ignore'
+[1.448s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extension 'ignore_ament_install'
+[1.448s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extensions ['colcon_pkg']
+[1.448s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extension 'colcon_pkg'
+[1.448s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extensions ['colcon_meta']
+[1.448s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extension 'colcon_meta'
+[1.448s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extensions ['ros']
+[1.448s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extension 'ros'
+[1.450s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_kinematics' with type 'ros.ament_python' and name 'dobot_kinematics'
+[1.450s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extensions ['ignore', 'ignore_ament_install']
+[1.450s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extension 'ignore'
+[1.450s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extension 'ignore_ament_install'
+[1.450s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extensions ['colcon_pkg']
+[1.451s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extension 'colcon_pkg'
+[1.451s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extensions ['colcon_meta']
+[1.451s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extension 'colcon_meta'
+[1.451s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extensions ['ros']
+[1.451s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extension 'ros'
+[1.452s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_motion' with type 'ros.ament_python' and name 'dobot_motion'
+[1.453s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.453s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extension 'ignore'
+[1.453s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extension 'ignore_ament_install'
+[1.453s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extensions ['colcon_pkg']
+[1.453s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extension 'colcon_pkg'
+[1.453s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extensions ['colcon_meta']
+[1.453s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extension 'colcon_meta'
+[1.453s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extensions ['ros']
+[1.454s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extension 'ros'
+[1.455s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_msgs' with type 'ros.ament_cmake' and name 'dobot_msgs'
+[1.455s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extensions ['ignore', 'ignore_ament_install']
+[1.455s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extension 'ignore'
+[1.455s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extension 'ignore_ament_install'
+[1.456s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extensions ['colcon_pkg']
+[1.456s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extension 'colcon_pkg'
+[1.456s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extensions ['colcon_meta']
+[1.456s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extension 'colcon_meta'
+[1.456s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extensions ['ros']
+[1.456s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extension 'ros'
+[1.457s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_state_updater' with type 'ros.ament_python' and name 'dobot_state_updater'
+[1.457s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extensions ['ignore', 'ignore_ament_install']
+[1.458s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extension 'ignore'
+[1.458s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extension 'ignore_ament_install'
+[1.458s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extensions ['colcon_pkg']
+[1.458s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extension 'colcon_pkg'
+[1.458s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extensions ['colcon_meta']
+[1.458s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extension 'colcon_meta'
+[1.458s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extensions ['ros']
+[1.458s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extension 'ros'
+[1.459s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_visualization_tools' with type 'ros.ament_python' and name 'dobot_visualization_tools'
+[1.459s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
+[1.460s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) discover
+[1.460s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) using defaults
+[1.460s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) discover
+[1.460s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) using defaults
+[1.470s] colcon.colcon_core.verb Level 5 set package 'dobot_bringup' test argument 'ctest_args' from command line to 'None'
+[1.470s] colcon.colcon_core.verb Level 5 set package 'dobot_bringup' test argument 'python_testing' from command line to 'None'
+[1.470s] colcon.colcon_core.verb Level 5 set package 'dobot_bringup' test argument 'pytest_args' from command line to 'None'
+[1.471s] colcon.colcon_core.verb Level 5 set package 'dobot_bringup' test argument 'pytest_with_coverage' from command line to 'False'
+[1.471s] colcon.colcon_core.verb Level 5 set package 'dobot_bringup' test argument 'unittest_args' from command line to 'None'
+[1.471s] colcon.colcon_core.verb Level 5 set package 'dobot_bringup' test argument 'retest_until_pass' from command line to '0'
+[1.471s] colcon.colcon_core.verb Level 5 set package 'dobot_bringup' test argument 'retest_until_fail' from command line to '0'
+[1.471s] colcon.colcon_core.verb.test DEBUG Testing package 'dobot_bringup' with the following arguments: {'build_base': '/home/jetson/dobot-magician/build/dobot_bringup', 'ctest_args': None, 'install_base': '/home/jetson/dobot-magician/install/dobot_bringup', 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_bringup', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.471s] colcon.colcon_core.verb Level 5 set package 'dobot_control_panel' test argument 'ctest_args' from command line to 'None'
+[1.472s] colcon.colcon_core.verb Level 5 set package 'dobot_control_panel' test argument 'python_testing' from command line to 'None'
+[1.472s] colcon.colcon_core.verb Level 5 set package 'dobot_control_panel' test argument 'pytest_args' from command line to 'None'
+[1.472s] colcon.colcon_core.verb Level 5 set package 'dobot_control_panel' test argument 'pytest_with_coverage' from command line to 'False'
+[1.472s] colcon.colcon_core.verb Level 5 set package 'dobot_control_panel' test argument 'unittest_args' from command line to 'None'
+[1.472s] colcon.colcon_core.verb Level 5 set package 'dobot_control_panel' test argument 'retest_until_pass' from command line to '0'
+[1.472s] colcon.colcon_core.verb Level 5 set package 'dobot_control_panel' test argument 'retest_until_fail' from command line to '0'
+[1.472s] colcon.colcon_core.verb.test DEBUG Testing package 'dobot_control_panel' with the following arguments: {'build_base': '/home/jetson/dobot-magician/build/dobot_control_panel', 'ctest_args': None, 'install_base': '/home/jetson/dobot-magician/install/dobot_control_panel', 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_control_panel', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.473s] colcon.colcon_core.verb Level 5 set package 'dobot_description' test argument 'ctest_args' from command line to 'None'
+[1.473s] colcon.colcon_core.verb Level 5 set package 'dobot_description' test argument 'python_testing' from command line to 'None'
+[1.473s] colcon.colcon_core.verb Level 5 set package 'dobot_description' test argument 'pytest_args' from command line to 'None'
+[1.473s] colcon.colcon_core.verb Level 5 set package 'dobot_description' test argument 'pytest_with_coverage' from command line to 'False'
+[1.473s] colcon.colcon_core.verb Level 5 set package 'dobot_description' test argument 'unittest_args' from command line to 'None'
+[1.473s] colcon.colcon_core.verb Level 5 set package 'dobot_description' test argument 'retest_until_pass' from command line to '0'
+[1.473s] colcon.colcon_core.verb Level 5 set package 'dobot_description' test argument 'retest_until_fail' from command line to '0'
+[1.473s] colcon.colcon_core.verb.test DEBUG Testing package 'dobot_description' with the following arguments: {'build_base': '/home/jetson/dobot-magician/build/dobot_description', 'ctest_args': None, 'install_base': '/home/jetson/dobot-magician/install/dobot_description', 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_description', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.474s] colcon.colcon_core.verb Level 5 set package 'dobot_driver' test argument 'ctest_args' from command line to 'None'
+[1.474s] colcon.colcon_core.verb Level 5 set package 'dobot_driver' test argument 'python_testing' from command line to 'None'
+[1.474s] colcon.colcon_core.verb Level 5 set package 'dobot_driver' test argument 'pytest_args' from command line to 'None'
+[1.474s] colcon.colcon_core.verb Level 5 set package 'dobot_driver' test argument 'pytest_with_coverage' from command line to 'False'
+[1.474s] colcon.colcon_core.verb Level 5 set package 'dobot_driver' test argument 'unittest_args' from command line to 'None'
+[1.474s] colcon.colcon_core.verb Level 5 set package 'dobot_driver' test argument 'retest_until_pass' from command line to '0'
+[1.474s] colcon.colcon_core.verb Level 5 set package 'dobot_driver' test argument 'retest_until_fail' from command line to '0'
+[1.474s] colcon.colcon_core.verb.test DEBUG Testing package 'dobot_driver' with the following arguments: {'build_base': '/home/jetson/dobot-magician/build/dobot_driver', 'ctest_args': None, 'install_base': '/home/jetson/dobot-magician/install/dobot_driver', 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_driver', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.475s] colcon.colcon_core.verb Level 5 set package 'dobot_msgs' test argument 'ctest_args' from command line to 'None'
+[1.475s] colcon.colcon_core.verb Level 5 set package 'dobot_msgs' test argument 'python_testing' from command line to 'None'
+[1.475s] colcon.colcon_core.verb Level 5 set package 'dobot_msgs' test argument 'pytest_args' from command line to 'None'
+[1.475s] colcon.colcon_core.verb Level 5 set package 'dobot_msgs' test argument 'pytest_with_coverage' from command line to 'False'
+[1.475s] colcon.colcon_core.verb Level 5 set package 'dobot_msgs' test argument 'unittest_args' from command line to 'None'
+[1.475s] colcon.colcon_core.verb Level 5 set package 'dobot_msgs' test argument 'retest_until_pass' from command line to '0'
+[1.475s] colcon.colcon_core.verb Level 5 set package 'dobot_msgs' test argument 'retest_until_fail' from command line to '0'
+[1.475s] colcon.colcon_core.verb.test DEBUG Testing package 'dobot_msgs' with the following arguments: {'build_base': '/home/jetson/dobot-magician/build/dobot_msgs', 'ctest_args': None, 'install_base': '/home/jetson/dobot-magician/install/dobot_msgs', 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_msgs', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.476s] colcon.colcon_core.verb Level 5 set package 'dobot_visualization_tools' test argument 'ctest_args' from command line to 'None'
+[1.476s] colcon.colcon_core.verb Level 5 set package 'dobot_visualization_tools' test argument 'python_testing' from command line to 'None'
+[1.476s] colcon.colcon_core.verb Level 5 set package 'dobot_visualization_tools' test argument 'pytest_args' from command line to 'None'
+[1.476s] colcon.colcon_core.verb Level 5 set package 'dobot_visualization_tools' test argument 'pytest_with_coverage' from command line to 'False'
+[1.476s] colcon.colcon_core.verb Level 5 set package 'dobot_visualization_tools' test argument 'unittest_args' from command line to 'None'
+[1.476s] colcon.colcon_core.verb Level 5 set package 'dobot_visualization_tools' test argument 'retest_until_pass' from command line to '0'
+[1.476s] colcon.colcon_core.verb Level 5 set package 'dobot_visualization_tools' test argument 'retest_until_fail' from command line to '0'
+[1.476s] colcon.colcon_core.verb.test DEBUG Testing package 'dobot_visualization_tools' with the following arguments: {'build_base': '/home/jetson/dobot-magician/build/dobot_visualization_tools', 'ctest_args': None, 'install_base': '/home/jetson/dobot-magician/install/dobot_visualization_tools', 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_visualization_tools', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.477s] colcon.colcon_core.verb Level 5 set package 'dobot_demos' test argument 'ctest_args' from command line to 'None'
+[1.477s] colcon.colcon_core.verb Level 5 set package 'dobot_demos' test argument 'python_testing' from command line to 'None'
+[1.477s] colcon.colcon_core.verb Level 5 set package 'dobot_demos' test argument 'pytest_args' from command line to 'None'
+[1.477s] colcon.colcon_core.verb Level 5 set package 'dobot_demos' test argument 'pytest_with_coverage' from command line to 'False'
+[1.477s] colcon.colcon_core.verb Level 5 set package 'dobot_demos' test argument 'unittest_args' from command line to 'None'
+[1.477s] colcon.colcon_core.verb Level 5 set package 'dobot_demos' test argument 'retest_until_pass' from command line to '0'
+[1.477s] colcon.colcon_core.verb Level 5 set package 'dobot_demos' test argument 'retest_until_fail' from command line to '0'
+[1.477s] colcon.colcon_core.verb.test DEBUG Testing package 'dobot_demos' with the following arguments: {'build_base': '/home/jetson/dobot-magician/build/dobot_demos', 'ctest_args': None, 'install_base': '/home/jetson/dobot-magician/install/dobot_demos', 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_demos', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.478s] colcon.colcon_core.verb Level 5 set package 'dobot_diagnostics' test argument 'ctest_args' from command line to 'None'
+[1.478s] colcon.colcon_core.verb Level 5 set package 'dobot_diagnostics' test argument 'python_testing' from command line to 'None'
+[1.478s] colcon.colcon_core.verb Level 5 set package 'dobot_diagnostics' test argument 'pytest_args' from command line to 'None'
+[1.478s] colcon.colcon_core.verb Level 5 set package 'dobot_diagnostics' test argument 'pytest_with_coverage' from command line to 'False'
+[1.478s] colcon.colcon_core.verb Level 5 set package 'dobot_diagnostics' test argument 'unittest_args' from command line to 'None'
+[1.478s] colcon.colcon_core.verb Level 5 set package 'dobot_diagnostics' test argument 'retest_until_pass' from command line to '0'
+[1.478s] colcon.colcon_core.verb Level 5 set package 'dobot_diagnostics' test argument 'retest_until_fail' from command line to '0'
+[1.478s] colcon.colcon_core.verb.test DEBUG Testing package 'dobot_diagnostics' with the following arguments: {'build_base': '/home/jetson/dobot-magician/build/dobot_diagnostics', 'ctest_args': None, 'install_base': '/home/jetson/dobot-magician/install/dobot_diagnostics', 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_diagnostics', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.482s] colcon.colcon_core.verb Level 5 set package 'dobot_end_effector' test argument 'ctest_args' from command line to 'None'
+[1.482s] colcon.colcon_core.verb Level 5 set package 'dobot_end_effector' test argument 'python_testing' from command line to 'None'
+[1.482s] colcon.colcon_core.verb Level 5 set package 'dobot_end_effector' test argument 'pytest_args' from command line to 'None'
+[1.482s] colcon.colcon_core.verb Level 5 set package 'dobot_end_effector' test argument 'pytest_with_coverage' from command line to 'False'
+[1.482s] colcon.colcon_core.verb Level 5 set package 'dobot_end_effector' test argument 'unittest_args' from command line to 'None'
+[1.482s] colcon.colcon_core.verb Level 5 set package 'dobot_end_effector' test argument 'retest_until_pass' from command line to '0'
+[1.482s] colcon.colcon_core.verb Level 5 set package 'dobot_end_effector' test argument 'retest_until_fail' from command line to '0'
+[1.482s] colcon.colcon_core.verb.test DEBUG Testing package 'dobot_end_effector' with the following arguments: {'build_base': '/home/jetson/dobot-magician/build/dobot_end_effector', 'ctest_args': None, 'install_base': '/home/jetson/dobot-magician/install/dobot_end_effector', 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_end_effector', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.483s] colcon.colcon_core.verb Level 5 set package 'dobot_homing' test argument 'ctest_args' from command line to 'None'
+[1.483s] colcon.colcon_core.verb Level 5 set package 'dobot_homing' test argument 'python_testing' from command line to 'None'
+[1.483s] colcon.colcon_core.verb Level 5 set package 'dobot_homing' test argument 'pytest_args' from command line to 'None'
+[1.483s] colcon.colcon_core.verb Level 5 set package 'dobot_homing' test argument 'pytest_with_coverage' from command line to 'False'
+[1.483s] colcon.colcon_core.verb Level 5 set package 'dobot_homing' test argument 'unittest_args' from command line to 'None'
+[1.483s] colcon.colcon_core.verb Level 5 set package 'dobot_homing' test argument 'retest_until_pass' from command line to '0'
+[1.483s] colcon.colcon_core.verb Level 5 set package 'dobot_homing' test argument 'retest_until_fail' from command line to '0'
+[1.483s] colcon.colcon_core.verb.test DEBUG Testing package 'dobot_homing' with the following arguments: {'build_base': '/home/jetson/dobot-magician/build/dobot_homing', 'ctest_args': None, 'install_base': '/home/jetson/dobot-magician/install/dobot_homing', 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_homing', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.484s] colcon.colcon_core.verb Level 5 set package 'dobot_kinematics' test argument 'ctest_args' from command line to 'None'
+[1.484s] colcon.colcon_core.verb Level 5 set package 'dobot_kinematics' test argument 'python_testing' from command line to 'None'
+[1.484s] colcon.colcon_core.verb Level 5 set package 'dobot_kinematics' test argument 'pytest_args' from command line to 'None'
+[1.484s] colcon.colcon_core.verb Level 5 set package 'dobot_kinematics' test argument 'pytest_with_coverage' from command line to 'False'
+[1.484s] colcon.colcon_core.verb Level 5 set package 'dobot_kinematics' test argument 'unittest_args' from command line to 'None'
+[1.484s] colcon.colcon_core.verb Level 5 set package 'dobot_kinematics' test argument 'retest_until_pass' from command line to '0'
+[1.484s] colcon.colcon_core.verb Level 5 set package 'dobot_kinematics' test argument 'retest_until_fail' from command line to '0'
+[1.485s] colcon.colcon_core.verb.test DEBUG Testing package 'dobot_kinematics' with the following arguments: {'build_base': '/home/jetson/dobot-magician/build/dobot_kinematics', 'ctest_args': None, 'install_base': '/home/jetson/dobot-magician/install/dobot_kinematics', 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.485s] colcon.colcon_core.verb Level 5 set package 'dobot_motion' test argument 'ctest_args' from command line to 'None'
+[1.485s] colcon.colcon_core.verb Level 5 set package 'dobot_motion' test argument 'python_testing' from command line to 'None'
+[1.485s] colcon.colcon_core.verb Level 5 set package 'dobot_motion' test argument 'pytest_args' from command line to 'None'
+[1.485s] colcon.colcon_core.verb Level 5 set package 'dobot_motion' test argument 'pytest_with_coverage' from command line to 'False'
+[1.485s] colcon.colcon_core.verb Level 5 set package 'dobot_motion' test argument 'unittest_args' from command line to 'None'
+[1.485s] colcon.colcon_core.verb Level 5 set package 'dobot_motion' test argument 'retest_until_pass' from command line to '0'
+[1.486s] colcon.colcon_core.verb Level 5 set package 'dobot_motion' test argument 'retest_until_fail' from command line to '0'
+[1.486s] colcon.colcon_core.verb.test DEBUG Testing package 'dobot_motion' with the following arguments: {'build_base': '/home/jetson/dobot-magician/build/dobot_motion', 'ctest_args': None, 'install_base': '/home/jetson/dobot-magician/install/dobot_motion', 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_motion', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.486s] colcon.colcon_core.verb Level 5 set package 'dobot_state_updater' test argument 'ctest_args' from command line to 'None'
+[1.486s] colcon.colcon_core.verb Level 5 set package 'dobot_state_updater' test argument 'python_testing' from command line to 'None'
+[1.486s] colcon.colcon_core.verb Level 5 set package 'dobot_state_updater' test argument 'pytest_args' from command line to 'None'
+[1.487s] colcon.colcon_core.verb Level 5 set package 'dobot_state_updater' test argument 'pytest_with_coverage' from command line to 'False'
+[1.487s] colcon.colcon_core.verb Level 5 set package 'dobot_state_updater' test argument 'unittest_args' from command line to 'None'
+[1.487s] colcon.colcon_core.verb Level 5 set package 'dobot_state_updater' test argument 'retest_until_pass' from command line to '0'
+[1.487s] colcon.colcon_core.verb Level 5 set package 'dobot_state_updater' test argument 'retest_until_fail' from command line to '0'
+[1.487s] colcon.colcon_core.verb.test DEBUG Testing package 'dobot_state_updater' with the following arguments: {'build_base': '/home/jetson/dobot-magician/build/dobot_state_updater', 'ctest_args': None, 'install_base': '/home/jetson/dobot-magician/install/dobot_state_updater', 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.487s] colcon.colcon_core.executor INFO Executing jobs using 'parallel' executor
+[1.489s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete
+[1.490s] colcon.colcon_ros.task.ament_cmake.test INFO Testing ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_msgs' with build type 'ament_cmake'
+[1.490s] colcon.colcon_cmake.task.cmake.test INFO Testing CMake package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_msgs'
+[1.498s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.499s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.499s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.519s] colcon.colcon_ros.task.ament_python.test INFO Testing ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_bringup' with build type'ament_python'
+[1.519s] colcon.colcon_core.task.python.test INFO Testing Python package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_bringup'
+[1.520s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.520s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.531s] colcon.colcon_ros.task.ament_python.test INFO Testing ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_control_panel' with build type'ament_python'
+[1.532s] colcon.colcon_core.task.python.test INFO Testing Python package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_control_panel'
+[1.532s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.532s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.542s] colcon.colcon_ros.task.ament_cmake.test INFO Testing ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_description' with build type 'ament_cmake'
+[1.542s] colcon.colcon_cmake.task.cmake.test INFO Testing CMake package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_description'
+[1.543s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.543s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.554s] colcon.colcon_ros.task.ament_cmake.test INFO Testing ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_driver' with build type 'ament_cmake'
+[1.555s] colcon.colcon_cmake.task.cmake.test INFO Testing CMake package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_driver'
+[1.555s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.555s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.586s] colcon.colcon_ros.task.ament_python.test INFO Testing ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_visualization_tools' with build type'ament_python'
+[1.587s] colcon.colcon_core.task.python.test INFO Testing Python package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_visualization_tools'
+[1.587s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.588s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[2.345s] colcon.colcon_core.task.python.test Level 1 test() by extension 'pytest'
+[2.727s] colcon.colcon_core.task.python.test Level 1 test.step() by extension 'pytest'
+[2.730s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_bringup': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_bringup:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_bringup/pytest.xml --junit-prefix=dobot_bringup -o cache_dir=/home/jetson/dobot-magician/build/dobot_bringup/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[3.706s] colcon.colcon_core.task.python.test Level 1 test() by extension 'pytest'
+[3.706s] colcon.colcon_core.task.python.test Level 1 test.step() by extension 'pytest'
+[3.709s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_control_panel': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_control_panel:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_control_panel/pytest.xml --junit-prefix=dobot_control_panel -o cache_dir=/home/jetson/dobot-magician/build/dobot_control_panel/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[4.639s] colcon.colcon_core.task.python.test Level 1 test() by extension 'pytest'
+[4.640s] colcon.colcon_core.task.python.test Level 1 test.step() by extension 'pytest'
+[4.642s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_visualization_tools': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_visualization_tools:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_visualization_tools/pytest.xml --junit-prefix=dobot_visualization_tools -o cache_dir=/home/jetson/dobot-magician/build/dobot_visualization_tools/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_visualization_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[4.653s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/build/dobot_msgs': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[4.659s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/build/dobot_driver': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_driver:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/jetson/dobot-magician/install/dobot_driver/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[4.675s] colcon.colcon_cmake.task.cmake.test Level 5 No ctests found in '/home/jetson/dobot-magician/src/magician_ros2/dobot_description'
+[5.865s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_bringup' returned '1': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_bringup:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_bringup/pytest.xml --junit-prefix=dobot_bringup -o cache_dir=/home/jetson/dobot-magician/build/dobot_bringup/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[5.869s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_control_panel' returned '1': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_control_panel:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_control_panel/pytest.xml --junit-prefix=dobot_control_panel -o cache_dir=/home/jetson/dobot-magician/build/dobot_control_panel/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[6.179s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_visualization_tools' returned '1': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_visualization_tools:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_visualization_tools/pytest.xml --junit-prefix=dobot_visualization_tools -o cache_dir=/home/jetson/dobot-magician/build/dobot_visualization_tools/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_visualization_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[6.543s] colcon.colcon_ros.task.ament_python.test INFO Testing ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_demos' with build type'ament_python'
+[6.544s] colcon.colcon_core.task.python.test INFO Testing Python package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_demos'
+[6.544s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.544s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[6.552s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/dobot-magician/build/dobot_msgs' returned '8': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[6.558s] colcon.colcon_ros.task.ament_python.test INFO Testing ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_diagnostics' with build type'ament_python'
+[6.558s] colcon.colcon_core.task.python.test INFO Testing Python package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_diagnostics'
+[6.559s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.559s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[6.575s] colcon.colcon_ros.task.ament_python.test INFO Testing ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_end_effector' with build type'ament_python'
+[6.578s] colcon.colcon_core.task.python.test INFO Testing Python package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_end_effector'
+[6.578s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.579s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[6.605s] colcon.colcon_ros.task.ament_python.test INFO Testing ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_homing' with build type'ament_python'
+[6.605s] colcon.colcon_core.task.python.test INFO Testing Python package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_homing'
+[6.606s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.606s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[6.631s] colcon.colcon_ros.task.ament_python.test INFO Testing ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics' with build type'ament_python'
+[6.631s] colcon.colcon_core.task.python.test INFO Testing Python package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics'
+[6.632s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.632s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[7.456s] colcon.colcon_core.task.python.test Level 1 test() by extension 'pytest'
+[7.456s] colcon.colcon_core.task.python.test Level 1 test.step() by extension 'pytest'
+[7.458s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_demos': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_demos:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_demos/pytest.xml --junit-prefix=dobot_demos -o cache_dir=/home/jetson/dobot-magician/build/dobot_demos/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_demos/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[8.387s] colcon.colcon_core.task.python.test Level 1 test() by extension 'pytest'
+[8.387s] colcon.colcon_core.task.python.test Level 1 test.step() by extension 'pytest'
+[8.391s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_diagnostics': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_diagnostics:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_diagnostics/pytest.xml --junit-prefix=dobot_diagnostics -o cache_dir=/home/jetson/dobot-magician/build/dobot_diagnostics/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_diagnostics/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[9.317s] colcon.colcon_core.task.python.test Level 1 test() by extension 'pytest'
+[9.318s] colcon.colcon_core.task.python.test Level 1 test.step() by extension 'pytest'
+[9.321s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_end_effector': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_end_effector:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_end_effector/pytest.xml --junit-prefix=dobot_end_effector -o cache_dir=/home/jetson/dobot-magician/build/dobot_end_effector/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_end_effector/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[9.434s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/dobot-magician/build/dobot_driver' returned '8': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_driver:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/jetson/dobot-magician/install/dobot_driver/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[10.121s] colcon.colcon_core.task.python.test Level 1 test() by extension 'pytest'
+[10.121s] colcon.colcon_core.task.python.test Level 1 test.step() by extension 'pytest'
+[10.128s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_kinematics:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_kinematics/pytest.xml --junit-prefix=dobot_kinematics -o cache_dir=/home/jetson/dobot-magician/build/dobot_kinematics/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[11.158s] colcon.colcon_core.task.python.test Level 1 test() by extension 'pytest'
+[11.158s] colcon.colcon_core.task.python.test Level 1 test.step() by extension 'pytest'
+[11.162s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_homing': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_homing:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_homing/pytest.xml --junit-prefix=dobot_homing -o cache_dir=/home/jetson/dobot-magician/build/dobot_homing/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_homing/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[11.163s] colcon.colcon_ros.task.ament_python.test INFO Testing ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_motion' with build type'ament_python'
+[11.163s] colcon.colcon_core.task.python.test INFO Testing Python package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_motion'
+[11.164s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.164s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[11.182s] colcon.colcon_ros.task.ament_python.test INFO Testing ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater' with build type'ament_python'
+[11.184s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_demos' returned '1': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_demos:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_demos/pytest.xml --junit-prefix=dobot_demos -o cache_dir=/home/jetson/dobot-magician/build/dobot_demos/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_demos/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[11.187s] colcon.colcon_core.task.python.test INFO Testing Python package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater'
+[11.207s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.207s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[11.244s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_diagnostics' returned '1': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_diagnostics:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_diagnostics/pytest.xml --junit-prefix=dobot_diagnostics -o cache_dir=/home/jetson/dobot-magician/build/dobot_diagnostics/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_diagnostics/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[11.246s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_end_effector' returned '1': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_end_effector:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_end_effector/pytest.xml --junit-prefix=dobot_end_effector -o cache_dir=/home/jetson/dobot-magician/build/dobot_end_effector/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_end_effector/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[11.255s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics' returned '1': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_kinematics:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_kinematics/pytest.xml --junit-prefix=dobot_kinematics -o cache_dir=/home/jetson/dobot-magician/build/dobot_kinematics/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[12.266s] colcon.colcon_core.task.python.test Level 1 test() by extension 'pytest'
+[12.267s] colcon.colcon_core.task.python.test Level 1 test.step() by extension 'pytest'
+[12.270s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_motion': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_motion:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_motion/pytest.xml --junit-prefix=dobot_motion -o cache_dir=/home/jetson/dobot-magician/build/dobot_motion/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_motion/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[13.262s] colcon.colcon_core.task.python.test Level 1 test() by extension 'pytest'
+[13.263s] colcon.colcon_core.task.python.test Level 1 test.step() by extension 'pytest'
+[13.266s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_state_updater:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_state_updater/pytest.xml --junit-prefix=dobot_state_updater -o cache_dir=/home/jetson/dobot-magician/build/dobot_state_updater/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_state_updater/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[13.278s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_homing' returned '1': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_homing:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_homing/pytest.xml --junit-prefix=dobot_homing -o cache_dir=/home/jetson/dobot-magician/build/dobot_homing/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_homing/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[13.279s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_motion' returned '1': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_motion:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_motion/pytest.xml --junit-prefix=dobot_motion -o cache_dir=/home/jetson/dobot-magician/build/dobot_motion/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_motion/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[14.183s] colcon.colcon_parallel_executor.executor.parallel DEBUG closing loop
+[14.184s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater' returned '1': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_state_updater:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_state_updater/pytest.xml --junit-prefix=dobot_state_updater -o cache_dir=/home/jetson/dobot-magician/build/dobot_state_updater/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_state_updater/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[14.185s] colcon.colcon_parallel_executor.executor.parallel DEBUG loop closed
+[14.185s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete finished with '0'
+[14.185s] colcon.colcon_core.event_reactor DEBUG joining thread
+[14.186s] colcon.colcon_core.event_reactor DEBUG joined thread

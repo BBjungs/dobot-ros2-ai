@@ -1,0 +1,50 @@
+[2.175s] Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_control_panel': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_control_panel:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_control_panel/pytest.xml --junit-prefix=dobot_control_panel -o cache_dir=/home/jetson/dobot-magician/build/dobot_control_panel/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[3.920s] Traceback (most recent call last):
+[3.920s]   File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[3.920s]     return _run_code(code, main_globals, None,
+[3.921s]   File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[3.921s]     exec(code, run_globals)
+[3.921s]   File "/usr/lib/python3/dist-packages/pytest/__main__.py", line 5, in <module>
+[3.921s]     raise SystemExit(pytest.console_main())
+[3.921s]   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 185, in console_main
+[3.921s]     code = main()
+[3.921s]   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 143, in main
+[3.921s]     config = _prepareconfig(args, plugins)
+[3.922s]   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 318, in _prepareconfig
+[3.922s]     config = pluginmanager.hook.pytest_cmdline_parse(
+[3.922s]   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+[3.922s]     return self._hookexec(self, self.get_hookimpls(), kwargs)
+[3.922s]   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+[3.922s]     return self._inner_hookexec(hook, methods, kwargs)
+[3.922s]   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+[3.922s]     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+[3.922s]   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 203, in _multicall
+[3.922s]     gen.send(outcome)
+[3.923s]   File "/usr/lib/python3/dist-packages/_pytest/helpconfig.py", line 100, in pytest_cmdline_parse
+[3.923s]     config: Config = outcome.get_result()
+[3.923s]   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 80, in get_result
+[3.923s]     raise ex[1].with_traceback(ex[2])
+[3.923s]   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+[3.923s]     res = hook_impl.function(*args)
+[3.923s]   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 1003, in pytest_cmdline_parse
+[3.923s]     self.parse(args)
+[3.923s]   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 1283, in parse
+[3.924s]     self._preparse(args, addopts=addopts)
+[3.924s]   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 1172, in _preparse
+[3.924s]     self.pluginmanager.load_setuptools_entrypoints("pytest11")
+[3.924s]   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 297, in load_setuptools_entrypoints
+[3.924s]     plugin = ep.load()
+[3.924s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+[3.924s]     module = import_module(match.group('module'))
+[3.924s]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[3.924s]     return _bootstrap._gcd_import(name[level:], package, level)
+[3.924s]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[3.925s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[3.925s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[3.925s]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[3.925s]   File "/usr/lib/python3/dist-packages/_pytest/assertion/rewrite.py", line 170, in exec_module
+[3.925s]     exec(co, module.__dict__)
+[3.925s]   File "/home/jetson/.local/lib/python3.10/site-packages/anyio/pytest_plugin.py", line 15, in <module>
+[3.926s]     from _pytest.scope import Scope
+[3.926s] ModuleNotFoundError: No module named '_pytest.scope'
+[4.336s] Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_control_panel' returned '1': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_control_panel:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_control_panel/pytest.xml --junit-prefix=dobot_control_panel -o cache_dir=/home/jetson/dobot-magician/build/dobot_control_panel/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

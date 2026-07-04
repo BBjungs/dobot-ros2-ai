@@ -1,0 +1,1015 @@
+[0.000000] (-) TimerEvent: {}
+[0.000242] (-) JobUnselected: {'identifier': 'dobot_bringup'}
+[0.000506] (-) JobUnselected: {'identifier': 'dobot_control_panel'}
+[0.000978] (-) JobUnselected: {'identifier': 'dobot_demos'}
+[0.001248] (-) JobUnselected: {'identifier': 'dobot_description'}
+[0.001517] (-) JobUnselected: {'identifier': 'dobot_diagnostics'}
+[0.001619] (-) JobUnselected: {'identifier': 'dobot_driver'}
+[0.001691] (-) JobUnselected: {'identifier': 'dobot_end_effector'}
+[0.001758] (-) JobUnselected: {'identifier': 'dobot_homing'}
+[0.001822] (-) JobUnselected: {'identifier': 'dobot_kinematics'}
+[0.001885] (-) JobUnselected: {'identifier': 'dobot_motion'}
+[0.001946] (-) JobUnselected: {'identifier': 'dobot_state_updater'}
+[0.002012] (-) JobUnselected: {'identifier': 'dobot_visualization_tools'}
+[0.002087] (dobot_msgs) JobQueued: {'identifier': 'dobot_msgs', 'dependencies': OrderedDict()}
+[0.002153] (dobot_msgs) JobStarted: {'identifier': 'dobot_msgs'}
+[0.099385] (-) TimerEvent: {}
+[0.199809] (-) TimerEvent: {}
+[0.300259] (-) TimerEvent: {}
+[0.400712] (-) TimerEvent: {}
+[0.501140] (-) TimerEvent: {}
+[0.601559] (-) TimerEvent: {}
+[0.701952] (-) TimerEvent: {}
+[0.802439] (-) TimerEvent: {}
+[0.902859] (-) TimerEvent: {}
+[1.003247] (-) TimerEvent: {}
+[1.103649] (-) TimerEvent: {}
+[1.204087] (-) TimerEvent: {}
+[1.304511] (-) TimerEvent: {}
+[1.404931] (-) TimerEvent: {}
+[1.505351] (-) TimerEvent: {}
+[1.605767] (-) TimerEvent: {}
+[1.706197] (-) TimerEvent: {}
+[1.806598] (-) TimerEvent: {}
+[1.906998] (-) TimerEvent: {}
+[2.007386] (-) TimerEvent: {}
+[2.107746] (-) TimerEvent: {}
+[2.208169] (-) TimerEvent: {}
+[2.308594] (-) TimerEvent: {}
+[2.409004] (-) TimerEvent: {}
+[2.509417] (-) TimerEvent: {}
+[2.609870] (-) TimerEvent: {}
+[2.710261] (-) TimerEvent: {}
+[2.810678] (-) TimerEvent: {}
+[2.911094] (-) TimerEvent: {}
+[3.011518] (-) TimerEvent: {}
+[3.111939] (-) TimerEvent: {}
+[3.212377] (-) TimerEvent: {}
+[3.312815] (-) TimerEvent: {}
+[3.413243] (-) TimerEvent: {}
+[3.513634] (-) TimerEvent: {}
+[3.614018] (-) TimerEvent: {}
+[3.714464] (-) TimerEvent: {}
+[3.814884] (-) TimerEvent: {}
+[3.915278] (-) TimerEvent: {}
+[4.015689] (-) TimerEvent: {}
+[4.116126] (-) TimerEvent: {}
+[4.216536] (-) TimerEvent: {}
+[4.316952] (-) TimerEvent: {}
+[4.417355] (-) TimerEvent: {}
+[4.517789] (-) TimerEvent: {}
+[4.618273] (-) TimerEvent: {}
+[4.718948] (-) TimerEvent: {}
+[4.819395] (-) TimerEvent: {}
+[4.919836] (-) TimerEvent: {}
+[5.020265] (-) TimerEvent: {}
+[5.120702] (-) TimerEvent: {}
+[5.221140] (-) TimerEvent: {}
+[5.321580] (-) TimerEvent: {}
+[5.421994] (-) TimerEvent: {}
+[5.522410] (-) TimerEvent: {}
+[5.622824] (-) TimerEvent: {}
+[5.723232] (-) TimerEvent: {}
+[5.823639] (-) TimerEvent: {}
+[5.924026] (-) TimerEvent: {}
+[6.024438] (-) TimerEvent: {}
+[6.124837] (-) TimerEvent: {}
+[6.225221] (-) TimerEvent: {}
+[6.325594] (-) TimerEvent: {}
+[6.426025] (-) TimerEvent: {}
+[6.526485] (-) TimerEvent: {}
+[6.626927] (-) TimerEvent: {}
+[6.727386] (-) TimerEvent: {}
+[6.827806] (-) TimerEvent: {}
+[6.928214] (-) TimerEvent: {}
+[7.028638] (-) TimerEvent: {}
+[7.129079] (-) TimerEvent: {}
+[7.229540] (-) TimerEvent: {}
+[7.329975] (-) TimerEvent: {}
+[7.430422] (-) TimerEvent: {}
+[7.530855] (-) TimerEvent: {}
+[7.631302] (-) TimerEvent: {}
+[7.731719] (-) TimerEvent: {}
+[7.832126] (-) TimerEvent: {}
+[7.932557] (-) TimerEvent: {}
+[8.032961] (-) TimerEvent: {}
+[8.133410] (-) TimerEvent: {}
+[8.233840] (-) TimerEvent: {}
+[8.334305] (-) TimerEvent: {}
+[8.434703] (-) TimerEvent: {}
+[8.535105] (-) TimerEvent: {}
+[8.635516] (-) TimerEvent: {}
+[8.735902] (-) TimerEvent: {}
+[8.836630] (-) TimerEvent: {}
+[8.937080] (-) TimerEvent: {}
+[9.037492] (-) TimerEvent: {}
+[9.137913] (-) TimerEvent: {}
+[9.238326] (-) TimerEvent: {}
+[9.338722] (-) TimerEvent: {}
+[9.439127] (-) TimerEvent: {}
+[9.539524] (-) TimerEvent: {}
+[9.639940] (-) TimerEvent: {}
+[9.740366] (-) TimerEvent: {}
+[9.840770] (-) TimerEvent: {}
+[9.941193] (-) TimerEvent: {}
+[10.041590] (-) TimerEvent: {}
+[10.142011] (-) TimerEvent: {}
+[10.242465] (-) TimerEvent: {}
+[10.342880] (-) TimerEvent: {}
+[10.443306] (-) TimerEvent: {}
+[10.543717] (-) TimerEvent: {}
+[10.644164] (-) TimerEvent: {}
+[10.744572] (-) TimerEvent: {}
+[10.844993] (-) TimerEvent: {}
+[10.945400] (-) TimerEvent: {}
+[11.045827] (-) TimerEvent: {}
+[11.146244] (-) TimerEvent: {}
+[11.246651] (-) TimerEvent: {}
+[11.347072] (-) TimerEvent: {}
+[11.447454] (-) TimerEvent: {}
+[11.547871] (-) TimerEvent: {}
+[11.648270] (-) TimerEvent: {}
+[11.748658] (-) TimerEvent: {}
+[11.849061] (-) TimerEvent: {}
+[11.949445] (-) TimerEvent: {}
+[12.049861] (-) TimerEvent: {}
+[12.150326] (-) TimerEvent: {}
+[12.250740] (-) TimerEvent: {}
+[12.351339] (-) TimerEvent: {}
+[12.451770] (-) TimerEvent: {}
+[12.552181] (-) TimerEvent: {}
+[12.652600] (-) TimerEvent: {}
+[12.753022] (-) TimerEvent: {}
+[12.853416] (-) TimerEvent: {}
+[12.953815] (-) TimerEvent: {}
+[13.054273] (-) TimerEvent: {}
+[13.154686] (-) TimerEvent: {}
+[13.255119] (-) TimerEvent: {}
+[13.355552] (-) TimerEvent: {}
+[13.455973] (-) TimerEvent: {}
+[13.556380] (-) TimerEvent: {}
+[13.656803] (-) TimerEvent: {}
+[13.757231] (-) TimerEvent: {}
+[13.857647] (-) TimerEvent: {}
+[13.958066] (-) TimerEvent: {}
+[14.058503] (-) TimerEvent: {}
+[14.158925] (-) TimerEvent: {}
+[14.259303] (-) TimerEvent: {}
+[14.359666] (-) TimerEvent: {}
+[14.460039] (-) TimerEvent: {}
+[14.560439] (-) TimerEvent: {}
+[14.660838] (-) TimerEvent: {}
+[14.761227] (-) TimerEvent: {}
+[14.861636] (-) TimerEvent: {}
+[14.962031] (-) TimerEvent: {}
+[15.062465] (-) TimerEvent: {}
+[15.162883] (-) TimerEvent: {}
+[15.263303] (-) TimerEvent: {}
+[15.363689] (-) TimerEvent: {}
+[15.464062] (-) TimerEvent: {}
+[15.564456] (-) TimerEvent: {}
+[15.664862] (-) TimerEvent: {}
+[15.765265] (-) TimerEvent: {}
+[15.865629] (-) TimerEvent: {}
+[15.965986] (-) TimerEvent: {}
+[16.066389] (-) TimerEvent: {}
+[16.166764] (-) TimerEvent: {}
+[16.267130] (-) TimerEvent: {}
+[16.367499] (-) TimerEvent: {}
+[16.467878] (-) TimerEvent: {}
+[16.568256] (-) TimerEvent: {}
+[16.668644] (-) TimerEvent: {}
+[16.769056] (-) TimerEvent: {}
+[16.869459] (-) TimerEvent: {}
+[16.969874] (-) TimerEvent: {}
+[17.070259] (-) TimerEvent: {}
+[17.170660] (-) TimerEvent: {}
+[17.272202] (-) TimerEvent: {}
+[17.372594] (-) TimerEvent: {}
+[17.473004] (-) TimerEvent: {}
+[17.573413] (-) TimerEvent: {}
+[17.673841] (-) TimerEvent: {}
+[17.774245] (-) TimerEvent: {}
+[17.874641] (-) TimerEvent: {}
+[17.975054] (-) TimerEvent: {}
+[18.075459] (-) TimerEvent: {}
+[18.175867] (-) TimerEvent: {}
+[18.276284] (-) TimerEvent: {}
+[18.376681] (-) TimerEvent: {}
+[18.477082] (-) TimerEvent: {}
+[18.577496] (-) TimerEvent: {}
+[18.677932] (-) TimerEvent: {}
+[18.778377] (-) TimerEvent: {}
+[18.878759] (-) TimerEvent: {}
+[18.979148] (-) TimerEvent: {}
+[19.079531] (-) TimerEvent: {}
+[19.179943] (-) TimerEvent: {}
+[19.280329] (-) TimerEvent: {}
+[19.380721] (-) TimerEvent: {}
+[19.481143] (-) TimerEvent: {}
+[19.581600] (-) TimerEvent: {}
+[19.682013] (-) TimerEvent: {}
+[19.782450] (-) TimerEvent: {}
+[19.882867] (-) TimerEvent: {}
+[19.983271] (-) TimerEvent: {}
+[20.083711] (-) TimerEvent: {}
+[20.184154] (-) TimerEvent: {}
+[20.284557] (-) TimerEvent: {}
+[20.384951] (-) TimerEvent: {}
+[20.485320] (-) TimerEvent: {}
+[20.585735] (-) TimerEvent: {}
+[20.686166] (-) TimerEvent: {}
+[20.786551] (-) TimerEvent: {}
+[20.886943] (-) TimerEvent: {}
+[20.987419] (-) TimerEvent: {}
+[21.087837] (-) TimerEvent: {}
+[21.188247] (-) TimerEvent: {}
+[21.288646] (-) TimerEvent: {}
+[21.389045] (-) TimerEvent: {}
+[21.489459] (-) TimerEvent: {}
+[21.589862] (-) TimerEvent: {}
+[21.690360] (-) TimerEvent: {}
+[21.790772] (-) TimerEvent: {}
+[21.891180] (-) TimerEvent: {}
+[21.991590] (-) TimerEvent: {}
+[22.091988] (-) TimerEvent: {}
+[22.192378] (-) TimerEvent: {}
+[22.292780] (-) TimerEvent: {}
+[22.393185] (-) TimerEvent: {}
+[22.493618] (-) TimerEvent: {}
+[22.594010] (-) TimerEvent: {}
+[22.694445] (-) TimerEvent: {}
+[22.794861] (-) TimerEvent: {}
+[22.895260] (-) TimerEvent: {}
+[22.995648] (-) TimerEvent: {}
+[23.096044] (-) TimerEvent: {}
+[23.196463] (-) TimerEvent: {}
+[23.296867] (-) TimerEvent: {}
+[23.397260] (-) TimerEvent: {}
+[23.497635] (-) TimerEvent: {}
+[23.598047] (-) TimerEvent: {}
+[23.698470] (-) TimerEvent: {}
+[23.798856] (-) TimerEvent: {}
+[23.899887] (-) TimerEvent: {}
+[24.000261] (-) TimerEvent: {}
+[24.100671] (-) TimerEvent: {}
+[24.201084] (-) TimerEvent: {}
+[24.301522] (-) TimerEvent: {}
+[24.401945] (-) TimerEvent: {}
+[24.502405] (-) TimerEvent: {}
+[24.602814] (-) TimerEvent: {}
+[24.703264] (-) TimerEvent: {}
+[24.803681] (-) TimerEvent: {}
+[24.904091] (-) TimerEvent: {}
+[25.004485] (-) TimerEvent: {}
+[25.104888] (-) TimerEvent: {}
+[25.205352] (-) TimerEvent: {}
+[25.305759] (-) TimerEvent: {}
+[25.406205] (-) TimerEvent: {}
+[25.506593] (-) TimerEvent: {}
+[25.607000] (-) TimerEvent: {}
+[25.707407] (-) TimerEvent: {}
+[25.807815] (-) TimerEvent: {}
+[25.908219] (-) TimerEvent: {}
+[26.008612] (-) TimerEvent: {}
+[26.109010] (-) TimerEvent: {}
+[26.209437] (-) TimerEvent: {}
+[26.309856] (-) TimerEvent: {}
+[26.410260] (-) TimerEvent: {}
+[26.510686] (-) TimerEvent: {}
+[26.611129] (-) TimerEvent: {}
+[26.711539] (-) TimerEvent: {}
+[26.811927] (-) TimerEvent: {}
+[26.912304] (-) TimerEvent: {}
+[27.012713] (-) TimerEvent: {}
+[27.113187] (-) TimerEvent: {}
+[27.213585] (-) TimerEvent: {}
+[27.313957] (-) TimerEvent: {}
+[27.414409] (-) TimerEvent: {}
+[27.514800] (-) TimerEvent: {}
+[27.615203] (-) TimerEvent: {}
+[27.715624] (-) TimerEvent: {}
+[27.816048] (-) TimerEvent: {}
+[27.916446] (-) TimerEvent: {}
+[28.016835] (-) TimerEvent: {}
+[28.117249] (-) TimerEvent: {}
+[28.217671] (-) TimerEvent: {}
+[28.318065] (-) TimerEvent: {}
+[28.418490] (-) TimerEvent: {}
+[28.518890] (-) TimerEvent: {}
+[28.619298] (-) TimerEvent: {}
+[28.720070] (-) TimerEvent: {}
+[28.820544] (-) TimerEvent: {}
+[28.920952] (-) TimerEvent: {}
+[29.021355] (-) TimerEvent: {}
+[29.121772] (-) TimerEvent: {}
+[29.222275] (-) TimerEvent: {}
+[29.322687] (-) TimerEvent: {}
+[29.423107] (-) TimerEvent: {}
+[29.523494] (-) TimerEvent: {}
+[29.623911] (-) TimerEvent: {}
+[29.724409] (-) TimerEvent: {}
+[29.824818] (-) TimerEvent: {}
+[29.925204] (-) TimerEvent: {}
+[30.025564] (-) TimerEvent: {}
+[30.031880] (dobot_msgs) JobProgress: {'identifier': 'dobot_msgs', 'progress': 'cmake'}
+[30.032701] (dobot_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/dobot-magician/src/magician_ros2/dobot_msgs', '-DCMAKE_INSTALL_PREFIX=/home/jetson/dobot-magician/install/dobot_msgs'], 'cwd': '/home/jetson/dobot-magician/build/dobot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('USER', 'jetson'), ('SSH_CLIENT', '172.30.40.23 17677 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/micro_ros_ws/install/micro_ros_agent/lib:/home/jetson/micro_ros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('OPENAI_BASE_URL', 'http://127.0.0.1:8787/v1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('HF_HUB_DISABLE_PROGRESS_BARS', '1'), ('NVM_BIN', '/home/jetson/.nvm/versions/node/v22.22.2/bin'), ('SSH_TTY', '/dev/pts/1'), ('NVM_INC', '/home/jetson/.nvm/versions/node/v22.22.2/include/node'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_MONETARY', 'th_TH.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('HEADROOM_HOST', '0.0.0.0'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('NVM_DIR', '/home/jetson/.nvm'), ('COLCON_PREFIX_PATH', '/home/jetson/micro_ros_ws/install:/home/jetson/AGV-2026/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/jetson/.local/bin:/home/jetson/.codex/tmp/arg0/codex-arg0Ie5C9h:/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/jetson/.local/bin:/home/jetson/.local/bin:/home/jetson/AGV-2026/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/home/jetson/.nvm/versions/node/v22.22.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jetson/micro_ros_ws/install/micro_ros_setup:/home/jetson/micro_ros_ws/install/micro_ros_agent:/home/jetson/micro_ros_ws/install/micro_ros_msgs:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ydlidar_ros2_driver:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/rf2o_laser_odometry:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019f2667-8d67-7910-86cc-317737de5322'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('HF_HUB_DISABLE_IMPLICIT_TOKEN', '1'), ('GIT_PAGER', 'cat'), ('HEADROOM_PROJECT', 'dobot-magician'), ('PWD', '/home/jetson/dobot-magician/build/dobot_msgs'), ('LC_ALL', 'C.UTF-8'), ('CODEX_MANAGED_PACKAGE_ROOT', '/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex'), ('SSH_CONNECTION', '172.30.40.23 17677 172.30.40.45 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/jetson/AGV-2026/install/yolo_object_detect/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/ddsm115_controller/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/wit_ros2_imu/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/motor_control_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CODEX_MANAGED_BY_NPM', '1'), ('CMAKE_PREFIX_PATH', '/home/jetson/micro_ros_ws/install/micro_ros_setup:/home/jetson/micro_ros_ws/install/micro_ros_agent:/home/jetson/micro_ros_ws/install/micro_ros_msgs:/home/jetson/AGV-2026/install/ydlidar_sdk:/home/jetson/AGV-2026/install/ydlidar_ros2_driver:/home/jetson/AGV-2026/install/rf2o_laser_odometry:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble')]), 'shell': False}
+[30.129159] (-) TimerEvent: {}
+[30.207113] (dobot_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[30.229316] (-) TimerEvent: {}
+[30.317361] (dobot_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[30.329483] (-) TimerEvent: {}
+[30.332298] (dobot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[30.434268] (-) TimerEvent: {}
+[30.534637] (-) TimerEvent: {}
+[30.550718] (dobot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[30.562370] (dobot_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[30.562908] (dobot_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[30.563067] (dobot_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[30.566786] (dobot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[30.634795] (-) TimerEvent: {}
+[30.738233] (-) TimerEvent: {}
+[30.828589] (dobot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[30.842242] (dobot_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[30.842680] (-) TimerEvent: {}
+[30.842733] (dobot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[30.842881] (dobot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[30.850213] (dobot_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[30.942859] (-) TimerEvent: {}
+[31.043247] (-) TimerEvent: {}
+[31.143614] (-) TimerEvent: {}
+[31.243969] (-) TimerEvent: {}
+[31.307758] (dobot_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[31.346239] (-) TimerEvent: {}
+[31.446615] (-) TimerEvent: {}
+[31.547018] (-) TimerEvent: {}
+[31.589564] (dobot_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[31.605355] (dobot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[31.629618] (dobot_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[31.647188] (-) TimerEvent: {}
+[31.747609] (-) TimerEvent: {}
+[31.753862] (dobot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[31.847772] (-) TimerEvent: {}
+[31.861381] (dobot_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[31.940567] (dobot_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[31.947919] (-) TimerEvent: {}
+[32.048300] (-) TimerEvent: {}
+[32.148662] (-) TimerEvent: {}
+[32.249045] (-) TimerEvent: {}
+[32.349439] (-) TimerEvent: {}
+[32.449848] (-) TimerEvent: {}
+[32.550260] (-) TimerEvent: {}
+[32.650620] (-) TimerEvent: {}
+[32.750992] (-) TimerEvent: {}
+[32.851347] (-) TimerEvent: {}
+[32.873244] (dobot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[32.951526] (-) TimerEvent: {}
+[33.051891] (-) TimerEvent: {}
+[33.152228] (-) TimerEvent: {}
+[33.252598] (-) TimerEvent: {}
+[33.352939] (-) TimerEvent: {}
+[33.430673] (dobot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[33.453106] (-) TimerEvent: {}
+[33.553458] (-) TimerEvent: {}
+[33.653846] (-) TimerEvent: {}
+[33.754215] (-) TimerEvent: {}
+[33.854558] (-) TimerEvent: {}
+[33.954906] (-) TimerEvent: {}
+[34.055243] (-) TimerEvent: {}
+[34.149674] (dobot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[34.155405] (-) TimerEvent: {}
+[34.200968] (dobot_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[34.205213] (dobot_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[34.255584] (-) TimerEvent: {}
+[34.271854] (dobot_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[34.272281] (dobot_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[34.272425] (dobot_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[34.272548] (dobot_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[34.328678] (dobot_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[34.355696] (-) TimerEvent: {}
+[34.456048] (-) TimerEvent: {}
+[34.556449] (-) TimerEvent: {}
+[34.656804] (-) TimerEvent: {}
+[34.700533] (dobot_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[34.750699] (dobot_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[34.755100] (dobot_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[34.756881] (-) TimerEvent: {}
+[34.757650] (dobot_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[34.762400] (dobot_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[34.857105] (-) TimerEvent: {}
+[34.875039] (dobot_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[34.908191] (dobot_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/dobot-magician/build/dobot_msgs\n'}
+[34.938730] (dobot_msgs) CommandEnded: {'returncode': 0}
+[34.944216] (dobot_msgs) JobProgress: {'identifier': 'dobot_msgs', 'progress': 'build'}
+[34.944286] (dobot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/dobot-magician/build/dobot_msgs', '--', '-j6', '-l6'], 'cwd': '/home/jetson/dobot-magician/build/dobot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('USER', 'jetson'), ('SSH_CLIENT', '172.30.40.23 17677 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/micro_ros_ws/install/micro_ros_agent/lib:/home/jetson/micro_ros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('OPENAI_BASE_URL', 'http://127.0.0.1:8787/v1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('HF_HUB_DISABLE_PROGRESS_BARS', '1'), ('NVM_BIN', '/home/jetson/.nvm/versions/node/v22.22.2/bin'), ('SSH_TTY', '/dev/pts/1'), ('NVM_INC', '/home/jetson/.nvm/versions/node/v22.22.2/include/node'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_MONETARY', 'th_TH.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('HEADROOM_HOST', '0.0.0.0'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('NVM_DIR', '/home/jetson/.nvm'), ('COLCON_PREFIX_PATH', '/home/jetson/micro_ros_ws/install:/home/jetson/AGV-2026/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/jetson/.local/bin:/home/jetson/.codex/tmp/arg0/codex-arg0Ie5C9h:/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/jetson/.local/bin:/home/jetson/.local/bin:/home/jetson/AGV-2026/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/home/jetson/.nvm/versions/node/v22.22.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jetson/micro_ros_ws/install/micro_ros_setup:/home/jetson/micro_ros_ws/install/micro_ros_agent:/home/jetson/micro_ros_ws/install/micro_ros_msgs:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ydlidar_ros2_driver:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/rf2o_laser_odometry:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019f2667-8d67-7910-86cc-317737de5322'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('HF_HUB_DISABLE_IMPLICIT_TOKEN', '1'), ('GIT_PAGER', 'cat'), ('HEADROOM_PROJECT', 'dobot-magician'), ('PWD', '/home/jetson/dobot-magician/build/dobot_msgs'), ('LC_ALL', 'C.UTF-8'), ('CODEX_MANAGED_PACKAGE_ROOT', '/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex'), ('SSH_CONNECTION', '172.30.40.23 17677 172.30.40.45 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/jetson/AGV-2026/install/yolo_object_detect/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/ddsm115_controller/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/wit_ros2_imu/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/motor_control_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CODEX_MANAGED_BY_NPM', '1'), ('CMAKE_PREFIX_PATH', '/home/jetson/micro_ros_ws/install/micro_ros_setup:/home/jetson/micro_ros_ws/install/micro_ros_agent:/home/jetson/micro_ros_ws/install/micro_ros_msgs:/home/jetson/AGV-2026/install/ydlidar_sdk:/home/jetson/AGV-2026/install/ydlidar_ros2_driver:/home/jetson/AGV-2026/install/rf2o_laser_odometry:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble')]), 'shell': False}
+[34.957286] (-) TimerEvent: {}
+[35.058253] (-) TimerEvent: {}
+[35.096566] (dobot_msgs) StdoutLine: {'line': b'[  1%] Built target dobot_msgs__rs\n'}
+[35.162301] (-) TimerEvent: {}
+[35.232551] (dobot_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_dobot_msgs\n'}
+[35.266380] (-) TimerEvent: {}
+[35.304735] (dobot_msgs) StdoutLine: {'line': b'[  2%] Built target dobot_msgs__cpp\n'}
+[35.367867] (-) TimerEvent: {}
+[35.468209] (-) TimerEvent: {}
+[35.568569] (-) TimerEvent: {}
+[35.668917] (-) TimerEvent: {}
+[35.769279] (-) TimerEvent: {}
+[35.869618] (-) TimerEvent: {}
+[35.965033] (dobot_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[35.966269] (dobot_msgs) StdoutLine: {'line': b'writing dobot_msgs.egg-info/PKG-INFO\n'}
+[35.966958] (dobot_msgs) StdoutLine: {'line': b'writing dependency_links to dobot_msgs.egg-info/dependency_links.txt\n'}
+[35.967391] (dobot_msgs) StdoutLine: {'line': b'writing top-level names to dobot_msgs.egg-info/top_level.txt\n'}
+[35.969769] (-) TimerEvent: {}
+[35.974307] (dobot_msgs) StdoutLine: {'line': b"reading manifest file 'dobot_msgs.egg-info/SOURCES.txt'\n"}
+[35.978385] (dobot_msgs) StdoutLine: {'line': b"writing manifest file 'dobot_msgs.egg-info/SOURCES.txt'\n"}
+[36.055857] (dobot_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_dobot_msgs_egg\n'}
+[36.069961] (-) TimerEvent: {}
+[36.118287] (dobot_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_cpp\n'}
+[36.170187] (-) TimerEvent: {}
+[36.209543] (dobot_msgs) StdoutLine: {'line': b'[ 13%] Built target dobot_msgs__rosidl_typesupport_cpp\n'}
+[36.270209] (dobot_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_introspection_cpp\n'}
+[36.270649] (-) TimerEvent: {}
+[36.314206] (dobot_msgs) StdoutLine: {'line': b'[ 25%] Built target dobot_msgs__rosidl_typesupport_introspection_cpp\n'}
+[36.372124] (-) TimerEvent: {}
+[36.378595] (dobot_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[36.438570] (dobot_msgs) StdoutLine: {'line': b'[ 36%] Built target dobot_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[36.474263] (-) TimerEvent: {}
+[36.486597] (dobot_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target dobot_msgs__rosidl_generator_c\n'}
+[36.534692] (dobot_msgs) StdoutLine: {'line': b'[ 47%] Built target dobot_msgs__rosidl_generator_c\n'}
+[36.574448] (-) TimerEvent: {}
+[36.583393] (dobot_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_fastrtps_c\n'}
+[36.617731] (dobot_msgs) StdoutLine: {'line': b'[ 59%] Built target dobot_msgs__rosidl_typesupport_fastrtps_c\n'}
+[36.653124] (dobot_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_c\n'}
+[36.675013] (-) TimerEvent: {}
+[36.675576] (dobot_msgs) StdoutLine: {'line': b'[ 70%] Built target dobot_msgs__rosidl_typesupport_c\n'}
+[36.708144] (dobot_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_introspection_c\n'}
+[36.734622] (dobot_msgs) StdoutLine: {'line': b'[ 81%] Built target dobot_msgs__rosidl_typesupport_introspection_c\n'}
+[36.777184] (dobot_msgs) StdoutLine: {'line': b'[ 81%] Built target dobot_msgs\n'}
+[36.777599] (-) TimerEvent: {}
+[36.826627] (dobot_msgs) StdoutLine: {'line': b'[ 82%] Built target dobot_msgs__py\n'}
+[36.878224] (-) TimerEvent: {}
+[36.887010] (dobot_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target dobot_msgs__rosidl_generator_py\n'}
+[36.937821] (dobot_msgs) StdoutLine: {'line': b'[ 93%] Built target dobot_msgs__rosidl_generator_py\n'}
+[36.978382] (-) TimerEvent: {}
+[36.990623] (dobot_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[37.022630] (dobot_msgs) StdoutLine: {'line': b'[ 94%] Linking C shared library rosidl_generator_py/dobot_msgs/dobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.082255] (-) TimerEvent: {}
+[37.182627] (-) TimerEvent: {}
+[37.283045] (-) TimerEvent: {}
+[37.283621] (dobot_msgs) StdoutLine: {'line': b'[ 95%] Built target dobot_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[37.310640] (dobot_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_c__pyext\n'}
+[37.334581] (dobot_msgs) StdoutLine: {'line': b'[ 96%] Linking C shared library rosidl_generator_py/dobot_msgs/dobot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.386277] (-) TimerEvent: {}
+[37.446224] (dobot_msgs) StdoutLine: {'line': b'[ 97%] Built target dobot_msgs__rosidl_typesupport_c__pyext\n'}
+[37.482445] (dobot_msgs) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[37.490278] (-) TimerEvent: {}
+[37.515887] (dobot_msgs) StdoutLine: {'line': b'[ 98%] Linking C shared library rosidl_generator_py/dobot_msgs/dobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.594255] (-) TimerEvent: {}
+[37.676928] (dobot_msgs) StdoutLine: {'line': b'[100%] Built target dobot_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[37.694409] (-) TimerEvent: {}
+[37.705056] (dobot_msgs) CommandEnded: {'returncode': 0}
+[37.706056] (dobot_msgs) JobProgress: {'identifier': 'dobot_msgs', 'progress': 'install'}
+[37.719318] (dobot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/dobot-magician/build/dobot_msgs'], 'cwd': '/home/jetson/dobot-magician/build/dobot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('USER', 'jetson'), ('SSH_CLIENT', '172.30.40.23 17677 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/micro_ros_ws/install/micro_ros_agent/lib:/home/jetson/micro_ros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('OPENAI_BASE_URL', 'http://127.0.0.1:8787/v1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('HF_HUB_DISABLE_PROGRESS_BARS', '1'), ('NVM_BIN', '/home/jetson/.nvm/versions/node/v22.22.2/bin'), ('SSH_TTY', '/dev/pts/1'), ('NVM_INC', '/home/jetson/.nvm/versions/node/v22.22.2/include/node'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_MONETARY', 'th_TH.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('HEADROOM_HOST', '0.0.0.0'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('NVM_DIR', '/home/jetson/.nvm'), ('COLCON_PREFIX_PATH', '/home/jetson/micro_ros_ws/install:/home/jetson/AGV-2026/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/jetson/.local/bin:/home/jetson/.codex/tmp/arg0/codex-arg0Ie5C9h:/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/jetson/.local/bin:/home/jetson/.local/bin:/home/jetson/AGV-2026/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/home/jetson/.nvm/versions/node/v22.22.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jetson/micro_ros_ws/install/micro_ros_setup:/home/jetson/micro_ros_ws/install/micro_ros_agent:/home/jetson/micro_ros_ws/install/micro_ros_msgs:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ydlidar_ros2_driver:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/rf2o_laser_odometry:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019f2667-8d67-7910-86cc-317737de5322'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('HF_HUB_DISABLE_IMPLICIT_TOKEN', '1'), ('GIT_PAGER', 'cat'), ('HEADROOM_PROJECT', 'dobot-magician'), ('PWD', '/home/jetson/dobot-magician/build/dobot_msgs'), ('LC_ALL', 'C.UTF-8'), ('CODEX_MANAGED_PACKAGE_ROOT', '/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex'), ('SSH_CONNECTION', '172.30.40.23 17677 172.30.40.45 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/jetson/AGV-2026/install/yolo_object_detect/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/ddsm115_controller/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/wit_ros2_imu/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/motor_control_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CODEX_MANAGED_BY_NPM', '1'), ('CMAKE_PREFIX_PATH', '/home/jetson/micro_ros_ws/install/micro_ros_setup:/home/jetson/micro_ros_ws/install/micro_ros_agent:/home/jetson/micro_ros_ws/install/micro_ros_msgs:/home/jetson/AGV-2026/install/ydlidar_sdk:/home/jetson/AGV-2026/install/ydlidar_ros2_driver:/home/jetson/AGV-2026/install/rf2o_laser_odometry:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble')]), 'shell': False}
+[37.750303] (dobot_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.750767] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/ament_index/resource_index/rosidl_interfaces/dobot_msgs\n'}
+[37.750924] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs\n'}
+[37.751098] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg\n'}
+[37.751239] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[37.751359] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/gripper_status.h\n'}
+[37.751474] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail\n'}
+[37.751584] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__struct.h\n'}
+[37.751693] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__struct.h\n'}
+[37.751800] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__functions.c\n'}
+[37.751907] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__type_support.h\n'}
+[37.752013] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__functions.c\n'}
+[37.752118] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.h\n'}
+[37.752222] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__functions.h\n'}
+[37.752328] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__functions.h\n'}
+[37.752434] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/dobot_alarm_codes.h\n'}
+[37.752540] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv\n'}
+[37.752646] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/execute_homing_procedure.h\n'}
+[37.752753] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail\n'}
+[37.752857] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__struct.h\n'}
+[37.752962] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.h\n'}
+[37.753068] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__type_support.h\n'}
+[37.753174] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__functions.h\n'}
+[37.753280] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__struct.h\n'}
+[37.753385] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__functions.c\n'}
+[37.753490] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__type_support.h\n'}
+[37.753635] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__functions.h\n'}
+[37.753756] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__struct.h\n'}
+[37.753864] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__functions.h\n'}
+[37.753970] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__functions.c\n'}
+[37.754076] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__struct.h\n'}
+[37.755287] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__functions.h\n'}
+[37.755422] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__functions.c\n'}
+[37.755552] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__functions.c\n'}
+[37.755668] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__type_support.h\n'}
+[37.755779] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/suction_cup_control.h\n'}
+[37.755892] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/evaluate_ptp_trajectory.h\n'}
+[37.755999] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/gripper_control.h\n'}
+[37.756106] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action\n'}
+[37.756212] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail\n'}
+[37.756318] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__functions.c\n'}
+[37.756424] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__type_support.h\n'}
+[37.756530] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__functions.c\n'}
+[37.756635] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__functions.h\n'}
+[37.756740] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__struct.h\n'}
+[37.756844] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__struct.h\n'}
+[37.756950] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__functions.h\n'}
+[37.757055] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__type_support.h\n'}
+[37.757159] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/point_to_point.h\n'}
+[37.757278] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/sliding_rail.h\n'}
+[37.757385] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/environment/library_path.sh\n'}
+[37.757491] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/environment/library_path.dsv\n'}
+[37.763635] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/lib/libdobot_msgs__rosidl_generator_c.so\n'}
+[37.764761] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs\n'}
+[37.764906] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg\n'}
+[37.765035] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[37.765158] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail\n'}
+[37.765275] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__rosidl_typesupport_fastrtps_c.h\n'}
+[37.765390] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__rosidl_typesupport_fastrtps_c.h\n'}
+[37.765544] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv\n'}
+[37.765657] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail\n'}
+[37.765766] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__rosidl_typesupport_fastrtps_c.h\n'}
+[37.765876] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__rosidl_typesupport_fastrtps_c.h\n'}
+[37.765997] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__rosidl_typesupport_fastrtps_c.h\n'}
+[37.766129] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__rosidl_typesupport_fastrtps_c.h\n'}
+[37.766246] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action\n'}
+[37.766500] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail\n'}
+[37.766638] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__rosidl_typesupport_fastrtps_c.h\n'}
+[37.767933] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__rosidl_typesupport_fastrtps_c.h\n'}
+[37.768060] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[37.768175] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs\n'}
+[37.768286] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg\n'}
+[37.768395] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[37.768518] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail\n'}
+[37.768626] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.c\n'}
+[37.768734] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__type_support.c\n'}
+[37.768841] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__rosidl_typesupport_introspection_c.h\n'}
+[37.768948] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__rosidl_typesupport_introspection_c.h\n'}
+[37.769056] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv\n'}
+[37.769162] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail\n'}
+[37.769268] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__rosidl_typesupport_introspection_c.h\n'}
+[37.769375] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__type_support.c\n'}
+[37.769481] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__rosidl_typesupport_introspection_c.h\n'}
+[37.769587] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__rosidl_typesupport_introspection_c.h\n'}
+[37.769693] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__rosidl_typesupport_introspection_c.h\n'}
+[37.769962] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__type_support.c\n'}
+[37.770086] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__type_support.c\n'}
+[37.770224] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.c\n'}
+[37.770338] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action\n'}
+[37.770476] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail\n'}
+[37.770588] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__type_support.c\n'}
+[37.770698] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__rosidl_typesupport_introspection_c.h\n'}
+[37.770819] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__rosidl_typesupport_introspection_c.h\n'}
+[37.770928] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__type_support.c\n'}
+[37.771049] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_introspection_c.so\n'}
+[37.779119] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_c.so\n'}
+[37.780310] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs\n'}
+[37.780449] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg\n'}
+[37.780574] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[37.780693] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/gripper_status.hpp\n'}
+[37.780808] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail\n'}
+[37.780919] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__builder.hpp\n'}
+[37.781031] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__builder.hpp\n'}
+[37.781139] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__traits.hpp\n'}
+[37.781250] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__struct.hpp\n'}
+[37.781358] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__type_support.hpp\n'}
+[37.781463] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.hpp\n'}
+[37.781569] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__traits.hpp\n'}
+[37.781676] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__struct.hpp\n'}
+[37.781785] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/dobot_alarm_codes.hpp\n'}
+[37.781895] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv\n'}
+[37.782003] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/execute_homing_procedure.hpp\n'}
+[37.782134] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/suction_cup_control.hpp\n'}
+[37.782271] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/gripper_control.hpp\n'}
+[37.782391] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/evaluate_ptp_trajectory.hpp\n'}
+[37.782502] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail\n'}
+[37.782609] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__type_support.hpp\n'}
+[37.782717] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__type_support.hpp\n'}
+[37.782859] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__struct.hpp\n'}
+[37.782967] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__struct.hpp\n'}
+[37.783076] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__struct.hpp\n'}
+[37.783181] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__traits.hpp\n'}
+[37.783324] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__builder.hpp\n'}
+[37.783435] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__builder.hpp\n'}
+[37.783544] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__traits.hpp\n'}
+[37.783651] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__traits.hpp\n'}
+[37.783759] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__builder.hpp\n'}
+[37.783866] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__struct.hpp\n'}
+[37.783971] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__traits.hpp\n'}
+[37.784076] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.hpp\n'}
+[37.784182] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__builder.hpp\n'}
+[37.784289] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__type_support.hpp\n'}
+[37.784397] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action\n'}
+[37.784501] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/sliding_rail.hpp\n'}
+[37.784607] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/point_to_point.hpp\n'}
+[37.784714] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail\n'}
+[37.784822] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__traits.hpp\n'}
+[37.784930] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__builder.hpp\n'}
+[37.785037] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__struct.hpp\n'}
+[37.785142] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__struct.hpp\n'}
+[37.785261] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__type_support.hpp\n'}
+[37.785367] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__builder.hpp\n'}
+[37.785473] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__type_support.hpp\n'}
+[37.785579] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__traits.hpp\n'}
+[37.785683] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs\n'}
+[37.785788] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg\n'}
+[37.785892] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail\n'}
+[37.785998] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[37.786124] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[37.786242] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dds_fastrtps\n'}
+[37.786347] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[37.786471] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv\n'}
+[37.786584] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail\n'}
+[37.786690] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[37.786818] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[37.786927] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[37.787036] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[37.787143] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/dds_fastrtps\n'}
+[37.787249] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action\n'}
+[37.787353] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail\n'}
+[37.787458] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[37.787565] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[37.787682] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/dds_fastrtps\n'}
+[37.791261] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[37.792555] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs\n'}
+[37.792697] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg\n'}
+[37.792816] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail\n'}
+[37.792930] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__rosidl_typesupport_introspection_cpp.hpp\n'}
+[37.793043] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[37.793152] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.cpp\n'}
+[37.793259] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__type_support.cpp\n'}
+[37.793366] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv\n'}
+[37.793472] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail\n'}
+[37.793580] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.cpp\n'}
+[37.793686] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__rosidl_typesupport_introspection_cpp.hpp\n'}
+[37.793793] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__rosidl_typesupport_introspection_cpp.hpp\n'}
+[37.793899] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[37.794004] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__type_support.cpp\n'}
+[37.794137] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__type_support.cpp\n'}
+[37.794263] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__type_support.cpp\n'}
+[37.794396] (-) TimerEvent: {}
+[37.794431] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[37.794712] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action\n'}
+[37.794838] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail\n'}
+[37.794950] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[37.795097] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__type_support.cpp\n'}
+[37.795209] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__rosidl_typesupport_introspection_cpp.hpp\n'}
+[37.795320] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__type_support.cpp\n'}
+[37.795429] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[37.797048] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_cpp.so\n'}
+[37.797472] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/environment/pythonpath.sh\n'}
+[37.797607] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/environment/pythonpath.dsv\n'}
+[37.797957] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info\n'}
+[37.798215] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[37.798375] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[37.798715] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[37.798841] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[37.799289] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs\n'}
+[37.799415] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[37.799534] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/libdobot_msgs__rosidl_generator_py.so\n'}
+[37.800478] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[37.800607] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.800724] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg\n'}
+[37.800837] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_dobot_alarm_codes_s.c\n'}
+[37.800949] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_gripper_status.py\n'}
+[37.801436] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_gripper_status_s.c\n'}
+[37.801693] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_dobot_alarm_codes.py\n'}
+[37.801847] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/__init__.py\n'}
+[37.801965] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv\n'}
+[37.802091] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_evaluate_ptp_trajectory_s.c\n'}
+[37.802226] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_suction_cup_control.py\n'}
+[37.802338] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_suction_cup_control_s.c\n'}
+[37.802447] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_evaluate_ptp_trajectory.py\n'}
+[37.802554] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_gripper_control_s.c\n'}
+[37.802660] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_gripper_control.py\n'}
+[37.802767] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_execute_homing_procedure.py\n'}
+[37.802901] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_execute_homing_procedure_s.c\n'}
+[37.803010] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/__init__.py\n'}
+[37.803118] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[37.803226] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.803334] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action\n'}
+[37.803441] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_sliding_rail.py\n'}
+[37.803548] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_point_to_point_s.c\n'}
+[37.803653] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_sliding_rail_s.c\n'}
+[37.803758] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_point_to_point.py\n'}
+[37.803862] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/__init__.py\n'}
+[37.803966] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/__init__.py\n'}
+[37.804071] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.894573] (-) TimerEvent: {}
+[37.909693] (dobot_msgs) StdoutLine: {'line': b"Listing '/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs'...\n"}
+[37.910153] (dobot_msgs) StdoutLine: {'line': b"Compiling '/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/__init__.py'...\n"}
+[37.910306] (dobot_msgs) StdoutLine: {'line': b"Listing '/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action'...\n"}
+[37.910429] (dobot_msgs) StdoutLine: {'line': b"Listing '/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg'...\n"}
+[37.910543] (dobot_msgs) StdoutLine: {'line': b"Listing '/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv'...\n"}
+[37.924618] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.925564] (dobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[37.926023] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.926873] (dobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[37.927272] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.927989] (dobot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[37.930979] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/lib/libdobot_msgs__rosidl_generator_py.so\n'}
+[37.932244] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/ament_index/resource_index/rust_packages/dobot_msgs\n'}
+[37.932991] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust\n'}
+[37.933764] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/Cargo.toml\n'}
+[37.934256] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/build.rs\n'}
+[37.934848] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src\n'}
+[37.935166] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/msg\n'}
+[37.935360] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/msg/rmw.rs\n'}
+[37.935651] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/srv\n'}
+[37.936034] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/srv/rmw.rs\n'}
+[37.936262] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/action\n'}
+[37.936520] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/action/rmw.rs\n'}
+[37.936750] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/action.rs\n'}
+[37.936891] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/srv.rs\n'}
+[37.937008] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/lib.rs\n'}
+[37.937120] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/msg.rs\n'}
+[37.937228] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/action/PointToPoint.idl\n'}
+[37.937337] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/action/SlidingRail.idl\n'}
+[37.937445] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/msg/DobotAlarmCodes.idl\n'}
+[37.937553] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/msg/GripperStatus.idl\n'}
+[37.937661] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/EvaluatePTPTrajectory.idl\n'}
+[37.937769] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/ExecuteHomingProcedure.idl\n'}
+[37.937875] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/GripperControl.idl\n'}
+[37.938208] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/SuctionCupControl.idl\n'}
+[37.938333] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/action/PointToPoint.action\n'}
+[37.938447] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/action/SlidingRail.action\n'}
+[37.938555] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/msg/DobotAlarmCodes.msg\n'}
+[37.938663] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/msg/GripperStatus.msg\n'}
+[37.938979] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/EvaluatePTPTrajectory.srv\n'}
+[37.939100] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/EvaluatePTPTrajectory_Request.msg\n'}
+[37.939213] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/EvaluatePTPTrajectory_Response.msg\n'}
+[37.939321] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/ExecuteHomingProcedure.srv\n'}
+[37.939561] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/ExecuteHomingProcedure_Request.msg\n'}
+[37.939793] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/ExecuteHomingProcedure_Response.msg\n'}
+[37.939910] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/GripperControl.srv\n'}
+[37.940021] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/GripperControl_Request.msg\n'}
+[37.940130] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/GripperControl_Response.msg\n'}
+[37.940433] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/SuctionCupControl.srv\n'}
+[37.940554] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/SuctionCupControl_Request.msg\n'}
+[37.940682] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/SuctionCupControl_Response.msg\n'}
+[37.940929] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/ament_index/resource_index/package_run_dependencies/dobot_msgs\n'}
+[37.941049] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/ament_index/resource_index/parent_prefix_path/dobot_msgs\n'}
+[37.941161] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/environment/ament_prefix_path.sh\n'}
+[37.941270] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/environment/ament_prefix_path.dsv\n'}
+[37.941580] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/environment/path.sh\n'}
+[37.941733] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/environment/path.dsv\n'}
+[37.941848] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/local_setup.bash\n'}
+[37.941959] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/local_setup.sh\n'}
+[37.942084] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/local_setup.zsh\n'}
+[37.942400] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/local_setup.dsv\n'}
+[37.942517] (dobot_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/package.dsv\n'}
+[37.942629] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/ament_index/resource_index/packages/dobot_msgs\n'}
+[37.942739] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_cExport.cmake\n'}
+[37.943046] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[37.943169] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[37.943281] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[37.943392] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[37.943502] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[37.943993] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_cExport.cmake\n'}
+[37.944765] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[37.944895] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_cppExport.cmake\n'}
+[37.945012] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[37.945142] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[37.945265] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[37.945380] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[37.945488] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[37.945595] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[37.945702] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_pyExport.cmake\n'}
+[37.945809] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[37.945914] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[37.946019] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[37.951069] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[37.951301] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[37.951436] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[37.951560] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[37.951676] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[37.951788] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgsConfig.cmake\n'}
+[37.951955] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgsConfig-version.cmake\n'}
+[37.952067] (dobot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/package.xml\n'}
+[37.994761] (-) TimerEvent: {}
+[38.095168] (-) TimerEvent: {}
+[38.195568] (-) TimerEvent: {}
+[38.295963] (-) TimerEvent: {}
+[38.396359] (-) TimerEvent: {}
+[38.496805] (-) TimerEvent: {}
+[38.597216] (-) TimerEvent: {}
+[38.697613] (-) TimerEvent: {}
+[38.798001] (-) TimerEvent: {}
+[38.898415] (-) TimerEvent: {}
+[38.998821] (-) TimerEvent: {}
+[39.099270] (-) TimerEvent: {}
+[39.208704] (-) TimerEvent: {}
+[39.309156] (-) TimerEvent: {}
+[39.409569] (-) TimerEvent: {}
+[39.509998] (-) TimerEvent: {}
+[39.610501] (-) TimerEvent: {}
+[39.710928] (-) TimerEvent: {}
+[39.811357] (-) TimerEvent: {}
+[39.911770] (-) TimerEvent: {}
+[40.012176] (-) TimerEvent: {}
+[40.112583] (-) TimerEvent: {}
+[40.212991] (-) TimerEvent: {}
+[40.313461] (-) TimerEvent: {}
+[40.413982] (-) TimerEvent: {}
+[40.514412] (-) TimerEvent: {}
+[40.614904] (-) TimerEvent: {}
+[40.715296] (-) TimerEvent: {}
+[40.815732] (-) TimerEvent: {}
+[40.916117] (-) TimerEvent: {}
+[41.016519] (-) TimerEvent: {}
+[41.116974] (-) TimerEvent: {}
+[41.217499] (-) TimerEvent: {}
+[41.317936] (-) TimerEvent: {}
+[41.418410] (-) TimerEvent: {}
+[41.518828] (-) TimerEvent: {}
+[41.619223] (-) TimerEvent: {}
+[41.719624] (-) TimerEvent: {}
+[41.820030] (-) TimerEvent: {}
+[41.920428] (-) TimerEvent: {}
+[42.020826] (-) TimerEvent: {}
+[42.121252] (-) TimerEvent: {}
+[42.221677] (-) TimerEvent: {}
+[42.322133] (-) TimerEvent: {}
+[42.422521] (-) TimerEvent: {}
+[42.522930] (-) TimerEvent: {}
+[42.623329] (-) TimerEvent: {}
+[42.723729] (-) TimerEvent: {}
+[42.824151] (-) TimerEvent: {}
+[42.924557] (-) TimerEvent: {}
+[43.024979] (-) TimerEvent: {}
+[43.125383] (-) TimerEvent: {}
+[43.225784] (-) TimerEvent: {}
+[43.326220] (-) TimerEvent: {}
+[43.426616] (-) TimerEvent: {}
+[43.527176] (-) TimerEvent: {}
+[43.627594] (-) TimerEvent: {}
+[43.728012] (-) TimerEvent: {}
+[43.828438] (-) TimerEvent: {}
+[43.929061] (-) TimerEvent: {}
+[44.029461] (-) TimerEvent: {}
+[44.129913] (-) TimerEvent: {}
+[44.230323] (-) TimerEvent: {}
+[44.330756] (-) TimerEvent: {}
+[44.431160] (-) TimerEvent: {}
+[44.531562] (-) TimerEvent: {}
+[44.631974] (-) TimerEvent: {}
+[44.732438] (-) TimerEvent: {}
+[44.832962] (-) TimerEvent: {}
+[44.933381] (-) TimerEvent: {}
+[45.033819] (-) TimerEvent: {}
+[45.134282] (-) TimerEvent: {}
+[45.234711] (-) TimerEvent: {}
+[45.335133] (-) TimerEvent: {}
+[45.435679] (-) TimerEvent: {}
+[45.536073] (-) TimerEvent: {}
+[45.636484] (-) TimerEvent: {}
+[45.737000] (-) TimerEvent: {}
+[45.837551] (-) TimerEvent: {}
+[45.937990] (-) TimerEvent: {}
+[46.038435] (-) TimerEvent: {}
+[46.138851] (-) TimerEvent: {}
+[46.239232] (-) TimerEvent: {}
+[46.339649] (-) TimerEvent: {}
+[46.440070] (-) TimerEvent: {}
+[46.540472] (-) TimerEvent: {}
+[46.640917] (-) TimerEvent: {}
+[46.741375] (-) TimerEvent: {}
+[46.841813] (-) TimerEvent: {}
+[46.942265] (-) TimerEvent: {}
+[47.042698] (-) TimerEvent: {}
+[47.143132] (-) TimerEvent: {}
+[47.243544] (-) TimerEvent: {}
+[47.343964] (-) TimerEvent: {}
+[47.444387] (-) TimerEvent: {}
+[47.544818] (-) TimerEvent: {}
+[47.645253] (-) TimerEvent: {}
+[47.745687] (-) TimerEvent: {}
+[47.846139] (-) TimerEvent: {}
+[47.946589] (-) TimerEvent: {}
+[48.047009] (-) TimerEvent: {}
+[48.147444] (-) TimerEvent: {}
+[48.247879] (-) TimerEvent: {}
+[48.348314] (-) TimerEvent: {}
+[48.448732] (-) TimerEvent: {}
+[48.549145] (-) TimerEvent: {}
+[48.649581] (-) TimerEvent: {}
+[48.750010] (-) TimerEvent: {}
+[48.850427] (-) TimerEvent: {}
+[48.950834] (-) TimerEvent: {}
+[49.051239] (-) TimerEvent: {}
+[49.151661] (-) TimerEvent: {}
+[49.252064] (-) TimerEvent: {}
+[49.352483] (-) TimerEvent: {}
+[49.452908] (-) TimerEvent: {}
+[49.553354] (-) TimerEvent: {}
+[49.653785] (-) TimerEvent: {}
+[49.754283] (-) TimerEvent: {}
+[49.854707] (-) TimerEvent: {}
+[49.955119] (-) TimerEvent: {}
+[50.055616] (-) TimerEvent: {}
+[50.156035] (-) TimerEvent: {}
+[50.256456] (-) TimerEvent: {}
+[50.356912] (-) TimerEvent: {}
+[50.457307] (-) TimerEvent: {}
+[50.557706] (-) TimerEvent: {}
+[50.658141] (-) TimerEvent: {}
+[50.758540] (-) TimerEvent: {}
+[50.858951] (-) TimerEvent: {}
+[50.959366] (-) TimerEvent: {}
+[51.059788] (-) TimerEvent: {}
+[51.160225] (-) TimerEvent: {}
+[51.260667] (-) TimerEvent: {}
+[51.361084] (-) TimerEvent: {}
+[51.461517] (-) TimerEvent: {}
+[51.561905] (-) TimerEvent: {}
+[51.662326] (-) TimerEvent: {}
+[51.762752] (-) TimerEvent: {}
+[51.863170] (-) TimerEvent: {}
+[51.963563] (-) TimerEvent: {}
+[52.063977] (-) TimerEvent: {}
+[52.164395] (-) TimerEvent: {}
+[52.264796] (-) TimerEvent: {}
+[52.365199] (-) TimerEvent: {}
+[52.465627] (-) TimerEvent: {}
+[52.566053] (-) TimerEvent: {}
+[52.666483] (-) TimerEvent: {}
+[52.766918] (-) TimerEvent: {}
+[52.867345] (-) TimerEvent: {}
+[52.967749] (-) TimerEvent: {}
+[53.068198] (-) TimerEvent: {}
+[53.168760] (-) TimerEvent: {}
+[53.269235] (-) TimerEvent: {}
+[53.369687] (-) TimerEvent: {}
+[53.470254] (-) TimerEvent: {}
+[53.570674] (-) TimerEvent: {}
+[53.671082] (-) TimerEvent: {}
+[53.771501] (-) TimerEvent: {}
+[53.871932] (-) TimerEvent: {}
+[53.972380] (-) TimerEvent: {}
+[54.072778] (-) TimerEvent: {}
+[54.173225] (-) TimerEvent: {}
+[54.273678] (-) TimerEvent: {}
+[54.374091] (-) TimerEvent: {}
+[54.474558] (-) TimerEvent: {}
+[54.575011] (-) TimerEvent: {}
+[54.675428] (-) TimerEvent: {}
+[54.775835] (-) TimerEvent: {}
+[54.876242] (-) TimerEvent: {}
+[54.976677] (-) TimerEvent: {}
+[55.077108] (-) TimerEvent: {}
+[55.177520] (-) TimerEvent: {}
+[55.277963] (-) TimerEvent: {}
+[55.378405] (-) TimerEvent: {}
+[55.478817] (-) TimerEvent: {}
+[55.579235] (-) TimerEvent: {}
+[55.679666] (-) TimerEvent: {}
+[55.780089] (-) TimerEvent: {}
+[55.880500] (-) TimerEvent: {}
+[55.980921] (-) TimerEvent: {}
+[56.081310] (-) TimerEvent: {}
+[56.181731] (-) TimerEvent: {}
+[56.282299] (-) TimerEvent: {}
+[56.382742] (-) TimerEvent: {}
+[56.483150] (-) TimerEvent: {}
+[56.583550] (-) TimerEvent: {}
+[56.683984] (-) TimerEvent: {}
+[56.784401] (-) TimerEvent: {}
+[56.884805] (-) TimerEvent: {}
+[56.985184] (-) TimerEvent: {}
+[57.085622] (-) TimerEvent: {}
+[57.186037] (-) TimerEvent: {}
+[57.286456] (-) TimerEvent: {}
+[57.386881] (-) TimerEvent: {}
+[57.487292] (-) TimerEvent: {}
+[57.587707] (-) TimerEvent: {}
+[57.688112] (-) TimerEvent: {}
+[57.788563] (-) TimerEvent: {}
+[57.888987] (-) TimerEvent: {}
+[57.989437] (-) TimerEvent: {}
+[58.089915] (-) TimerEvent: {}
+[58.190400] (-) TimerEvent: {}
+[58.290814] (-) TimerEvent: {}
+[58.391220] (-) TimerEvent: {}
+[58.491644] (-) TimerEvent: {}
+[58.592186] (-) TimerEvent: {}
+[58.692615] (-) TimerEvent: {}
+[58.793036] (-) TimerEvent: {}
+[58.893451] (-) TimerEvent: {}
+[58.993896] (-) TimerEvent: {}
+[59.094359] (-) TimerEvent: {}
+[59.194743] (-) TimerEvent: {}
+[59.295141] (-) TimerEvent: {}
+[59.396452] (-) TimerEvent: {}
+[59.496870] (-) TimerEvent: {}
+[59.597310] (-) TimerEvent: {}
+[59.697772] (-) TimerEvent: {}
+[59.798247] (-) TimerEvent: {}
+[59.898658] (-) TimerEvent: {}
+[59.999064] (-) TimerEvent: {}
+[60.063046] (dobot_msgs) CommandEnded: {'returncode': 0}
+[60.099249] (-) TimerEvent: {}
+[60.107618] (dobot_msgs) JobEnded: {'identifier': 'dobot_msgs', 'rc': 0}
+[60.108937] (-) EventReactorShutdown: {}

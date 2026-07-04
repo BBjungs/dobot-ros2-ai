@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="3" time="1.616" timestamp="2026-07-03T13:57:04.304512" hostname="jetson-orin"><testcase classname="dobot_motion.test.test_copyright" name="test_copyright" time="0.658"><failure message="AssertionError: Found errors&#10;assert 1 == 0">test/test_copyright.py:23: in test_copyright
+    assert rc == 0, 'Found errors'
+E   AssertionError: Found errors
+E   assert 1 == 0</failure></testcase><testcase classname="dobot_motion.test.test_flake8" name="test_flake8" time="0.540"><failure message="AssertionError: Found 308 code style errors / warnings:&#10;  ./dobot_motion/PTP_server.py:10:1: F401 'geometry_msgs.msg.PoseStamped' imported but unused&#10;  ./dobot_motion/PTP_server.py:10:42: W291 trailing whitespace&#10;  ./dobot_motion/PTP_server.py:11:1: F401 'tf_transformations' imported but unused&#10;  ./dobot_motion/PTP_server.py:20:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_motion/PTP_server.py:45:1: W293 blank line contains whitespace&#10;  ./dobot_motion/PTP_server.py:53:64: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_server.py:53:66: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_server.py:53:89: W291 trailing whitespace&#10;  ./dobot_motion/PTP_server.py:54:57: E127 continuation line over-indented for visual indent&#10;  ./dobot_motion/PTP_server.py:54:65: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_server.py:54:67: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_server.py:54:99: W291 trailing whitespace&#10;  ./dobot_motion/PTP_server.py:55:57: E127 continuation line over-indented for visual indent&#10;  ./dobot_motion/PTP_server.py:60:9: E303 too many blank lines (2)&#10;  ./dobot_motion/PTP_server.py:60:32: W291 trailing whitespace&#10;  ./dobot_motion/PTP_server.py:61:25: W291 trailing whitespace&#10;  ./dobot_motion/PTP_server.py:63:29: W291 trailing whitespace&#10;  ./dobot_motion/PTP_server.py:66:36: E231 missing whitespace after ','&#10;  ./dobot_motion/PTP_server.py:66:38: E231 missing whitespace after ','&#10;  ./dobot_motion/PTP_server.py:66:40: E231 missing whitespace after ','&#10;  ./dobot_motion/PTP_server.py:70:53: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_server.py:70:55: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_server.py:74:57: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_server.py:74:59: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_server.py:86:9: E303 too many blank lines (2)&#10;  ./dobot_motion/PTP_server.py:89:13: E117 over-indented&#10;  ./dobot_motion/PTP_server.py:93:13: E117 over-indented&#10;  ./dobot_motion/PTP_server.py:97:13: E117 over-indented&#10;  ./dobot_motion/PTP_server.py:101:5: E303 too many blank lines (2)&#10;  ./dobot_motion/PTP_server.py:108:1: W293 blank line contains whitespace&#10;  ./dobot_motion/PTP_server.py:110:5: E303 too many blank lines (2)&#10;  ./dobot_motion/PTP_server.py:119:5: E303 too many blank lines (3)&#10;  ./dobot_motion/PTP_server.py:121:5: E301 expected 1 blank line, found 0&#10;  ./dobot_motion/PTP_server.py:126:100: E501 line too long (102 &gt; 99 characters)&#10;  ./dobot_motion/PTP_server.py:127:42: W291 trailing whitespace&#10;  ./dobot_motion/PTP_server.py:136:100: E501 line too long (110 &gt; 99 characters)&#10;  ./dobot_motion/PTP_server.py:144:5: E303 too many blank lines (3)&#10;  ./dobot_motion/PTP_server.py:150:1: W293 blank line contains whitespace&#10;  ./dobot_motion/PTP_server.py:171:5: E303 too many blank lines (2)&#10;  ./dobot_motion/PTP_server.py:173:100: E501 line too long (154 &gt; 99 characters)&#10;  ./dobot_motion/PTP_server.py:178:5: E303 too many blank lines (3)&#10;  ./dobot_motion/PTP_server.py:180:100: E501 line too long (125 &gt; 99 characters)&#10;  ./dobot_motion/PTP_server.py:184:5: E303 too many blank lines (2)&#10;  ./dobot_motion/PTP_server.py:190:1: W293 blank line contains whitespace&#10;  ./dobot_motion/PTP_server.py:191:5: E303 too many blank lines (2)&#10;  ./dobot_motion/PTP_server.py:202:5: E303 too many blank lines (2)&#10;  ./dobot_motion/PTP_server.py:207:76: W291 trailing whitespace&#10;  ./dobot_motion/PTP_server.py:209:100: E501 line too long (120 &gt; 99 characters)&#10;  ./dobot_motion/PTP_server.py:213:41: E712 comparison to False should be 'if cond is False:' or 'if not cond:'&#10;  ./dobot_motion/PTP_server.py:217:100: E501 line too long (169 &gt; 99 characters)&#10;  ./dobot_motion/PTP_server.py:221:9: E303 too many blank lines (3)&#10;  ./dobot_motion/PTP_server.py:221:100: E501 line too long (137 &gt; 99 characters)&#10;  ./dobot_motion/PTP_server.py:237:39: W291 trailing whitespace&#10;  ./dobot_motion/PTP_server.py:262:5: E303 too many blank lines (2)&#10;  ./dobot_motion/PTP_server.py:266:100: E501 line too long (120 &gt; 99 characters)&#10;  ./dobot_motion/PTP_server.py:275:100: E501 line too long (135 &gt; 99 characters)&#10;  ./dobot_motion/PTP_server.py:278:43: W291 trailing whitespace&#10;  ./dobot_motion/PTP_server.py:282:37: E221 multiple spaces before operator&#10;  ./dobot_motion/PTP_server.py:286:13: E303 too many blank lines (2)&#10;  ./dobot_motion/PTP_server.py:299:9: E303 too many blank lines (2)&#10;  ./dobot_motion/PTP_server.py:302:9: E303 too many blank lines (2)&#10;  ./dobot_motion/PTP_server.py:302:29: E221 multiple spaces before operator&#10;  ./dobot_motion/sliding_rail_server.py:16:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_motion/sliding_rail_server.py:41:1: W293 blank line contains whitespace&#10;  ./dobot_motion/sliding_rail_server.py:50:29: W291 trailing whitespace&#10;  ./dobot_motion/sliding_rail_server.py:52:28: E261 at least two spaces before inline comment&#10;  ./dobot_motion/sliding_rail_server.py:53:28: E261 at least two spaces before inline comment&#10;  ./dobot_motion/sliding_rail_server.py:56:73: W291 trailing whitespace&#10;  ./dobot_motion/sliding_rail_server.py:57:100: E501 line too long (106 &gt; 99 characters)&#10;  ./dobot_motion/sliding_rail_server.py:57:107: W291 trailing whitespace&#10;  ./dobot_motion/sliding_rail_server.py:58:74: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/sliding_rail_server.py:58:76: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/sliding_rail_server.py:58:100: E501 line too long (121 &gt; 99 characters)&#10;  ./dobot_motion/sliding_rail_server.py:60:73: W291 trailing whitespace&#10;  ./dobot_motion/sliding_rail_server.py:61:25: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/sliding_rail_server.py:61:100: E501 line too long (105 &gt; 99 characters)&#10;  ./dobot_motion/sliding_rail_server.py:61:106: W291 trailing whitespace&#10;  ./dobot_motion/sliding_rail_server.py:62:67: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/sliding_rail_server.py:62:69: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/sliding_rail_server.py:62:100: E501 line too long (118 &gt; 99 characters)&#10;  ./dobot_motion/sliding_rail_server.py:63:1: W293 blank line contains whitespace&#10;  ./dobot_motion/sliding_rail_server.py:64:38: E231 missing whitespace after ','&#10;  ./dobot_motion/sliding_rail_server.py:71:100: E501 line too long (111 &gt; 99 characters)&#10;  ./dobot_motion/sliding_rail_server.py:71:107: E261 at least two spaces before inline comment&#10;  ./dobot_motion/sliding_rail_server.py:71:108: E262 inline comment should start with '# '&#10;  ./dobot_motion/sliding_rail_server.py:75:100: E501 line too long (111 &gt; 99 characters)&#10;  ./dobot_motion/sliding_rail_server.py:75:107: E261 at least two spaces before inline comment&#10;  ./dobot_motion/sliding_rail_server.py:75:108: E262 inline comment should start with '# '&#10;  ./dobot_motion/sliding_rail_server.py:84:100: E501 line too long (150 &gt; 99 characters)&#10;  ./dobot_motion/sliding_rail_server.py:104:5: E303 too many blank lines (2)&#10;  ./dobot_motion/sliding_rail_server.py:108:76: W291 trailing whitespace&#10;  ./dobot_motion/sliding_rail_server.py:110:100: E501 line too long (120 &gt; 99 characters)&#10;  ./dobot_motion/sliding_rail_server.py:117:100: E501 line too long (117 &gt; 99 characters)&#10;  ./dobot_motion/sliding_rail_server.py:126:35: W291 trailing whitespace&#10;  ./dobot_motion/sliding_rail_server.py:129:5: E303 too many blank lines (2)&#10;  ./dobot_motion/sliding_rail_server.py:136:13: E117 over-indented&#10;  ./dobot_motion/sliding_rail_server.py:148:5: E303 too many blank lines (2)&#10;  ./dobot_motion/sliding_rail_server.py:151:54: E231 missing whitespace after ','&#10;  ./dobot_motion/sliding_rail_server.py:151:74: W291 trailing whitespace&#10;  ./dobot_motion/sliding_rail_server.py:152:72: W291 trailing whitespace&#10;  ./dobot_motion/sliding_rail_server.py:153:72: W291 trailing whitespace&#10;  ./dobot_motion/sliding_rail_server.py:154:72: W291 trailing whitespace&#10;  ./dobot_motion/sliding_rail_server.py:164:100: E501 line too long (146 &gt; 99 characters)&#10;  ./dobot_motion/sliding_rail_server.py:167:43: W291 trailing whitespace&#10;  ./dobot_motion/sliding_rail_server.py:171:37: E221 multiple spaces before operator&#10;  ./dobot_motion/sliding_rail_server.py:175:13: E303 too many blank lines (2)&#10;  ./dobot_motion/sliding_rail_server.py:188:9: E303 too many blank lines (2)&#10;  ./dobot_motion/sliding_rail_server.py:191:9: E303 too many blank lines (2)&#10;  ./dobot_motion/sliding_rail_server.py:191:29: E221 multiple spaces before operator&#10;  ./dobot_motion/PTP_params_class.py:6:1: W293 blank line contains whitespace&#10;  ./dobot_motion/PTP_params_class.py:7:14: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:8:68: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:9:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:9:77: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:10:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:10:27: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:10:29: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:10:100: E501 line too long (119 &gt; 99 characters)&#10;  ./dobot_motion/PTP_params_class.py:11:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:11:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:11:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:11:45: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:11:47: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:11:59: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:11:61: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:11:71: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:11:73: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:13:68: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:14:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:14:83: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:15:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:15:27: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:15:29: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:16:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:16:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:16:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:16:45: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:16:47: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:16:59: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:16:61: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:16:71: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:16:73: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:19:68: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:20:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:20:78: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:21:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:21:27: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:21:29: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:21:100: E501 line too long (120 &gt; 99 characters)&#10;  ./dobot_motion/PTP_params_class.py:22:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:22:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:22:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:22:45: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:22:47: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:22:59: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:22:61: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:22:71: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:22:73: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:24:68: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:25:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:25:84: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:26:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:26:27: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:26:29: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:27:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:27:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:27:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:27:45: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:27:47: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:27:59: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:27:61: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:27:71: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:27:73: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:29:14: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:30:68: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:31:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:31:77: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:32:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:32:27: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:32:29: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:32:100: E501 line too long (119 &gt; 99 characters)&#10;  ./dobot_motion/PTP_params_class.py:33:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:33:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:33:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:33:45: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:33:47: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:33:59: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:33:61: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:33:71: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:33:73: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:35:68: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:36:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:36:83: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:37:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:37:27: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:37:29: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:38:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:38:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:38:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:38:45: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:38:47: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:38:59: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:38:61: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:38:71: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:38:73: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:41:68: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:42:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:42:78: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:43:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:43:27: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:43:29: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:43:100: E501 line too long (119 &gt; 99 characters)&#10;  ./dobot_motion/PTP_params_class.py:44:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:44:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:44:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:44:45: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:44:47: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:44:59: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:44:61: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:44:71: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:44:73: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:46:68: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:47:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:47:84: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:48:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:48:27: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:48:29: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:49:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:49:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:49:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:49:45: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:49:47: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:49:59: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:49:61: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:49:71: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:49:73: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:51:100: E501 line too long (110 &gt; 99 characters)&#10;  ./dobot_motion/PTP_params_class.py:54:68: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:55:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:55:91: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:56:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:56:27: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:56:29: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:57:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:57:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:57:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:57:45: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:57:47: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:57:59: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:57:61: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:57:71: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:57:73: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:59:77: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:60:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:60:85: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:61:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:61:27: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:61:29: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:61:100: E501 line too long (112 &gt; 99 characters)&#10;  ./dobot_motion/PTP_params_class.py:62:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:62:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:62:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:62:45: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:62:47: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:62:59: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:62:61: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:62:71: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:62:73: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:65:68: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:66:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:66:97: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:67:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:67:27: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:67:29: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:68:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:68:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:68:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:68:45: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:68:47: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:68:59: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:68:61: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:68:71: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:68:73: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:70:77: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:71:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:71:91: W291 trailing whitespace&#10;  ./dobot_motion/PTP_params_class.py:72:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:72:27: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:72:29: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:73:5: E128 continuation line under-indented for visual indent&#10;  ./dobot_motion/PTP_params_class.py:73:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:73:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:73:45: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:73:47: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:73:59: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:73:61: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:73:71: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:73:73: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_motion/PTP_params_class.py:75:100: E501 line too long (109 &gt; 99 characters)&#10;  ./dobot_motion/PTP_params_class.py:77:100: E501 line too long (118 &gt; 99 characters)&#10;  ./dobot_motion/PTP_params_class.py:83:1: W391 blank line at end of file&#10;  ./launch/dobot_rail.launch.py:20:1: W293 blank line contains whitespace&#10;  ./launch/dobot_rail.launch.py:36:5: E303 too many blank lines (3)&#10;  ./launch/dobot_rail.launch.py:55:6: W292 no newline at end of file&#10;  ./launch/dobot_PTP.launch.py:7:1: E302 expected 2 blank lines, found 1&#10;  ./launch/dobot_PTP.launch.py:21:5: E122 continuation line missing indentation or outdented&#10;  ./launch/dobot_PTP.launch.py:26:5: E122 continuation line missing indentation or outdented&#10;  ./launch/dobot_PTP.launch.py:27:7: W292 no newline at end of file&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 308 code style errors / warnings:
+E     ./dobot_motion/PTP_server.py:10:1: F401 'geometry_msgs.msg.PoseStamped' imported but unused
+E     ./dobot_motion/PTP_server.py:10:42: W291 trailing whitespace
+E     ./dobot_motion/PTP_server.py:11:1: F401 'tf_transformations' imported but unused
+E     ./dobot_motion/PTP_server.py:20:1: E302 expected 2 blank lines, found 1
+E     ./dobot_motion/PTP_server.py:45:1: W293 blank line contains whitespace
+E     ./dobot_motion/PTP_server.py:53:64: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_server.py:53:66: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_server.py:53:89: W291 trailing whitespace
+E     ./dobot_motion/PTP_server.py:54:57: E127 continuation line over-indented for visual indent
+E     ./dobot_motion/PTP_server.py:54:65: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_server.py:54:67: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_server.py:54:99: W291 trailing whitespace
+E     ./dobot_motion/PTP_server.py:55:57: E127 continuation line over-indented for visual indent
+E     ./dobot_motion/PTP_server.py:60:9: E303 too many blank lines (2)
+E     ./dobot_motion/PTP_server.py:60:32: W291 trailing whitespace
+E     ./dobot_motion/PTP_server.py:61:25: W291 trailing whitespace
+E     ./dobot_motion/PTP_server.py:63:29: W291 trailing whitespace
+E     ./dobot_motion/PTP_server.py:66:36: E231 missing whitespace after ','
+E     ./dobot_motion/PTP_server.py:66:38: E231 missing whitespace after ','
+E     ./dobot_motion/PTP_server.py:66:40: E231 missing whitespace after ','
+E     ./dobot_motion/PTP_server.py:70:53: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_server.py:70:55: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_server.py:74:57: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_server.py:74:59: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_server.py:86:9: E303 too many blank lines (2)
+E     ./dobot_motion/PTP_server.py:89:13: E117 over-indented
+E     ./dobot_motion/PTP_server.py:93:13: E117 over-indented
+E     ./dobot_motion/PTP_server.py:97:13: E117 over-indented
+E     ./dobot_motion/PTP_server.py:101:5: E303 too many blank lines (2)
+E     ./dobot_motion/PTP_server.py:108:1: W293 blank line contains whitespace
+E     ./dobot_motion/PTP_server.py:110:5: E303 too many blank lines (2)
+E     ./dobot_motion/PTP_server.py:119:5: E303 too many blank lines (3)
+E     ./dobot_motion/PTP_server.py:121:5: E301 expected 1 blank line, found 0
+E     ./dobot_motion/PTP_server.py:126:100: E501 line too long (102 &gt; 99 characters)
+E     ./dobot_motion/PTP_server.py:127:42: W291 trailing whitespace
+E     ./dobot_motion/PTP_server.py:136:100: E501 line too long (110 &gt; 99 characters)
+E     ./dobot_motion/PTP_server.py:144:5: E303 too many blank lines (3)
+E     ./dobot_motion/PTP_server.py:150:1: W293 blank line contains whitespace
+E     ./dobot_motion/PTP_server.py:171:5: E303 too many blank lines (2)
+E     ./dobot_motion/PTP_server.py:173:100: E501 line too long (154 &gt; 99 characters)
+E     ./dobot_motion/PTP_server.py:178:5: E303 too many blank lines (3)
+E     ./dobot_motion/PTP_server.py:180:100: E501 line too long (125 &gt; 99 characters)
+E     ./dobot_motion/PTP_server.py:184:5: E303 too many blank lines (2)
+E     ./dobot_motion/PTP_server.py:190:1: W293 blank line contains whitespace
+E     ./dobot_motion/PTP_server.py:191:5: E303 too many blank lines (2)
+E     ./dobot_motion/PTP_server.py:202:5: E303 too many blank lines (2)
+E     ./dobot_motion/PTP_server.py:207:76: W291 trailing whitespace
+E     ./dobot_motion/PTP_server.py:209:100: E501 line too long (120 &gt; 99 characters)
+E     ./dobot_motion/PTP_server.py:213:41: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+E     ./dobot_motion/PTP_server.py:217:100: E501 line too long (169 &gt; 99 characters)
+E     ./dobot_motion/PTP_server.py:221:9: E303 too many blank lines (3)
+E     ./dobot_motion/PTP_server.py:221:100: E501 line too long (137 &gt; 99 characters)
+E     ./dobot_motion/PTP_server.py:237:39: W291 trailing whitespace
+E     ./dobot_motion/PTP_server.py:262:5: E303 too many blank lines (2)
+E     ./dobot_motion/PTP_server.py:266:100: E501 line too long (120 &gt; 99 characters)
+E     ./dobot_motion/PTP_server.py:275:100: E501 line too long (135 &gt; 99 characters)
+E     ./dobot_motion/PTP_server.py:278:43: W291 trailing whitespace
+E     ./dobot_motion/PTP_server.py:282:37: E221 multiple spaces before operator
+E     ./dobot_motion/PTP_server.py:286:13: E303 too many blank lines (2)
+E     ./dobot_motion/PTP_server.py:299:9: E303 too many blank lines (2)
+E     ./dobot_motion/PTP_server.py:302:9: E303 too many blank lines (2)
+E     ./dobot_motion/PTP_server.py:302:29: E221 multiple spaces before operator
+E     ./dobot_motion/sliding_rail_server.py:16:1: E302 expected 2 blank lines, found 1
+E     ./dobot_motion/sliding_rail_server.py:41:1: W293 blank line contains whitespace
+E     ./dobot_motion/sliding_rail_server.py:50:29: W291 trailing whitespace
+E     ./dobot_motion/sliding_rail_server.py:52:28: E261 at least two spaces before inline comment
+E     ./dobot_motion/sliding_rail_server.py:53:28: E261 at least two spaces before inline comment
+E     ./dobot_motion/sliding_rail_server.py:56:73: W291 trailing whitespace
+E     ./dobot_motion/sliding_rail_server.py:57:100: E501 line too long (106 &gt; 99 characters)
+E     ./dobot_motion/sliding_rail_server.py:57:107: W291 trailing whitespace
+E     ./dobot_motion/sliding_rail_server.py:58:74: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/sliding_rail_server.py:58:76: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/sliding_rail_server.py:58:100: E501 line too long (121 &gt; 99 characters)
+E     ./dobot_motion/sliding_rail_server.py:60:73: W291 trailing whitespace
+E     ./dobot_motion/sliding_rail_server.py:61:25: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/sliding_rail_server.py:61:100: E501 line too long (105 &gt; 99 characters)
+E     ./dobot_motion/sliding_rail_server.py:61:106: W291 trailing whitespace
+E     ./dobot_motion/sliding_rail_server.py:62:67: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/sliding_rail_server.py:62:69: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/sliding_rail_server.py:62:100: E501 line too long (118 &gt; 99 characters)
+E     ./dobot_motion/sliding_rail_server.py:63:1: W293 blank line contains whitespace
+E     ./dobot_motion/sliding_rail_server.py:64:38: E231 missing whitespace after ','
+E     ./dobot_motion/sliding_rail_server.py:71:100: E501 line too long (111 &gt; 99 characters)
+E     ./dobot_motion/sliding_rail_server.py:71:107: E261 at least two spaces before inline comment
+E     ./dobot_motion/sliding_rail_server.py:71:108: E262 inline comment should start with '# '
+E     ./dobot_motion/sliding_rail_server.py:75:100: E501 line too long (111 &gt; 99 characters)
+E     ./dobot_motion/sliding_rail_server.py:75:107: E261 at least two spaces before inline comment
+E     ./dobot_motion/sliding_rail_server.py:75:108: E262 inline comment should start with '# '
+E     ./dobot_motion/sliding_rail_server.py:84:100: E501 line too long (150 &gt; 99 characters)
+E     ./dobot_motion/sliding_rail_server.py:104:5: E303 too many blank lines (2)
+E     ./dobot_motion/sliding_rail_server.py:108:76: W291 trailing whitespace
+E     ./dobot_motion/sliding_rail_server.py:110:100: E501 line too long (120 &gt; 99 characters)
+E     ./dobot_motion/sliding_rail_server.py:117:100: E501 line too long (117 &gt; 99 characters)
+E     ./dobot_motion/sliding_rail_server.py:126:35: W291 trailing whitespace
+E     ./dobot_motion/sliding_rail_server.py:129:5: E303 too many blank lines (2)
+E     ./dobot_motion/sliding_rail_server.py:136:13: E117 over-indented
+E     ./dobot_motion/sliding_rail_server.py:148:5: E303 too many blank lines (2)
+E     ./dobot_motion/sliding_rail_server.py:151:54: E231 missing whitespace after ','
+E     ./dobot_motion/sliding_rail_server.py:151:74: W291 trailing whitespace
+E     ./dobot_motion/sliding_rail_server.py:152:72: W291 trailing whitespace
+E     ./dobot_motion/sliding_rail_server.py:153:72: W291 trailing whitespace
+E     ./dobot_motion/sliding_rail_server.py:154:72: W291 trailing whitespace
+E     ./dobot_motion/sliding_rail_server.py:164:100: E501 line too long (146 &gt; 99 characters)
+E     ./dobot_motion/sliding_rail_server.py:167:43: W291 trailing whitespace
+E     ./dobot_motion/sliding_rail_server.py:171:37: E221 multiple spaces before operator
+E     ./dobot_motion/sliding_rail_server.py:175:13: E303 too many blank lines (2)
+E     ./dobot_motion/sliding_rail_server.py:188:9: E303 too many blank lines (2)
+E     ./dobot_motion/sliding_rail_server.py:191:9: E303 too many blank lines (2)
+E     ./dobot_motion/sliding_rail_server.py:191:29: E221 multiple spaces before operator
+E     ./dobot_motion/PTP_params_class.py:6:1: W293 blank line contains whitespace
+E     ./dobot_motion/PTP_params_class.py:7:14: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:8:68: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:9:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:9:77: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:10:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:10:27: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:10:29: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:10:100: E501 line too long (119 &gt; 99 characters)
+E     ./dobot_motion/PTP_params_class.py:11:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:11:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:11:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:11:45: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:11:47: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:11:59: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:11:61: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:11:71: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:11:73: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:13:68: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:14:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:14:83: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:15:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:15:27: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:15:29: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:16:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:16:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:16:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:16:45: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:16:47: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:16:59: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:16:61: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:16:71: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:16:73: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:19:68: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:20:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:20:78: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:21:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:21:27: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:21:29: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:21:100: E501 line too long (120 &gt; 99 characters)
+E     ./dobot_motion/PTP_params_class.py:22:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:22:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:22:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:22:45: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:22:47: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:22:59: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:22:61: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:22:71: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:22:73: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:24:68: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:25:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:25:84: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:26:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:26:27: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:26:29: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:27:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:27:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:27:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:27:45: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:27:47: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:27:59: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:27:61: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:27:71: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:27:73: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:29:14: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:30:68: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:31:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:31:77: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:32:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:32:27: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:32:29: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:32:100: E501 line too long (119 &gt; 99 characters)
+E     ./dobot_motion/PTP_params_class.py:33:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:33:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:33:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:33:45: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:33:47: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:33:59: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:33:61: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:33:71: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:33:73: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:35:68: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:36:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:36:83: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:37:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:37:27: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:37:29: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:38:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:38:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:38:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:38:45: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:38:47: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:38:59: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:38:61: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:38:71: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:38:73: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:41:68: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:42:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:42:78: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:43:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:43:27: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:43:29: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:43:100: E501 line too long (119 &gt; 99 characters)
+E     ./dobot_motion/PTP_params_class.py:44:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:44:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:44:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:44:45: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:44:47: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:44:59: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:44:61: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:44:71: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:44:73: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:46:68: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:47:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:47:84: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:48:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:48:27: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:48:29: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:49:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:49:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:49:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:49:45: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:49:47: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:49:59: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:49:61: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:49:71: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:49:73: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:51:100: E501 line too long (110 &gt; 99 characters)
+E     ./dobot_motion/PTP_params_class.py:54:68: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:55:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:55:91: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:56:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:56:27: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:56:29: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:57:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:57:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:57:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:57:45: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:57:47: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:57:59: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:57:61: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:57:71: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:57:73: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:59:77: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:60:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:60:85: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:61:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:61:27: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:61:29: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:61:100: E501 line too long (112 &gt; 99 characters)
+E     ./dobot_motion/PTP_params_class.py:62:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:62:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:62:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:62:45: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:62:47: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:62:59: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:62:61: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:62:71: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:62:73: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:65:68: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:66:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:66:97: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:67:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:67:27: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:67:29: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:68:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:68:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:68:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:68:45: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:68:47: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:68:59: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:68:61: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:68:71: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:68:73: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:70:77: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:71:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:71:91: W291 trailing whitespace
+E     ./dobot_motion/PTP_params_class.py:72:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:72:27: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:72:29: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:73:5: E128 continuation line under-indented for visual indent
+E     ./dobot_motion/PTP_params_class.py:73:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:73:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:73:45: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:73:47: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:73:59: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:73:61: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:73:71: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:73:73: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_motion/PTP_params_class.py:75:100: E501 line too long (109 &gt; 99 characters)
+E     ./dobot_motion/PTP_params_class.py:77:100: E501 line too long (118 &gt; 99 characters)
+E     ./dobot_motion/PTP_params_class.py:83:1: W391 blank line at end of file
+E     ./launch/dobot_rail.launch.py:20:1: W293 blank line contains whitespace
+E     ./launch/dobot_rail.launch.py:36:5: E303 too many blank lines (3)
+E     ./launch/dobot_rail.launch.py:55:6: W292 no newline at end of file
+E     ./launch/dobot_PTP.launch.py:7:1: E302 expected 2 blank lines, found 1
+E     ./launch/dobot_PTP.launch.py:21:5: E122 continuation line missing indentation or outdented
+E     ./launch/dobot_PTP.launch.py:26:5: E122 continuation line missing indentation or outdented
+E     ./launch/dobot_PTP.launch.py:27:7: W292 no newline at end of file
+E   assert 1 == 0</failure></testcase><testcase classname="dobot_motion.test.test_pep257" name="test_pep257" time="0.113" /></testsuite></testsuites>

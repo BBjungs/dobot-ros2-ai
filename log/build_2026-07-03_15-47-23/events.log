@@ -1,0 +1,376 @@
+[0.000000] (-) TimerEvent: {}
+[0.000273] (-) JobUnselected: {'identifier': 'dobot_bringup'}
+[0.000629] (-) JobUnselected: {'identifier': 'dobot_control_panel'}
+[0.001227] (-) JobUnselected: {'identifier': 'dobot_demos'}
+[0.001269] (-) JobUnselected: {'identifier': 'dobot_description'}
+[0.001640] (-) JobUnselected: {'identifier': 'dobot_diagnostics'}
+[0.001677] (-) JobUnselected: {'identifier': 'dobot_driver'}
+[0.002169] (-) JobUnselected: {'identifier': 'dobot_end_effector'}
+[0.002268] (-) JobUnselected: {'identifier': 'dobot_homing'}
+[0.002338] (-) JobUnselected: {'identifier': 'dobot_kinematics'}
+[0.002375] (-) JobUnselected: {'identifier': 'dobot_motion'}
+[0.002406] (-) JobUnselected: {'identifier': 'dobot_msgs'}
+[0.002437] (-) JobUnselected: {'identifier': 'dobot_state_updater'}
+[0.002465] (-) JobUnselected: {'identifier': 'dobot_visualization_tools'}
+[0.002500] (dobot_web_interface) JobQueued: {'identifier': 'dobot_web_interface', 'dependencies': OrderedDict([('dobot_msgs', '/home/jetson/dobot-magician/install/dobot_msgs')])}
+[0.002554] (dobot_web_interface) JobStarted: {'identifier': 'dobot_web_interface'}
+[0.099235] (-) TimerEvent: {}
+[0.199689] (-) TimerEvent: {}
+[0.300042] (-) TimerEvent: {}
+[0.400386] (-) TimerEvent: {}
+[0.500730] (-) TimerEvent: {}
+[0.601109] (-) TimerEvent: {}
+[0.701471] (-) TimerEvent: {}
+[0.801815] (-) TimerEvent: {}
+[0.902163] (-) TimerEvent: {}
+[1.002514] (-) TimerEvent: {}
+[1.102862] (-) TimerEvent: {}
+[1.203204] (-) TimerEvent: {}
+[1.303594] (-) TimerEvent: {}
+[1.403948] (-) TimerEvent: {}
+[1.504335] (-) TimerEvent: {}
+[1.604694] (-) TimerEvent: {}
+[1.705046] (-) TimerEvent: {}
+[1.805401] (-) TimerEvent: {}
+[1.905784] (-) TimerEvent: {}
+[2.006200] (-) TimerEvent: {}
+[2.106605] (-) TimerEvent: {}
+[2.207005] (-) TimerEvent: {}
+[2.307420] (-) TimerEvent: {}
+[2.407788] (-) TimerEvent: {}
+[2.508137] (-) TimerEvent: {}
+[2.608513] (-) TimerEvent: {}
+[2.708947] (-) TimerEvent: {}
+[2.809364] (-) TimerEvent: {}
+[2.909742] (-) TimerEvent: {}
+[3.010155] (-) TimerEvent: {}
+[3.110540] (-) TimerEvent: {}
+[3.210971] (-) TimerEvent: {}
+[3.311347] (-) TimerEvent: {}
+[3.416779] (-) TimerEvent: {}
+[3.517164] (-) TimerEvent: {}
+[3.617505] (-) TimerEvent: {}
+[3.717963] (-) TimerEvent: {}
+[3.818340] (-) TimerEvent: {}
+[3.918702] (-) TimerEvent: {}
+[4.019075] (-) TimerEvent: {}
+[4.119460] (-) TimerEvent: {}
+[4.219873] (-) TimerEvent: {}
+[4.320291] (-) TimerEvent: {}
+[4.420716] (-) TimerEvent: {}
+[4.521128] (-) TimerEvent: {}
+[4.621517] (-) TimerEvent: {}
+[4.721967] (-) TimerEvent: {}
+[4.822343] (-) TimerEvent: {}
+[4.922727] (-) TimerEvent: {}
+[5.023106] (-) TimerEvent: {}
+[5.123598] (-) TimerEvent: {}
+[5.224030] (-) TimerEvent: {}
+[5.324464] (-) TimerEvent: {}
+[5.424923] (-) TimerEvent: {}
+[5.525376] (-) TimerEvent: {}
+[5.625807] (-) TimerEvent: {}
+[5.726272] (-) TimerEvent: {}
+[5.826661] (-) TimerEvent: {}
+[5.927017] (-) TimerEvent: {}
+[6.027373] (-) TimerEvent: {}
+[6.127746] (-) TimerEvent: {}
+[6.228135] (-) TimerEvent: {}
+[6.328492] (-) TimerEvent: {}
+[6.428853] (-) TimerEvent: {}
+[6.529234] (-) TimerEvent: {}
+[6.629597] (-) TimerEvent: {}
+[6.730053] (-) TimerEvent: {}
+[6.830413] (-) TimerEvent: {}
+[6.930912] (-) TimerEvent: {}
+[7.031316] (-) TimerEvent: {}
+[7.131743] (-) TimerEvent: {}
+[7.232158] (-) TimerEvent: {}
+[7.332553] (-) TimerEvent: {}
+[7.433003] (-) TimerEvent: {}
+[7.533452] (-) TimerEvent: {}
+[7.633843] (-) TimerEvent: {}
+[7.734309] (-) TimerEvent: {}
+[7.834703] (-) TimerEvent: {}
+[7.935085] (-) TimerEvent: {}
+[8.035627] (-) TimerEvent: {}
+[8.136150] (-) TimerEvent: {}
+[8.236526] (-) TimerEvent: {}
+[8.337048] (-) TimerEvent: {}
+[8.437534] (-) TimerEvent: {}
+[8.537963] (-) TimerEvent: {}
+[8.638632] (-) TimerEvent: {}
+[8.739015] (-) TimerEvent: {}
+[8.839398] (-) TimerEvent: {}
+[8.939781] (-) TimerEvent: {}
+[9.040136] (-) TimerEvent: {}
+[9.140479] (-) TimerEvent: {}
+[9.240851] (-) TimerEvent: {}
+[9.341214] (-) TimerEvent: {}
+[9.441577] (-) TimerEvent: {}
+[9.542267] (-) TimerEvent: {}
+[9.642631] (-) TimerEvent: {}
+[9.743009] (-) TimerEvent: {}
+[9.843448] (-) TimerEvent: {}
+[9.943802] (-) TimerEvent: {}
+[10.044240] (-) TimerEvent: {}
+[10.144627] (-) TimerEvent: {}
+[10.244997] (-) TimerEvent: {}
+[10.345421] (-) TimerEvent: {}
+[10.445805] (-) TimerEvent: {}
+[10.546314] (-) TimerEvent: {}
+[10.646675] (-) TimerEvent: {}
+[10.747064] (-) TimerEvent: {}
+[10.847585] (-) TimerEvent: {}
+[10.947977] (-) TimerEvent: {}
+[11.048377] (-) TimerEvent: {}
+[11.148781] (-) TimerEvent: {}
+[11.249184] (-) TimerEvent: {}
+[11.349563] (-) TimerEvent: {}
+[11.449962] (-) TimerEvent: {}
+[11.550445] (-) TimerEvent: {}
+[11.650807] (-) TimerEvent: {}
+[11.751161] (-) TimerEvent: {}
+[11.851563] (-) TimerEvent: {}
+[11.951987] (-) TimerEvent: {}
+[12.052394] (-) TimerEvent: {}
+[12.152781] (-) TimerEvent: {}
+[12.253228] (-) TimerEvent: {}
+[12.353608] (-) TimerEvent: {}
+[12.453997] (-) TimerEvent: {}
+[12.554474] (-) TimerEvent: {}
+[12.654862] (-) TimerEvent: {}
+[12.755316] (-) TimerEvent: {}
+[12.855727] (-) TimerEvent: {}
+[12.956089] (-) TimerEvent: {}
+[13.056475] (-) TimerEvent: {}
+[13.156892] (-) TimerEvent: {}
+[13.257327] (-) TimerEvent: {}
+[13.357763] (-) TimerEvent: {}
+[13.458180] (-) TimerEvent: {}
+[13.558727] (-) TimerEvent: {}
+[13.659116] (-) TimerEvent: {}
+[13.759548] (-) TimerEvent: {}
+[13.859935] (-) TimerEvent: {}
+[13.960370] (-) TimerEvent: {}
+[14.060762] (-) TimerEvent: {}
+[14.161192] (-) TimerEvent: {}
+[14.261621] (-) TimerEvent: {}
+[14.362087] (-) TimerEvent: {}
+[14.462569] (-) TimerEvent: {}
+[14.562998] (-) TimerEvent: {}
+[14.663417] (-) TimerEvent: {}
+[14.763835] (-) TimerEvent: {}
+[14.864290] (-) TimerEvent: {}
+[14.964733] (-) TimerEvent: {}
+[15.065167] (-) TimerEvent: {}
+[15.165574] (-) TimerEvent: {}
+[15.266153] (-) TimerEvent: {}
+[15.366705] (-) TimerEvent: {}
+[15.467117] (-) TimerEvent: {}
+[15.567514] (-) TimerEvent: {}
+[15.667923] (-) TimerEvent: {}
+[15.768405] (-) TimerEvent: {}
+[15.870509] (-) TimerEvent: {}
+[15.971144] (-) TimerEvent: {}
+[16.071609] (-) TimerEvent: {}
+[16.172051] (-) TimerEvent: {}
+[16.272487] (-) TimerEvent: {}
+[16.372914] (-) TimerEvent: {}
+[16.473317] (-) TimerEvent: {}
+[16.573752] (-) TimerEvent: {}
+[16.674172] (-) TimerEvent: {}
+[16.774594] (-) TimerEvent: {}
+[16.875012] (-) TimerEvent: {}
+[16.975453] (-) TimerEvent: {}
+[17.075866] (-) TimerEvent: {}
+[17.176242] (-) TimerEvent: {}
+[17.276605] (-) TimerEvent: {}
+[17.376958] (-) TimerEvent: {}
+[17.477338] (-) TimerEvent: {}
+[17.577737] (-) TimerEvent: {}
+[17.678125] (-) TimerEvent: {}
+[17.778496] (-) TimerEvent: {}
+[17.878890] (-) TimerEvent: {}
+[17.979265] (-) TimerEvent: {}
+[18.079654] (-) TimerEvent: {}
+[18.180054] (-) TimerEvent: {}
+[18.280423] (-) TimerEvent: {}
+[18.380763] (-) TimerEvent: {}
+[18.481166] (-) TimerEvent: {}
+[18.581587] (-) TimerEvent: {}
+[18.682004] (-) TimerEvent: {}
+[18.782452] (-) TimerEvent: {}
+[18.882817] (-) TimerEvent: {}
+[18.983222] (-) TimerEvent: {}
+[19.083686] (-) TimerEvent: {}
+[19.184070] (-) TimerEvent: {}
+[19.284434] (-) TimerEvent: {}
+[19.384841] (-) TimerEvent: {}
+[19.485238] (-) TimerEvent: {}
+[19.585612] (-) TimerEvent: {}
+[19.686013] (-) TimerEvent: {}
+[19.786397] (-) TimerEvent: {}
+[19.887073] (-) TimerEvent: {}
+[19.987517] (-) TimerEvent: {}
+[20.087909] (-) TimerEvent: {}
+[20.188286] (-) TimerEvent: {}
+[20.288649] (-) TimerEvent: {}
+[20.389034] (-) TimerEvent: {}
+[20.489393] (-) TimerEvent: {}
+[20.589744] (-) TimerEvent: {}
+[20.690091] (-) TimerEvent: {}
+[20.790429] (-) TimerEvent: {}
+[20.890779] (-) TimerEvent: {}
+[20.991139] (-) TimerEvent: {}
+[21.091498] (-) TimerEvent: {}
+[21.191841] (-) TimerEvent: {}
+[21.292222] (-) TimerEvent: {}
+[21.392865] (-) TimerEvent: {}
+[21.493220] (-) TimerEvent: {}
+[21.593569] (-) TimerEvent: {}
+[21.693915] (-) TimerEvent: {}
+[21.794266] (-) TimerEvent: {}
+[21.894611] (-) TimerEvent: {}
+[21.994966] (-) TimerEvent: {}
+[22.095338] (-) TimerEvent: {}
+[22.195733] (-) TimerEvent: {}
+[22.296092] (-) TimerEvent: {}
+[22.396457] (-) TimerEvent: {}
+[22.496830] (-) TimerEvent: {}
+[22.597186] (-) TimerEvent: {}
+[22.697567] (-) TimerEvent: {}
+[22.797958] (-) TimerEvent: {}
+[22.898366] (-) TimerEvent: {}
+[22.998818] (-) TimerEvent: {}
+[23.099273] (-) TimerEvent: {}
+[23.199644] (-) TimerEvent: {}
+[23.299978] (-) TimerEvent: {}
+[23.400372] (-) TimerEvent: {}
+[23.500745] (-) TimerEvent: {}
+[23.601115] (-) TimerEvent: {}
+[23.701482] (-) TimerEvent: {}
+[23.801869] (-) TimerEvent: {}
+[23.902234] (-) TimerEvent: {}
+[24.002583] (-) TimerEvent: {}
+[24.102958] (-) TimerEvent: {}
+[24.203321] (-) TimerEvent: {}
+[24.303693] (-) TimerEvent: {}
+[24.404077] (-) TimerEvent: {}
+[24.504452] (-) TimerEvent: {}
+[24.604804] (-) TimerEvent: {}
+[24.705173] (-) TimerEvent: {}
+[24.806290] (-) TimerEvent: {}
+[24.906645] (-) TimerEvent: {}
+[25.007011] (-) TimerEvent: {}
+[25.107445] (-) TimerEvent: {}
+[25.207814] (-) TimerEvent: {}
+[25.308192] (-) TimerEvent: {}
+[25.408575] (-) TimerEvent: {}
+[25.508939] (-) TimerEvent: {}
+[25.609290] (-) TimerEvent: {}
+[25.709682] (-) TimerEvent: {}
+[25.810084] (-) TimerEvent: {}
+[25.910550] (-) TimerEvent: {}
+[26.010948] (-) TimerEvent: {}
+[26.111373] (-) TimerEvent: {}
+[26.211802] (-) TimerEvent: {}
+[26.312202] (-) TimerEvent: {}
+[26.412587] (-) TimerEvent: {}
+[26.513101] (-) TimerEvent: {}
+[26.613578] (-) TimerEvent: {}
+[26.714127] (-) TimerEvent: {}
+[26.814530] (-) TimerEvent: {}
+[26.914923] (-) TimerEvent: {}
+[27.015332] (-) TimerEvent: {}
+[27.115775] (-) TimerEvent: {}
+[27.216181] (-) TimerEvent: {}
+[27.316647] (-) TimerEvent: {}
+[27.417061] (-) TimerEvent: {}
+[27.517434] (-) TimerEvent: {}
+[27.617796] (-) TimerEvent: {}
+[27.718204] (-) TimerEvent: {}
+[27.818668] (-) TimerEvent: {}
+[27.919043] (-) TimerEvent: {}
+[28.019412] (-) TimerEvent: {}
+[28.119797] (-) TimerEvent: {}
+[28.220187] (-) TimerEvent: {}
+[28.320583] (-) TimerEvent: {}
+[28.420983] (-) TimerEvent: {}
+[28.521382] (-) TimerEvent: {}
+[28.621803] (-) TimerEvent: {}
+[28.722189] (-) TimerEvent: {}
+[28.824997] (-) TimerEvent: {}
+[28.925393] (-) TimerEvent: {}
+[29.025892] (-) TimerEvent: {}
+[29.126316] (-) TimerEvent: {}
+[29.226694] (-) TimerEvent: {}
+[29.327121] (-) TimerEvent: {}
+[29.427506] (-) TimerEvent: {}
+[29.527969] (-) TimerEvent: {}
+[29.628334] (-) TimerEvent: {}
+[29.728750] (-) TimerEvent: {}
+[29.829119] (-) TimerEvent: {}
+[29.929472] (-) TimerEvent: {}
+[30.031362] (-) TimerEvent: {}
+[30.131715] (-) TimerEvent: {}
+[30.232192] (-) TimerEvent: {}
+[30.334974] (-) TimerEvent: {}
+[30.435498] (-) TimerEvent: {}
+[30.535843] (-) TimerEvent: {}
+[30.636183] (-) TimerEvent: {}
+[30.736584] (-) TimerEvent: {}
+[30.836957] (-) TimerEvent: {}
+[30.937453] (-) TimerEvent: {}
+[31.037823] (-) TimerEvent: {}
+[31.139493] (-) TimerEvent: {}
+[31.240089] (-) TimerEvent: {}
+[31.347562] (-) TimerEvent: {}
+[31.447923] (-) TimerEvent: {}
+[31.548310] (-) TimerEvent: {}
+[31.648676] (-) TimerEvent: {}
+[31.749015] (-) TimerEvent: {}
+[31.849345] (-) TimerEvent: {}
+[31.949756] (-) TimerEvent: {}
+[32.050144] (-) TimerEvent: {}
+[32.150521] (-) TimerEvent: {}
+[32.251152] (-) TimerEvent: {}
+[32.351734] (-) TimerEvent: {}
+[32.425807] (dobot_web_interface) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/dobot_web_interface', 'build', '--build-base', '/home/jetson/dobot-magician/build/dobot_web_interface/build', 'install', '--record', '/home/jetson/dobot-magician/build/dobot_web_interface/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/dobot-magician/src/magician_ros2/dobot_web_interface', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CODEX_CI': '1', 'USER': 'jetson', 'SSH_CLIENT': '172.30.40.23 17677 22', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jetson/dobot-magician/install/dobot_msgs/lib:/home/jetson/micro_ros_ws/install/micro_ros_agent/lib:/home/jetson/micro_ros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'OPENAI_BASE_URL': 'http://127.0.0.1:8787/v1', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson', 'HF_HUB_DISABLE_PROGRESS_BARS': '1', 'NVM_BIN': '/home/jetson/.nvm/versions/node/v22.22.2/bin', 'SSH_TTY': '/dev/pts/1', 'NVM_INC': '/home/jetson/.nvm/versions/node/v22.22.2/include/node', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'cat', 'LC_MONETARY': 'th_TH.UTF-8', 'LC_CTYPE': 'C.UTF-8', 'HEADROOM_HOST': '0.0.0.0', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': '', 'NVM_DIR': '/home/jetson/.nvm', 'COLCON_PREFIX_PATH': '/home/jetson/micro_ros_ws/install:/home/jetson/AGV-2026/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jetson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/jetson/.local/bin:/home/jetson/.codex/tmp/arg0/codex-arg0Ie5C9h:/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/jetson/.local/bin:/home/jetson/.local/bin:/home/jetson/AGV-2026/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/home/jetson/.nvm/versions/node/v22.22.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'th_TH.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'th_TH.UTF-8', 'GH_PAGER': 'cat', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jetson/dobot-magician/install/dobot_msgs:/home/jetson/micro_ros_ws/install/micro_ros_setup:/home/jetson/micro_ros_ws/install/micro_ros_agent:/home/jetson/micro_ros_ws/install/micro_ros_msgs:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ydlidar_ros2_driver:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/rf2o_laser_odometry:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CODEX_THREAD_ID': '019f2667-8d67-7910-86cc-317737de5322', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'HF_HUB_DISABLE_IMPLICIT_TOKEN': '1', 'GIT_PAGER': 'cat', 'HEADROOM_PROJECT': 'dobot-magician', 'PWD': '/home/jetson/dobot-magician/build/dobot_web_interface', 'LC_ALL': 'C.UTF-8', 'CODEX_MANAGED_PACKAGE_ROOT': '/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex', 'SSH_CONNECTION': '172.30.40.23 17677 172.30.40.45 22', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/dobot-magician/build/dobot_web_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:/home/jetson/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/jetson/AGV-2026/install/yolo_object_detect/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/ddsm115_controller/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/wit_ros2_imu/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/motor_control_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'CODEX_MANAGED_BY_NPM': '1', 'CMAKE_PREFIX_PATH': '/home/jetson/dobot-magician/install/dobot_msgs:/home/jetson/micro_ros_ws/install/micro_ros_setup:/home/jetson/micro_ros_ws/install/micro_ros_agent:/home/jetson/micro_ros_ws/install/micro_ros_msgs:/home/jetson/AGV-2026/install/ydlidar_sdk:/home/jetson/AGV-2026/install/ydlidar_ros2_driver:/home/jetson/AGV-2026/install/rf2o_laser_odometry'}, 'shell': False}
+[32.451982] (-) TimerEvent: {}
+[32.555529] (-) TimerEvent: {}
+[32.655890] (-) TimerEvent: {}
+[32.759568] (-) TimerEvent: {}
+[32.863532] (-) TimerEvent: {}
+[32.963879] (-) TimerEvent: {}
+[33.064243] (-) TimerEvent: {}
+[33.092966] (dobot_web_interface) StdoutLine: {'line': b'running egg_info\n'}
+[33.094778] (dobot_web_interface) StdoutLine: {'line': b'writing ../../../build/dobot_web_interface/dobot_web_interface.egg-info/PKG-INFO\n'}
+[33.095214] (dobot_web_interface) StdoutLine: {'line': b'writing dependency_links to ../../../build/dobot_web_interface/dobot_web_interface.egg-info/dependency_links.txt\n'}
+[33.095555] (dobot_web_interface) StdoutLine: {'line': b'writing entry points to ../../../build/dobot_web_interface/dobot_web_interface.egg-info/entry_points.txt\n'}
+[33.095844] (dobot_web_interface) StdoutLine: {'line': b'writing requirements to ../../../build/dobot_web_interface/dobot_web_interface.egg-info/requires.txt\n'}
+[33.096118] (dobot_web_interface) StdoutLine: {'line': b'writing top-level names to ../../../build/dobot_web_interface/dobot_web_interface.egg-info/top_level.txt\n'}
+[33.100780] (dobot_web_interface) StdoutLine: {'line': b"reading manifest file '../../../build/dobot_web_interface/dobot_web_interface.egg-info/SOURCES.txt'\n"}
+[33.102410] (dobot_web_interface) StdoutLine: {'line': b"writing manifest file '../../../build/dobot_web_interface/dobot_web_interface.egg-info/SOURCES.txt'\n"}
+[33.102741] (dobot_web_interface) StdoutLine: {'line': b'running build\n'}
+[33.102894] (dobot_web_interface) StdoutLine: {'line': b'running build_py\n'}
+[33.107594] (dobot_web_interface) StdoutLine: {'line': b'copying dobot_web_interface/static/index.html -> /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/static\n'}
+[33.107758] (dobot_web_interface) StdoutLine: {'line': b'copying dobot_web_interface/static/styles.css -> /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/static\n'}
+[33.107884] (dobot_web_interface) StdoutLine: {'line': b'copying dobot_web_interface/static/app.js -> /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/static\n'}
+[33.108002] (dobot_web_interface) StdoutLine: {'line': b'running install\n'}
+[33.108113] (dobot_web_interface) StdoutLine: {'line': b'running install_lib\n'}
+[33.108222] (dobot_web_interface) StdoutLine: {'line': b'copying /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/static/index.html -> /home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages/dobot_web_interface/static\n'}
+[33.108338] (dobot_web_interface) StdoutLine: {'line': b'copying /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/static/styles.css -> /home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages/dobot_web_interface/static\n'}
+[33.108473] (dobot_web_interface) StdoutLine: {'line': b'copying /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/static/app.js -> /home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages/dobot_web_interface/static\n'}
+[33.108764] (dobot_web_interface) StdoutLine: {'line': b'running install_data\n'}
+[33.109177] (dobot_web_interface) StdoutLine: {'line': b'running install_egg_info\n'}
+[33.114252] (dobot_web_interface) StdoutLine: {'line': b"removing '/home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages/dobot_web_interface-1.0.0-py3.10.egg-info' (and everything under it)\n"}
+[33.119831] (dobot_web_interface) StdoutLine: {'line': b'Copying ../../../build/dobot_web_interface/dobot_web_interface.egg-info to /home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages/dobot_web_interface-1.0.0-py3.10.egg-info\n'}
+[33.120190] (dobot_web_interface) StdoutLine: {'line': b'running install_scripts\n'}
+[33.160544] (dobot_web_interface) StdoutLine: {'line': b'Installing web_interface script to /home/jetson/dobot-magician/install/dobot_web_interface/lib/dobot_web_interface\n'}
+[33.161080] (dobot_web_interface) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/dobot-magician/build/dobot_web_interface/install.log'\n"}
+[33.167494] (-) TimerEvent: {}
+[33.241078] (dobot_web_interface) CommandEnded: {'returncode': 0}
+[33.268533] (-) TimerEvent: {}
+[33.279420] (dobot_web_interface) JobEnded: {'identifier': 'dobot_web_interface', 'rc': 0}
+[33.281155] (-) EventReactorShutdown: {}

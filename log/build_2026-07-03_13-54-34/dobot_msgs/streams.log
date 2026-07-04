@@ -1,0 +1,397 @@
+[30.033s] Invoking command in '/home/jetson/dobot-magician/build/dobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake /home/jetson/dobot-magician/src/magician_ros2/dobot_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/dobot-magician/install/dobot_msgs
+[30.205s] -- The C compiler identification is GNU 11.4.0
+[30.315s] -- The CXX compiler identification is GNU 11.4.0
+[30.330s] -- Detecting C compiler ABI info
+[30.549s] -- Detecting C compiler ABI info - done
+[30.561s] -- Check for working C compiler: /usr/bin/cc - skipped
+[30.561s] -- Detecting C compile features
+[30.561s] -- Detecting C compile features - done
+[30.565s] -- Detecting CXX compiler ABI info
+[30.827s] -- Detecting CXX compiler ABI info - done
+[30.840s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[30.841s] -- Detecting CXX compile features
+[30.841s] -- Detecting CXX compile features - done
+[30.848s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[31.306s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[31.588s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[31.603s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[31.628s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[31.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[31.859s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[31.939s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[32.871s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[33.429s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[34.148s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[34.199s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[34.203s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[34.270s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[34.270s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[34.270s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[34.270s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[34.327s] -- Found PythonExtra: .so  
+[34.699s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[34.749s] -- Added test 'copyright' to check source files copyright and LICENSE
+[34.753s] -- Added test 'lint_cmake' to check CMake code style
+[34.756s] -- Added test 'xmllint' to check XML markup files
+[34.760s] -- Configuring done
+[34.873s] -- Generating done
+[34.906s] -- Build files have been written to: /home/jetson/dobot-magician/build/dobot_msgs
+[34.941s] Invoked command in '/home/jetson/dobot-magician/build/dobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake /home/jetson/dobot-magician/src/magician_ros2/dobot_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/dobot-magician/install/dobot_msgs
+[34.943s] Invoking command in '/home/jetson/dobot-magician/build/dobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --build /home/jetson/dobot-magician/build/dobot_msgs -- -j6 -l6
+[35.095s] [  1%] Built target dobot_msgs__rs
+[35.231s] [  1%] Built target ament_cmake_python_copy_dobot_msgs
+[35.303s] [  2%] Built target dobot_msgs__cpp
+[35.963s] running egg_info
+[35.964s] writing dobot_msgs.egg-info/PKG-INFO
+[35.965s] writing dependency_links to dobot_msgs.egg-info/dependency_links.txt
+[35.965s] writing top-level names to dobot_msgs.egg-info/top_level.txt
+[35.972s] reading manifest file 'dobot_msgs.egg-info/SOURCES.txt'
+[35.976s] writing manifest file 'dobot_msgs.egg-info/SOURCES.txt'
+[36.054s] [  2%] Built target ament_cmake_python_build_dobot_msgs_egg
+[36.116s] Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_cpp
+[36.208s] [ 13%] Built target dobot_msgs__rosidl_typesupport_cpp
+[36.268s] Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_introspection_cpp
+[36.312s] [ 25%] Built target dobot_msgs__rosidl_typesupport_introspection_cpp
+[36.377s] Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_fastrtps_cpp
+[36.437s] [ 36%] Built target dobot_msgs__rosidl_typesupport_fastrtps_cpp
+[36.485s] Consolidate compiler generated dependencies of target dobot_msgs__rosidl_generator_c
+[36.533s] [ 47%] Built target dobot_msgs__rosidl_generator_c
+[36.581s] Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_fastrtps_c
+[36.616s] [ 59%] Built target dobot_msgs__rosidl_typesupport_fastrtps_c
+[36.651s] Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_c
+[36.674s] [ 70%] Built target dobot_msgs__rosidl_typesupport_c
+[36.706s] Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_introspection_c
+[36.733s] [ 81%] Built target dobot_msgs__rosidl_typesupport_introspection_c
+[36.775s] [ 81%] Built target dobot_msgs
+[36.825s] [ 82%] Built target dobot_msgs__py
+[36.885s] Consolidate compiler generated dependencies of target dobot_msgs__rosidl_generator_py
+[36.936s] [ 93%] Built target dobot_msgs__rosidl_generator_py
+[36.989s] Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[37.021s] [ 94%] Linking C shared library rosidl_generator_py/dobot_msgs/dobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[37.282s] [ 95%] Built target dobot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[37.309s] Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_c__pyext
+[37.333s] [ 96%] Linking C shared library rosidl_generator_py/dobot_msgs/dobot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[37.444s] [ 97%] Built target dobot_msgs__rosidl_typesupport_c__pyext
+[37.481s] Consolidate compiler generated dependencies of target dobot_msgs__rosidl_typesupport_introspection_c__pyext
+[37.514s] [ 98%] Linking C shared library rosidl_generator_py/dobot_msgs/dobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[37.675s] [100%] Built target dobot_msgs__rosidl_typesupport_introspection_c__pyext
+[37.703s] Invoked command in '/home/jetson/dobot-magician/build/dobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --build /home/jetson/dobot-magician/build/dobot_msgs -- -j6 -l6
+[37.718s] Invoking command in '/home/jetson/dobot-magician/build/dobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --install /home/jetson/dobot-magician/build/dobot_msgs
+[37.748s] -- Install configuration: ""
+[37.749s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/ament_index/resource_index/rosidl_interfaces/dobot_msgs
+[37.749s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[37.749s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[37.749s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_generator_c__visibility_control.h
+[37.749s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/gripper_status.h
+[37.749s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[37.749s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__struct.h
+[37.750s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__struct.h
+[37.750s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__functions.c
+[37.750s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__type_support.h
+[37.750s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__functions.c
+[37.750s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.h
+[37.750s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__functions.h
+[37.750s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__functions.h
+[37.750s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/dobot_alarm_codes.h
+[37.750s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[37.751s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/execute_homing_procedure.h
+[37.751s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[37.751s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__struct.h
+[37.751s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.h
+[37.751s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__type_support.h
+[37.751s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__functions.h
+[37.751s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__struct.h
+[37.751s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__functions.c
+[37.751s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__type_support.h
+[37.752s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__functions.h
+[37.752s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__struct.h
+[37.752s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__functions.h
+[37.752s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__functions.c
+[37.753s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__struct.h
+[37.753s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__functions.h
+[37.753s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__functions.c
+[37.753s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__functions.c
+[37.754s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__type_support.h
+[37.754s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/suction_cup_control.h
+[37.754s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/evaluate_ptp_trajectory.h
+[37.754s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/gripper_control.h
+[37.754s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[37.754s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[37.754s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__functions.c
+[37.754s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__type_support.h
+[37.754s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__functions.c
+[37.755s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__functions.h
+[37.755s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__struct.h
+[37.755s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__struct.h
+[37.755s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__functions.h
+[37.755s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__type_support.h
+[37.755s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/point_to_point.h
+[37.755s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/sliding_rail.h
+[37.755s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/environment/library_path.sh
+[37.755s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/environment/library_path.dsv
+[37.762s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/lib/libdobot_msgs__rosidl_generator_c.so
+[37.763s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[37.763s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[37.763s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[37.763s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[37.763s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__rosidl_typesupport_fastrtps_c.h
+[37.763s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__rosidl_typesupport_fastrtps_c.h
+[37.763s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[37.764s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[37.764s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__rosidl_typesupport_fastrtps_c.h
+[37.764s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__rosidl_typesupport_fastrtps_c.h
+[37.764s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__rosidl_typesupport_fastrtps_c.h
+[37.764s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__rosidl_typesupport_fastrtps_c.h
+[37.764s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[37.764s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[37.766s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__rosidl_typesupport_fastrtps_c.h
+[37.766s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__rosidl_typesupport_fastrtps_c.h
+[37.766s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_fastrtps_c.so
+[37.766s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[37.766s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[37.766s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[37.766s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[37.767s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.c
+[37.767s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__type_support.c
+[37.767s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__rosidl_typesupport_introspection_c.h
+[37.767s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__rosidl_typesupport_introspection_c.h
+[37.767s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[37.767s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[37.767s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__rosidl_typesupport_introspection_c.h
+[37.767s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__type_support.c
+[37.767s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__rosidl_typesupport_introspection_c.h
+[37.767s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__rosidl_typesupport_introspection_c.h
+[37.768s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__rosidl_typesupport_introspection_c.h
+[37.768s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__type_support.c
+[37.768s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__type_support.c
+[37.768s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.c
+[37.768s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[37.768s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[37.768s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__type_support.c
+[37.769s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__rosidl_typesupport_introspection_c.h
+[37.769s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__rosidl_typesupport_introspection_c.h
+[37.769s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__type_support.c
+[37.769s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_introspection_c.so
+[37.778s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_c.so
+[37.778s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[37.778s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[37.778s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[37.779s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/gripper_status.hpp
+[37.779s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[37.779s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__builder.hpp
+[37.779s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__builder.hpp
+[37.779s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__traits.hpp
+[37.779s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__struct.hpp
+[37.779s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__type_support.hpp
+[37.779s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.hpp
+[37.779s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__traits.hpp
+[37.780s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__struct.hpp
+[37.780s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/dobot_alarm_codes.hpp
+[37.780s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[37.780s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/execute_homing_procedure.hpp
+[37.780s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/suction_cup_control.hpp
+[37.780s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/gripper_control.hpp
+[37.780s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/evaluate_ptp_trajectory.hpp
+[37.780s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[37.780s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__type_support.hpp
+[37.781s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__type_support.hpp
+[37.781s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__struct.hpp
+[37.781s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__struct.hpp
+[37.781s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__struct.hpp
+[37.781s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__traits.hpp
+[37.781s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__builder.hpp
+[37.781s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__builder.hpp
+[37.781s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__traits.hpp
+[37.782s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__traits.hpp
+[37.782s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__builder.hpp
+[37.782s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__struct.hpp
+[37.782s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__traits.hpp
+[37.782s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.hpp
+[37.782s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__builder.hpp
+[37.782s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__type_support.hpp
+[37.782s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[37.782s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/sliding_rail.hpp
+[37.782s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/point_to_point.hpp
+[37.783s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[37.783s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__traits.hpp
+[37.783s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__builder.hpp
+[37.783s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__struct.hpp
+[37.783s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__struct.hpp
+[37.783s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__type_support.hpp
+[37.783s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__builder.hpp
+[37.783s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__type_support.hpp
+[37.783s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__traits.hpp
+[37.784s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[37.784s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[37.784s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[37.784s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+[37.784s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__rosidl_typesupport_fastrtps_cpp.hpp
+[37.784s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dds_fastrtps
+[37.784s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[37.784s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[37.784s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[37.785s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__rosidl_typesupport_fastrtps_cpp.hpp
+[37.785s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[37.785s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__rosidl_typesupport_fastrtps_cpp.hpp
+[37.785s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__rosidl_typesupport_fastrtps_cpp.hpp
+[37.785s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/dds_fastrtps
+[37.785s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[37.785s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[37.785s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__rosidl_typesupport_fastrtps_cpp.hpp
+[37.785s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__rosidl_typesupport_fastrtps_cpp.hpp
+[37.786s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/dds_fastrtps
+[37.790s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[37.790s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs
+[37.791s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg
+[37.791s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail
+[37.791s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__rosidl_typesupport_introspection_cpp.hpp
+[37.791s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__rosidl_typesupport_introspection_cpp.hpp
+[37.791s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/dobot_alarm_codes__type_support.cpp
+[37.791s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/msg/detail/gripper_status__type_support.cpp
+[37.791s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv
+[37.791s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail
+[37.791s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__type_support.cpp
+[37.792s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/evaluate_ptp_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[37.792s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__rosidl_typesupport_introspection_cpp.hpp
+[37.792s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__rosidl_typesupport_introspection_cpp.hpp
+[37.792s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/gripper_control__type_support.cpp
+[37.792s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__type_support.cpp
+[37.792s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/execute_homing_procedure__type_support.cpp
+[37.792s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/srv/detail/suction_cup_control__rosidl_typesupport_introspection_cpp.hpp
+[37.793s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action
+[37.793s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail
+[37.793s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__rosidl_typesupport_introspection_cpp.hpp
+[37.793s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__type_support.cpp
+[37.793s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/sliding_rail__rosidl_typesupport_introspection_cpp.hpp
+[37.793s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/include/dobot_msgs/dobot_msgs/action/detail/point_to_point__type_support.cpp
+[37.793s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_introspection_cpp.so
+[37.795s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/lib/libdobot_msgs__rosidl_typesupport_cpp.so
+[37.795s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/environment/pythonpath.sh
+[37.796s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/environment/pythonpath.dsv
+[37.796s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info
+[37.796s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[37.796s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[37.797s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[37.797s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[37.797s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs
+[37.797s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_c.c
+[37.798s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/libdobot_msgs__rosidl_generator_py.so
+[37.798s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[37.798s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[37.799s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg
+[37.799s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_dobot_alarm_codes_s.c
+[37.799s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_gripper_status.py
+[37.799s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_gripper_status_s.c
+[37.800s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/_dobot_alarm_codes.py
+[37.800s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg/__init__.py
+[37.800s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv
+[37.800s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_evaluate_ptp_trajectory_s.c
+[37.800s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_suction_cup_control.py
+[37.800s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_suction_cup_control_s.c
+[37.800s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_evaluate_ptp_trajectory.py
+[37.800s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_gripper_control_s.c
+[37.801s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_gripper_control.py
+[37.801s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_execute_homing_procedure.py
+[37.801s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/_execute_homing_procedure_s.c
+[37.801s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv/__init__.py
+[37.801s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/_dobot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[37.801s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[37.801s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action
+[37.801s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_sliding_rail.py
+[37.801s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_point_to_point_s.c
+[37.802s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_sliding_rail_s.c
+[37.802s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/_point_to_point.py
+[37.802s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action/__init__.py
+[37.802s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/__init__.py
+[37.802s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[37.908s] Listing '/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs'...
+[37.908s] Compiling '/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/__init__.py'...
+[37.908s] Listing '/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/action'...
+[37.908s] Listing '/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/msg'...
+[37.908s] Listing '/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/srv'...
+[37.923s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[37.923s] -- Set runtime path of "/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[37.924s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[37.925s] -- Set runtime path of "/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[37.925s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[37.926s] -- Set runtime path of "/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages/dobot_msgs/dobot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[37.930s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/lib/libdobot_msgs__rosidl_generator_py.so
+[37.931s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/ament_index/resource_index/rust_packages/dobot_msgs
+[37.931s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust
+[37.932s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/Cargo.toml
+[37.932s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/build.rs
+[37.933s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src
+[37.933s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/msg
+[37.933s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/msg/rmw.rs
+[37.934s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/srv
+[37.934s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/srv/rmw.rs
+[37.934s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/action
+[37.935s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/action/rmw.rs
+[37.935s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/action.rs
+[37.935s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/srv.rs
+[37.935s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/lib.rs
+[37.935s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/rust/src/msg.rs
+[37.935s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/action/PointToPoint.idl
+[37.935s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/action/SlidingRail.idl
+[37.935s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/msg/DobotAlarmCodes.idl
+[37.935s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/msg/GripperStatus.idl
+[37.936s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/EvaluatePTPTrajectory.idl
+[37.936s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/ExecuteHomingProcedure.idl
+[37.936s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/GripperControl.idl
+[37.936s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/SuctionCupControl.idl
+[37.936s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/action/PointToPoint.action
+[37.936s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/action/SlidingRail.action
+[37.936s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/msg/DobotAlarmCodes.msg
+[37.937s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/msg/GripperStatus.msg
+[37.937s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/EvaluatePTPTrajectory.srv
+[37.937s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/EvaluatePTPTrajectory_Request.msg
+[37.937s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/EvaluatePTPTrajectory_Response.msg
+[37.937s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/ExecuteHomingProcedure.srv
+[37.938s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/ExecuteHomingProcedure_Request.msg
+[37.938s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/ExecuteHomingProcedure_Response.msg
+[37.938s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/GripperControl.srv
+[37.938s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/GripperControl_Request.msg
+[37.938s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/GripperControl_Response.msg
+[37.938s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/SuctionCupControl.srv
+[37.938s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/SuctionCupControl_Request.msg
+[37.939s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/srv/SuctionCupControl_Response.msg
+[37.939s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/ament_index/resource_index/package_run_dependencies/dobot_msgs
+[37.939s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/ament_index/resource_index/parent_prefix_path/dobot_msgs
+[37.939s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/environment/ament_prefix_path.sh
+[37.939s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/environment/ament_prefix_path.dsv
+[37.939s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/environment/path.sh
+[37.940s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/environment/path.dsv
+[37.940s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/local_setup.bash
+[37.940s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/local_setup.sh
+[37.940s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/local_setup.zsh
+[37.940s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/local_setup.dsv
+[37.940s] -- Installing: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/package.dsv
+[37.941s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/ament_index/resource_index/packages/dobot_msgs
+[37.941s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_cExport.cmake
+[37.941s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_cExport-noconfig.cmake
+[37.941s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[37.941s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[37.941s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[37.942s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[37.942s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_cExport.cmake
+[37.943s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[37.943s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_cppExport.cmake
+[37.943s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[37.943s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[37.943s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[37.943s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[37.943s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_cppExport.cmake
+[37.943s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[37.944s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_pyExport.cmake
+[37.944s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/export_dobot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[37.944s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/rosidl_cmake-extras.cmake
+[37.948s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.949s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[37.949s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[37.949s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[37.949s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[37.950s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[37.950s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgsConfig.cmake
+[37.950s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/cmake/dobot_msgsConfig-version.cmake
+[37.950s] -- Up-to-date: /home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/package.xml
+[60.061s] Invoked command in '/home/jetson/dobot-magician/build/dobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --install /home/jetson/dobot-magician/build/dobot_msgs

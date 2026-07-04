@@ -1,0 +1,167 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/jetson/dobot-magician/build/dobot_state_updater/.pytest_cache
+rootdir: /home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater
+collected 3 items
+
+test/test_copyright.py F                                                 [ 33%]
+test/test_flake8.py F                                                    [ 66%]
+test/test_pep257.py .                                                    [100%]
+
+=================================== FAILURES ===================================
+________________________________ test_copyright ________________________________
+test/test_copyright.py:23: in test_copyright
+    assert rc == 0, 'Found errors'
+E   AssertionError: Found errors
+E   assert 1 == 0
+----------------------------- Captured stderr call -----------------------------
+dobot_state_updater/dobot_state_publ.py: could not find copyright notice
+1 errors, checked 5 files
+_________________________________ test_flake8 __________________________________
+test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 16 code style errors / warnings:
+E     ./dobot_state_updater/dobot_state_publ.py:4:42: W291 trailing whitespace
+E     ./dobot_state_updater/dobot_state_publ.py:16:1: E302 expected 2 blank lines, found 1
+E     ./dobot_state_updater/dobot_state_publ.py:25:100: E501 line too long (118 > 99 characters)
+E     ./dobot_state_updater/dobot_state_publ.py:28:34: E261 at least two spaces before inline comment
+E     ./dobot_state_updater/dobot_state_publ.py:58:34: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+E     ./dobot_state_updater/dobot_state_publ.py:60:29: E711 comparison to None should be 'if cond is None:'
+E     ./dobot_state_updater/dobot_state_publ.py:62:29: E711 comparison to None should be 'if cond is not None:'
+E     ./dobot_state_updater/dobot_state_publ.py:68:38: E227 missing whitespace around bitwise or shift operator
+E     ./dobot_state_updater/dobot_state_publ.py:76:5: E303 too many blank lines (2)
+E     ./dobot_state_updater/dobot_state_publ.py:88:100: E501 line too long (141 > 99 characters)
+E     ./dobot_state_updater/dobot_state_publ.py:89:100: E501 line too long (152 > 99 characters)
+E     ./dobot_state_updater/dobot_state_publ.py:90:100: E501 line too long (110 > 99 characters)
+E     ./dobot_state_updater/dobot_state_publ.py:92:100: E501 line too long (143 > 99 characters)
+E     ./dobot_state_updater/dobot_state_publ.py:128:33: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+E     ./dobot_state_updater/dobot_state_publ.py:133:1: E302 expected 2 blank lines, found 1
+E     ./dobot_state_updater/dobot_state_publ.py:144:11: W292 no newline at end of file
+E   assert 1 == 0
+----------------------------- Captured stdout call -----------------------------
+
+./dobot_state_updater/dobot_state_publ.py:4:42: W291 trailing whitespace
+from geometry_msgs.msg import PoseStamped 
+                                         ^
+
+./dobot_state_updater/dobot_state_publ.py:16:1: E302 expected 2 blank lines, found 1
+class DobotPublisher(Node):
+^
+
+./dobot_state_updater/dobot_state_publ.py:25:100: E501 line too long (118 > 99 characters)
+        self.subscription = self.create_subscription(GripperStatus, 'gripper_status_rviz', self.listener_callback, 10)
+                                                                                                   ^
+
+./dobot_state_updater/dobot_state_publ.py:28:34: E261 at least two spaces before inline comment
+        timer_period_alarms = 0.1 # 100ms = 10 Hz
+                                 ^
+
+./dobot_state_updater/dobot_state_publ.py:58:34: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+            if (self.RAIL_IN_USE == True) and (isinstance(alarms_array, float)):
+                                 ^
+
+./dobot_state_updater/dobot_state_publ.py:60:29: E711 comparison to None should be 'if cond is None:'
+            if alarms_array == None:
+                            ^
+
+./dobot_state_updater/dobot_state_publ.py:62:29: E711 comparison to None should be 'if cond is not None:'
+            if alarms_array != None:
+                            ^
+
+./dobot_state_updater/dobot_state_publ.py:68:38: E227 missing whitespace around bitwise or shift operator
+                            if x & (1<<j) > 0:
+                                     ^
+
+./dobot_state_updater/dobot_state_publ.py:76:5: E303 too many blank lines (2)
+    def timer_callback(self):
+    ^
+
+./dobot_state_updater/dobot_state_publ.py:88:100: E501 line too long (141 > 99 characters)
+            joint_state.name = ['magician_joint_1', 'magician_joint_2', 'magician_joint_3', 'magician_joint_4', 'magician_joint_prismatic_l']
+                                                                                                   ^
+
+./dobot_state_updater/dobot_state_publ.py:89:100: E501 line too long (152 > 99 characters)
+            joint_state.position = [math.radians(theta1), math.radians(theta2), math.radians(theta3 - theta2), math.radians(theta4), self.gripper_width]
+                                                                                                   ^
+
+./dobot_state_updater/dobot_state_publ.py:90:100: E501 line too long (110 > 99 characters)
+            # self.get_logger().info("JT1:{0} JT2:{1} JT3:{2} JT4:{3}".format(theta1, theta2, theta3, theta4))
+                                                                                                   ^
+
+./dobot_state_updater/dobot_state_publ.py:92:100: E501 line too long (143 > 99 characters)
+            joint_state.position = [math.radians(theta1), math.radians(theta2), math.radians(theta3), math.radians(theta4), self.gripper_width]
+                                                                                                   ^
+
+./dobot_state_updater/dobot_state_publ.py:128:33: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+            if self.RAIL_IN_USE == True:
+                                ^
+
+./dobot_state_updater/dobot_state_publ.py:133:1: E302 expected 2 blank lines, found 1
+def main(args=None):
+^
+
+./dobot_state_updater/dobot_state_publ.py:144:11: W292 no newline at end of file
+    main()          ^
+
+1     E227 missing whitespace around bitwise or shift operator
+1     E261 at least two spaces before inline comment
+2     E302 expected 2 blank lines, found 1
+1     E303 too many blank lines (2)
+5     E501 line too long (118 > 99 characters)
+2     E711 comparison to None should be 'if cond is None:'
+2     E712 comparison to True should be 'if cond is True:' or 'if cond:'
+1     W291 trailing whitespace
+1     W292 no newline at end of file
+
+6 files checked
+16 errors
+
+'E'-type errors: 14
+'W'-type errors: 2
+
+Checked files:
+
+* ./setup.py
+* ./dobot_state_updater/dobot_state_publ.py
+* ./dobot_state_updater/__init__.py
+* ./test/test_pep257.py
+* ./test/test_copyright.py
+* ./test/test_flake8.py
+------------------------------ Captured log call -------------------------------
+WARNING  flake8.options.manager:manager.py:217 option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+=============================== warnings summary ===============================
+test/test_copyright.py:19
+  /home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater/test/test_copyright.py:19: PytestUnknownMarkWarning: Unknown pytest.mark.copyright - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.copyright
+
+test/test_copyright.py:20
+  /home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater/test/test_copyright.py:20: PytestUnknownMarkWarning: Unknown pytest.mark.linter - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.linter
+
+test/test_flake8.py:19
+  /home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater/test/test_flake8.py:19: PytestUnknownMarkWarning: Unknown pytest.mark.flake8 - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.flake8
+
+test/test_flake8.py:20
+  /home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater/test/test_flake8.py:20: PytestUnknownMarkWarning: Unknown pytest.mark.linter - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.linter
+
+test/test_pep257.py:19
+  /home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater/test/test_pep257.py:19: PytestUnknownMarkWarning: Unknown pytest.mark.linter - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.linter
+
+test/test_pep257.py:20
+  /home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater/test/test_pep257.py:20: PytestUnknownMarkWarning: Unknown pytest.mark.pep257 - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.pep257
+
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  /usr/lib/python3/dist-packages/flake8/plugins/manager.py:261: DeprecationWarning: SelectableGroups dict interface is deprecated. Use select.
+    eps = importlib_metadata.entry_points().get(self.namespace, ())
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated xml file: /home/jetson/dobot-magician/build/dobot_state_updater/pytest.xml -
+=========================== short test summary info ============================
+FAILED test/test_copyright.py::test_copyright - AssertionError: Found errors
+FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 16 code style...
+=================== 2 failed, 1 passed, 8 warnings in 1.27s ====================

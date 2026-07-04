@@ -1,0 +1,3 @@
+[console_scripts]
+web_interface = dobot_web_interface.web_interface:main
+

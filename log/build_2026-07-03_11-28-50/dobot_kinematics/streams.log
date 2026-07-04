@@ -1,0 +1,56 @@
+[7.279s] Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/dobot-magician/build/dobot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_kinematics build --build-base /home/jetson/dobot-magician/build/dobot_kinematics/build install --record /home/jetson/dobot-magician/build/dobot_kinematics/install.log --single-version-externally-managed install_data
+[8.838s] running egg_info
+[8.838s] creating ../../../build/dobot_kinematics/dobot_kinematics.egg-info
+[8.838s] writing ../../../build/dobot_kinematics/dobot_kinematics.egg-info/PKG-INFO
+[8.838s] writing dependency_links to ../../../build/dobot_kinematics/dobot_kinematics.egg-info/dependency_links.txt
+[8.838s] writing entry points to ../../../build/dobot_kinematics/dobot_kinematics.egg-info/entry_points.txt
+[8.838s] writing requirements to ../../../build/dobot_kinematics/dobot_kinematics.egg-info/requires.txt
+[8.839s] writing top-level names to ../../../build/dobot_kinematics/dobot_kinematics.egg-info/top_level.txt
+[8.839s] writing manifest file '../../../build/dobot_kinematics/dobot_kinematics.egg-info/SOURCES.txt'
+[8.859s] reading manifest file '../../../build/dobot_kinematics/dobot_kinematics.egg-info/SOURCES.txt'
+[8.861s] writing manifest file '../../../build/dobot_kinematics/dobot_kinematics.egg-info/SOURCES.txt'
+[8.861s] running build
+[8.861s] running build_py
+[8.861s] creating /home/jetson/dobot-magician/build/dobot_kinematics/build
+[8.862s] creating /home/jetson/dobot-magician/build/dobot_kinematics/build/lib
+[8.862s] creating /home/jetson/dobot-magician/build/dobot_kinematics/build/lib/dobot_kinematics
+[8.862s] copying dobot_kinematics/dobot_forward_kin.py -> /home/jetson/dobot-magician/build/dobot_kinematics/build/lib/dobot_kinematics
+[8.863s] copying dobot_kinematics/trajectory_validator_server.py -> /home/jetson/dobot-magician/build/dobot_kinematics/build/lib/dobot_kinematics
+[8.869s] copying dobot_kinematics/dobot_inv_kin.py -> /home/jetson/dobot-magician/build/dobot_kinematics/build/lib/dobot_kinematics
+[8.870s] copying dobot_kinematics/trajectory_validator_client.py -> /home/jetson/dobot-magician/build/dobot_kinematics/build/lib/dobot_kinematics
+[8.870s] copying dobot_kinematics/collision_utils.py -> /home/jetson/dobot-magician/build/dobot_kinematics/build/lib/dobot_kinematics
+[8.870s] copying dobot_kinematics/__init__.py -> /home/jetson/dobot-magician/build/dobot_kinematics/build/lib/dobot_kinematics
+[8.870s] copying dobot_kinematics/collision_detection_server.py -> /home/jetson/dobot-magician/build/dobot_kinematics/build/lib/dobot_kinematics
+[8.871s] running install
+[8.872s] running install_lib
+[8.883s] creating /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics
+[8.883s] copying /home/jetson/dobot-magician/build/dobot_kinematics/build/lib/dobot_kinematics/dobot_forward_kin.py -> /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics
+[8.883s] copying /home/jetson/dobot-magician/build/dobot_kinematics/build/lib/dobot_kinematics/trajectory_validator_server.py -> /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics
+[8.884s] copying /home/jetson/dobot-magician/build/dobot_kinematics/build/lib/dobot_kinematics/dobot_inv_kin.py -> /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics
+[8.884s] copying /home/jetson/dobot-magician/build/dobot_kinematics/build/lib/dobot_kinematics/trajectory_validator_client.py -> /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics
+[8.889s] copying /home/jetson/dobot-magician/build/dobot_kinematics/build/lib/dobot_kinematics/collision_utils.py -> /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics
+[8.890s] copying /home/jetson/dobot-magician/build/dobot_kinematics/build/lib/dobot_kinematics/__init__.py -> /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics
+[8.890s] copying /home/jetson/dobot-magician/build/dobot_kinematics/build/lib/dobot_kinematics/collision_detection_server.py -> /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics
+[8.895s] byte-compiling /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics/dobot_forward_kin.py to dobot_forward_kin.cpython-310.pyc
+[8.896s] byte-compiling /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics/trajectory_validator_server.py to trajectory_validator_server.cpython-310.pyc
+[8.910s] byte-compiling /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics/dobot_inv_kin.py to dobot_inv_kin.cpython-310.pyc
+[8.910s] byte-compiling /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics/trajectory_validator_client.py to trajectory_validator_client.cpython-310.pyc
+[8.922s] byte-compiling /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics/collision_utils.py to collision_utils.cpython-310.pyc
+[8.922s] byte-compiling /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics/__init__.py to __init__.cpython-310.pyc
+[8.929s] byte-compiling /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics/collision_detection_server.py to collision_detection_server.cpython-310.pyc
+[8.934s] running install_data
+[8.934s] creating /home/jetson/dobot-magician/install/dobot_kinematics/share/ament_index
+[8.934s] creating /home/jetson/dobot-magician/install/dobot_kinematics/share/ament_index/resource_index
+[8.934s] creating /home/jetson/dobot-magician/install/dobot_kinematics/share/ament_index/resource_index/packages
+[8.934s] copying resource/dobot_kinematics -> /home/jetson/dobot-magician/install/dobot_kinematics/share/ament_index/resource_index/packages
+[8.934s] copying package.xml -> /home/jetson/dobot-magician/install/dobot_kinematics/share/dobot_kinematics
+[8.935s] copying launch/dobot_validate_trajectory.launch.py -> /home/jetson/dobot-magician/install/dobot_kinematics/share/dobot_kinematics
+[8.935s] creating /home/jetson/dobot-magician/install/dobot_kinematics/share/dobot_kinematics/config
+[8.935s] copying config/axis_limits.yaml -> /home/jetson/dobot-magician/install/dobot_kinematics/share/dobot_kinematics/config
+[8.935s] running install_egg_info
+[8.957s] Copying ../../../build/dobot_kinematics/dobot_kinematics.egg-info to /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics-1.0.0-py3.10.egg-info
+[9.013s] running install_scripts
+[9.090s] Installing trajectory_validator_client script to /home/jetson/dobot-magician/install/dobot_kinematics/lib/dobot_kinematics
+[9.091s] Installing trajectory_validator_server script to /home/jetson/dobot-magician/install/dobot_kinematics/lib/dobot_kinematics
+[9.091s] writing list of installed files to '/home/jetson/dobot-magician/build/dobot_kinematics/install.log'
+[10.026s] Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics' returned '0': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/dobot-magician/build/dobot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_kinematics build --build-base /home/jetson/dobot-magician/build/dobot_kinematics/build install --record /home/jetson/dobot-magician/build/dobot_kinematics/install.log --single-version-externally-managed install_data

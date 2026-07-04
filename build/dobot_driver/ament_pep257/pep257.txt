@@ -1,0 +1,13 @@
+-- run_test.py: invoking following command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_driver':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/jetson/dobot-magician/build/dobot_driver/test_results/dobot_driver/pep257.xunit.xml
+
+checking ./dobot_driver/__init__.py
+checking ./dobot_driver/dobot_handle.py
+checking ./dobot_driver/interface.py
+checking ./dobot_driver/message.py
+checking ./dobot_driver/parsers.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/jetson/dobot-magician/build/dobot_driver/test_results/dobot_driver/pep257.xunit.xml'

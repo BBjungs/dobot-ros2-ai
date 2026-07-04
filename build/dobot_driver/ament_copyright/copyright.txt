@@ -1,0 +1,12 @@
+-- run_test.py: invoking following command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_driver':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /home/jetson/dobot-magician/build/dobot_driver/test_results/dobot_driver/copyright.xunit.xml
+
+dobot_driver/dobot_handle.py: could not find copyright notice
+dobot_driver/interface.py: could not find copyright notice
+dobot_driver/message.py: could not find copyright notice
+dobot_driver/parsers.py: could not find copyright notice
+4 errors, checked 5 files
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/jetson/dobot-magician/build/dobot_driver/test_results/dobot_driver/copyright.xunit.xml'

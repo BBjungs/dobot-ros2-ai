@@ -1,0 +1,27 @@
+[30.019s] Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_web_interface': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/dobot-magician/build/dobot_web_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_web_interface build --build-base /home/jetson/dobot-magician/build/dobot_web_interface/build install --record /home/jetson/dobot-magician/build/dobot_web_interface/install.log --single-version-externally-managed install_data
+[30.870s] running egg_info
+[30.872s] writing ../../../build/dobot_web_interface/dobot_web_interface.egg-info/PKG-INFO
+[30.874s] writing dependency_links to ../../../build/dobot_web_interface/dobot_web_interface.egg-info/dependency_links.txt
+[30.874s] writing entry points to ../../../build/dobot_web_interface/dobot_web_interface.egg-info/entry_points.txt
+[30.875s] writing requirements to ../../../build/dobot_web_interface/dobot_web_interface.egg-info/requires.txt
+[30.875s] writing top-level names to ../../../build/dobot_web_interface/dobot_web_interface.egg-info/top_level.txt
+[30.884s] reading manifest file '../../../build/dobot_web_interface/dobot_web_interface.egg-info/SOURCES.txt'
+[30.886s] writing manifest file '../../../build/dobot_web_interface/dobot_web_interface.egg-info/SOURCES.txt'
+[30.887s] running build
+[30.887s] running build_py
+[30.888s] copying dobot_web_interface/static/index.html -> /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/static
+[30.888s] copying dobot_web_interface/static/styles.css -> /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/static
+[30.889s] copying dobot_web_interface/static/app.js -> /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/static
+[30.890s] running install
+[30.891s] running install_lib
+[30.893s] copying /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/static/index.html -> /home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages/dobot_web_interface/static
+[30.894s] copying /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/static/styles.css -> /home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages/dobot_web_interface/static
+[30.894s] copying /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/static/app.js -> /home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages/dobot_web_interface/static
+[30.897s] running install_data
+[30.897s] running install_egg_info
+[30.905s] removing '/home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages/dobot_web_interface-1.0.0-py3.10.egg-info' (and everything under it)
+[30.906s] Copying ../../../build/dobot_web_interface/dobot_web_interface.egg-info to /home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages/dobot_web_interface-1.0.0-py3.10.egg-info
+[30.908s] running install_scripts
+[30.960s] Installing web_interface script to /home/jetson/dobot-magician/install/dobot_web_interface/lib/dobot_web_interface
+[30.964s] writing list of installed files to '/home/jetson/dobot-magician/build/dobot_web_interface/install.log'
+[60.037s] Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_web_interface' returned '0': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/dobot-magician/build/dobot_web_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_web_interface build --build-base /home/jetson/dobot-magician/build/dobot_web_interface/build install --record /home/jetson/dobot-magician/build/dobot_web_interface/install.log --single-version-externally-managed install_data

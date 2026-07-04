@@ -1,0 +1,4 @@
+failed to create symbolic link '/home/jetson/dobot-magician/build/dobot_driver/ament_cmake_python/dobot_driver/dobot_driver' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_dobot_driver.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_dobot_driver] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/ament_cmake_python_symlink_dobot_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

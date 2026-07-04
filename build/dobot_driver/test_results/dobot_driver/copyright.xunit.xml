@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="dobot_driver.copyright"
+  tests="5"
+  errors="0"
+  failures="4"
+  time="0.004"
+>
+  <testcase
+    name="dobot_driver/__init__.py"
+    classname="dobot_driver.copyright"/>
+  <testcase
+    name="dobot_driver/dobot_handle.py"
+    classname="dobot_driver.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="dobot_driver/interface.py"
+    classname="dobot_driver.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="dobot_driver/message.py"
+    classname="dobot_driver.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="dobot_driver/parsers.py"
+    classname="dobot_driver.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <system-out>Checked files:
+* dobot_driver/__init__.py
+* dobot_driver/dobot_handle.py
+* dobot_driver/interface.py
+* dobot_driver/message.py
+* dobot_driver/parsers.py</system-out>
+</testsuite>

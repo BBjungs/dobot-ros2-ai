@@ -1,0 +1,25 @@
+[6.554s] Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_demos': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/dobot-magician/build/dobot_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_demos/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_demos build --build-base /home/jetson/dobot-magician/build/dobot_demos/build install --record /home/jetson/dobot-magician/build/dobot_demos/install.log --single-version-externally-managed install_data
+[7.915s] running egg_info
+[7.916s] writing ../../../build/dobot_demos/dobot_demos.egg-info/PKG-INFO
+[7.916s] writing dependency_links to ../../../build/dobot_demos/dobot_demos.egg-info/dependency_links.txt
+[7.916s] writing entry points to ../../../build/dobot_demos/dobot_demos.egg-info/entry_points.txt
+[7.916s] writing requirements to ../../../build/dobot_demos/dobot_demos.egg-info/requires.txt
+[7.916s] writing top-level names to ../../../build/dobot_demos/dobot_demos.egg-info/top_level.txt
+[7.916s] reading manifest file '../../../build/dobot_demos/dobot_demos.egg-info/SOURCES.txt'
+[7.916s] writing manifest file '../../../build/dobot_demos/dobot_demos.egg-info/SOURCES.txt'
+[7.916s] running build
+[7.917s] running build_py
+[7.917s] running install
+[7.917s] running install_lib
+[7.917s] running install_data
+[7.917s] running install_egg_info
+[7.917s] removing '/home/jetson/dobot-magician/install/dobot_demos/lib/python3.10/site-packages/dobot_demos-1.0.0-py3.10.egg-info' (and everything under it)
+[7.917s] Copying ../../../build/dobot_demos/dobot_demos.egg-info to /home/jetson/dobot-magician/install/dobot_demos/lib/python3.10/site-packages/dobot_demos-1.0.0-py3.10.egg-info
+[7.917s] running install_scripts
+[7.917s] Installing test_gripper script to /home/jetson/dobot-magician/install/dobot_demos/lib/dobot_demos
+[7.918s] Installing test_homing script to /home/jetson/dobot-magician/install/dobot_demos/lib/dobot_demos
+[7.918s] Installing test_pick_and_place script to /home/jetson/dobot-magician/install/dobot_demos/lib/dobot_demos
+[7.918s] Installing test_point_to_point script to /home/jetson/dobot-magician/install/dobot_demos/lib/dobot_demos
+[7.918s] Installing test_suction_cup script to /home/jetson/dobot-magician/install/dobot_demos/lib/dobot_demos
+[7.918s] writing list of installed files to '/home/jetson/dobot-magician/build/dobot_demos/install.log'
+[8.010s] Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_demos' returned '0': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/dobot-magician/build/dobot_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_demos/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_demos build --build-base /home/jetson/dobot-magician/build/dobot_demos/build install --record /home/jetson/dobot-magician/build/dobot_demos/install.log --single-version-externally-managed install_data

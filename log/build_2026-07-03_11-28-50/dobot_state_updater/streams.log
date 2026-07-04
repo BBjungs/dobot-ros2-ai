@@ -1,0 +1,37 @@
+[2.071s] Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/dobot-magician/build/dobot_state_updater/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_state_updater/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_state_updater build --build-base /home/jetson/dobot-magician/build/dobot_state_updater/build install --record /home/jetson/dobot-magician/build/dobot_state_updater/install.log --single-version-externally-managed install_data
+[2.718s] running egg_info
+[2.719s] creating ../../../build/dobot_state_updater/dobot_state_updater.egg-info
+[2.719s] writing ../../../build/dobot_state_updater/dobot_state_updater.egg-info/PKG-INFO
+[2.721s] writing dependency_links to ../../../build/dobot_state_updater/dobot_state_updater.egg-info/dependency_links.txt
+[2.721s] writing entry points to ../../../build/dobot_state_updater/dobot_state_updater.egg-info/entry_points.txt
+[2.721s] writing requirements to ../../../build/dobot_state_updater/dobot_state_updater.egg-info/requires.txt
+[2.721s] writing top-level names to ../../../build/dobot_state_updater/dobot_state_updater.egg-info/top_level.txt
+[2.722s] writing manifest file '../../../build/dobot_state_updater/dobot_state_updater.egg-info/SOURCES.txt'
+[2.730s] reading manifest file '../../../build/dobot_state_updater/dobot_state_updater.egg-info/SOURCES.txt'
+[2.732s] writing manifest file '../../../build/dobot_state_updater/dobot_state_updater.egg-info/SOURCES.txt'
+[2.733s] running build
+[2.733s] running build_py
+[2.733s] creating /home/jetson/dobot-magician/build/dobot_state_updater/build
+[2.733s] creating /home/jetson/dobot-magician/build/dobot_state_updater/build/lib
+[2.733s] creating /home/jetson/dobot-magician/build/dobot_state_updater/build/lib/dobot_state_updater
+[2.733s] copying dobot_state_updater/dobot_state_publ.py -> /home/jetson/dobot-magician/build/dobot_state_updater/build/lib/dobot_state_updater
+[2.735s] copying dobot_state_updater/__init__.py -> /home/jetson/dobot-magician/build/dobot_state_updater/build/lib/dobot_state_updater
+[2.735s] running install
+[2.736s] running install_lib
+[2.738s] creating /home/jetson/dobot-magician/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater
+[2.739s] copying /home/jetson/dobot-magician/build/dobot_state_updater/build/lib/dobot_state_updater/dobot_state_publ.py -> /home/jetson/dobot-magician/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater
+[2.739s] copying /home/jetson/dobot-magician/build/dobot_state_updater/build/lib/dobot_state_updater/__init__.py -> /home/jetson/dobot-magician/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater
+[2.740s] byte-compiling /home/jetson/dobot-magician/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater/dobot_state_publ.py to dobot_state_publ.cpython-310.pyc
+[2.743s] byte-compiling /home/jetson/dobot-magician/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater/__init__.py to __init__.cpython-310.pyc
+[2.744s] running install_data
+[2.744s] creating /home/jetson/dobot-magician/install/dobot_state_updater/share/ament_index
+[2.744s] creating /home/jetson/dobot-magician/install/dobot_state_updater/share/ament_index/resource_index
+[2.744s] creating /home/jetson/dobot-magician/install/dobot_state_updater/share/ament_index/resource_index/packages
+[2.744s] copying resource/dobot_state_updater -> /home/jetson/dobot-magician/install/dobot_state_updater/share/ament_index/resource_index/packages
+[2.744s] copying package.xml -> /home/jetson/dobot-magician/install/dobot_state_updater/share/dobot_state_updater
+[2.744s] running install_egg_info
+[2.750s] Copying ../../../build/dobot_state_updater/dobot_state_updater.egg-info to /home/jetson/dobot-magician/install/dobot_state_updater/lib/python3.10/site-packages/dobot_state_updater-1.0.0-py3.10.egg-info
+[2.752s] running install_scripts
+[2.804s] Installing state_publisher script to /home/jetson/dobot-magician/install/dobot_state_updater/lib/dobot_state_updater
+[2.804s] writing list of installed files to '/home/jetson/dobot-magician/build/dobot_state_updater/install.log'
+[31.128s] Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater' returned '0': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/dobot-magician/build/dobot_state_updater/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_state_updater/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_state_updater build --build-base /home/jetson/dobot-magician/build/dobot_state_updater/build install --record /home/jetson/dobot-magician/build/dobot_state_updater/install.log --single-version-externally-managed install_data

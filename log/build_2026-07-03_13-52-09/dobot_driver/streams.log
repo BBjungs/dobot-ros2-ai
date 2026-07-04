@@ -1,0 +1,11 @@
+[1.731s] Invoking command in '/home/jetson/dobot-magician/build/dobot_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --build /home/jetson/dobot-magician/build/dobot_driver -- -j6 -l6
+[2.789s] Built target ament_cmake_python_copy_dobot_driver
+[2.789s] running egg_info
+[2.789s] writing dobot_driver.egg-info/PKG-INFO
+[2.790s] writing dependency_links to dobot_driver.egg-info/dependency_links.txt
+[2.790s] writing top-level names to dobot_driver.egg-info/top_level.txt
+[2.790s] reading manifest file 'dobot_driver.egg-info/SOURCES.txt'
+[2.790s] writing manifest file 'dobot_driver.egg-info/SOURCES.txt'
+[2.790s] Built target ament_cmake_python_build_dobot_driver_egg
+[2.833s] Invoked command in '/home/jetson/dobot-magician/build/dobot_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --build /home/jetson/dobot-magician/build/dobot_driver -- -j6 -l6
+[2.834s] Invoking command in '/home/jetson/dobot-magician/build/dobot_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --install /home/jetson/dobot-magician/build/dobot_driver

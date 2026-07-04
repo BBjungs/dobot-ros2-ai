@@ -1,0 +1,73 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/jetson/dobot-magician/build/dobot_msgs/dobot_msgs__rs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "dobot_msgs__rs::@c3d517d2de1d1bd07b3d",
+	"name" : "dobot_msgs__rs",
+	"paths" : 
+	{
+		"build" : "dobot_msgs__rs",
+		"source" : "/home/jetson/dobot-magician/build/dobot_msgs/dobot_msgs__rs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/jetson/dobot-magician/build/dobot_msgs/dobot_msgs__rs/CMakeFiles/dobot_msgs__rs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/jetson/dobot-magician/build/dobot_msgs/dobot_msgs__rs/CMakeFiles/dobot_msgs__rs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/jetson/dobot-magician/build/dobot_msgs/rosidl_generator_rs/dobot_msgs/rust/src/lib.rs.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

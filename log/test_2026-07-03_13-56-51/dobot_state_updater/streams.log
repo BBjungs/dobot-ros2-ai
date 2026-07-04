@@ -1,0 +1,169 @@
+[2.117s] Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_state_updater:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_state_updater/pytest.xml --junit-prefix=dobot_state_updater -o cache_dir=/home/jetson/dobot-magician/build/dobot_state_updater/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_state_updater/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.665s] ============================= test session starts ==============================
+[2.665s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[2.666s] cachedir: /home/jetson/dobot-magician/build/dobot_state_updater/.pytest_cache
+[2.666s] rootdir: /home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater
+[2.666s] collected 3 items
+[2.666s] 
+[3.579s] test/test_copyright.py F                                                 [ 33%]
+[3.726s] test/test_flake8.py F                                                    [ 66%]
+[3.782s] test/test_pep257.py .                                                    [100%]
+[3.782s] 
+[3.783s] =================================== FAILURES ===================================
+[3.783s] ________________________________ test_copyright ________________________________
+[3.783s] test/test_copyright.py:23: in test_copyright
+[3.783s]     assert rc == 0, 'Found errors'
+[3.783s] E   AssertionError: Found errors
+[3.783s] E   assert 1 == 0
+[3.783s] ----------------------------- Captured stderr call -----------------------------
+[3.783s] dobot_state_updater/dobot_state_publ.py: could not find copyright notice
+[3.783s] 1 errors, checked 5 files
+[3.784s] _________________________________ test_flake8 __________________________________
+[3.784s] test/test_flake8.py:23: in test_flake8
+[3.784s]     assert rc == 0, \
+[3.784s] E   AssertionError: Found 16 code style errors / warnings:
+[3.784s] E     ./dobot_state_updater/dobot_state_publ.py:4:42: W291 trailing whitespace
+[3.784s] E     ./dobot_state_updater/dobot_state_publ.py:16:1: E302 expected 2 blank lines, found 1
+[3.784s] E     ./dobot_state_updater/dobot_state_publ.py:25:100: E501 line too long (118 > 99 characters)
+[3.784s] E     ./dobot_state_updater/dobot_state_publ.py:28:34: E261 at least two spaces before inline comment
+[3.784s] E     ./dobot_state_updater/dobot_state_publ.py:58:34: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[3.784s] E     ./dobot_state_updater/dobot_state_publ.py:60:29: E711 comparison to None should be 'if cond is None:'
+[3.785s] E     ./dobot_state_updater/dobot_state_publ.py:62:29: E711 comparison to None should be 'if cond is not None:'
+[3.785s] E     ./dobot_state_updater/dobot_state_publ.py:68:38: E227 missing whitespace around bitwise or shift operator
+[3.785s] E     ./dobot_state_updater/dobot_state_publ.py:76:5: E303 too many blank lines (2)
+[3.785s] E     ./dobot_state_updater/dobot_state_publ.py:88:100: E501 line too long (141 > 99 characters)
+[3.785s] E     ./dobot_state_updater/dobot_state_publ.py:89:100: E501 line too long (152 > 99 characters)
+[3.785s] E     ./dobot_state_updater/dobot_state_publ.py:90:100: E501 line too long (110 > 99 characters)
+[3.785s] E     ./dobot_state_updater/dobot_state_publ.py:92:100: E501 line too long (143 > 99 characters)
+[3.785s] E     ./dobot_state_updater/dobot_state_publ.py:128:33: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[3.785s] E     ./dobot_state_updater/dobot_state_publ.py:133:1: E302 expected 2 blank lines, found 1
+[3.786s] E     ./dobot_state_updater/dobot_state_publ.py:144:11: W292 no newline at end of file
+[3.786s] E   assert 1 == 0
+[3.786s] ----------------------------- Captured stdout call -----------------------------
+[3.786s] 
+[3.786s] ./dobot_state_updater/dobot_state_publ.py:4:42: W291 trailing whitespace
+[3.786s] from geometry_msgs.msg import PoseStamped 
+[3.786s]                                          ^
+[3.786s] 
+[3.786s] ./dobot_state_updater/dobot_state_publ.py:16:1: E302 expected 2 blank lines, found 1
+[3.786s] class DobotPublisher(Node):
+[3.787s] ^
+[3.787s] 
+[3.787s] ./dobot_state_updater/dobot_state_publ.py:25:100: E501 line too long (118 > 99 characters)
+[3.787s]         self.subscription = self.create_subscription(GripperStatus, 'gripper_status_rviz', self.listener_callback, 10)
+[3.787s]                                                                                                    ^
+[3.787s] 
+[3.787s] ./dobot_state_updater/dobot_state_publ.py:28:34: E261 at least two spaces before inline comment
+[3.787s]         timer_period_alarms = 0.1 # 100ms = 10 Hz
+[3.787s]                                  ^
+[3.787s] 
+[3.788s] ./dobot_state_updater/dobot_state_publ.py:58:34: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[3.788s]             if (self.RAIL_IN_USE == True) and (isinstance(alarms_array, float)):
+[3.788s]                                  ^
+[3.788s] 
+[3.788s] ./dobot_state_updater/dobot_state_publ.py:60:29: E711 comparison to None should be 'if cond is None:'
+[3.788s]             if alarms_array == None:
+[3.788s]                             ^
+[3.788s] 
+[3.788s] ./dobot_state_updater/dobot_state_publ.py:62:29: E711 comparison to None should be 'if cond is not None:'
+[3.789s]             if alarms_array != None:
+[3.789s]                             ^
+[3.789s] 
+[3.789s] ./dobot_state_updater/dobot_state_publ.py:68:38: E227 missing whitespace around bitwise or shift operator
+[3.789s]                             if x & (1<<j) > 0:
+[3.789s]                                      ^
+[3.789s] 
+[3.789s] ./dobot_state_updater/dobot_state_publ.py:76:5: E303 too many blank lines (2)
+[3.789s]     def timer_callback(self):
+[3.789s]     ^
+[3.790s] 
+[3.790s] ./dobot_state_updater/dobot_state_publ.py:88:100: E501 line too long (141 > 99 characters)
+[3.790s]             joint_state.name = ['magician_joint_1', 'magician_joint_2', 'magician_joint_3', 'magician_joint_4', 'magician_joint_prismatic_l']
+[3.790s]                                                                                                    ^
+[3.790s] 
+[3.790s] ./dobot_state_updater/dobot_state_publ.py:89:100: E501 line too long (152 > 99 characters)
+[3.790s]             joint_state.position = [math.radians(theta1), math.radians(theta2), math.radians(theta3 - theta2), math.radians(theta4), self.gripper_width]
+[3.790s]                                                                                                    ^
+[3.790s] 
+[3.791s] ./dobot_state_updater/dobot_state_publ.py:90:100: E501 line too long (110 > 99 characters)
+[3.791s]             # self.get_logger().info("JT1:{0} JT2:{1} JT3:{2} JT4:{3}".format(theta1, theta2, theta3, theta4))
+[3.791s]                                                                                                    ^
+[3.791s] 
+[3.791s] ./dobot_state_updater/dobot_state_publ.py:92:100: E501 line too long (143 > 99 characters)
+[3.791s]             joint_state.position = [math.radians(theta1), math.radians(theta2), math.radians(theta3), math.radians(theta4), self.gripper_width]
+[3.791s]                                                                                                    ^
+[3.791s] 
+[3.791s] ./dobot_state_updater/dobot_state_publ.py:128:33: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[3.791s]             if self.RAIL_IN_USE == True:
+[3.792s]                                 ^
+[3.792s] 
+[3.792s] ./dobot_state_updater/dobot_state_publ.py:133:1: E302 expected 2 blank lines, found 1
+[3.792s] def main(args=None):
+[3.792s] ^
+[3.792s] 
+[3.792s] ./dobot_state_updater/dobot_state_publ.py:144:11: W292 no newline at end of file
+[3.792s]     main()          ^
+[3.792s] 
+[3.792s] 1     E227 missing whitespace around bitwise or shift operator
+[3.793s] 1     E261 at least two spaces before inline comment
+[3.801s] 2     E302 expected 2 blank lines, found 1
+[3.801s] 1     E303 too many blank lines (2)
+[3.801s] 5     E501 line too long (118 > 99 characters)
+[3.801s] 2     E711 comparison to None should be 'if cond is None:'
+[3.801s] 2     E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[3.801s] 1     W291 trailing whitespace
+[3.801s] 1     W292 no newline at end of file
+[3.802s] 
+[3.802s] 6 files checked
+[3.802s] 16 errors
+[3.802s] 
+[3.802s] 'E'-type errors: 14
+[3.802s] 'W'-type errors: 2
+[3.802s] 
+[3.802s] Checked files:
+[3.802s] 
+[3.802s] * ./setup.py
+[3.803s] * ./dobot_state_updater/dobot_state_publ.py
+[3.803s] * ./dobot_state_updater/__init__.py
+[3.803s] * ./test/test_pep257.py
+[3.803s] * ./test/test_copyright.py
+[3.803s] * ./test/test_flake8.py
+[3.803s] ------------------------------ Captured log call -------------------------------
+[3.803s] WARNING  flake8.options.manager:manager.py:217 option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[3.803s] =============================== warnings summary ===============================
+[3.803s] test/test_copyright.py:19
+[3.804s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater/test/test_copyright.py:19: PytestUnknownMarkWarning: Unknown pytest.mark.copyright - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[3.804s]     @pytest.mark.copyright
+[3.804s] 
+[3.804s] test/test_copyright.py:20
+[3.804s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater/test/test_copyright.py:20: PytestUnknownMarkWarning: Unknown pytest.mark.linter - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[3.804s]     @pytest.mark.linter
+[3.804s] 
+[3.804s] test/test_flake8.py:19
+[3.804s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater/test/test_flake8.py:19: PytestUnknownMarkWarning: Unknown pytest.mark.flake8 - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[3.805s]     @pytest.mark.flake8
+[3.805s] 
+[3.805s] test/test_flake8.py:20
+[3.805s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater/test/test_flake8.py:20: PytestUnknownMarkWarning: Unknown pytest.mark.linter - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[3.805s]     @pytest.mark.linter
+[3.805s] 
+[3.805s] test/test_pep257.py:19
+[3.805s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater/test/test_pep257.py:19: PytestUnknownMarkWarning: Unknown pytest.mark.linter - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[3.805s]     @pytest.mark.linter
+[3.805s] 
+[3.806s] test/test_pep257.py:20
+[3.806s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater/test/test_pep257.py:20: PytestUnknownMarkWarning: Unknown pytest.mark.pep257 - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[3.806s]     @pytest.mark.pep257
+[3.806s] 
+[3.806s] test/test_flake8.py::test_flake8
+[3.806s] test/test_flake8.py::test_flake8
+[3.806s]   /usr/lib/python3/dist-packages/flake8/plugins/manager.py:261: DeprecationWarning: SelectableGroups dict interface is deprecated. Use select.
+[3.806s]     eps = importlib_metadata.entry_points().get(self.namespace, ())
+[3.806s] 
+[3.807s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[3.807s] - generated xml file: /home/jetson/dobot-magician/build/dobot_state_updater/pytest.xml -
+[3.807s] =========================== short test summary info ============================
+[3.807s] FAILED test/test_copyright.py::test_copyright - AssertionError: Found errors
+[3.807s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 16 code style...
+[3.807s] =================== 2 failed, 1 passed, 8 warnings in 1.27s ====================
+[33.751s] Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater' returned '1': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_state_updater:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_state_updater/pytest.xml --junit-prefix=dobot_state_updater -o cache_dir=/home/jetson/dobot-magician/build/dobot_state_updater/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_state_updater/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

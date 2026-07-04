@@ -1,0 +1,406 @@
+[0.279s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'build']
+[0.279s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffbb873970>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbb873550>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbb873550>>, mixin_verb=('build',))
+[0.859s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.860s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.860s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.860s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.860s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) discover
+[0.860s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.860s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/jetson/dobot-magician'
+[0.860s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore'
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore_ament_install'
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_pkg']
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_pkg'
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_meta']
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_meta'
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ros']
+[0.861s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ros'
+[0.889s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['cmake', 'python']
+[0.890s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'cmake'
+[0.890s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python'
+[0.890s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['python_setup_py']
+[0.890s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python_setup_py'
+[0.890s] colcon.colcon_core.package_identification Level 1 _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.891s] colcon.colcon_core.package_identification Level 1 _identify(build) by extension 'ignore'
+[0.891s] colcon.colcon_core.package_identification Level 1 _identify(build) ignored
+[0.891s] colcon.colcon_core.package_identification Level 1 _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.891s] colcon.colcon_core.package_identification Level 1 _identify(install) by extension 'ignore'
+[0.891s] colcon.colcon_core.package_identification Level 1 _identify(install) ignored
+[0.892s] colcon.colcon_core.package_identification Level 1 _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.892s] colcon.colcon_core.package_identification Level 1 _identify(log) by extension 'ignore'
+[0.892s] colcon.colcon_core.package_identification Level 1 _identify(log) ignored
+[0.892s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.892s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore'
+[0.892s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore_ament_install'
+[0.892s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_pkg']
+[0.892s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_pkg'
+[0.892s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_meta']
+[0.893s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_meta'
+[0.893s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ros']
+[0.893s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ros'
+[0.893s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['cmake', 'python']
+[0.893s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'cmake'
+[0.893s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python'
+[0.893s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['python_setup_py']
+[0.893s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python_setup_py'
+[0.893s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extension 'ignore'
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extension 'ignore_ament_install'
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extensions ['colcon_pkg']
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extension 'colcon_pkg'
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extensions ['colcon_meta']
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extension 'colcon_meta'
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extensions ['ros']
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extension 'ros'
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extensions ['cmake', 'python']
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extension 'cmake'
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extension 'python'
+[0.895s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extensions ['python_setup_py']
+[0.895s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2) by extension 'python_setup_py'
+[0.895s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.895s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extension 'ignore'
+[0.895s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extension 'ignore_ament_install'
+[0.895s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extensions ['colcon_pkg']
+[0.895s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extension 'colcon_pkg'
+[0.895s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extensions ['colcon_meta']
+[0.895s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extension 'colcon_meta'
+[0.896s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extensions ['ros']
+[0.896s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_bringup) by extension 'ros'
+[0.905s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_bringup' with type 'ros.ament_python' and name 'dobot_bringup'
+[0.905s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extensions ['ignore', 'ignore_ament_install']
+[0.905s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extension 'ignore'
+[0.906s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extension 'ignore_ament_install'
+[0.906s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extensions ['colcon_pkg']
+[0.906s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extension 'colcon_pkg'
+[0.906s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extensions ['colcon_meta']
+[0.906s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extension 'colcon_meta'
+[0.906s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extensions ['ros']
+[0.906s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_control_panel) by extension 'ros'
+[0.907s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_control_panel' with type 'ros.ament_python' and name 'dobot_control_panel'
+[0.908s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.908s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extension 'ignore'
+[0.908s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extension 'ignore_ament_install'
+[0.908s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extensions ['colcon_pkg']
+[0.908s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extension 'colcon_pkg'
+[0.908s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extensions ['colcon_meta']
+[0.908s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extension 'colcon_meta'
+[0.908s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extensions ['ros']
+[0.908s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_demos) by extension 'ros'
+[0.910s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_demos' with type 'ros.ament_python' and name 'dobot_demos'
+[0.910s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.911s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extension 'ignore'
+[0.911s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extension 'ignore_ament_install'
+[0.911s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extensions ['colcon_pkg']
+[0.911s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extension 'colcon_pkg'
+[0.911s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extensions ['colcon_meta']
+[0.911s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extension 'colcon_meta'
+[0.911s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extensions ['ros']
+[0.911s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_description) by extension 'ros'
+[0.912s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_description' with type 'ros.ament_cmake' and name 'dobot_description'
+[0.912s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[0.913s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extension 'ignore'
+[0.913s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extension 'ignore_ament_install'
+[0.913s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extensions ['colcon_pkg']
+[0.913s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extension 'colcon_pkg'
+[0.913s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extensions ['colcon_meta']
+[0.913s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extension 'colcon_meta'
+[0.913s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extensions ['ros']
+[0.913s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_diagnostics) by extension 'ros'
+[0.914s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_diagnostics' with type 'ros.ament_python' and name 'dobot_diagnostics'
+[0.915s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.915s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extension 'ignore'
+[0.915s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extension 'ignore_ament_install'
+[0.915s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extensions ['colcon_pkg']
+[0.915s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extension 'colcon_pkg'
+[0.915s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extensions ['colcon_meta']
+[0.915s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extension 'colcon_meta'
+[0.915s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extensions ['ros']
+[0.916s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_driver) by extension 'ros'
+[0.916s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_driver' with type 'ros.ament_cmake' and name 'dobot_driver'
+[0.917s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extensions ['ignore', 'ignore_ament_install']
+[0.917s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extension 'ignore'
+[0.917s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extension 'ignore_ament_install'
+[0.917s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extensions ['colcon_pkg']
+[0.917s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extension 'colcon_pkg'
+[0.917s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extensions ['colcon_meta']
+[0.917s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extension 'colcon_meta'
+[0.917s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extensions ['ros']
+[0.918s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_end_effector) by extension 'ros'
+[0.920s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_end_effector' with type 'ros.ament_python' and name 'dobot_end_effector'
+[0.921s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extensions ['ignore', 'ignore_ament_install']
+[0.921s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extension 'ignore'
+[0.921s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extension 'ignore_ament_install'
+[0.921s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extensions ['colcon_pkg']
+[0.921s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extension 'colcon_pkg'
+[0.921s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extensions ['colcon_meta']
+[0.922s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extension 'colcon_meta'
+[0.922s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extensions ['ros']
+[0.922s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_homing) by extension 'ros'
+[0.923s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_homing' with type 'ros.ament_python' and name 'dobot_homing'
+[0.924s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[0.924s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extension 'ignore'
+[0.924s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extension 'ignore_ament_install'
+[0.924s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extensions ['colcon_pkg']
+[0.924s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extension 'colcon_pkg'
+[0.924s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extensions ['colcon_meta']
+[0.924s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extension 'colcon_meta'
+[0.924s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extensions ['ros']
+[0.925s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_kinematics) by extension 'ros'
+[0.929s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_kinematics' with type 'ros.ament_python' and name 'dobot_kinematics'
+[0.929s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extensions ['ignore', 'ignore_ament_install']
+[0.929s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extension 'ignore'
+[0.929s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extension 'ignore_ament_install'
+[0.930s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extensions ['colcon_pkg']
+[0.930s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extension 'colcon_pkg'
+[0.930s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extensions ['colcon_meta']
+[0.930s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extension 'colcon_meta'
+[0.930s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extensions ['ros']
+[0.930s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_motion) by extension 'ros'
+[0.932s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_motion' with type 'ros.ament_python' and name 'dobot_motion'
+[0.932s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.932s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extension 'ignore'
+[0.932s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extension 'ignore_ament_install'
+[0.933s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extensions ['colcon_pkg']
+[0.933s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extension 'colcon_pkg'
+[0.933s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extensions ['colcon_meta']
+[0.933s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extension 'colcon_meta'
+[0.933s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extensions ['ros']
+[0.933s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_msgs) by extension 'ros'
+[0.935s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_msgs' with type 'ros.ament_cmake' and name 'dobot_msgs'
+[0.935s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extensions ['ignore', 'ignore_ament_install']
+[0.935s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extension 'ignore'
+[0.935s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extension 'ignore_ament_install'
+[0.935s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extensions ['colcon_pkg']
+[0.935s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extension 'colcon_pkg'
+[0.935s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extensions ['colcon_meta']
+[0.936s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extension 'colcon_meta'
+[0.936s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extensions ['ros']
+[0.936s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_state_updater) by extension 'ros'
+[0.937s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_state_updater' with type 'ros.ament_python' and name 'dobot_state_updater'
+[0.937s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.937s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extension 'ignore'
+[0.942s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extension 'ignore_ament_install'
+[0.942s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extensions ['colcon_pkg']
+[0.942s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extension 'colcon_pkg'
+[0.942s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extensions ['colcon_meta']
+[0.942s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extension 'colcon_meta'
+[0.942s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extensions ['ros']
+[0.942s] colcon.colcon_core.package_identification Level 1 _identify(src/magician_ros2/dobot_visualization_tools) by extension 'ros'
+[0.943s] colcon.colcon_core.package_identification DEBUG Package 'src/magician_ros2/dobot_visualization_tools' with type 'ros.ament_python' and name 'dobot_visualization_tools'
+[0.943s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
+[0.944s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) discover
+[0.944s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) using defaults
+[0.944s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) discover
+[0.944s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) using defaults
+[0.991s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) check parameters
+[0.992s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) discover
+[1.000s] colcon.colcon_installed_package_information.package_discovery DEBUG Found 3 installed packages in /home/jetson/micro_ros_ws/install
+[1.002s] colcon.colcon_installed_package_information.package_discovery DEBUG Found 7 installed packages in /home/jetson/AGV-2026/install
+[1.004s] colcon.colcon_installed_package_information.package_discovery DEBUG Found 282 installed packages in /opt/ros/humble
+[1.006s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) using defaults
+[1.100s] colcon.colcon_core.verb Level 5 set package 'dobot_bringup' build argument 'cmake_args' from command line to 'None'
+[1.100s] colcon.colcon_core.verb Level 5 set package 'dobot_bringup' build argument 'cmake_target' from command line to 'None'
+[1.100s] colcon.colcon_core.verb Level 5 set package 'dobot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.100s] colcon.colcon_core.verb Level 5 set package 'dobot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.100s] colcon.colcon_core.verb Level 5 set package 'dobot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.100s] colcon.colcon_core.verb Level 5 set package 'dobot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.100s] colcon.colcon_core.verb Level 5 set package 'dobot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.100s] colcon.colcon_core.verb Level 5 set package 'dobot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.101s] colcon.colcon_core.verb Level 5 set package 'dobot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.101s] colcon.colcon_core.verb DEBUG Building package 'dobot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/dobot-magician/build/dobot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/dobot-magician/install/dobot_bringup', 'merge_install': False, 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.101s] colcon.colcon_core.verb Level 5 set package 'dobot_control_panel' build argument 'cmake_args' from command line to 'None'
+[1.101s] colcon.colcon_core.verb Level 5 set package 'dobot_control_panel' build argument 'cmake_target' from command line to 'None'
+[1.101s] colcon.colcon_core.verb Level 5 set package 'dobot_control_panel' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.102s] colcon.colcon_core.verb Level 5 set package 'dobot_control_panel' build argument 'cmake_clean_cache' from command line to 'False'
+[1.102s] colcon.colcon_core.verb Level 5 set package 'dobot_control_panel' build argument 'cmake_clean_first' from command line to 'False'
+[1.102s] colcon.colcon_core.verb Level 5 set package 'dobot_control_panel' build argument 'cmake_force_configure' from command line to 'False'
+[1.102s] colcon.colcon_core.verb Level 5 set package 'dobot_control_panel' build argument 'ament_cmake_args' from command line to 'None'
+[1.102s] colcon.colcon_core.verb Level 5 set package 'dobot_control_panel' build argument 'catkin_cmake_args' from command line to 'None'
+[1.102s] colcon.colcon_core.verb Level 5 set package 'dobot_control_panel' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.102s] colcon.colcon_core.verb DEBUG Building package 'dobot_control_panel' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/dobot-magician/build/dobot_control_panel', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/dobot-magician/install/dobot_control_panel', 'merge_install': False, 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_control_panel', 'symlink_install': False, 'test_result_base': None}
+[1.103s] colcon.colcon_core.verb Level 5 set package 'dobot_description' build argument 'cmake_args' from command line to 'None'
+[1.103s] colcon.colcon_core.verb Level 5 set package 'dobot_description' build argument 'cmake_target' from command line to 'None'
+[1.103s] colcon.colcon_core.verb Level 5 set package 'dobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.103s] colcon.colcon_core.verb Level 5 set package 'dobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.103s] colcon.colcon_core.verb Level 5 set package 'dobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.103s] colcon.colcon_core.verb Level 5 set package 'dobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.103s] colcon.colcon_core.verb Level 5 set package 'dobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.103s] colcon.colcon_core.verb Level 5 set package 'dobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.103s] colcon.colcon_core.verb Level 5 set package 'dobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.103s] colcon.colcon_core.verb DEBUG Building package 'dobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/dobot-magician/build/dobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/dobot-magician/install/dobot_description', 'merge_install': False, 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_description', 'symlink_install': False, 'test_result_base': None}
+[1.104s] colcon.colcon_core.verb Level 5 set package 'dobot_driver' build argument 'cmake_args' from command line to 'None'
+[1.104s] colcon.colcon_core.verb Level 5 set package 'dobot_driver' build argument 'cmake_target' from command line to 'None'
+[1.104s] colcon.colcon_core.verb Level 5 set package 'dobot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.104s] colcon.colcon_core.verb Level 5 set package 'dobot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.104s] colcon.colcon_core.verb Level 5 set package 'dobot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.104s] colcon.colcon_core.verb Level 5 set package 'dobot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.104s] colcon.colcon_core.verb Level 5 set package 'dobot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.104s] colcon.colcon_core.verb Level 5 set package 'dobot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.104s] colcon.colcon_core.verb Level 5 set package 'dobot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.104s] colcon.colcon_core.verb DEBUG Building package 'dobot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/dobot-magician/build/dobot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/dobot-magician/install/dobot_driver', 'merge_install': False, 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_driver', 'symlink_install': False, 'test_result_base': None}
+[1.105s] colcon.colcon_core.verb Level 5 set package 'dobot_msgs' build argument 'cmake_args' from command line to 'None'
+[1.105s] colcon.colcon_core.verb Level 5 set package 'dobot_msgs' build argument 'cmake_target' from command line to 'None'
+[1.105s] colcon.colcon_core.verb Level 5 set package 'dobot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.105s] colcon.colcon_core.verb Level 5 set package 'dobot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.105s] colcon.colcon_core.verb Level 5 set package 'dobot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.105s] colcon.colcon_core.verb Level 5 set package 'dobot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.105s] colcon.colcon_core.verb Level 5 set package 'dobot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.105s] colcon.colcon_core.verb Level 5 set package 'dobot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.105s] colcon.colcon_core.verb Level 5 set package 'dobot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.105s] colcon.colcon_core.verb DEBUG Building package 'dobot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/dobot-magician/build/dobot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/dobot-magician/install/dobot_msgs', 'merge_install': False, 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.106s] colcon.colcon_core.verb Level 5 set package 'dobot_visualization_tools' build argument 'cmake_args' from command line to 'None'
+[1.106s] colcon.colcon_core.verb Level 5 set package 'dobot_visualization_tools' build argument 'cmake_target' from command line to 'None'
+[1.106s] colcon.colcon_core.verb Level 5 set package 'dobot_visualization_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.106s] colcon.colcon_core.verb Level 5 set package 'dobot_visualization_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[1.106s] colcon.colcon_core.verb Level 5 set package 'dobot_visualization_tools' build argument 'cmake_clean_first' from command line to 'False'
+[1.106s] colcon.colcon_core.verb Level 5 set package 'dobot_visualization_tools' build argument 'cmake_force_configure' from command line to 'False'
+[1.106s] colcon.colcon_core.verb Level 5 set package 'dobot_visualization_tools' build argument 'ament_cmake_args' from command line to 'None'
+[1.106s] colcon.colcon_core.verb Level 5 set package 'dobot_visualization_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[1.106s] colcon.colcon_core.verb Level 5 set package 'dobot_visualization_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.106s] colcon.colcon_core.verb DEBUG Building package 'dobot_visualization_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/dobot-magician/build/dobot_visualization_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/dobot-magician/install/dobot_visualization_tools', 'merge_install': False, 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_visualization_tools', 'symlink_install': False, 'test_result_base': None}
+[1.107s] colcon.colcon_core.verb Level 5 set package 'dobot_demos' build argument 'cmake_args' from command line to 'None'
+[1.107s] colcon.colcon_core.verb Level 5 set package 'dobot_demos' build argument 'cmake_target' from command line to 'None'
+[1.107s] colcon.colcon_core.verb Level 5 set package 'dobot_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.107s] colcon.colcon_core.verb Level 5 set package 'dobot_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[1.107s] colcon.colcon_core.verb Level 5 set package 'dobot_demos' build argument 'cmake_clean_first' from command line to 'False'
+[1.107s] colcon.colcon_core.verb Level 5 set package 'dobot_demos' build argument 'cmake_force_configure' from command line to 'False'
+[1.107s] colcon.colcon_core.verb Level 5 set package 'dobot_demos' build argument 'ament_cmake_args' from command line to 'None'
+[1.107s] colcon.colcon_core.verb Level 5 set package 'dobot_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[1.107s] colcon.colcon_core.verb Level 5 set package 'dobot_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.107s] colcon.colcon_core.verb DEBUG Building package 'dobot_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/dobot-magician/build/dobot_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/dobot-magician/install/dobot_demos', 'merge_install': False, 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_demos', 'symlink_install': False, 'test_result_base': None}
+[1.108s] colcon.colcon_core.verb Level 5 set package 'dobot_diagnostics' build argument 'cmake_args' from command line to 'None'
+[1.108s] colcon.colcon_core.verb Level 5 set package 'dobot_diagnostics' build argument 'cmake_target' from command line to 'None'
+[1.108s] colcon.colcon_core.verb Level 5 set package 'dobot_diagnostics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.108s] colcon.colcon_core.verb Level 5 set package 'dobot_diagnostics' build argument 'cmake_clean_cache' from command line to 'False'
+[1.108s] colcon.colcon_core.verb Level 5 set package 'dobot_diagnostics' build argument 'cmake_clean_first' from command line to 'False'
+[1.108s] colcon.colcon_core.verb Level 5 set package 'dobot_diagnostics' build argument 'cmake_force_configure' from command line to 'False'
+[1.108s] colcon.colcon_core.verb Level 5 set package 'dobot_diagnostics' build argument 'ament_cmake_args' from command line to 'None'
+[1.108s] colcon.colcon_core.verb Level 5 set package 'dobot_diagnostics' build argument 'catkin_cmake_args' from command line to 'None'
+[1.108s] colcon.colcon_core.verb Level 5 set package 'dobot_diagnostics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.108s] colcon.colcon_core.verb DEBUG Building package 'dobot_diagnostics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/dobot-magician/build/dobot_diagnostics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/dobot-magician/install/dobot_diagnostics', 'merge_install': False, 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_diagnostics', 'symlink_install': False, 'test_result_base': None}
+[1.109s] colcon.colcon_core.verb Level 5 set package 'dobot_end_effector' build argument 'cmake_args' from command line to 'None'
+[1.109s] colcon.colcon_core.verb Level 5 set package 'dobot_end_effector' build argument 'cmake_target' from command line to 'None'
+[1.109s] colcon.colcon_core.verb Level 5 set package 'dobot_end_effector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.109s] colcon.colcon_core.verb Level 5 set package 'dobot_end_effector' build argument 'cmake_clean_cache' from command line to 'False'
+[1.109s] colcon.colcon_core.verb Level 5 set package 'dobot_end_effector' build argument 'cmake_clean_first' from command line to 'False'
+[1.109s] colcon.colcon_core.verb Level 5 set package 'dobot_end_effector' build argument 'cmake_force_configure' from command line to 'False'
+[1.109s] colcon.colcon_core.verb Level 5 set package 'dobot_end_effector' build argument 'ament_cmake_args' from command line to 'None'
+[1.109s] colcon.colcon_core.verb Level 5 set package 'dobot_end_effector' build argument 'catkin_cmake_args' from command line to 'None'
+[1.109s] colcon.colcon_core.verb Level 5 set package 'dobot_end_effector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.109s] colcon.colcon_core.verb DEBUG Building package 'dobot_end_effector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/dobot-magician/build/dobot_end_effector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/dobot-magician/install/dobot_end_effector', 'merge_install': False, 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_end_effector', 'symlink_install': False, 'test_result_base': None}
+[1.110s] colcon.colcon_core.verb Level 5 set package 'dobot_homing' build argument 'cmake_args' from command line to 'None'
+[1.110s] colcon.colcon_core.verb Level 5 set package 'dobot_homing' build argument 'cmake_target' from command line to 'None'
+[1.110s] colcon.colcon_core.verb Level 5 set package 'dobot_homing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.110s] colcon.colcon_core.verb Level 5 set package 'dobot_homing' build argument 'cmake_clean_cache' from command line to 'False'
+[1.110s] colcon.colcon_core.verb Level 5 set package 'dobot_homing' build argument 'cmake_clean_first' from command line to 'False'
+[1.110s] colcon.colcon_core.verb Level 5 set package 'dobot_homing' build argument 'cmake_force_configure' from command line to 'False'
+[1.110s] colcon.colcon_core.verb Level 5 set package 'dobot_homing' build argument 'ament_cmake_args' from command line to 'None'
+[1.110s] colcon.colcon_core.verb Level 5 set package 'dobot_homing' build argument 'catkin_cmake_args' from command line to 'None'
+[1.110s] colcon.colcon_core.verb Level 5 set package 'dobot_homing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.111s] colcon.colcon_core.verb DEBUG Building package 'dobot_homing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/dobot-magician/build/dobot_homing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/dobot-magician/install/dobot_homing', 'merge_install': False, 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_homing', 'symlink_install': False, 'test_result_base': None}
+[1.111s] colcon.colcon_core.verb Level 5 set package 'dobot_kinematics' build argument 'cmake_args' from command line to 'None'
+[1.111s] colcon.colcon_core.verb Level 5 set package 'dobot_kinematics' build argument 'cmake_target' from command line to 'None'
+[1.111s] colcon.colcon_core.verb Level 5 set package 'dobot_kinematics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.111s] colcon.colcon_core.verb Level 5 set package 'dobot_kinematics' build argument 'cmake_clean_cache' from command line to 'False'
+[1.111s] colcon.colcon_core.verb Level 5 set package 'dobot_kinematics' build argument 'cmake_clean_first' from command line to 'False'
+[1.111s] colcon.colcon_core.verb Level 5 set package 'dobot_kinematics' build argument 'cmake_force_configure' from command line to 'False'
+[1.111s] colcon.colcon_core.verb Level 5 set package 'dobot_kinematics' build argument 'ament_cmake_args' from command line to 'None'
+[1.111s] colcon.colcon_core.verb Level 5 set package 'dobot_kinematics' build argument 'catkin_cmake_args' from command line to 'None'
+[1.112s] colcon.colcon_core.verb Level 5 set package 'dobot_kinematics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.112s] colcon.colcon_core.verb DEBUG Building package 'dobot_kinematics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/dobot-magician/build/dobot_kinematics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/dobot-magician/install/dobot_kinematics', 'merge_install': False, 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics', 'symlink_install': False, 'test_result_base': None}
+[1.112s] colcon.colcon_core.verb Level 5 set package 'dobot_motion' build argument 'cmake_args' from command line to 'None'
+[1.112s] colcon.colcon_core.verb Level 5 set package 'dobot_motion' build argument 'cmake_target' from command line to 'None'
+[1.112s] colcon.colcon_core.verb Level 5 set package 'dobot_motion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.112s] colcon.colcon_core.verb Level 5 set package 'dobot_motion' build argument 'cmake_clean_cache' from command line to 'False'
+[1.112s] colcon.colcon_core.verb Level 5 set package 'dobot_motion' build argument 'cmake_clean_first' from command line to 'False'
+[1.112s] colcon.colcon_core.verb Level 5 set package 'dobot_motion' build argument 'cmake_force_configure' from command line to 'False'
+[1.112s] colcon.colcon_core.verb Level 5 set package 'dobot_motion' build argument 'ament_cmake_args' from command line to 'None'
+[1.113s] colcon.colcon_core.verb Level 5 set package 'dobot_motion' build argument 'catkin_cmake_args' from command line to 'None'
+[1.113s] colcon.colcon_core.verb Level 5 set package 'dobot_motion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.113s] colcon.colcon_core.verb DEBUG Building package 'dobot_motion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/dobot-magician/build/dobot_motion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/dobot-magician/install/dobot_motion', 'merge_install': False, 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_motion', 'symlink_install': False, 'test_result_base': None}
+[1.113s] colcon.colcon_core.verb Level 5 set package 'dobot_state_updater' build argument 'cmake_args' from command line to 'None'
+[1.113s] colcon.colcon_core.verb Level 5 set package 'dobot_state_updater' build argument 'cmake_target' from command line to 'None'
+[1.113s] colcon.colcon_core.verb Level 5 set package 'dobot_state_updater' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.113s] colcon.colcon_core.verb Level 5 set package 'dobot_state_updater' build argument 'cmake_clean_cache' from command line to 'False'
+[1.113s] colcon.colcon_core.verb Level 5 set package 'dobot_state_updater' build argument 'cmake_clean_first' from command line to 'False'
+[1.118s] colcon.colcon_core.verb Level 5 set package 'dobot_state_updater' build argument 'cmake_force_configure' from command line to 'False'
+[1.118s] colcon.colcon_core.verb Level 5 set package 'dobot_state_updater' build argument 'ament_cmake_args' from command line to 'None'
+[1.118s] colcon.colcon_core.verb Level 5 set package 'dobot_state_updater' build argument 'catkin_cmake_args' from command line to 'None'
+[1.118s] colcon.colcon_core.verb Level 5 set package 'dobot_state_updater' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.118s] colcon.colcon_core.verb DEBUG Building package 'dobot_state_updater' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/dobot-magician/build/dobot_state_updater', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/dobot-magician/install/dobot_state_updater', 'merge_install': False, 'path': '/home/jetson/dobot-magician/src/magician_ros2/dobot_state_updater', 'symlink_install': False, 'test_result_base': None}
+[1.118s] colcon.colcon_core.executor INFO Executing jobs using 'parallel' executor
+[1.121s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete
+[1.121s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_msgs' with build type 'ament_cmake'
+[1.122s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_msgs'
+[1.130s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.130s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.130s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.154s] colcon.colcon_ros.task.ament_python.build INFO Building ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_bringup' with build type 'ament_python'
+[1.154s] colcon.colcon_core.shell Level 1 create_environment_hook('dobot_bringup', 'ament_prefix_path')
+[1.155s] colcon.colcon_core.shell INFO Creating environment hook '/home/jetson/dobot-magician/install/dobot_bringup/share/dobot_bringup/hook/ament_prefix_path.ps1'
+[1.157s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/jetson/dobot-magician/install/dobot_bringup/share/dobot_bringup/hook/ament_prefix_path.dsv'
+[1.157s] colcon.colcon_core.shell INFO Creating environment hook '/home/jetson/dobot-magician/install/dobot_bringup/share/dobot_bringup/hook/ament_prefix_path.sh'
+[1.159s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.159s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.174s] colcon.colcon_ros.task.ament_python.build INFO Building ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_control_panel' with build type 'ament_python'
+[1.174s] colcon.colcon_core.shell Level 1 create_environment_hook('dobot_control_panel', 'ament_prefix_path')
+[1.175s] colcon.colcon_core.shell INFO Creating environment hook '/home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/hook/ament_prefix_path.ps1'
+[1.176s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/hook/ament_prefix_path.dsv'
+[1.177s] colcon.colcon_core.shell INFO Creating environment hook '/home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/hook/ament_prefix_path.sh'
+[1.179s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.179s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.202s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_description' with build type 'ament_cmake'
+[1.203s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_description'
+[1.203s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.203s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.232s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_driver' with build type 'ament_cmake'
+[1.237s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_driver'
+[1.237s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.237s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.254s] colcon.colcon_ros.task.ament_python.build INFO Building ROS package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_visualization_tools' with build type 'ament_python'
+[1.255s] colcon.colcon_core.shell Level 1 create_environment_hook('dobot_visualization_tools', 'ament_prefix_path')
+[1.255s] colcon.colcon_core.shell INFO Creating environment hook '/home/jetson/dobot-magician/install/dobot_visualization_tools/share/dobot_visualization_tools/hook/ament_prefix_path.ps1'
+[1.257s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/jetson/dobot-magician/install/dobot_visualization_tools/share/dobot_visualization_tools/hook/ament_prefix_path.dsv'
+[1.258s] colcon.colcon_core.shell INFO Creating environment hook '/home/jetson/dobot-magician/install/dobot_visualization_tools/share/dobot_visualization_tools/hook/ament_prefix_path.sh'
+[1.261s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.261s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.291s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/build/dobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --build /home/jetson/dobot-magician/build/dobot_msgs -- -j6 -l6
+[2.067s] colcon.colcon_core.task.python.build INFO Building Python package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_bringup'
+[2.068s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.068s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[2.927s] colcon.colcon_core.task.python.build INFO Building Python package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_control_panel'
+[2.928s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.928s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[2.948s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/build/dobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --build /home/jetson/dobot-magician/build/dobot_description -- -j6 -l6
+[2.963s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/build/dobot_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --build /home/jetson/dobot-magician/build/dobot_driver -- -j6 -l6
+[4.005s] colcon.colcon_core.task.python.build INFO Building Python package in '/home/jetson/dobot-magician/src/magician_ros2/dobot_visualization_tools'
+[4.006s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.006s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[4.023s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/dobot-magician/build/dobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --build /home/jetson/dobot-magician/build/dobot_description -- -j6 -l6
+[4.045s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/build/dobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --install /home/jetson/dobot-magician/build/dobot_description
+[4.066s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/dobot-magician/build/dobot_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --build /home/jetson/dobot-magician/build/dobot_driver -- -j6 -l6
+[4.067s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/dobot-magician/build/dobot_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --install /home/jetson/dobot-magician/build/dobot_driver
+[4.068s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(dobot_msgs)
+[4.069s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/dobot-magician/build/dobot_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble /usr/bin/cmake --build /home/jetson/dobot-magician/build/dobot_msgs -- -j6 -l6
+[4.074s] colcon.colcon_core.environment Level 1 checking '/home/jetson/dobot-magician/install/dobot_msgs' for CMake module files
+[4.076s] colcon.colcon_core.environment Level 1 checking '/home/jetson/dobot-magician/install/dobot_msgs' for CMake config files
+[4.077s] colcon.colcon_core.shell Level 1 create_environment_hook('dobot_msgs', 'cmake_prefix_path')
+[4.086s] colcon.colcon_core.shell INFO Creating environment hook '/home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/hook/cmake_prefix_path.ps1'
+[4.088s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/hook/cmake_prefix_path.dsv'
+[4.089s] colcon.colcon_core.shell INFO Creating environment hook '/home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/hook/cmake_prefix_path.sh'
+[4.091s] colcon.colcon_core.environment Level 1 checking '/home/jetson/dobot-magician/install/dobot_msgs/lib'
+[4.091s] colcon.colcon_core.shell Level 1 create_environment_hook('dobot_msgs', 'ld_library_path_lib')
+[4.092s] colcon.colcon_core.shell INFO Creating environment hook '/home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/hook/ld_library_path_lib.ps1'
+[4.098s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/hook/ld_library_path_lib.dsv'
+[4.099s] colcon.colcon_core.shell INFO Creating environment hook '/home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/hook/ld_library_path_lib.sh'
+[4.101s] colcon.colcon_core.environment Level 1 checking '/home/jetson/dobot-magician/install/dobot_msgs/bin'
+[4.101s] colcon.colcon_core.environment Level 1 checking '/home/jetson/dobot-magician/install/dobot_msgs/lib/pkgconfig/dobot_msgs.pc'
+[4.101s] colcon.colcon_core.environment Level 1 checking '/home/jetson/dobot-magician/install/dobot_msgs/lib/python3.10/site-packages'
+[4.102s] colcon.colcon_core.environment Level 1 checking '/home/jetson/dobot-magician/install/dobot_msgs/bin'
+[4.103s] colcon.colcon_core.shell INFO Creating package script '/home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/package.ps1'
+[4.110s] colcon.colcon_core.shell INFO Creating package descriptor '/home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/package.dsv'
+[4.112s] colcon.colcon_core.shell INFO Creating package script '/home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/package.sh'
+[4.118s] colcon.colcon_core.shell INFO Creating package script '/home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/package.bash'
+[4.120s] colcon.colcon_core.shell INFO Creating package script '/home/jetson/dobot-magician/install/dobot_msgs/share/dobot_msgs/package.zsh'
+[4.121s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/home/jetson/dobot-magician/install/dobot_msgs/share/colcon-core/packages/dobot_msgs)

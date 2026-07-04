@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dobot Web Control</title>
+    <link rel="stylesheet" href="/static/styles.css?v=20260703-7">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <h1>Dobot Web Control</h1>
+          <p id="cameraTopic">Camera topic pending</p>
+          <p class="command-status" id="commandStatus">Ready</p>
+        </div>
+        <div class="status-grid" aria-label="ROS status">
+          <span class="status-pill" id="cameraStatus">Camera</span>
+          <span class="status-pill" id="actionStatus">PTP</span>
+          <span class="status-pill" id="homingStatus">Homing</span>
+          <span class="status-pill" id="toolStatus">Tool</span>
+        </div>
+      </header>
+
+      <section class="workbench">
+        <div class="camera-panel">
+          <img src="/stream" alt="Camera stream" id="cameraStream">
+          <div class="feedback-bar">
+            <span id="motionState">No active goal</span>
+            <span id="poseFeedback">Feedback unavailable</span>
+          </div>
+        </div>
+
+        <aside class="control-panel">
+          <section class="panel-section">
+            <div class="section-head">
+              <h2>Motion</h2>
+              <button class="danger" id="cancelButton" type="button">Cancel</button>
+            </div>
+
+            <label>
+              Motion type
+              <select id="motionType">
+                <option value="1">MOVJ XYZ</option>
+                <option value="2">MOVL XYZ</option>
+                <option value="4">MOVJ angle</option>
+                <option value="5">MOVL angle</option>
+              </select>
+            </label>
+
+            <div class="pose-grid">
+              <label>X<input id="poseX" type="number" step="1" value="200"></label>
+              <label>Y<input id="poseY" type="number" step="1" value="0"></label>
+              <label>Z<input id="poseZ" type="number" step="1" value="100"></label>
+              <label>R<input id="poseR" type="number" step="1" value="0"></label>
+            </div>
+
+            <label>
+              Velocity
+              <input id="velocity" type="range" min="0.05" max="1" step="0.05" value="0.5">
+            </label>
+            <label>
+              Acceleration
+              <input id="acceleration" type="range" min="0.05" max="1" step="0.05" value="0.3">
+            </label>
+
+            <div class="button-row">
+              <button id="homeButton" type="button">Homing</button>
+              <button class="primary" id="moveButton" type="button">Send Goal</button>
+            </div>
+          </section>
+
+          <section class="panel-section">
+            <div class="section-head">
+              <h2>Joint Axis Test</h2>
+              <span class="live-pill" id="axisLiveStatus">Waiting</span>
+            </div>
+
+            <label>
+              Step
+              <select id="axisStep">
+                <option value="1">1 deg</option>
+                <option value="5" selected>5 deg</option>
+                <option value="10">10 deg</option>
+                <option value="20">20 deg</option>
+              </select>
+            </label>
+
+            <div class="axis-list">
+              <div class="axis-row" data-axis="x">
+                <button class="axis-button" id="axisXMinus" type="button" title="ลดค่า J1">−</button>
+                <label>
+                  <span class="axis-label">
+                    <span class="axis-badge">J1</span>
+                    <span class="axis-symbol">↔</span>
+                    <span class="axis-name">ฐานหมุน</span>
+                    <span class="axis-value" id="axisXValue">200</span>
+                  </span>
+                  <input id="axisXSlider" type="range" min="-120" max="120" step="1" value="0">
+                </label>
+                <button class="axis-button" id="axisXPlus" type="button" title="เพิ่มค่า J1">+</button>
+              </div>
+              <div class="axis-row" data-axis="y">
+                <button class="axis-button" id="axisYMinus" type="button" title="ลดค่า J2">−</button>
+                <label>
+                  <span class="axis-label">
+                    <span class="axis-badge">J2</span>
+                    <span class="axis-symbol">⤴</span>
+                    <span class="axis-name">แขนหลัง</span>
+                    <span class="axis-value" id="axisYValue">0</span>
+                  </span>
+                  <input id="axisYSlider" type="range" min="-5" max="90" step="1" value="0">
+                </label>
+                <button class="axis-button" id="axisYPlus" type="button" title="เพิ่มค่า J2">+</button>
+              </div>
+              <div class="axis-row" data-axis="z">
+                <button class="axis-button" id="axisZMinus" type="button" title="ลดค่า J3">−</button>
+                <label>
+                  <span class="axis-label">
+                    <span class="axis-badge">J3</span>
+                    <span class="axis-symbol">⤵</span>
+                    <span class="axis-name">แขนหน้า</span>
+                    <span class="axis-value" id="axisZValue">100</span>
+                  </span>
+                  <input id="axisZSlider" type="range" min="-15" max="90" step="1" value="0">
+                </label>
+                <button class="axis-button" id="axisZPlus" type="button" title="เพิ่มค่า J3">+</button>
+              </div>
+              <div class="axis-row" data-axis="r">
+                <button class="axis-button" id="axisRMinus" type="button" title="ลดค่า J4">−</button>
+                <label>
+                  <span class="axis-label">
+                    <span class="axis-badge">J4</span>
+                    <span class="axis-symbol">↻</span>
+                    <span class="axis-name">ปลายหมุน</span>
+                    <span class="axis-value" id="axisRValue">0</span>
+                  </span>
+                  <input id="axisRSlider" type="range" min="-140" max="140" step="1" value="0">
+                </label>
+                <button class="axis-button" id="axisRPlus" type="button" title="เพิ่มค่า J4">+</button>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel-section">
+            <h2>End Effector</h2>
+            <label class="switch-row">
+              <input id="keepCompressor" type="checkbox">
+              Keep compressor
+            </label>
+            <div class="button-row">
+              <button id="gripperOpen" type="button">Open</button>
+              <button id="gripperClose" type="button">Close</button>
+            </div>
+            <div class="button-row">
+              <button id="suctionOn" type="button">Suction On</button>
+              <button id="suctionOff" type="button">Suction Off</button>
+            </div>
+          </section>
+
+          <section class="panel-section log-section">
+            <h2>Events</h2>
+            <pre id="eventLog"></pre>
+          </section>
+        </aside>
+      </section>
+    </main>
+    <script src="/static/app.js?v=20260703-7"></script>
+  </body>
+</html>

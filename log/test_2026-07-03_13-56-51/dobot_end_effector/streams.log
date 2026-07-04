@@ -1,0 +1,166 @@
+[2.472s] Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_end_effector': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_end_effector:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_end_effector/pytest.xml --junit-prefix=dobot_end_effector -o cache_dir=/home/jetson/dobot-magician/build/dobot_end_effector/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_end_effector/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[3.900s] ============================= test session starts ==============================
+[3.900s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[3.900s] cachedir: /home/jetson/dobot-magician/build/dobot_end_effector/.pytest_cache
+[3.901s] rootdir: /home/jetson/dobot-magician/src/magician_ros2/dobot_end_effector
+[3.901s] collected 3 items
+[3.901s] 
+[3.901s] test/test_copyright.py F                                                 [ 33%]
+[4.874s] test/test_flake8.py F                                                    [ 66%]
+[4.874s] test/test_pep257.py .                                                    [100%]
+[4.874s] 
+[4.874s] =================================== FAILURES ===================================
+[4.874s] ________________________________ test_copyright ________________________________
+[4.874s] test/test_copyright.py:23: in test_copyright
+[4.874s]     assert rc == 0, 'Found errors'
+[4.874s] E   AssertionError: Found errors
+[4.875s] E   assert 1 == 0
+[4.875s] ----------------------------- Captured stderr call -----------------------------
+[4.875s] dobot_end_effector/gripper_server.py: could not find copyright notice
+[4.875s] dobot_end_effector/suction_cup_server.py: could not find copyright notice
+[4.875s] 2 errors, checked 6 files
+[4.875s] _________________________________ test_flake8 __________________________________
+[4.875s] test/test_flake8.py:23: in test_flake8
+[4.875s]     assert rc == 0, \
+[4.875s] E   AssertionError: Found 16 code style errors / warnings:
+[4.875s] E     ./dobot_end_effector/suction_cup_server.py:12:100: E501 line too long (113 > 99 characters)
+[4.876s] E     ./dobot_end_effector/suction_cup_server.py:16:5: E303 too many blank lines (2)
+[4.876s] E     ./dobot_end_effector/suction_cup_server.py:19:9: E303 too many blank lines (2)
+[4.876s] E     ./dobot_end_effector/suction_cup_server.py:19:35: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[4.876s] E     ./dobot_end_effector/suction_cup_server.py:22:1: W293 blank line contains whitespace
+[4.876s] E     ./dobot_end_effector/suction_cup_server.py:23:37: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[4.876s] E     ./dobot_end_effector/suction_cup_server.py:39:1: E303 too many blank lines (4)
+[4.876s] E     ./dobot_end_effector/suction_cup_server.py:50:11: W292 no newline at end of file
+[4.876s] E     ./dobot_end_effector/gripper_server.py:13:100: E501 line too long (102 > 99 characters)
+[4.876s] E     ./dobot_end_effector/gripper_server.py:18:5: E303 too many blank lines (2)
+[4.877s] E     ./dobot_end_effector/gripper_server.py:23:80: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[4.877s] E     ./dobot_end_effector/gripper_server.py:28:82: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[4.877s] E     ./dobot_end_effector/gripper_server.py:34:83: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[4.877s] E     ./dobot_end_effector/gripper_server.py:39:83: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[4.877s] E     ./dobot_end_effector/gripper_server.py:57:1: E303 too many blank lines (4)
+[4.877s] E     ./dobot_end_effector/gripper_server.py:68:11: W292 no newline at end of file
+[4.877s] E   assert 1 == 0
+[4.877s] ----------------------------- Captured stdout call -----------------------------
+[4.877s] 
+[4.877s] ./dobot_end_effector/suction_cup_server.py:12:100: E501 line too long (113 > 99 characters)
+[4.878s]         self.srv = self.create_service(SuctionCupControl, 'dobot_suction_cup_service', self.suction_cup_callback)
+[4.878s]                                                                                                    ^
+[4.878s] 
+[4.878s] ./dobot_end_effector/suction_cup_server.py:16:5: E303 too many blank lines (2)
+[4.878s]     def suction_cup_callback(self, request, response):
+[4.878s]     ^
+[4.878s] 
+[4.878s] ./dobot_end_effector/suction_cup_server.py:19:9: E303 too many blank lines (2)
+[4.883s]         if request.enable_suction == True:
+[4.883s]         ^
+[4.883s] 
+[4.883s] ./dobot_end_effector/suction_cup_server.py:19:35: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[4.883s]         if request.enable_suction == True:
+[4.883s]                                   ^
+[4.883s] 
+[4.883s] ./dobot_end_effector/suction_cup_server.py:22:1: W293 blank line contains whitespace
+[4.884s]  
+[4.884s] ^
+[4.884s] 
+[4.884s] ./dobot_end_effector/suction_cup_server.py:23:37: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[4.884s]         elif request.enable_suction == False:
+[4.884s]                                     ^
+[4.884s] 
+[4.884s] ./dobot_end_effector/suction_cup_server.py:39:1: E303 too many blank lines (4)
+[4.884s] def main(args=None):
+[4.885s] ^
+[4.885s] 
+[4.885s] ./dobot_end_effector/suction_cup_server.py:50:11: W292 no newline at end of file
+[4.885s]     main()          ^
+[4.885s] 
+[4.885s] ./dobot_end_effector/gripper_server.py:13:100: E501 line too long (102 > 99 characters)
+[4.885s]         self.srv = self.create_service(GripperControl, 'dobot_gripper_service', self.gripper_callback)
+[4.885s]                                                                                                    ^
+[4.885s] 
+[4.885s] ./dobot_end_effector/gripper_server.py:18:5: E303 too many blank lines (2)
+[4.886s]     def gripper_callback(self, request, response):
+[4.886s]     ^
+[4.886s] 
+[4.886s] ./dobot_end_effector/gripper_server.py:23:80: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[4.886s]         if request.gripper_state == "open" and request.keep_compressor_running == True:
+[4.886s]                                                                                ^
+[4.886s] 
+[4.886s] ./dobot_end_effector/gripper_server.py:28:82: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[4.886s]         elif request.gripper_state == "open" and request.keep_compressor_running == False:
+[4.887s]                                                                                  ^
+[4.887s] 
+[4.887s] ./dobot_end_effector/gripper_server.py:34:83: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[4.887s]         elif request.gripper_state == "close" and request.keep_compressor_running == True:
+[4.887s]                                                                                   ^
+[4.887s] 
+[4.887s] ./dobot_end_effector/gripper_server.py:39:83: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[4.887s]         elif request.gripper_state == "close" and request.keep_compressor_running == False:
+[4.887s]                                                                                   ^
+[4.887s] 
+[4.888s] ./dobot_end_effector/gripper_server.py:57:1: E303 too many blank lines (4)
+[4.888s] def main(args=None):
+[4.888s] ^
+[4.888s] 
+[4.888s] ./dobot_end_effector/gripper_server.py:68:11: W292 no newline at end of file
+[4.888s]     main()          ^
+[4.888s] 
+[4.888s] 5     E303 too many blank lines (2)
+[4.888s] 2     E501 line too long (102 > 99 characters)
+[4.889s] 6     E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[4.889s] 2     W292 no newline at end of file
+[4.889s] 1     W293 blank line contains whitespace
+[4.889s] 
+[4.889s] 7 files checked
+[4.889s] 16 errors
+[4.889s] 
+[4.889s] 'E'-type errors: 13
+[4.889s] 'W'-type errors: 3
+[4.889s] 
+[4.890s] Checked files:
+[4.890s] 
+[4.890s] * ./setup.py
+[4.890s] * ./test/test_pep257.py
+[4.890s] * ./test/test_copyright.py
+[4.890s] * ./test/test_flake8.py
+[4.890s] * ./dobot_end_effector/suction_cup_server.py
+[4.890s] * ./dobot_end_effector/gripper_server.py
+[4.890s] * ./dobot_end_effector/__init__.py
+[4.899s] ------------------------------ Captured log call -------------------------------
+[4.899s] WARNING  flake8.options.manager:manager.py:217 option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[4.899s] =============================== warnings summary ===============================
+[4.899s] test/test_copyright.py:19
+[4.899s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_end_effector/test/test_copyright.py:19: PytestUnknownMarkWarning: Unknown pytest.mark.copyright - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[4.899s]     @pytest.mark.copyright
+[4.899s] 
+[4.899s] test/test_copyright.py:20
+[4.900s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_end_effector/test/test_copyright.py:20: PytestUnknownMarkWarning: Unknown pytest.mark.linter - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[4.900s]     @pytest.mark.linter
+[4.900s] 
+[4.900s] test/test_flake8.py:19
+[4.900s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_end_effector/test/test_flake8.py:19: PytestUnknownMarkWarning: Unknown pytest.mark.flake8 - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[4.900s]     @pytest.mark.flake8
+[4.900s] 
+[4.900s] test/test_flake8.py:20
+[4.900s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_end_effector/test/test_flake8.py:20: PytestUnknownMarkWarning: Unknown pytest.mark.linter - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[4.901s]     @pytest.mark.linter
+[4.901s] 
+[4.901s] test/test_pep257.py:19
+[4.901s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_end_effector/test/test_pep257.py:19: PytestUnknownMarkWarning: Unknown pytest.mark.linter - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[4.901s]     @pytest.mark.linter
+[4.901s] 
+[4.901s] test/test_pep257.py:20
+[4.901s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_end_effector/test/test_pep257.py:20: PytestUnknownMarkWarning: Unknown pytest.mark.pep257 - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[4.901s]     @pytest.mark.pep257
+[4.902s] 
+[4.902s] test/test_flake8.py::test_flake8
+[4.902s] test/test_flake8.py::test_flake8
+[4.902s]   /usr/lib/python3/dist-packages/flake8/plugins/manager.py:261: DeprecationWarning: SelectableGroups dict interface is deprecated. Use select.
+[4.902s]     eps = importlib_metadata.entry_points().get(self.namespace, ())
+[4.902s] 
+[4.902s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[4.902s] - generated xml file: /home/jetson/dobot-magician/build/dobot_end_effector/pytest.xml -
+[4.902s] =========================== short test summary info ============================
+[4.905s] FAILED test/test_copyright.py::test_copyright - AssertionError: Found errors
+[4.905s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 16 code style...
+[4.905s] =================== 2 failed, 1 passed, 8 warnings in 1.34s ====================
+[4.914s] Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_end_effector' returned '1': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_end_effector:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_end_effector/pytest.xml --junit-prefix=dobot_end_effector -o cache_dir=/home/jetson/dobot-magician/build/dobot_end_effector/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_end_effector/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

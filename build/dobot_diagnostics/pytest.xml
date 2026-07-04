@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="3" time="1.717" timestamp="2026-07-03T13:56:59.964521" hostname="jetson-orin"><testcase classname="dobot_diagnostics.test.test_copyright" name="test_copyright" time="0.791"><failure message="AssertionError: Found errors&#10;assert 1 == 0">test/test_copyright.py:23: in test_copyright
+    assert rc == 0, 'Found errors'
+E   AssertionError: Found errors
+E   assert 1 == 0</failure></testcase><testcase classname="dobot_diagnostics.test.test_flake8" name="test_flake8" time="0.479"><failure message="AssertionError: Found 74 code style errors / warnings:&#10;  ./setup.py:15:100: E501 line too long (101 &gt; 99 characters)&#10;  ./dobot_diagnostics/diagnostics_utils.py:42:29: E225 missing whitespace around operator&#10;  ./dobot_diagnostics/diagnostics_utils.py:46:22: E225 missing whitespace around operator&#10;  ./dobot_diagnostics/diagnostics_utils.py:48:100: E501 line too long (161 &gt; 99 characters)&#10;  ./dobot_diagnostics/diagnostics_utils.py:50:24: E225 missing whitespace around operator&#10;  ./dobot_diagnostics/diagnostics_utils.py:51:100: E501 line too long (111 &gt; 99 characters)&#10;  ./dobot_diagnostics/diagnostics_utils.py:52:100: E501 line too long (114 &gt; 99 characters)&#10;  ./dobot_diagnostics/diagnostics_utils.py:54:25: E225 missing whitespace around operator&#10;  ./dobot_diagnostics/diagnostics_utils.py:55:100: E501 line too long (302 &gt; 99 characters)&#10;  ./dobot_diagnostics/diagnostics_utils.py:56:100: E501 line too long (136 &gt; 99 characters)&#10;  ./dobot_diagnostics/diagnostics_utils.py:89:5: E303 too many blank lines (2)&#10;  ./dobot_diagnostics/diagnostics_utils.py:91:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_diagnostics/diagnostics_utils.py:98:1: W293 blank line contains whitespace&#10;  ./dobot_diagnostics/diagnostics_utils.py:114:26: W291 trailing whitespace&#10;  ./dobot_diagnostics/diagnostics_utils.py:119:1: W293 blank line contains whitespace&#10;  ./dobot_diagnostics/diagnostics_utils.py:136:5: E303 too many blank lines (2)&#10;  ./dobot_diagnostics/diagnostics_utils.py:136:100: E501 line too long (131 &gt; 99 characters)&#10;  ./dobot_diagnostics/diagnostics_utils.py:138:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_diagnostics/diagnostics_utils.py:151:100: E501 line too long (141 &gt; 99 characters)&#10;  ./dobot_diagnostics/diagnostics_utils.py:155:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_diagnostics/diagnostics_utils.py:156:16: E225 missing whitespace around operator&#10;  ./dobot_diagnostics/diagnostics_utils.py:173:10: E111 indentation is not a multiple of 4&#10;  ./dobot_diagnostics/diagnostics_utils.py:173:10: E117 over-indented&#10;  ./dobot_diagnostics/diagnostics_utils.py:180:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_diagnostics/diagnostics_utils.py:192:83: W291 trailing whitespace&#10;  ./dobot_diagnostics/diagnostics_utils.py:193:100: E501 line too long (191 &gt; 99 characters)&#10;  ./dobot_diagnostics/diagnostics_utils.py:197:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_diagnostics/diagnostics_utils.py:209:100: E501 line too long (129 &gt; 99 characters)&#10;  ./dobot_diagnostics/diagnostics_utils.py:210:100: E501 line too long (183 &gt; 99 characters)&#10;  ./dobot_diagnostics/diagnostics_utils.py:214:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_diagnostics/diagnostics_utils.py:215:27: E201 whitespace after '['&#10;  ./dobot_diagnostics/diagnostics_utils.py:222:22: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:222:24: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:223:21: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:223:23: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:224:24: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:224:26: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:228:22: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:228:24: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:229:21: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:229:23: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:235:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_diagnostics/diagnostics_utils.py:235:27: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:237:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:237:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:238:17: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:238:19: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:239:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:239:22: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:241:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_diagnostics/diagnostics_utils.py:243:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:243:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:244:17: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:244:19: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:248:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_diagnostics/diagnostics_utils.py:250:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:250:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:251:17: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:251:19: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:255:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_diagnostics/diagnostics_utils.py:257:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:257:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:258:17: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:258:19: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:262:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_diagnostics/diagnostics_utils.py:264:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:264:20: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:265:17: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:265:19: E251 unexpected spaces around keyword / parameter equals&#10;  ./dobot_diagnostics/diagnostics_utils.py:267:44: W292 no newline at end of file&#10;  ./dobot_diagnostics/alarms_parser.py:19:1: E302 expected 2 blank lines, found 1&#10;  ./dobot_diagnostics/alarms_parser.py:43:29: W291 trailing whitespace&#10;  ./launch/alarms_analyzer.launch.py:9:1: E303 too many blank lines (3)&#10;  ./launch/alarms_analyzer.launch.py:15:5: E303 too many blank lines (2)&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 74 code style errors / warnings:
+E     ./setup.py:15:100: E501 line too long (101 &gt; 99 characters)
+E     ./dobot_diagnostics/diagnostics_utils.py:42:29: E225 missing whitespace around operator
+E     ./dobot_diagnostics/diagnostics_utils.py:46:22: E225 missing whitespace around operator
+E     ./dobot_diagnostics/diagnostics_utils.py:48:100: E501 line too long (161 &gt; 99 characters)
+E     ./dobot_diagnostics/diagnostics_utils.py:50:24: E225 missing whitespace around operator
+E     ./dobot_diagnostics/diagnostics_utils.py:51:100: E501 line too long (111 &gt; 99 characters)
+E     ./dobot_diagnostics/diagnostics_utils.py:52:100: E501 line too long (114 &gt; 99 characters)
+E     ./dobot_diagnostics/diagnostics_utils.py:54:25: E225 missing whitespace around operator
+E     ./dobot_diagnostics/diagnostics_utils.py:55:100: E501 line too long (302 &gt; 99 characters)
+E     ./dobot_diagnostics/diagnostics_utils.py:56:100: E501 line too long (136 &gt; 99 characters)
+E     ./dobot_diagnostics/diagnostics_utils.py:89:5: E303 too many blank lines (2)
+E     ./dobot_diagnostics/diagnostics_utils.py:91:1: E302 expected 2 blank lines, found 1
+E     ./dobot_diagnostics/diagnostics_utils.py:98:1: W293 blank line contains whitespace
+E     ./dobot_diagnostics/diagnostics_utils.py:114:26: W291 trailing whitespace
+E     ./dobot_diagnostics/diagnostics_utils.py:119:1: W293 blank line contains whitespace
+E     ./dobot_diagnostics/diagnostics_utils.py:136:5: E303 too many blank lines (2)
+E     ./dobot_diagnostics/diagnostics_utils.py:136:100: E501 line too long (131 &gt; 99 characters)
+E     ./dobot_diagnostics/diagnostics_utils.py:138:1: E302 expected 2 blank lines, found 1
+E     ./dobot_diagnostics/diagnostics_utils.py:151:100: E501 line too long (141 &gt; 99 characters)
+E     ./dobot_diagnostics/diagnostics_utils.py:155:1: E302 expected 2 blank lines, found 1
+E     ./dobot_diagnostics/diagnostics_utils.py:156:16: E225 missing whitespace around operator
+E     ./dobot_diagnostics/diagnostics_utils.py:173:10: E111 indentation is not a multiple of 4
+E     ./dobot_diagnostics/diagnostics_utils.py:173:10: E117 over-indented
+E     ./dobot_diagnostics/diagnostics_utils.py:180:1: E302 expected 2 blank lines, found 1
+E     ./dobot_diagnostics/diagnostics_utils.py:192:83: W291 trailing whitespace
+E     ./dobot_diagnostics/diagnostics_utils.py:193:100: E501 line too long (191 &gt; 99 characters)
+E     ./dobot_diagnostics/diagnostics_utils.py:197:1: E302 expected 2 blank lines, found 1
+E     ./dobot_diagnostics/diagnostics_utils.py:209:100: E501 line too long (129 &gt; 99 characters)
+E     ./dobot_diagnostics/diagnostics_utils.py:210:100: E501 line too long (183 &gt; 99 characters)
+E     ./dobot_diagnostics/diagnostics_utils.py:214:1: E302 expected 2 blank lines, found 1
+E     ./dobot_diagnostics/diagnostics_utils.py:215:27: E201 whitespace after '['
+E     ./dobot_diagnostics/diagnostics_utils.py:222:22: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:222:24: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:223:21: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:223:23: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:224:24: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:224:26: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:228:22: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:228:24: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:229:21: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:229:23: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:235:1: E302 expected 2 blank lines, found 1
+E     ./dobot_diagnostics/diagnostics_utils.py:235:27: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:237:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:237:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:238:17: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:238:19: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:239:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:239:22: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:241:1: E302 expected 2 blank lines, found 1
+E     ./dobot_diagnostics/diagnostics_utils.py:243:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:243:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:244:17: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:244:19: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:248:1: E302 expected 2 blank lines, found 1
+E     ./dobot_diagnostics/diagnostics_utils.py:250:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:250:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:251:17: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:251:19: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:255:1: E302 expected 2 blank lines, found 1
+E     ./dobot_diagnostics/diagnostics_utils.py:257:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:257:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:258:17: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:258:19: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:262:1: E302 expected 2 blank lines, found 1
+E     ./dobot_diagnostics/diagnostics_utils.py:264:18: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:264:20: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:265:17: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:265:19: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_diagnostics/diagnostics_utils.py:267:44: W292 no newline at end of file
+E     ./dobot_diagnostics/alarms_parser.py:19:1: E302 expected 2 blank lines, found 1
+E     ./dobot_diagnostics/alarms_parser.py:43:29: W291 trailing whitespace
+E     ./launch/alarms_analyzer.launch.py:9:1: E303 too many blank lines (3)
+E     ./launch/alarms_analyzer.launch.py:15:5: E303 too many blank lines (2)
+E   assert 1 == 0</failure></testcase><testcase classname="dobot_diagnostics.test.test_pep257" name="test_pep257" time="0.134" /></testsuite></testsuites>

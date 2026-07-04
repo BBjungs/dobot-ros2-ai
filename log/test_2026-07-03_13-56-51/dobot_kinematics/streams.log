@@ -1,0 +1,1378 @@
+[4.696s] Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_kinematics:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_kinematics/pytest.xml --junit-prefix=dobot_kinematics -o cache_dir=/home/jetson/dobot-magician/build/dobot_kinematics/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[5.990s] ============================= test session starts ==============================
+[5.990s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[5.990s] cachedir: /home/jetson/dobot-magician/build/dobot_kinematics/.pytest_cache
+[5.991s] rootdir: /home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics
+[5.991s] collected 3 items
+[5.991s] 
+[5.991s] test/test_copyright.py F                                                 [ 33%]
+[7.002s] test/test_flake8.py F                                                    [ 66%]
+[7.003s] test/test_pep257.py F                                                    [100%]
+[7.003s] 
+[7.003s] =================================== FAILURES ===================================
+[7.003s] ________________________________ test_copyright ________________________________
+[7.003s] test/test_copyright.py:23: in test_copyright
+[7.003s]     assert rc == 0, 'Found errors'
+[7.003s] E   AssertionError: Found errors
+[7.003s] E   assert 1 == 0
+[7.004s] ----------------------------- Captured stderr call -----------------------------
+[7.004s] dobot_kinematics/collision_detection_server.py: could not find copyright notice
+[7.004s] dobot_kinematics/collision_utils.py: could not find copyright notice
+[7.004s] dobot_kinematics/dobot_forward_kin.py: could not find copyright notice
+[7.004s] dobot_kinematics/dobot_inv_kin.py: could not find copyright notice
+[7.004s] dobot_kinematics/trajectory_validator_client.py: could not find copyright notice
+[7.004s] dobot_kinematics/trajectory_validator_server.py: could not find copyright notice
+[7.004s] launch/dobot_validate_trajectory.launch.py: could not find copyright notice
+[7.005s] 7 errors, checked 11 files
+[7.005s] _________________________________ test_flake8 __________________________________
+[7.005s] test/test_flake8.py:23: in test_flake8
+[7.005s]     assert rc == 0, \
+[7.005s] E   AssertionError: Found 240 code style errors / warnings:
+[7.005s] E     ./dobot_kinematics/dobot_forward_kin.py:1:100: E501 line too long (102 > 99 characters)
+[7.005s] E     ./dobot_kinematics/dobot_forward_kin.py:4:1: E302 expected 2 blank lines, found 1
+[7.005s] E     ./dobot_kinematics/dobot_forward_kin.py:6:1: W191 indentation contains tabs
+[7.005s] E     ./dobot_kinematics/dobot_forward_kin.py:8:1: W191 indentation contains tabs
+[7.005s] E     ./dobot_kinematics/dobot_forward_kin.py:9:1: W191 indentation contains tabs
+[7.006s] E     ./dobot_kinematics/dobot_forward_kin.py:9:39: W291 trailing whitespace
+[7.006s] E     ./dobot_kinematics/dobot_forward_kin.py:10:1: W191 indentation contains tabs
+[7.006s] E     ./dobot_kinematics/dobot_forward_kin.py:11:1: W191 indentation contains tabs
+[7.006s] E     ./dobot_kinematics/dobot_forward_kin.py:11:3: E128 continuation line under-indented for visual indent
+[7.006s] E     ./dobot_kinematics/dobot_forward_kin.py:11:19: W291 trailing whitespace
+[7.006s] E     ./dobot_kinematics/dobot_forward_kin.py:12:1: W191 indentation contains tabs
+[7.006s] E     ./dobot_kinematics/dobot_forward_kin.py:13:1: W191 indentation contains tabs
+[7.006s] E     ./dobot_kinematics/dobot_forward_kin.py:13:28: W291 trailing whitespace
+[7.007s] E     ./dobot_kinematics/dobot_forward_kin.py:16:1: W191 indentation contains tabs
+[7.007s] E     ./dobot_kinematics/dobot_forward_kin.py:16:2: E303 too many blank lines (2)
+[7.007s] E     ./dobot_kinematics/dobot_forward_kin.py:16:36: W291 trailing whitespace
+[7.007s] E     ./dobot_kinematics/dobot_forward_kin.py:17:1: W191 indentation contains tabs
+[7.007s] E     ./dobot_kinematics/dobot_forward_kin.py:18:1: W191 indentation contains tabs
+[7.007s] E     ./dobot_kinematics/dobot_forward_kin.py:18:3: E128 continuation line under-indented for visual indent
+[7.007s] E     ./dobot_kinematics/dobot_forward_kin.py:19:1: W191 indentation contains tabs
+[7.007s] E     ./dobot_kinematics/dobot_forward_kin.py:19:10: E225 missing whitespace around operator
+[7.007s] E     ./dobot_kinematics/dobot_forward_kin.py:20:1: W191 indentation contains tabs
+[7.008s] E     ./dobot_kinematics/dobot_forward_kin.py:23:1: W191 indentation contains tabs
+[7.008s] E     ./dobot_kinematics/dobot_forward_kin.py:23:2: E303 too many blank lines (2)
+[7.008s] E     ./dobot_kinematics/dobot_forward_kin.py:23:36: W291 trailing whitespace
+[7.008s] E     ./dobot_kinematics/dobot_forward_kin.py:24:1: W191 indentation contains tabs
+[7.008s] E     ./dobot_kinematics/dobot_forward_kin.py:25:1: W191 indentation contains tabs
+[7.008s] E     ./dobot_kinematics/dobot_forward_kin.py:25:3: E128 continuation line under-indented for visual indent
+[7.008s] E     ./dobot_kinematics/dobot_forward_kin.py:26:1: W191 indentation contains tabs
+[7.008s] E     ./dobot_kinematics/dobot_forward_kin.py:26:10: E225 missing whitespace around operator
+[7.008s] E     ./dobot_kinematics/dobot_forward_kin.py:26:33: E231 missing whitespace after ','
+[7.009s] E     ./dobot_kinematics/dobot_forward_kin.py:27:1: W191 indentation contains tabs
+[7.009s] E     ./dobot_kinematics/dobot_forward_kin.py:30:1: W191 indentation contains tabs
+[7.009s] E     ./dobot_kinematics/dobot_forward_kin.py:30:2: E303 too many blank lines (2)
+[7.009s] E     ./dobot_kinematics/dobot_forward_kin.py:31:1: W191 indentation contains tabs
+[7.009s] E     ./dobot_kinematics/dobot_forward_kin.py:31:14: E225 missing whitespace around operator
+[7.009s] E     ./dobot_kinematics/dobot_forward_kin.py:32:1: W191 indentation contains tabs
+[7.009s] E     ./dobot_kinematics/dobot_forward_kin.py:32:17: E225 missing whitespace around operator
+[7.009s] E     ./dobot_kinematics/dobot_forward_kin.py:33:1: W191 indentation contains tabs
+[7.009s] E     ./dobot_kinematics/dobot_forward_kin.py:33:17: E225 missing whitespace around operator
+[7.009s] E     ./dobot_kinematics/dobot_forward_kin.py:34:1: W191 indentation contains tabs
+[7.010s] E     ./dobot_kinematics/dobot_forward_kin.py:34:17: E225 missing whitespace around operator
+[7.010s] E     ./dobot_kinematics/dobot_forward_kin.py:37:1: W191 indentation contains tabs
+[7.010s] E     ./dobot_kinematics/dobot_forward_kin.py:37:2: E303 too many blank lines (2)
+[7.010s] E     ./dobot_kinematics/dobot_forward_kin.py:39:1: W191 indentation contains tabs
+[7.010s] E     ./dobot_kinematics/dobot_forward_kin.py:39:4: E225 missing whitespace around operator
+[7.010s] E     ./dobot_kinematics/dobot_forward_kin.py:40:1: W191 indentation contains tabs
+[7.010s] E     ./dobot_kinematics/dobot_forward_kin.py:40:12: E225 missing whitespace around operator
+[7.010s] E     ./dobot_kinematics/dobot_forward_kin.py:41:1: W191 indentation contains tabs
+[7.010s] E     ./dobot_kinematics/dobot_forward_kin.py:41:27: E231 missing whitespace after ','
+[7.011s] E     ./dobot_kinematics/dobot_forward_kin.py:42:1: W191 indentation contains tabs
+[7.011s] E     ./dobot_kinematics/dobot_forward_kin.py:42:20: W291 trailing whitespace
+[7.011s] E     ./dobot_kinematics/dobot_forward_kin.py:44:1: W191 indentation contains tabs
+[7.011s] E     ./dobot_kinematics/dobot_forward_kin.py:45:1: W391 blank line at end of file
+[7.011s] E     ./dobot_kinematics/trajectory_validator_server.py:8:1: F401 'os.path' imported but unused
+[7.011s] E     ./dobot_kinematics/trajectory_validator_server.py:9:1: F401 'geometry_msgs.msg.PoseStamped' imported but unused
+[7.011s] E     ./dobot_kinematics/trajectory_validator_server.py:9:42: W291 trailing whitespace
+[7.011s] E     ./dobot_kinematics/trajectory_validator_server.py:10:1: F401 'tf_transformations' imported but unused
+[7.011s] E     ./dobot_kinematics/trajectory_validator_server.py:12:1: F401 'numpy as np' imported but unused
+[7.012s] E     ./dobot_kinematics/trajectory_validator_server.py:13:1: F401 'os' imported but unused
+[7.012s] E     ./dobot_kinematics/trajectory_validator_server.py:19:1: E303 too many blank lines (4)
+[7.012s] E     ./dobot_kinematics/trajectory_validator_server.py:23:100: E501 line too long (127 > 99 characters)
+[7.012s] E     ./dobot_kinematics/trajectory_validator_server.py:24:100: E501 line too long (125 > 99 characters)
+[7.012s] E     ./dobot_kinematics/trajectory_validator_server.py:28:9: E303 too many blank lines (2)
+[7.012s] E     ./dobot_kinematics/trajectory_validator_server.py:29:29: W291 trailing whitespace
+[7.012s] E     ./dobot_kinematics/trajectory_validator_server.py:32:32: E261 at least two spaces before inline comment
+[7.012s] E     ./dobot_kinematics/trajectory_validator_server.py:32:33: E262 inline comment should start with '# '
+[7.012s] E     ./dobot_kinematics/trajectory_validator_server.py:43:83: W291 trailing whitespace
+[7.013s] E     ./dobot_kinematics/trajectory_validator_server.py:44:9: E128 continuation line under-indented for visual indent
+[7.013s] E     ./dobot_kinematics/trajectory_validator_server.py:44:40: E251 unexpected spaces around keyword / parameter equals
+[7.013s] E     ./dobot_kinematics/trajectory_validator_server.py:44:42: E251 unexpected spaces around keyword / parameter equals
+[7.013s] E     ./dobot_kinematics/trajectory_validator_server.py:44:100: E501 line too long (111 > 99 characters)
+[7.013s] E     ./dobot_kinematics/trajectory_validator_server.py:44:112: W291 trailing whitespace
+[7.013s] E     ./dobot_kinematics/trajectory_validator_server.py:45:9: E128 continuation line under-indented for visual indent
+[7.013s] E     ./dobot_kinematics/trajectory_validator_server.py:45:31: E251 unexpected spaces around keyword / parameter equals
+[7.013s] E     ./dobot_kinematics/trajectory_validator_server.py:45:33: E251 unexpected spaces around keyword / parameter equals
+[7.013s] E     ./dobot_kinematics/trajectory_validator_server.py:48:83: W291 trailing whitespace
+[7.014s] E     ./dobot_kinematics/trajectory_validator_server.py:49:9: E128 continuation line under-indented for visual indent
+[7.014s] E     ./dobot_kinematics/trajectory_validator_server.py:49:40: E251 unexpected spaces around keyword / parameter equals
+[7.014s] E     ./dobot_kinematics/trajectory_validator_server.py:49:42: E251 unexpected spaces around keyword / parameter equals
+[7.014s] E     ./dobot_kinematics/trajectory_validator_server.py:49:100: E501 line too long (112 > 99 characters)
+[7.014s] E     ./dobot_kinematics/trajectory_validator_server.py:49:113: W291 trailing whitespace
+[7.014s] E     ./dobot_kinematics/trajectory_validator_server.py:50:9: E128 continuation line under-indented for visual indent
+[7.014s] E     ./dobot_kinematics/trajectory_validator_server.py:50:31: E251 unexpected spaces around keyword / parameter equals
+[7.026s] E     ./dobot_kinematics/trajectory_validator_server.py:50:33: E251 unexpected spaces around keyword / parameter equals
+[7.027s] E     ./dobot_kinematics/trajectory_validator_server.py:53:83: W291 trailing whitespace
+[7.027s] E     ./dobot_kinematics/trajectory_validator_server.py:54:9: E128 continuation line under-indented for visual indent
+[7.027s] E     ./dobot_kinematics/trajectory_validator_server.py:54:40: E251 unexpected spaces around keyword / parameter equals
+[7.027s] E     ./dobot_kinematics/trajectory_validator_server.py:54:42: E251 unexpected spaces around keyword / parameter equals
+[7.027s] E     ./dobot_kinematics/trajectory_validator_server.py:54:100: E501 line too long (111 > 99 characters)
+[7.027s] E     ./dobot_kinematics/trajectory_validator_server.py:54:112: W291 trailing whitespace
+[7.028s] E     ./dobot_kinematics/trajectory_validator_server.py:55:9: E128 continuation line under-indented for visual indent
+[7.028s] E     ./dobot_kinematics/trajectory_validator_server.py:55:31: E251 unexpected spaces around keyword / parameter equals
+[7.028s] E     ./dobot_kinematics/trajectory_validator_server.py:55:33: E251 unexpected spaces around keyword / parameter equals
+[7.028s] E     ./dobot_kinematics/trajectory_validator_server.py:57:17: W291 trailing whitespace
+[7.029s] E     ./dobot_kinematics/trajectory_validator_server.py:58:83: W291 trailing whitespace
+[7.029s] E     ./dobot_kinematics/trajectory_validator_server.py:59:9: E128 continuation line under-indented for visual indent
+[7.029s] E     ./dobot_kinematics/trajectory_validator_server.py:59:40: E251 unexpected spaces around keyword / parameter equals
+[7.029s] E     ./dobot_kinematics/trajectory_validator_server.py:59:42: E251 unexpected spaces around keyword / parameter equals
+[7.029s] E     ./dobot_kinematics/trajectory_validator_server.py:59:100: E501 line too long (112 > 99 characters)
+[7.029s] E     ./dobot_kinematics/trajectory_validator_server.py:59:113: W291 trailing whitespace
+[7.029s] E     ./dobot_kinematics/trajectory_validator_server.py:60:9: E128 continuation line under-indented for visual indent
+[7.029s] E     ./dobot_kinematics/trajectory_validator_server.py:60:31: E251 unexpected spaces around keyword / parameter equals
+[7.030s] E     ./dobot_kinematics/trajectory_validator_server.py:60:33: E251 unexpected spaces around keyword / parameter equals
+[7.030s] E     ./dobot_kinematics/trajectory_validator_server.py:66:9: E303 too many blank lines (3)
+[7.030s] E     ./dobot_kinematics/trajectory_validator_server.py:69:5: E303 too many blank lines (2)
+[7.030s] E     ./dobot_kinematics/trajectory_validator_server.py:99:5: E303 too many blank lines (3)
+[7.030s] E     ./dobot_kinematics/trajectory_validator_server.py:100:13: E117 over-indented
+[7.030s] E     ./dobot_kinematics/trajectory_validator_server.py:100:100: E501 line too long (125 > 99 characters)
+[7.030s] E     ./dobot_kinematics/trajectory_validator_server.py:103:5: E303 too many blank lines (2)
+[7.030s] E     ./dobot_kinematics/trajectory_validator_server.py:104:100: E501 line too long (105 > 99 characters)
+[7.030s] E     ./dobot_kinematics/trajectory_validator_server.py:109:5: E303 too many blank lines (3)
+[7.031s] E     ./dobot_kinematics/trajectory_validator_server.py:114:12: E111 indentation is not a multiple of 4
+[7.031s] E     ./dobot_kinematics/trajectory_validator_server.py:116:1: W293 blank line contains whitespace
+[7.031s] E     ./dobot_kinematics/trajectory_validator_server.py:118:50: E231 missing whitespace after ','
+[7.031s] E     ./dobot_kinematics/trajectory_validator_server.py:128:12: E111 indentation is not a multiple of 4
+[7.031s] E     ./dobot_kinematics/trajectory_validator_server.py:132:5: E303 too many blank lines (2)
+[7.031s] E     ./dobot_kinematics/trajectory_validator_server.py:137:25: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.031s] E     ./dobot_kinematics/trajectory_validator_server.py:139:100: E501 line too long (210 > 99 characters)
+[7.031s] E     ./dobot_kinematics/trajectory_validator_server.py:141:100: E501 line too long (123 > 99 characters)
+[7.031s] E     ./dobot_kinematics/trajectory_validator_server.py:144:1: W293 blank line contains whitespace
+[7.031s] E     ./dobot_kinematics/trajectory_validator_server.py:148:100: E501 line too long (121 > 99 characters)
+[7.032s] E     ./dobot_kinematics/trajectory_validator_server.py:149:100: E501 line too long (125 > 99 characters)
+[7.032s] E     ./dobot_kinematics/trajectory_validator_server.py:150:13: F841 local variable 'cartesian_target_list' is assigned to but never used
+[7.032s] E     ./dobot_kinematics/trajectory_validator_server.py:150:100: E501 line too long (128 > 99 characters)
+[7.032s] E     ./dobot_kinematics/trajectory_validator_server.py:155:27: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.032s] E     ./dobot_kinematics/trajectory_validator_server.py:158:29: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.032s] E     ./dobot_kinematics/trajectory_validator_server.py:160:100: E501 line too long (225 > 99 characters)
+[7.032s] E     ./dobot_kinematics/trajectory_validator_server.py:162:100: E501 line too long (123 > 99 characters)
+[7.032s] E     ./dobot_kinematics/trajectory_validator_server.py:167:9: E303 too many blank lines (2)
+[7.032s] E     ./dobot_kinematics/trajectory_validator_server.py:170:23: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.033s] E     ./dobot_kinematics/trajectory_validator_server.py:173:25: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.033s] E     ./dobot_kinematics/trajectory_validator_server.py:175:100: E501 line too long (210 > 99 characters)
+[7.033s] E     ./dobot_kinematics/trajectory_validator_server.py:177:100: E501 line too long (123 > 99 characters)
+[7.033s] E     ./dobot_kinematics/trajectory_validator_server.py:182:9: E303 too many blank lines (2)
+[7.033s] E     ./dobot_kinematics/trajectory_validator_server.py:183:100: E501 line too long (109 > 99 characters)
+[7.033s] E     ./dobot_kinematics/trajectory_validator_server.py:188:27: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.033s] E     ./dobot_kinematics/trajectory_validator_server.py:191:29: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.033s] E     ./dobot_kinematics/trajectory_validator_server.py:193:100: E501 line too long (210 > 99 characters)
+[7.033s] E     ./dobot_kinematics/trajectory_validator_server.py:195:100: E501 line too long (123 > 99 characters)
+[7.033s] E     ./dobot_kinematics/trajectory_validator_server.py:199:47: W291 trailing whitespace
+[7.034s] E     ./dobot_kinematics/trajectory_validator_server.py:200:13: E265 block comment should start with '# '
+[7.034s] E     ./dobot_kinematics/trajectory_validator_server.py:217:11: W292 no newline at end of file
+[7.034s] E     ./dobot_kinematics/dobot_inv_kin.py:1:1: F811 redefinition of unused 'degrees' from line 1
+[7.034s] E     ./dobot_kinematics/dobot_inv_kin.py:3:1: E302 expected 2 blank lines, found 1
+[7.034s] E     ./dobot_kinematics/dobot_inv_kin.py:7:22: W291 trailing whitespace
+[7.034s] E     ./dobot_kinematics/dobot_inv_kin.py:11:28: E231 missing whitespace after ','
+[7.034s] E     ./dobot_kinematics/dobot_inv_kin.py:13:27: E231 missing whitespace after ','
+[7.034s] E     ./dobot_kinematics/dobot_inv_kin.py:13:38: E231 missing whitespace after ','
+[7.034s] E     ./dobot_kinematics/dobot_inv_kin.py:13:49: E231 missing whitespace after ','
+[7.035s] E     ./dobot_kinematics/dobot_inv_kin.py:14:35: E231 missing whitespace after ','
+[7.035s] E     ./dobot_kinematics/dobot_inv_kin.py:14:46: E231 missing whitespace after ','
+[7.035s] E     ./dobot_kinematics/dobot_inv_kin.py:15:25: E201 whitespace after '('
+[7.035s] E     ./dobot_kinematics/dobot_inv_kin.py:15:51: E231 missing whitespace after ','
+[7.035s] E     ./dobot_kinematics/dobot_inv_kin.py:15:68: E231 missing whitespace after ','
+[7.035s] E     ./dobot_kinematics/dobot_inv_kin.py:15:71: E202 whitespace before ')'
+[7.035s] E     ./dobot_kinematics/dobot_inv_kin.py:15:77: E201 whitespace after '('
+[7.035s] E     ./dobot_kinematics/dobot_inv_kin.py:15:100: E501 line too long (112 > 99 characters)
+[7.035s] E     ./dobot_kinematics/dobot_inv_kin.py:15:109: E202 whitespace before ')'
+[7.035s] E     ./dobot_kinematics/dobot_inv_kin.py:21:29: E201 whitespace after '('
+[7.036s] E     ./dobot_kinematics/dobot_inv_kin.py:21:55: E231 missing whitespace after ','
+[7.036s] E     ./dobot_kinematics/dobot_inv_kin.py:21:72: E231 missing whitespace after ','
+[7.036s] E     ./dobot_kinematics/dobot_inv_kin.py:21:75: E202 whitespace before ')'
+[7.036s] E     ./dobot_kinematics/dobot_inv_kin.py:21:81: E201 whitespace after '('
+[7.036s] E     ./dobot_kinematics/dobot_inv_kin.py:21:94: E225 missing whitespace around operator
+[7.036s] E     ./dobot_kinematics/dobot_inv_kin.py:21:95: E222 multiple spaces after operator
+[7.036s] E     ./dobot_kinematics/dobot_inv_kin.py:21:100: E501 line too long (106 > 99 characters)
+[7.036s] E     ./dobot_kinematics/dobot_inv_kin.py:22:42: W291 trailing whitespace
+[7.036s] E     ./dobot_kinematics/dobot_inv_kin.py:24:25: E201 whitespace after '['
+[7.036s] E     ./dobot_kinematics/dobot_inv_kin.py:24:100: E501 line too long (147 > 99 characters)
+[7.037s] E     ./dobot_kinematics/dobot_inv_kin.py:24:126: E261 at least two spaces before inline comment
+[7.037s] E     ./dobot_kinematics/dobot_inv_kin.py:25:5: E722 do not use bare 'except'
+[7.037s] E     ./dobot_kinematics/dobot_inv_kin.py:30:1: W391 blank line at end of file
+[7.037s] E     ./dobot_kinematics/trajectory_validator_client.py:5:100: E501 line too long (101 > 99 characters)
+[7.037s] E     ./dobot_kinematics/trajectory_validator_client.py:7:1: E302 expected 2 blank lines, found 1
+[7.037s] E     ./dobot_kinematics/trajectory_validator_client.py:11:100: E501 line too long (109 > 99 characters)
+[7.037s] E     ./dobot_kinematics/trajectory_validator_client.py:30:5: E122 continuation line missing indentation or outdented
+[7.037s] E     ./dobot_kinematics/trajectory_validator_client.py:30:38: E225 missing whitespace around operator
+[7.037s] E     ./dobot_kinematics/trajectory_validator_client.py:38:1: W391 blank line at end of file
+[7.037s] E     ./dobot_kinematics/collision_utils.py:70:5: E303 too many blank lines (2)
+[7.038s] E     ./dobot_kinematics/collision_utils.py:98:58: E251 unexpected spaces around keyword / parameter equals
+[7.038s] E     ./dobot_kinematics/collision_utils.py:98:60: E251 unexpected spaces around keyword / parameter equals
+[7.038s] E     ./dobot_kinematics/collision_utils.py:102:9: E303 too many blank lines (2)
+[7.038s] E     ./dobot_kinematics/collision_utils.py:115:13: E303 too many blank lines (2)
+[7.038s] E     ./dobot_kinematics/collision_utils.py:120:75: E261 at least two spaces before inline comment
+[7.038s] E     ./dobot_kinematics/collision_utils.py:120:100: E501 line too long (144 > 99 characters)
+[7.038s] E     ./dobot_kinematics/collision_utils.py:125:5: E303 too many blank lines (2)
+[7.043s] E     ./dobot_kinematics/collision_utils.py:129:17: E117 over-indented
+[7.043s] E     ./dobot_kinematics/collision_utils.py:141:35: W291 trailing whitespace
+[7.043s] E     ./dobot_kinematics/collision_detection_server.py:1:1: F401 'time' imported but unused
+[7.044s] E     ./dobot_kinematics/collision_detection_server.py:15:1: E303 too many blank lines (3)
+[7.044s] E     ./dobot_kinematics/collision_detection_server.py:21:5: E303 too many blank lines (2)
+[7.044s] E     ./dobot_kinematics/collision_detection_server.py:28:55: E203 whitespace before ','
+[7.044s] E     ./dobot_kinematics/collision_detection_server.py:28:56: E231 missing whitespace after ','
+[7.044s] E     ./dobot_kinematics/collision_detection_server.py:28:69: W291 trailing whitespace
+[7.044s] E     ./dobot_kinematics/collision_detection_server.py:29:61: E231 missing whitespace after ','
+[7.044s] E     ./dobot_kinematics/collision_detection_server.py:29:67: E225 missing whitespace around operator
+[7.044s] E     ./dobot_kinematics/collision_detection_server.py:29:100: E501 line too long (141 > 99 characters)
+[7.044s] E     ./dobot_kinematics/collision_detection_server.py:45:9: E303 too many blank lines (2)
+[7.045s] E     ./dobot_kinematics/collision_detection_server.py:65:24: E203 whitespace before ':'
+[7.045s] E     ./dobot_kinematics/collision_detection_server.py:72:5: E303 too many blank lines (2)
+[7.045s] E     ./dobot_kinematics/collision_detection_server.py:87:53: E251 unexpected spaces around keyword / parameter equals
+[7.045s] E     ./dobot_kinematics/collision_detection_server.py:87:55: E251 unexpected spaces around keyword / parameter equals
+[7.045s] E     ./dobot_kinematics/collision_detection_server.py:91:5: E303 too many blank lines (2)
+[7.045s] E     ./dobot_kinematics/collision_detection_server.py:92:71: E251 unexpected spaces around keyword / parameter equals
+[7.045s] E     ./dobot_kinematics/collision_detection_server.py:92:73: E251 unexpected spaces around keyword / parameter equals
+[7.045s] E     ./dobot_kinematics/collision_detection_server.py:99:100: E501 line too long (156 > 99 characters)
+[7.045s] E     ./dobot_kinematics/collision_detection_server.py:100:100: E501 line too long (169 > 99 characters)
+[7.046s] E     ./dobot_kinematics/collision_detection_server.py:109:16: E225 missing whitespace around operator
+[7.046s] E     ./dobot_kinematics/collision_detection_server.py:114:1: W293 blank line contains whitespace
+[7.046s] E     ./dobot_kinematics/collision_detection_server.py:115:5: E303 too many blank lines (2)
+[7.046s] E     ./dobot_kinematics/collision_detection_server.py:127:9: E303 too many blank lines (2)
+[7.046s] E     ./dobot_kinematics/collision_detection_server.py:131:77: W291 trailing whitespace
+[7.046s] E     ./dobot_kinematics/collision_detection_server.py:133:73: W291 trailing whitespace
+[7.046s] E     ./dobot_kinematics/collision_detection_server.py:139:9: E303 too many blank lines (2)
+[7.046s] E     ./dobot_kinematics/collision_detection_server.py:139:26: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[7.059s] E     ./dobot_kinematics/collision_detection_server.py:139:50: E225 missing whitespace around operator
+[7.059s] E     ./dobot_kinematics/collision_detection_server.py:143:100: E501 line too long (101 > 99 characters)
+[7.059s] E     ./dobot_kinematics/collision_detection_server.py:145:28: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.059s] E     ./dobot_kinematics/collision_detection_server.py:145:53: E225 missing whitespace around operator
+[7.059s] E     ./dobot_kinematics/collision_detection_server.py:151:28: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[7.059s] E     ./dobot_kinematics/collision_detection_server.py:151:52: E225 missing whitespace around operator
+[7.060s] E     ./dobot_kinematics/collision_detection_server.py:155:100: E501 line too long (155 > 99 characters)
+[7.060s] E     ./dobot_kinematics/collision_detection_server.py:157:28: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.060s] E     ./dobot_kinematics/collision_detection_server.py:157:53: E225 missing whitespace around operator
+[7.060s] E     ./dobot_kinematics/collision_detection_server.py:161:100: E501 line too long (107 > 99 characters)
+[7.060s] E     ./dobot_kinematics/collision_detection_server.py:163:1: W293 blank line contains whitespace
+[7.060s] E     ./dobot_kinematics/collision_detection_server.py:165:9: E303 too many blank lines (2)
+[7.060s] E     ./dobot_kinematics/collision_detection_server.py:175:26: E251 unexpected spaces around keyword / parameter equals
+[7.060s] E     ./dobot_kinematics/collision_detection_server.py:175:28: E251 unexpected spaces around keyword / parameter equals
+[7.060s] E     ./dobot_kinematics/collision_detection_server.py:183:100: E501 line too long (114 > 99 characters)
+[7.060s] E     ./dobot_kinematics/collision_detection_server.py:194:1: W293 blank line contains whitespace
+[7.061s] E     ./dobot_kinematics/collision_detection_server.py:196:30: E251 unexpected spaces around keyword / parameter equals
+[7.061s] E     ./dobot_kinematics/collision_detection_server.py:196:32: E251 unexpected spaces around keyword / parameter equals
+[7.061s] E     ./dobot_kinematics/collision_detection_server.py:202:13: E303 too many blank lines (2)
+[7.061s] E     ./launch/dobot_validate_trajectory.launch.py:7:1: E302 expected 2 blank lines, found 1
+[7.061s] E     ./launch/dobot_validate_trajectory.launch.py:16:5: E122 continuation line missing indentation or outdented
+[7.061s] E     ./launch/dobot_validate_trajectory.launch.py:21:5: E122 continuation line missing indentation or outdented
+[7.061s] E     ./launch/dobot_validate_trajectory.launch.py:23:23: E231 missing whitespace after ','
+[7.061s] E     ./launch/dobot_validate_trajectory.launch.py:28:1: W391 blank line at end of file
+[7.061s] E   assert 1 == 0
+[7.062s] ----------------------------- Captured stdout call -----------------------------
+[7.062s] 
+[7.062s] ./dobot_kinematics/dobot_forward_kin.py:1:100: E501 line too long (102 > 99 characters)
+[7.062s] from PyKDL import Chain, Vector, Rotation, Frame, Joint, Segment, JntArray, ChainFkSolverPos_recursive
+[7.062s]                                                                                                    ^
+[7.062s] 
+[7.062s] ./dobot_kinematics/dobot_forward_kin.py:4:1: E302 expected 2 blank lines, found 1
+[7.062s] def calc_FwdKin(theta1, theta2, theta3):
+[7.063s] ^
+[7.063s] 
+[7.063s] ./dobot_kinematics/dobot_forward_kin.py:6:1: W191 indentation contains tabs
+[7.063s] 	# Kinematic chain
+[7.063s] ^
+[7.063s] 
+[7.063s] ./dobot_kinematics/dobot_forward_kin.py:8:1: W191 indentation contains tabs
+[7.063s] 	chain = Chain()
+[7.063s] ^
+[7.063s] 
+[7.064s] ./dobot_kinematics/dobot_forward_kin.py:9:1: W191 indentation contains tabs
+[7.064s] 	base_link__link_1 = Joint(Joint.RotZ) 
+[7.064s] ^
+[7.064s] 
+[7.064s] ./dobot_kinematics/dobot_forward_kin.py:9:39: W291 trailing whitespace
+[7.064s] 	base_link__link_1 = Joint(Joint.RotZ) 
+[7.064s] 	                                     ^
+[7.064s] 
+[7.064s] ./dobot_kinematics/dobot_forward_kin.py:10:1: W191 indentation contains tabs
+[7.064s] 	frame1 = Frame(Rotation.RPY(0, 0, 0),
+[7.065s] ^
+[7.065s] 
+[7.065s] ./dobot_kinematics/dobot_forward_kin.py:11:1: W191 indentation contains tabs
+[7.065s] 		Vector(0, 0, 0)) 
+[7.065s] ^
+[7.065s] 
+[7.065s] ./dobot_kinematics/dobot_forward_kin.py:11:3: E128 continuation line under-indented for visual indent
+[7.065s] 		Vector(0, 0, 0)) 
+[7.065s] 		^
+[7.066s] 
+[7.066s] ./dobot_kinematics/dobot_forward_kin.py:11:19: W291 trailing whitespace
+[7.066s] 		Vector(0, 0, 0)) 
+[7.066s] 		                ^
+[7.066s] 
+[7.066s] ./dobot_kinematics/dobot_forward_kin.py:12:1: W191 indentation contains tabs
+[7.066s] 	segment1 = Segment(base_link__link_1, frame1)
+[7.066s] ^
+[7.066s] 
+[7.067s] ./dobot_kinematics/dobot_forward_kin.py:13:1: W191 indentation contains tabs
+[7.067s] 	chain.addSegment(segment1) 
+[7.067s] ^
+[7.067s] 
+[7.067s] ./dobot_kinematics/dobot_forward_kin.py:13:28: W291 trailing whitespace
+[7.067s] 	chain.addSegment(segment1) 
+[7.067s] 	                          ^
+[7.067s] 
+[7.067s] ./dobot_kinematics/dobot_forward_kin.py:16:1: W191 indentation contains tabs
+[7.067s] 	link_1__link_2 = Joint(Joint.RotY) 
+[7.068s] ^
+[7.068s] 
+[7.068s] ./dobot_kinematics/dobot_forward_kin.py:16:2: E303 too many blank lines (2)
+[7.068s] 	link_1__link_2 = Joint(Joint.RotY) 
+[7.068s] 	^
+[7.068s] 
+[7.068s] ./dobot_kinematics/dobot_forward_kin.py:16:36: W291 trailing whitespace
+[7.068s] 	link_1__link_2 = Joint(Joint.RotY) 
+[7.068s] 	                                  ^
+[7.068s] 
+[7.069s] ./dobot_kinematics/dobot_forward_kin.py:17:1: W191 indentation contains tabs
+[7.069s] 	frame2 = Frame(Rotation.RPY(0, 0, 0),
+[7.069s] ^
+[7.069s] 
+[7.069s] ./dobot_kinematics/dobot_forward_kin.py:18:1: W191 indentation contains tabs
+[7.069s] 		Vector(0, 0, 0.135))
+[7.069s] ^
+[7.069s] 
+[7.069s] ./dobot_kinematics/dobot_forward_kin.py:18:3: E128 continuation line under-indented for visual indent
+[7.070s] 		Vector(0, 0, 0.135))
+[7.070s] 		^
+[7.070s] 
+[7.070s] ./dobot_kinematics/dobot_forward_kin.py:19:1: W191 indentation contains tabs
+[7.070s] 	segment2=Segment(link_1__link_2, frame2)
+[7.070s] ^
+[7.070s] 
+[7.070s] ./dobot_kinematics/dobot_forward_kin.py:19:10: E225 missing whitespace around operator
+[7.083s] 	segment2=Segment(link_1__link_2, frame2)
+[7.083s] 	        ^
+[7.083s] 
+[7.083s] ./dobot_kinematics/dobot_forward_kin.py:20:1: W191 indentation contains tabs
+[7.083s] 	chain.addSegment(segment2)
+[7.083s] ^
+[7.083s] 
+[7.084s] ./dobot_kinematics/dobot_forward_kin.py:23:1: W191 indentation contains tabs
+[7.084s] 	link_2__link_3 = Joint(Joint.RotY) 
+[7.084s] ^
+[7.084s] 
+[7.084s] ./dobot_kinematics/dobot_forward_kin.py:23:2: E303 too many blank lines (2)
+[7.084s] 	link_2__link_3 = Joint(Joint.RotY) 
+[7.084s] 	^
+[7.084s] 
+[7.084s] ./dobot_kinematics/dobot_forward_kin.py:23:36: W291 trailing whitespace
+[7.085s] 	link_2__link_3 = Joint(Joint.RotY) 
+[7.085s] 	                                  ^
+[7.085s] 
+[7.085s] ./dobot_kinematics/dobot_forward_kin.py:24:1: W191 indentation contains tabs
+[7.085s] 	frame3 = Frame(Rotation.RPY(0, 0, 0),
+[7.085s] ^
+[7.085s] 
+[7.085s] ./dobot_kinematics/dobot_forward_kin.py:25:1: W191 indentation contains tabs
+[7.085s] 		Vector(0.147, 0, 0))
+[7.085s] ^
+[7.086s] 
+[7.086s] ./dobot_kinematics/dobot_forward_kin.py:25:3: E128 continuation line under-indented for visual indent
+[7.086s] 		Vector(0.147, 0, 0))
+[7.086s] 		^
+[7.086s] 
+[7.086s] ./dobot_kinematics/dobot_forward_kin.py:26:1: W191 indentation contains tabs
+[7.086s] 	segment3=Segment(link_2__link_3,frame3)
+[7.086s] ^
+[7.086s] 
+[7.087s] ./dobot_kinematics/dobot_forward_kin.py:26:10: E225 missing whitespace around operator
+[7.087s] 	segment3=Segment(link_2__link_3,frame3)
+[7.087s] 	        ^
+[7.087s] 
+[7.087s] ./dobot_kinematics/dobot_forward_kin.py:26:33: E231 missing whitespace after ','
+[7.087s] 	segment3=Segment(link_2__link_3,frame3)
+[7.087s] 	                               ^
+[7.087s] 
+[7.087s] ./dobot_kinematics/dobot_forward_kin.py:27:1: W191 indentation contains tabs
+[7.088s] 	chain.addSegment(segment3)
+[7.088s] ^
+[7.088s] 
+[7.088s] ./dobot_kinematics/dobot_forward_kin.py:30:1: W191 indentation contains tabs
+[7.088s] 	# Forward kinematics
+[7.088s] ^
+[7.088s] 
+[7.088s] ./dobot_kinematics/dobot_forward_kin.py:30:2: E303 too many blank lines (2)
+[7.088s] 	# Forward kinematics
+[7.088s] 	^
+[7.088s] 
+[7.089s] ./dobot_kinematics/dobot_forward_kin.py:31:1: W191 indentation contains tabs
+[7.089s] 	joint_angles=JntArray(3)
+[7.089s] ^
+[7.089s] 
+[7.089s] ./dobot_kinematics/dobot_forward_kin.py:31:14: E225 missing whitespace around operator
+[7.089s] 	joint_angles=JntArray(3)
+[7.089s] 	            ^
+[7.089s] 
+[7.089s] ./dobot_kinematics/dobot_forward_kin.py:32:1: W191 indentation contains tabs
+[7.089s] 	joint_angles[0]= radians(theta1)
+[7.090s] ^
+[7.090s] 
+[7.090s] ./dobot_kinematics/dobot_forward_kin.py:32:17: E225 missing whitespace around operator
+[7.090s] 	joint_angles[0]= radians(theta1)
+[7.090s] 	               ^
+[7.090s] 
+[7.090s] ./dobot_kinematics/dobot_forward_kin.py:33:1: W191 indentation contains tabs
+[7.090s] 	joint_angles[1]= radians(theta2)
+[7.090s] ^
+[7.091s] 
+[7.091s] ./dobot_kinematics/dobot_forward_kin.py:33:17: E225 missing whitespace around operator
+[7.091s] 	joint_angles[1]= radians(theta2)
+[7.091s] 	               ^
+[7.091s] 
+[7.091s] ./dobot_kinematics/dobot_forward_kin.py:34:1: W191 indentation contains tabs
+[7.091s] 	joint_angles[2]= -(radians(theta2) - radians(theta3))
+[7.091s] ^
+[7.091s] 
+[7.092s] ./dobot_kinematics/dobot_forward_kin.py:34:17: E225 missing whitespace around operator
+[7.092s] 	joint_angles[2]= -(radians(theta2) - radians(theta3))
+[7.092s] 	               ^
+[7.092s] 
+[7.092s] ./dobot_kinematics/dobot_forward_kin.py:37:1: W191 indentation contains tabs
+[7.092s] 	# Recursive solver of simple kinematics
+[7.092s] ^
+[7.092s] 
+[7.092s] ./dobot_kinematics/dobot_forward_kin.py:37:2: E303 too many blank lines (2)
+[7.092s] 	# Recursive solver of simple kinematics
+[7.093s] 	^
+[7.093s] 
+[7.093s] ./dobot_kinematics/dobot_forward_kin.py:39:1: W191 indentation contains tabs
+[7.093s] 	fk=ChainFkSolverPos_recursive(chain)
+[7.093s] ^
+[7.093s] 
+[7.093s] ./dobot_kinematics/dobot_forward_kin.py:39:4: E225 missing whitespace around operator
+[7.093s] 	fk=ChainFkSolverPos_recursive(chain)
+[7.093s] 	  ^
+[7.093s] 
+[7.094s] ./dobot_kinematics/dobot_forward_kin.py:40:1: W191 indentation contains tabs
+[7.094s] 	finalFrame=Frame()
+[7.094s] ^
+[7.094s] 
+[7.094s] ./dobot_kinematics/dobot_forward_kin.py:40:12: E225 missing whitespace around operator
+[7.094s] 	finalFrame=Frame()
+[7.094s] 	          ^
+[7.094s] 
+[7.094s] ./dobot_kinematics/dobot_forward_kin.py:41:1: W191 indentation contains tabs
+[7.094s] 	fk.JntToCart(joint_angles,finalFrame)
+[7.095s] ^
+[7.095s] 
+[7.095s] ./dobot_kinematics/dobot_forward_kin.py:41:27: E231 missing whitespace after ','
+[7.095s] 	fk.JntToCart(joint_angles,finalFrame)
+[7.095s] 	                         ^
+[7.095s] 
+[7.095s] ./dobot_kinematics/dobot_forward_kin.py:42:1: W191 indentation contains tabs
+[7.095s] 	xyz = finalFrame.p 
+[7.095s] ^
+[7.095s] 
+[7.096s] ./dobot_kinematics/dobot_forward_kin.py:42:20: W291 trailing whitespace
+[7.096s] 	xyz = finalFrame.p 
+[7.096s] 	                  ^
+[7.096s] 
+[7.096s] ./dobot_kinematics/dobot_forward_kin.py:44:1: W191 indentation contains tabs
+[7.096s] 	return xyz*1000
+[7.096s] ^
+[7.096s] 
+[7.096s] ./dobot_kinematics/dobot_forward_kin.py:45:1: W391 blank line at end of file
+[7.097s] 
+[7.097s] ^
+[7.097s] 
+[7.097s] ./dobot_kinematics/trajectory_validator_server.py:8:1: F401 'os.path' imported but unused
+[7.097s] import os.path as path
+[7.097s] ^
+[7.097s] 
+[7.097s] ./dobot_kinematics/trajectory_validator_server.py:9:1: F401 'geometry_msgs.msg.PoseStamped' imported but unused
+[7.097s] from geometry_msgs.msg import PoseStamped 
+[7.097s] ^
+[7.098s] 
+[7.098s] ./dobot_kinematics/trajectory_validator_server.py:9:42: W291 trailing whitespace
+[7.098s] from geometry_msgs.msg import PoseStamped 
+[7.098s]                                          ^
+[7.098s] 
+[7.098s] ./dobot_kinematics/trajectory_validator_server.py:10:1: F401 'tf_transformations' imported but unused
+[7.098s] import tf_transformations
+[7.098s] ^
+[7.098s] 
+[7.099s] ./dobot_kinematics/trajectory_validator_server.py:12:1: F401 'numpy as np' imported but unused
+[7.099s] import numpy as np
+[7.099s] ^
+[7.099s] 
+[7.099s] ./dobot_kinematics/trajectory_validator_server.py:13:1: F401 'os' imported but unused
+[7.099s] import os
+[7.099s] ^
+[7.099s] 
+[7.099s] ./dobot_kinematics/trajectory_validator_server.py:19:1: E303 too many blank lines (4)
+[7.099s] class PoseValidatorService(Node):
+[7.100s] ^
+[7.100s] 
+[7.100s] ./dobot_kinematics/trajectory_validator_server.py:23:100: E501 line too long (127 > 99 characters)
+[7.100s]         self.srv_PTP = self.create_service(EvaluatePTPTrajectory, 'dobot_PTP_validation_service', self.PTP_trajectory_callback)
+[7.100s]                                                                                                    ^
+[7.100s] 
+[7.100s] ./dobot_kinematics/trajectory_validator_server.py:24:100: E501 line too long (125 > 99 characters)
+[7.100s]         self.subscription_TCP = self.create_subscription(Float64MultiArray, 'dobot_pose_raw', self.tcp_position_callback, 10)
+[7.100s]                                                                                                    ^
+[7.101s] 
+[7.101s] ./dobot_kinematics/trajectory_validator_server.py:28:9: E303 too many blank lines (2)
+[7.101s]         # TCP pose before motion execution - in order to determine equation of linear trajectory
+[7.101s]         ^
+[7.101s] 
+[7.101s] ./dobot_kinematics/trajectory_validator_server.py:29:29: W291 trailing whitespace
+[7.101s]         self.dobot_pose = [] 
+[7.101s]                             ^
+[7.101s] 
+[7.101s] ./dobot_kinematics/trajectory_validator_server.py:32:32: E261 at least two spaces before inline comment
+[7.102s]         self.max_velocity = 115 #TODO [mm/s]
+[7.102s]                                ^
+[7.102s] 
+[7.102s] ./dobot_kinematics/trajectory_validator_server.py:32:33: E262 inline comment should start with '# '
+[7.102s]         self.max_velocity = 115 #TODO [mm/s]
+[7.102s]                                 ^
+[7.102s] 
+[7.111s] ./dobot_kinematics/trajectory_validator_server.py:43:83: W291 trailing whitespace
+[7.111s]         self.declare_parameter('axis_1_range', rclpy.Parameter.Type.INTEGER_ARRAY, 
+[7.111s]                                                                                   ^
+[7.111s] 
+[7.111s] ./dobot_kinematics/trajectory_validator_server.py:44:9: E128 continuation line under-indented for visual indent
+[7.111s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the first axis.", 
+[7.111s]         ^
+[7.112s] 
+[7.112s] ./dobot_kinematics/trajectory_validator_server.py:44:40: E251 unexpected spaces around keyword / parameter equals
+[7.112s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the first axis.", 
+[7.112s]                                        ^
+[7.112s] 
+[7.112s] ./dobot_kinematics/trajectory_validator_server.py:44:42: E251 unexpected spaces around keyword / parameter equals
+[7.112s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the first axis.", 
+[7.112s]                                          ^
+[7.112s] 
+[7.113s] ./dobot_kinematics/trajectory_validator_server.py:44:100: E501 line too long (111 > 99 characters)
+[7.113s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the first axis.", 
+[7.113s]                                                                                                    ^
+[7.113s] 
+[7.113s] ./dobot_kinematics/trajectory_validator_server.py:44:112: W291 trailing whitespace
+[7.113s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the first axis.", 
+[7.113s]                                                                                                                ^
+[7.113s] 
+[7.113s] ./dobot_kinematics/trajectory_validator_server.py:45:9: E128 continuation line under-indented for visual indent
+[7.113s]         additional_constraints = "The value must be between -125 and 125 degrees."))
+[7.114s]         ^
+[7.114s] 
+[7.114s] ./dobot_kinematics/trajectory_validator_server.py:45:31: E251 unexpected spaces around keyword / parameter equals
+[7.114s]         additional_constraints = "The value must be between -125 and 125 degrees."))
+[7.114s]                               ^
+[7.114s] 
+[7.114s] ./dobot_kinematics/trajectory_validator_server.py:45:33: E251 unexpected spaces around keyword / parameter equals
+[7.114s]         additional_constraints = "The value must be between -125 and 125 degrees."))
+[7.114s]                                 ^
+[7.115s] 
+[7.115s] ./dobot_kinematics/trajectory_validator_server.py:48:83: W291 trailing whitespace
+[7.115s]         self.declare_parameter('axis_2_range', rclpy.Parameter.Type.INTEGER_ARRAY, 
+[7.115s]                                                                                   ^
+[7.115s] 
+[7.115s] ./dobot_kinematics/trajectory_validator_server.py:49:9: E128 continuation line under-indented for visual indent
+[7.115s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the second axis.", 
+[7.115s]         ^
+[7.115s] 
+[7.116s] ./dobot_kinematics/trajectory_validator_server.py:49:40: E251 unexpected spaces around keyword / parameter equals
+[7.116s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the second axis.", 
+[7.116s]                                        ^
+[7.116s] 
+[7.116s] ./dobot_kinematics/trajectory_validator_server.py:49:42: E251 unexpected spaces around keyword / parameter equals
+[7.116s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the second axis.", 
+[7.116s]                                          ^
+[7.116s] 
+[7.116s] ./dobot_kinematics/trajectory_validator_server.py:49:100: E501 line too long (112 > 99 characters)
+[7.116s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the second axis.", 
+[7.117s]                                                                                                    ^
+[7.117s] 
+[7.117s] ./dobot_kinematics/trajectory_validator_server.py:49:113: W291 trailing whitespace
+[7.117s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the second axis.", 
+[7.117s]                                                                                                                 ^
+[7.117s] 
+[7.117s] ./dobot_kinematics/trajectory_validator_server.py:50:9: E128 continuation line under-indented for visual indent
+[7.117s]         additional_constraints = "The value must be between -5 and 90 degrees."))
+[7.117s]         ^
+[7.118s] 
+[7.118s] ./dobot_kinematics/trajectory_validator_server.py:50:31: E251 unexpected spaces around keyword / parameter equals
+[7.118s]         additional_constraints = "The value must be between -5 and 90 degrees."))
+[7.118s]                               ^
+[7.118s] 
+[7.118s] ./dobot_kinematics/trajectory_validator_server.py:50:33: E251 unexpected spaces around keyword / parameter equals
+[7.118s]         additional_constraints = "The value must be between -5 and 90 degrees."))
+[7.118s]                                 ^
+[7.118s] 
+[7.118s] ./dobot_kinematics/trajectory_validator_server.py:53:83: W291 trailing whitespace
+[7.119s]         self.declare_parameter('axis_3_range', rclpy.Parameter.Type.INTEGER_ARRAY, 
+[7.119s]                                                                                   ^
+[7.119s] 
+[7.119s] ./dobot_kinematics/trajectory_validator_server.py:54:9: E128 continuation line under-indented for visual indent
+[7.119s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the third axis.", 
+[7.119s]         ^
+[7.119s] 
+[7.119s] ./dobot_kinematics/trajectory_validator_server.py:54:40: E251 unexpected spaces around keyword / parameter equals
+[7.119s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the third axis.", 
+[7.119s]                                        ^
+[7.120s] 
+[7.120s] ./dobot_kinematics/trajectory_validator_server.py:54:42: E251 unexpected spaces around keyword / parameter equals
+[7.120s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the third axis.", 
+[7.120s]                                          ^
+[7.120s] 
+[7.120s] ./dobot_kinematics/trajectory_validator_server.py:54:100: E501 line too long (111 > 99 characters)
+[7.120s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the third axis.", 
+[7.120s]                                                                                                    ^
+[7.120s] 
+[7.121s] ./dobot_kinematics/trajectory_validator_server.py:54:112: W291 trailing whitespace
+[7.121s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the third axis.", 
+[7.121s]                                                                                                                ^
+[7.121s] 
+[7.121s] ./dobot_kinematics/trajectory_validator_server.py:55:9: E128 continuation line under-indented for visual indent
+[7.121s]         additional_constraints = "The value must be between -15 and 70 degrees."))
+[7.121s]         ^
+[7.121s] 
+[7.121s] ./dobot_kinematics/trajectory_validator_server.py:55:31: E251 unexpected spaces around keyword / parameter equals
+[7.121s]         additional_constraints = "The value must be between -15 and 70 degrees."))
+[7.122s]                               ^
+[7.122s] 
+[7.122s] ./dobot_kinematics/trajectory_validator_server.py:55:33: E251 unexpected spaces around keyword / parameter equals
+[7.122s]         additional_constraints = "The value must be between -15 and 70 degrees."))
+[7.122s]                                 ^
+[7.122s] 
+[7.122s] ./dobot_kinematics/trajectory_validator_server.py:57:17: W291 trailing whitespace
+[7.130s]         # Axis 4 
+[7.131s]                 ^
+[7.131s] 
+[7.131s] ./dobot_kinematics/trajectory_validator_server.py:58:83: W291 trailing whitespace
+[7.131s]         self.declare_parameter('axis_4_range', rclpy.Parameter.Type.INTEGER_ARRAY, 
+[7.131s]                                                                                   ^
+[7.131s] 
+[7.131s] ./dobot_kinematics/trajectory_validator_server.py:59:9: E128 continuation line under-indented for visual indent
+[7.132s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the fourth axis.", 
+[7.132s]         ^
+[7.132s] 
+[7.132s] ./dobot_kinematics/trajectory_validator_server.py:59:40: E251 unexpected spaces around keyword / parameter equals
+[7.132s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the fourth axis.", 
+[7.132s]                                        ^
+[7.132s] 
+[7.132s] ./dobot_kinematics/trajectory_validator_server.py:59:42: E251 unexpected spaces around keyword / parameter equals
+[7.132s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the fourth axis.", 
+[7.132s]                                          ^
+[7.133s] 
+[7.133s] ./dobot_kinematics/trajectory_validator_server.py:59:100: E501 line too long (112 > 99 characters)
+[7.133s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the fourth axis.", 
+[7.133s]                                                                                                    ^
+[7.133s] 
+[7.133s] ./dobot_kinematics/trajectory_validator_server.py:59:113: W291 trailing whitespace
+[7.133s]         ParameterDescriptor(description = "The range of allowed values for the joint angle of the fourth axis.", 
+[7.133s]                                                                                                                 ^
+[7.133s] 
+[7.134s] ./dobot_kinematics/trajectory_validator_server.py:60:9: E128 continuation line under-indented for visual indent
+[7.134s]         additional_constraints = "The value must be between -150 and 150 degrees."))
+[7.134s]         ^
+[7.134s] 
+[7.134s] ./dobot_kinematics/trajectory_validator_server.py:60:31: E251 unexpected spaces around keyword / parameter equals
+[7.134s]         additional_constraints = "The value must be between -150 and 150 degrees."))
+[7.134s]                               ^
+[7.134s] 
+[7.134s] ./dobot_kinematics/trajectory_validator_server.py:60:33: E251 unexpected spaces around keyword / parameter equals
+[7.134s]         additional_constraints = "The value must be between -150 and 150 degrees."))
+[7.135s]                                 ^
+[7.135s] 
+[7.135s] ./dobot_kinematics/trajectory_validator_server.py:66:9: E303 too many blank lines (3)
+[7.135s]         self.add_on_set_parameters_callback(self.parameters_callback)
+[7.135s]         ^
+[7.135s] 
+[7.135s] ./dobot_kinematics/trajectory_validator_server.py:69:5: E303 too many blank lines (2)
+[7.135s]     def parameters_callback(self, params):
+[7.135s]     ^
+[7.136s] 
+[7.136s] ./dobot_kinematics/trajectory_validator_server.py:99:5: E303 too many blank lines (3)
+[7.136s]     def tcp_position_callback(self, msg):
+[7.136s]     ^
+[7.136s] 
+[7.136s] ./dobot_kinematics/trajectory_validator_server.py:100:13: E117 over-indented
+[7.136s]             self.dobot_pose = [float(msg.data[0])*1000, float(msg.data[1])*1000, float(msg.data[2])*1000, float(msg.data[3])]
+[7.136s]             ^
+[7.136s] 
+[7.136s] ./dobot_kinematics/trajectory_validator_server.py:100:100: E501 line too long (125 > 99 characters)
+[7.137s]             self.dobot_pose = [float(msg.data[0])*1000, float(msg.data[1])*1000, float(msg.data[2])*1000, float(msg.data[3])]
+[7.137s]                                                                                                    ^
+[7.137s] 
+[7.137s] ./dobot_kinematics/trajectory_validator_server.py:103:5: E303 too many blank lines (2)
+[7.137s]     def PTP_trajectory_callback(self, request, response):
+[7.137s]     ^
+[7.137s] 
+[7.137s] ./dobot_kinematics/trajectory_validator_server.py:104:100: E501 line too long (105 > 99 characters)
+[7.137s]         (response.is_valid, response.message) = self.is_target_valid(request.target, request.motion_type)
+[7.137s]                                                                                                    ^
+[7.138s] 
+[7.138s] ./dobot_kinematics/trajectory_validator_server.py:109:5: E303 too many blank lines (3)
+[7.138s]     def are_angles_in_range_joint(self, angles):
+[7.138s]     ^
+[7.138s] 
+[7.138s] ./dobot_kinematics/trajectory_validator_server.py:114:12: E111 indentation is not a multiple of 4
+[7.138s]            return True
+[7.146s]            ^
+[7.147s] 
+[7.147s] ./dobot_kinematics/trajectory_validator_server.py:116:1: W293 blank line contains whitespace
+[7.147s]     
+[7.147s] ^
+[7.147s] 
+[7.147s] ./dobot_kinematics/trajectory_validator_server.py:118:50: E231 missing whitespace after ','
+[7.147s]         JT1 = math.degrees(math.atan2(position[1],position[0]))
+[7.148s]                                                  ^
+[7.148s] 
+[7.148s] ./dobot_kinematics/trajectory_validator_server.py:128:12: E111 indentation is not a multiple of 4
+[7.148s]            return True
+[7.148s]            ^
+[7.148s] 
+[7.148s] ./dobot_kinematics/trajectory_validator_server.py:132:5: E303 too many blank lines (2)
+[7.148s]     def is_target_valid(self, target, target_type):
+[7.148s]     ^
+[7.148s] 
+[7.149s] ./dobot_kinematics/trajectory_validator_server.py:137:25: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.149s]             if in_limit == False:
+[7.149s]                         ^
+[7.149s] 
+[7.149s] ./dobot_kinematics/trajectory_validator_server.py:139:100: E501 line too long (210 > 99 characters)
+[7.149s]             # is_trajectory_safe = self.collision_server.validate_trajectory(motion_type = target_type, current_pose = self.dobot_pose, target_point = target, detect_ground = self.prevent_collision_with_ground)
+[7.149s]                                                                                                    ^
+[7.149s] 
+[7.149s] ./dobot_kinematics/trajectory_validator_server.py:141:100: E501 line too long (123 > 99 characters)
+[7.150s]             #     return (False, 'A collision was detected during trajectory validation. The movement cannot be executed.')
+[7.150s]                                                                                                    ^
+[7.150s] 
+[7.150s] ./dobot_kinematics/trajectory_validator_server.py:144:1: W293 blank line contains whitespace
+[7.150s]             
+[7.150s] ^
+[7.150s] 
+[7.150s] ./dobot_kinematics/trajectory_validator_server.py:148:100: E501 line too long (121 > 99 characters)
+[7.150s]             cartesian_target_point = [float(cartesian_target[0]), float(cartesian_target[1]), float(cartesian_target[2])]
+[7.150s]                                                                                                    ^
+[7.151s] 
+[7.151s] ./dobot_kinematics/trajectory_validator_server.py:149:100: E501 line too long (125 > 99 characters)
+[7.151s]             waypoints = self.collision_server.linear_trajecory_to_discrete_waypoints(self.dobot_pose, cartesian_target_point)
+[7.151s]                                                                                                    ^
+[7.151s] 
+[7.151s] ./dobot_kinematics/trajectory_validator_server.py:150:13: F841 local variable 'cartesian_target_list' is assigned to but never used
+[7.151s]             cartesian_target_list = [float(cartesian_target[0]), float(cartesian_target[1]), float(cartesian_target[2]), xyz[3]]
+[7.151s]             ^
+[7.151s] 
+[7.152s] ./dobot_kinematics/trajectory_validator_server.py:150:100: E501 line too long (128 > 99 characters)
+[7.152s]             cartesian_target_list = [float(cartesian_target[0]), float(cartesian_target[1]), float(cartesian_target[2]), xyz[3]]
+[7.152s]                                                                                                    ^
+[7.152s] 
+[7.152s] ./dobot_kinematics/trajectory_validator_server.py:155:27: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.152s]                 if angles == False:
+[7.152s]                           ^
+[7.152s] 
+[7.152s] ./dobot_kinematics/trajectory_validator_server.py:158:29: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.152s]                 if in_limit == False:
+[7.153s]                             ^
+[7.153s] 
+[7.153s] ./dobot_kinematics/trajectory_validator_server.py:160:100: E501 line too long (225 > 99 characters)
+[7.153s]             # is_trajectory_safe = self.collision_server.validate_trajectory(motion_type = target_type, current_pose = self.dobot_pose, target_point = cartesian_target_list, detect_ground = self.prevent_collision_with_ground)
+[7.153s]                                                                                                    ^
+[7.153s] 
+[7.153s] ./dobot_kinematics/trajectory_validator_server.py:162:100: E501 line too long (123 > 99 characters)
+[7.153s]             #     return (False, 'A collision was detected during trajectory validation. The movement cannot be executed.')
+[7.153s]                                                                                                    ^
+[7.154s] 
+[7.154s] ./dobot_kinematics/trajectory_validator_server.py:167:9: E303 too many blank lines (2)
+[7.154s]         # Target expressed in cartesian coordinates
+[7.154s]         ^
+[7.154s] 
+[7.154s] ./dobot_kinematics/trajectory_validator_server.py:170:23: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.154s]             if angles == False:
+[7.159s]                       ^
+[7.159s] 
+[7.159s] ./dobot_kinematics/trajectory_validator_server.py:173:25: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.159s]             if in_limit == False:
+[7.159s]                         ^
+[7.159s] 
+[7.159s] ./dobot_kinematics/trajectory_validator_server.py:175:100: E501 line too long (210 > 99 characters)
+[7.160s]             # is_trajectory_safe = self.collision_server.validate_trajectory(motion_type = target_type, current_pose = self.dobot_pose, target_point = target, detect_ground = self.prevent_collision_with_ground)
+[7.160s]                                                                                                    ^
+[7.160s] 
+[7.160s] ./dobot_kinematics/trajectory_validator_server.py:177:100: E501 line too long (123 > 99 characters)
+[7.160s]             #     return (False, 'A collision was detected during trajectory validation. The movement cannot be executed.')
+[7.160s]                                                                                                    ^
+[7.160s] 
+[7.160s] ./dobot_kinematics/trajectory_validator_server.py:182:9: E303 too many blank lines (2)
+[7.160s]         elif target_type == 2:
+[7.161s]         ^
+[7.161s] 
+[7.161s] ./dobot_kinematics/trajectory_validator_server.py:183:100: E501 line too long (109 > 99 characters)
+[7.161s]             waypoints = self.collision_server.linear_trajecory_to_discrete_waypoints(self.dobot_pose, target)
+[7.161s]                                                                                                    ^
+[7.161s] 
+[7.161s] ./dobot_kinematics/trajectory_validator_server.py:188:27: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.161s]                 if angles == False:
+[7.161s]                           ^
+[7.161s] 
+[7.162s] ./dobot_kinematics/trajectory_validator_server.py:191:29: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.162s]                 if in_limit == False:
+[7.162s]                             ^
+[7.162s] 
+[7.162s] ./dobot_kinematics/trajectory_validator_server.py:193:100: E501 line too long (210 > 99 characters)
+[7.162s]             # is_trajectory_safe = self.collision_server.validate_trajectory(motion_type = target_type, current_pose = self.dobot_pose, target_point = target, detect_ground = self.prevent_collision_with_ground)
+[7.162s]                                                                                                    ^
+[7.162s] 
+[7.167s] ./dobot_kinematics/trajectory_validator_server.py:195:100: E501 line too long (123 > 99 characters)
+[7.167s]             #     return (False, 'A collision was detected during trajectory validation. The movement cannot be executed.')
+[7.167s]                                                                                                    ^
+[7.167s] 
+[7.167s] ./dobot_kinematics/trajectory_validator_server.py:199:47: W291 trailing whitespace
+[7.167s]         elif target_type == "continuous_path": 
+[7.167s]                                               ^
+[7.167s] 
+[7.167s] ./dobot_kinematics/trajectory_validator_server.py:200:13: E265 block comment should start with '# '
+[7.168s]             #TODO
+[7.168s]             ^
+[7.168s] 
+[7.168s] ./dobot_kinematics/trajectory_validator_server.py:217:11: W292 no newline at end of file
+[7.168s]     main()          ^
+[7.168s] 
+[7.168s] ./dobot_kinematics/dobot_inv_kin.py:1:1: F811 redefinition of unused 'degrees' from line 1
+[7.168s] from math import atan2, degrees, sqrt, acos, radians, degrees
+[7.168s] ^
+[7.169s] 
+[7.169s] ./dobot_kinematics/dobot_inv_kin.py:3:1: E302 expected 2 blank lines, found 1
+[7.169s] def calc_inv_kin(x, y, z, r):
+[7.169s] ^
+[7.169s] 
+[7.169s] ./dobot_kinematics/dobot_inv_kin.py:7:22: W291 trailing whitespace
+[7.169s]         forearm = 147 
+[7.169s]                      ^
+[7.169s] 
+[7.169s] ./dobot_kinematics/dobot_inv_kin.py:11:28: E231 missing whitespace after ','
+[7.170s]         angles[0] = atan2(y,x)
+[7.170s]                            ^
+[7.170s] 
+[7.170s] ./dobot_kinematics/dobot_inv_kin.py:13:27: E231 missing whitespace after ','
+[7.170s]         hypotenuse = pow(x,2) + pow(y,2) + pow(z,2)
+[7.170s]                           ^
+[7.170s] 
+[7.170s] ./dobot_kinematics/dobot_inv_kin.py:13:38: E231 missing whitespace after ','
+[7.170s]         hypotenuse = pow(x,2) + pow(y,2) + pow(z,2)
+[7.171s]                                      ^
+[7.171s] 
+[7.171s] ./dobot_kinematics/dobot_inv_kin.py:13:49: E231 missing whitespace after ','
+[7.171s]         hypotenuse = pow(x,2) + pow(y,2) + pow(z,2)
+[7.171s]                                                 ^
+[7.171s] 
+[7.171s] ./dobot_kinematics/dobot_inv_kin.py:14:35: E231 missing whitespace after ','
+[7.171s]         beta = atan2(z, sqrt(pow(x,2) + pow(y,2)))
+[7.171s]                                   ^
+[7.171s] 
+[7.172s] ./dobot_kinematics/dobot_inv_kin.py:14:46: E231 missing whitespace after ','
+[7.172s]         beta = atan2(z, sqrt(pow(x,2) + pow(y,2)))
+[7.172s]                                              ^
+[7.172s] 
+[7.172s] ./dobot_kinematics/dobot_inv_kin.py:15:25: E201 whitespace after '('
+[7.172s]         psi = abs(acos(( hypotenuse + pow(rear_arm,2) - pow(forearm,2) ) / ( 2 * rear_arm * sqrt(hypotenuse) )))
+[7.172s]                         ^
+[7.172s] 
+[7.172s] ./dobot_kinematics/dobot_inv_kin.py:15:51: E231 missing whitespace after ','
+[7.173s]         psi = abs(acos(( hypotenuse + pow(rear_arm,2) - pow(forearm,2) ) / ( 2 * rear_arm * sqrt(hypotenuse) )))
+[7.173s]                                                   ^
+[7.173s] 
+[7.173s] ./dobot_kinematics/dobot_inv_kin.py:15:68: E231 missing whitespace after ','
+[7.173s]         psi = abs(acos(( hypotenuse + pow(rear_arm,2) - pow(forearm,2) ) / ( 2 * rear_arm * sqrt(hypotenuse) )))
+[7.173s]                                                                    ^
+[7.173s] 
+[7.173s] ./dobot_kinematics/dobot_inv_kin.py:15:71: E202 whitespace before ')'
+[7.173s]         psi = abs(acos(( hypotenuse + pow(rear_arm,2) - pow(forearm,2) ) / ( 2 * rear_arm * sqrt(hypotenuse) )))
+[7.173s]                                                                       ^
+[7.174s] 
+[7.174s] ./dobot_kinematics/dobot_inv_kin.py:15:77: E201 whitespace after '('
+[7.174s]         psi = abs(acos(( hypotenuse + pow(rear_arm,2) - pow(forearm,2) ) / ( 2 * rear_arm * sqrt(hypotenuse) )))
+[7.174s]                                                                             ^
+[7.174s] 
+[7.174s] ./dobot_kinematics/dobot_inv_kin.py:15:100: E501 line too long (112 > 99 characters)
+[7.174s]         psi = abs(acos(( hypotenuse + pow(rear_arm,2) - pow(forearm,2) ) / ( 2 * rear_arm * sqrt(hypotenuse) )))
+[7.189s]                                                                                                    ^
+[7.190s] 
+[7.190s] ./dobot_kinematics/dobot_inv_kin.py:15:109: E202 whitespace before ')'
+[7.190s]         psi = abs(acos(( hypotenuse + pow(rear_arm,2) - pow(forearm,2) ) / ( 2 * rear_arm * sqrt(hypotenuse) )))
+[7.190s]                                                                                                             ^
+[7.190s] 
+[7.190s] ./dobot_kinematics/dobot_inv_kin.py:21:29: E201 whitespace after '('
+[7.190s]         theta_3 = abs(acos(( hypotenuse - pow(rear_arm,2) - pow(forearm,2) ) / ( 2 * rear_arm*  forearm)))
+[7.190s]                             ^
+[7.190s] 
+[7.191s] ./dobot_kinematics/dobot_inv_kin.py:21:55: E231 missing whitespace after ','
+[7.191s]         theta_3 = abs(acos(( hypotenuse - pow(rear_arm,2) - pow(forearm,2) ) / ( 2 * rear_arm*  forearm)))
+[7.191s]                                                       ^
+[7.191s] 
+[7.191s] ./dobot_kinematics/dobot_inv_kin.py:21:72: E231 missing whitespace after ','
+[7.191s]         theta_3 = abs(acos(( hypotenuse - pow(rear_arm,2) - pow(forearm,2) ) / ( 2 * rear_arm*  forearm)))
+[7.191s]                                                                        ^
+[7.191s] 
+[7.191s] ./dobot_kinematics/dobot_inv_kin.py:21:75: E202 whitespace before ')'
+[7.192s]         theta_3 = abs(acos(( hypotenuse - pow(rear_arm,2) - pow(forearm,2) ) / ( 2 * rear_arm*  forearm)))
+[7.192s]                                                                           ^
+[7.192s] 
+[7.192s] ./dobot_kinematics/dobot_inv_kin.py:21:81: E201 whitespace after '('
+[7.192s]         theta_3 = abs(acos(( hypotenuse - pow(rear_arm,2) - pow(forearm,2) ) / ( 2 * rear_arm*  forearm)))
+[7.192s]                                                                                 ^
+[7.192s] 
+[7.192s] ./dobot_kinematics/dobot_inv_kin.py:21:94: E225 missing whitespace around operator
+[7.192s]         theta_3 = abs(acos(( hypotenuse - pow(rear_arm,2) - pow(forearm,2) ) / ( 2 * rear_arm*  forearm)))
+[7.192s]                                                                                              ^
+[7.193s] 
+[7.193s] ./dobot_kinematics/dobot_inv_kin.py:21:95: E222 multiple spaces after operator
+[7.193s]         theta_3 = abs(acos(( hypotenuse - pow(rear_arm,2) - pow(forearm,2) ) / ( 2 * rear_arm*  forearm)))
+[7.193s]                                                                                               ^
+[7.193s] 
+[7.193s] ./dobot_kinematics/dobot_inv_kin.py:21:100: E501 line too long (106 > 99 characters)
+[7.193s]         theta_3 = abs(acos(( hypotenuse - pow(rear_arm,2) - pow(forearm,2) ) / ( 2 * rear_arm*  forearm)))
+[7.193s]                                                                                                    ^
+[7.193s] 
+[7.194s] ./dobot_kinematics/dobot_inv_kin.py:22:42: W291 trailing whitespace
+[7.196s]         angles[2] = theta_3 - radians(90) 
+[7.196s]                                          ^
+[7.197s] 
+[7.197s] ./dobot_kinematics/dobot_inv_kin.py:24:25: E201 whitespace after '['
+[7.197s]         dobot_angles = [ degrees(angles[0]), degrees(angles[1]), degrees(angles[2]) + degrees(angles[1]), degrees(angles[3])] # in Dobot convention
+[7.197s]                         ^
+[7.197s] 
+[7.197s] ./dobot_kinematics/dobot_inv_kin.py:24:100: E501 line too long (147 > 99 characters)
+[7.197s]         dobot_angles = [ degrees(angles[0]), degrees(angles[1]), degrees(angles[2]) + degrees(angles[1]), degrees(angles[3])] # in Dobot convention
+[7.197s]                                                                                                    ^
+[7.197s] 
+[7.198s] ./dobot_kinematics/dobot_inv_kin.py:24:126: E261 at least two spaces before inline comment
+[7.198s]         dobot_angles = [ degrees(angles[0]), degrees(angles[1]), degrees(angles[2]) + degrees(angles[1]), degrees(angles[3])] # in Dobot convention
+[7.198s]                                                                                                                              ^
+[7.198s] 
+[7.198s] ./dobot_kinematics/dobot_inv_kin.py:25:5: E722 do not use bare 'except'
+[7.198s]     except:
+[7.198s]     ^
+[7.198s] 
+[7.198s] ./dobot_kinematics/dobot_inv_kin.py:30:1: W391 blank line at end of file
+[7.199s] 
+[7.199s] ^
+[7.199s] 
+[7.199s] ./dobot_kinematics/trajectory_validator_client.py:5:100: E501 line too long (101 > 99 characters)
+[7.199s] # The example concerns the case where the target of the motion was set as a point in Cartesian space.
+[7.199s]                                                                                                    ^
+[7.199s] 
+[7.199s] ./dobot_kinematics/trajectory_validator_client.py:7:1: E302 expected 2 blank lines, found 1
+[7.199s] class PoseValidatorClient(Node):
+[7.199s] ^
+[7.200s] 
+[7.200s] ./dobot_kinematics/trajectory_validator_client.py:11:100: E501 line too long (109 > 99 characters)
+[7.200s]         self.client_validate_goal = self.create_client(EvaluatePTPTrajectory, 'dobot_PTP_validation_service')
+[7.200s]                                                                                                    ^
+[7.200s] 
+[7.200s] ./dobot_kinematics/trajectory_validator_client.py:30:5: E122 continuation line missing indentation or outdented
+[7.200s]     'Result of calling service: %s' %(validation_response))
+[7.200s]     ^
+[7.201s] 
+[7.201s] ./dobot_kinematics/trajectory_validator_client.py:30:38: E225 missing whitespace around operator
+[7.201s]     'Result of calling service: %s' %(validation_response))
+[7.201s]                                      ^
+[7.201s] 
+[7.201s] ./dobot_kinematics/trajectory_validator_client.py:38:1: W391 blank line at end of file
+[7.201s] 
+[7.201s] ^
+[7.201s] 
+[7.201s] ./dobot_kinematics/collision_utils.py:70:5: E303 too many blank lines (2)
+[7.202s]     return indexed_collision_pairs
+[7.202s]     ^
+[7.202s] 
+[7.202s] ./dobot_kinematics/collision_utils.py:98:58: E251 unexpected spaces around keyword / parameter equals
+[7.202s]                 self.robot_id, i+1, q[i], physicsClientId = self.col_id
+[7.202s]                                                          ^
+[7.202s] 
+[7.210s] ./dobot_kinematics/collision_utils.py:98:60: E251 unexpected spaces around keyword / parameter equals
+[7.211s]                 self.robot_id, i+1, q[i], physicsClientId = self.col_id
+[7.211s]                                                            ^
+[7.211s] 
+[7.211s] ./dobot_kinematics/collision_utils.py:102:9: E303 too many blank lines (2)
+[7.211s]         # compute shortest distances between all object pairs
+[7.211s]         ^
+[7.211s] 
+[7.212s] ./dobot_kinematics/collision_utils.py:115:13: E303 too many blank lines (2)
+[7.212s]             # if bodies are above max_distance apart, nothing is returned, so
+[7.212s]             ^
+[7.212s] 
+[7.212s] ./dobot_kinematics/collision_utils.py:120:75: E261 at least two spaces before inline comment
+[7.212s]                 distances.append(np.min([pt[8] for pt in closest_points])) # contact distance, positive for separation, negative for penetration
+[7.212s]                                                                           ^
+[7.212s] 
+[7.212s] ./dobot_kinematics/collision_utils.py:120:100: E501 line too long (144 > 99 characters)
+[7.213s]                 distances.append(np.min([pt[8] for pt in closest_points])) # contact distance, positive for separation, negative for penetration
+[7.213s]                                                                                                    ^
+[7.213s] 
+[7.213s] ./dobot_kinematics/collision_utils.py:125:5: E303 too many blank lines (2)
+[7.213s]     def print_collision_pairs(self, d):
+[7.213s]     ^
+[7.213s] 
+[7.213s] ./dobot_kinematics/collision_utils.py:129:17: E117 over-indented
+[7.213s]                 pair = []
+[7.213s]                 ^
+[7.214s] 
+[7.214s] ./dobot_kinematics/collision_utils.py:141:35: W291 trailing whitespace
+[7.214s]                 names.append(pair) 
+[7.214s]                                   ^
+[7.214s] 
+[7.214s] ./dobot_kinematics/collision_detection_server.py:1:1: F401 'time' imported but unused
+[7.214s] import time
+[7.214s] ^
+[7.214s] 
+[7.215s] ./dobot_kinematics/collision_detection_server.py:15:1: E303 too many blank lines (3)
+[7.215s] global model_config
+[7.215s] ^
+[7.215s] 
+[7.215s] ./dobot_kinematics/collision_detection_server.py:21:5: E303 too many blank lines (2)
+[7.215s]     @staticmethod
+[7.215s]     ^
+[7.215s] 
+[7.215s] ./dobot_kinematics/collision_detection_server.py:28:55: E203 whitespace before ','
+[7.215s]         model_prefix = path.abspath(path.join(__file__ ,"../../..")) 
+[7.216s]                                                       ^
+[7.216s] 
+[7.216s] ./dobot_kinematics/collision_detection_server.py:28:56: E231 missing whitespace after ','
+[7.216s]         model_prefix = path.abspath(path.join(__file__ ,"../../..")) 
+[7.216s]                                                        ^
+[7.216s] 
+[7.216s] ./dobot_kinematics/collision_detection_server.py:28:69: W291 trailing whitespace
+[7.216s]         model_prefix = path.abspath(path.join(__file__ ,"../../..")) 
+[7.216s]                                                                     ^
+[7.216s] 
+[7.217s] ./dobot_kinematics/collision_detection_server.py:29:61: E231 missing whitespace after ','
+[7.217s]         model_prefix = model_prefix.split("dobot_kinematics",1)[0]+ "dobot_description/share/dobot_description/meshes/collision/urdf_models/"
+[7.217s]                                                             ^
+[7.217s] 
+[7.217s] ./dobot_kinematics/collision_detection_server.py:29:67: E225 missing whitespace around operator
+[7.217s]         model_prefix = model_prefix.split("dobot_kinematics",1)[0]+ "dobot_description/share/dobot_description/meshes/collision/urdf_models/"
+[7.217s]                                                                   ^
+[7.217s] 
+[7.217s] ./dobot_kinematics/collision_detection_server.py:29:100: E501 line too long (141 > 99 characters)
+[7.218s]         model_prefix = model_prefix.split("dobot_kinematics",1)[0]+ "dobot_description/share/dobot_description/meshes/collision/urdf_models/"
+[7.218s]                                                                                                    ^
+[7.218s] 
+[7.218s] ./dobot_kinematics/collision_detection_server.py:45:9: E303 too many blank lines (2)
+[7.218s]         global model_config
+[7.218s]         ^
+[7.218s] 
+[7.218s] ./dobot_kinematics/collision_detection_server.py:65:24: E203 whitespace before ':'
+[7.226s]             if id <= -1 :
+[7.227s]                        ^
+[7.227s] 
+[7.227s] ./dobot_kinematics/collision_detection_server.py:72:5: E303 too many blank lines (2)
+[7.227s]     @staticmethod
+[7.227s]     ^
+[7.227s] 
+[7.227s] ./dobot_kinematics/collision_detection_server.py:87:53: E251 unexpected spaces around keyword / parameter equals
+[7.227s]                 robot_id, i+1, q[i], physicsClientId = gui_id
+[7.227s]                                                     ^
+[7.228s] 
+[7.228s] ./dobot_kinematics/collision_detection_server.py:87:55: E251 unexpected spaces around keyword / parameter equals
+[7.228s]                 robot_id, i+1, q[i], physicsClientId = gui_id
+[7.228s]                                                       ^
+[7.228s] 
+[7.228s] ./dobot_kinematics/collision_detection_server.py:91:5: E303 too many blank lines (2)
+[7.228s]     @staticmethod
+[7.228s]     ^
+[7.228s] 
+[7.229s] ./dobot_kinematics/collision_detection_server.py:92:71: E251 unexpected spaces around keyword / parameter equals
+[7.229s]     def linear_trajecory_to_discrete_waypoints(start, target, step_len = 0.5):
+[7.229s]                                                                       ^
+[7.229s] 
+[7.229s] ./dobot_kinematics/collision_detection_server.py:92:73: E251 unexpected spaces around keyword / parameter equals
+[7.229s]     def linear_trajecory_to_discrete_waypoints(start, target, step_len = 0.5):
+[7.229s]                                                                         ^
+[7.229s] 
+[7.229s] ./dobot_kinematics/collision_detection_server.py:99:100: E501 line too long (156 > 99 characters)
+[7.230s]             dist_now = math.dist([x[0], y[0], z[0]], [x[0] + (x[1]-x[0])*(1/steps_num), y[0] + (y[1]-y[0])*(1/steps_num), z[0] + (z[1]-z[0])*(1/steps_num)])
+[7.230s]                                                                                                    ^
+[7.230s] 
+[7.230s] ./dobot_kinematics/collision_detection_server.py:100:100: E501 line too long (169 > 99 characters)
+[7.230s]             dist_next = math.dist([x[0], y[0], z[0]], [x[0] + (x[1]-x[0])*(1/(steps_num+1)), y[0] + (y[1]-y[0])*(1/(steps_num+1)), z[0] + (z[1]-z[0])*(1/(steps_num+1))])
+[7.230s]                                                                                                    ^
+[7.230s] 
+[7.230s] ./dobot_kinematics/collision_detection_server.py:109:16: E225 missing whitespace around operator
+[7.230s]             t =t / (steps_num-2)
+[7.230s]                ^
+[7.231s] 
+[7.231s] ./dobot_kinematics/collision_detection_server.py:114:1: W293 blank line contains whitespace
+[7.231s]     
+[7.231s] ^
+[7.231s] 
+[7.231s] ./dobot_kinematics/collision_detection_server.py:115:5: E303 too many blank lines (2)
+[7.231s]     def validate_trajectory(self, motion_type, current_pose, target_point, detect_ground):
+[7.231s]     ^
+[7.231s] 
+[7.231s] ./dobot_kinematics/collision_detection_server.py:127:9: E303 too many blank lines (2)
+[7.232s]         collision_bodies = PyBulletCollisionServer.load_environment(col_id)
+[7.232s]         ^
+[7.232s] 
+[7.232s] ./dobot_kinematics/collision_detection_server.py:131:77: W291 trailing whitespace
+[7.232s]         end_effector_link = NamedCollisionObject("robot", "magician_link_4") 
+[7.232s]                                                                             ^
+[7.232s] 
+[7.232s] ./dobot_kinematics/collision_detection_server.py:133:73: W291 trailing whitespace
+[7.232s]             gripper = NamedCollisionObject("robot", "end_effector_part")  
+[7.233s]                                                                         ^
+[7.233s] 
+[7.233s] ./dobot_kinematics/collision_detection_server.py:139:9: E303 too many blank lines (2)
+[7.233s]         if detect_ground == True and model_config=="3DOF.urdf":
+[7.233s]         ^
+[7.233s] 
+[7.233s] ./dobot_kinematics/collision_detection_server.py:139:26: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[7.233s]         if detect_ground == True and model_config=="3DOF.urdf":
+[7.233s]                          ^
+[7.234s] 
+[7.234s] ./dobot_kinematics/collision_detection_server.py:139:50: E225 missing whitespace around operator
+[7.234s]         if detect_ground == True and model_config=="3DOF.urdf":
+[7.234s]                                                  ^
+[7.234s] 
+[7.234s] ./dobot_kinematics/collision_detection_server.py:143:100: E501 line too long (101 > 99 characters)
+[7.234s]                 [(end_effector_link, base), (end_effector_link, ground), (end_effector_link, link1)],
+[7.234s]                                                                                                    ^
+[7.234s] 
+[7.234s] ./dobot_kinematics/collision_detection_server.py:145:28: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.235s]         elif detect_ground == False and model_config=="3DOF.urdf":
+[7.235s]                            ^
+[7.235s] 
+[7.235s] ./dobot_kinematics/collision_detection_server.py:145:53: E225 missing whitespace around operator
+[7.235s]         elif detect_ground == False and model_config=="3DOF.urdf":
+[7.235s]                                                     ^
+[7.235s] 
+[7.235s] ./dobot_kinematics/collision_detection_server.py:151:28: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[7.235s]         elif detect_ground == True and model_config!="3DOF.urdf":
+[7.236s]                            ^
+[7.236s] 
+[7.236s] ./dobot_kinematics/collision_detection_server.py:151:52: E225 missing whitespace around operator
+[7.236s]         elif detect_ground == True and model_config!="3DOF.urdf":
+[7.236s]                                                    ^
+[7.236s] 
+[7.236s] ./dobot_kinematics/collision_detection_server.py:155:100: E501 line too long (155 > 99 characters)
+[7.236s]                 [(end_effector_link, base), (end_effector_link, ground), (end_effector_link, link1), (gripper, base), (gripper, ground), (gripper, link1)],
+[7.236s]                                                                                                    ^
+[7.236s] 
+[7.237s] ./dobot_kinematics/collision_detection_server.py:157:28: E712 comparison to False should be 'if cond is False:' or 'if not cond:'
+[7.237s]         elif detect_ground == False and model_config!="3DOF.urdf":
+[7.237s]                            ^
+[7.237s] 
+[7.237s] ./dobot_kinematics/collision_detection_server.py:157:53: E225 missing whitespace around operator
+[7.237s]         elif detect_ground == False and model_config!="3DOF.urdf":
+[7.237s]                                                     ^
+[7.237s] 
+[7.237s] ./dobot_kinematics/collision_detection_server.py:161:100: E501 line too long (107 > 99 characters)
+[7.238s]                 [(end_effector_link, base), (end_effector_link, link1), (gripper, base), (gripper, link1)],
+[7.238s]                                                                                                    ^
+[7.238s] 
+[7.238s] ./dobot_kinematics/collision_detection_server.py:163:1: W293 blank line contains whitespace
+[7.238s]         
+[7.238s] ^
+[7.238s] 
+[7.238s] ./dobot_kinematics/collision_detection_server.py:165:9: E303 too many blank lines (2)
+[7.243s]         if motion_type == 1 or motion_type == 4:
+[7.243s]         ^
+[7.243s] 
+[7.243s] ./dobot_kinematics/collision_detection_server.py:175:26: E251 unexpected spaces around keyword / parameter equals
+[7.243s]                 q, margin = 0.0
+[7.243s]                          ^
+[7.243s] 
+[7.243s] ./dobot_kinematics/collision_detection_server.py:175:28: E251 unexpected spaces around keyword / parameter equals
+[7.244s]                 q, margin = 0.0
+[7.244s]                            ^
+[7.244s] 
+[7.244s] ./dobot_kinematics/collision_detection_server.py:183:100: E501 line too long (114 > 99 characters)
+[7.244s]             waypoints = PyBulletCollisionServer.linear_trajecory_to_discrete_waypoints(current_pose, target_point)
+[7.244s]                                                                                                    ^
+[7.244s] 
+[7.244s] ./dobot_kinematics/collision_detection_server.py:194:1: W293 blank line contains whitespace
+[7.244s]                 
+[7.244s] ^
+[7.245s] 
+[7.245s] ./dobot_kinematics/collision_detection_server.py:196:30: E251 unexpected spaces around keyword / parameter equals
+[7.245s]                     q, margin = 0.0
+[7.245s]                              ^
+[7.245s] 
+[7.245s] ./dobot_kinematics/collision_detection_server.py:196:32: E251 unexpected spaces around keyword / parameter equals
+[7.245s]                     q, margin = 0.0
+[7.245s]                                ^
+[7.245s] 
+[7.246s] ./dobot_kinematics/collision_detection_server.py:202:13: E303 too many blank lines (2)
+[7.246s]             return True
+[7.246s]             ^
+[7.246s] 
+[7.246s] ./launch/dobot_validate_trajectory.launch.py:7:1: E302 expected 2 blank lines, found 1
+[7.246s] def generate_launch_description():
+[7.246s] ^
+[7.246s] 
+[7.246s] ./launch/dobot_validate_trajectory.launch.py:16:5: E122 continuation line missing indentation or outdented
+[7.247s]     Node(
+[7.247s]     ^
+[7.247s] 
+[7.247s] ./launch/dobot_validate_trajectory.launch.py:21:5: E122 continuation line missing indentation or outdented
+[7.247s]     ExecuteProcess(
+[7.247s]     ^
+[7.247s] 
+[7.247s] ./launch/dobot_validate_trajectory.launch.py:23:23: E231 missing whitespace after ','
+[7.247s]             'sleep 5;','ros2 ', 'param ', 'load ', '/dobot_trajectory_validation_server ', config
+[7.247s]                       ^
+[7.248s] 
+[7.248s] ./launch/dobot_validate_trajectory.launch.py:28:1: W391 blank line at end of file
+[7.248s] 
+[7.248s] ^
+[7.248s] 
+[7.248s] 2     E111 indentation is not a multiple of 4
+[7.248s] 2     E117 over-indented
+[7.248s] 3     E122 continuation line missing indentation or outdented
+[7.248s] 11    E128 continuation line under-indented for visual indent
+[7.248s] 5     E201 whitespace after '('
+[7.249s] 3     E202 whitespace before ')'
+[7.249s] 2     E203 whitespace before ','
+[7.249s] 1     E222 multiple spaces after operator
+[7.249s] 16    E225 missing whitespace around operator
+[7.249s] 16    E231 missing whitespace after ','
+[7.249s] 26    E251 unexpected spaces around keyword / parameter equals
+[7.249s] 3     E261 at least two spaces before inline comment
+[7.249s] 1     E262 inline comment should start with '# '
+[7.249s] 1     E265 block comment should start with '# '
+[7.250s] 4     E302 expected 2 blank lines, found 1
+[7.250s] 28    E303 too many blank lines (3)
+[7.250s] 34    E501 line too long (141 > 99 characters)
+[7.250s] 11    E712 comparison to True should be 'if cond is True:' or 'if cond:'
+[7.250s] 1     E722 do not use bare 'except'
+[7.250s] 6     F401 'time' imported but unused
+[7.250s] 1     F811 redefinition of unused 'degrees' from line 1
+[7.250s] 1     F841 local variable 'cartesian_target_list' is assigned to but never used
+[7.254s] 28    W191 indentation contains tabs
+[7.255s] 24    W291 trailing whitespace
+[7.255s] 1     W292 no newline at end of file
+[7.255s] 5     W293 blank line contains whitespace
+[7.255s] 4     W391 blank line at end of file
+[7.255s] 
+[7.255s] 12 files checked
+[7.255s] 240 errors
+[7.255s] 
+[7.256s] 'E'-type errors: 170
+[7.256s] 'F'-type errors: 8
+[7.256s] 'W'-type errors: 62
+[7.256s] 
+[7.256s] Checked files:
+[7.256s] 
+[7.256s] * ./setup.py
+[7.256s] * ./dobot_kinematics/dobot_forward_kin.py
+[7.256s] * ./dobot_kinematics/trajectory_validator_server.py
+[7.257s] * ./dobot_kinematics/dobot_inv_kin.py
+[7.257s] * ./dobot_kinematics/trajectory_validator_client.py
+[7.257s] * ./dobot_kinematics/collision_utils.py
+[7.257s] * ./dobot_kinematics/__init__.py
+[7.257s] * ./dobot_kinematics/collision_detection_server.py
+[7.257s] * ./launch/dobot_validate_trajectory.launch.py
+[7.257s] * ./test/test_pep257.py
+[7.257s] * ./test/test_copyright.py
+[7.257s] * ./test/test_flake8.py
+[7.257s] ------------------------------ Captured log call -------------------------------
+[7.258s] WARNING  flake8.options.manager:manager.py:217 option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[7.258s] _________________________________ test_pep257 __________________________________
+[7.258s] test/test_pep257.py:23: in test_pep257
+[7.258s]     assert rc == 0, 'Found code style errors / warnings'
+[7.258s] E   AssertionError: Found code style errors / warnings
+[7.258s] E   assert 1 == 0
+[7.258s] ----------------------------- Captured stdout call -----------------------------
+[7.258s] checking ./dobot_kinematics/__init__.py
+[7.258s] checking ./dobot_kinematics/collision_detection_server.py
+[7.259s] checking ./dobot_kinematics/collision_utils.py
+[7.259s] ./dobot_kinematics/collision_utils.py:9 in public class `NamedCollisionObject`: D213: Multi-line docstring summary should start at the second line
+[7.259s] ./dobot_kinematics/collision_utils.py:29 in public function `index_collision_pairs`: D202: No blank lines allowed after function docstring (found 1)
+[7.259s] ./dobot_kinematics/collision_utils.py:29 in public function `index_collision_pairs`: D213: Multi-line docstring summary should start at the second line
+[7.259s] ./dobot_kinematics/collision_utils.py:29 in public function `index_collision_pairs`: D413: Missing blank line after last section ('Parameters')
+[7.259s] ./dobot_kinematics/collision_utils.py:29 in public function `index_collision_pairs`: D407: Missing dashed underline after section ('Parameters')
+[7.259s] ./dobot_kinematics/collision_utils.py:29 in public function `index_collision_pairs`: D406: Section name should end with a newline ('Parameters', not 'Parameters:')
+[7.259s] ./dobot_kinematics/collision_utils.py:29 in public function `index_collision_pairs`: D417: Missing argument descriptions in the docstring (argument(s) bodies, named_collision_pairs, physics_uid are missing descriptions in 'index_collision_pairs' docstring)
+[7.259s] ./dobot_kinematics/collision_utils.py:83 in public method `compute_distances`: D202: No blank lines allowed after function docstring (found 1)
+[7.260s] ./dobot_kinematics/collision_utils.py:83 in public method `compute_distances`: D213: Multi-line docstring summary should start at the second line
+[7.260s] ./dobot_kinematics/collision_utils.py:83 in public method `compute_distances`: D413: Missing blank line after last section ('Parameters')
+[7.260s] ./dobot_kinematics/collision_utils.py:83 in public method `compute_distances`: D407: Missing dashed underline after section ('Parameters')
+[7.260s] ./dobot_kinematics/collision_utils.py:83 in public method `compute_distances`: D406: Section name should end with a newline ('Parameters', not 'Parameters:')
+[7.260s] ./dobot_kinematics/collision_utils.py:83 in public method `compute_distances`: D417: Missing argument descriptions in the docstring (argument(s) max_distance, q are missing descriptions in 'compute_distances' docstring)
+[7.260s] ./dobot_kinematics/collision_utils.py:146 in public method `in_collision`: D213: Multi-line docstring summary should start at the second line
+[7.260s] ./dobot_kinematics/collision_utils.py:146 in public method `in_collision`: D401: First line should be in imperative mood (perhaps 'Return', not 'Returns')
+[7.260s] ./dobot_kinematics/collision_utils.py:146 in public method `in_collision`: D413: Missing blank line after last section ('Parameters')
+[7.260s] ./dobot_kinematics/collision_utils.py:146 in public method `in_collision`: D407: Missing dashed underline after section ('Parameters')
+[7.261s] ./dobot_kinematics/collision_utils.py:146 in public method `in_collision`: D406: Section name should end with a newline ('Parameters', not 'Parameters:')
+[7.261s] ./dobot_kinematics/collision_utils.py:146 in public method `in_collision`: D417: Missing argument descriptions in the docstring (argument(s) margin, q are missing descriptions in 'in_collision' docstring)
+[7.261s] checking ./dobot_kinematics/dobot_forward_kin.py
+[7.261s] checking ./dobot_kinematics/dobot_inv_kin.py
+[7.261s] checking ./dobot_kinematics/trajectory_validator_client.py
+[7.261s] checking ./dobot_kinematics/trajectory_validator_server.py
+[7.261s] checking ./launch/dobot_validate_trajectory.launch.py
+[7.261s] checking ./setup.py
+[7.261s] checking ./test/test_copyright.py
+[7.261s] checking ./test/test_flake8.py
+[7.262s] checking ./test/test_pep257.py
+[7.262s] checking test/test_copyright.py
+[7.262s] checking test/test_flake8.py
+[7.262s] checking test/test_pep257.py
+[7.262s] 19 errors
+[7.262s] ------------------------------ Captured log call -------------------------------
+[7.262s] INFO     pydocstyle.utils:checker.py:1090 Checking file ./dobot_kinematics/__init__.py.
+[7.262s] INFO     pydocstyle.utils:checker.py:1090 Checking file ./dobot_kinematics/collision_detection_server.py.
+[7.262s] INFO     pydocstyle.utils:checker.py:1090 Checking file ./dobot_kinematics/collision_utils.py.
+[7.263s] INFO     pydocstyle.utils:checker.py:1090 Checking file ./dobot_kinematics/dobot_forward_kin.py.
+[7.263s] INFO     pydocstyle.utils:checker.py:1090 Checking file ./dobot_kinematics/dobot_inv_kin.py.
+[7.263s] INFO     pydocstyle.utils:checker.py:1090 Checking file ./dobot_kinematics/trajectory_validator_client.py.
+[7.263s] INFO     pydocstyle.utils:checker.py:1090 Checking file ./dobot_kinematics/trajectory_validator_server.py.
+[7.263s] INFO     pydocstyle.utils:checker.py:1090 Checking file ./launch/dobot_validate_trajectory.launch.py.
+[7.263s] INFO     pydocstyle.utils:checker.py:1090 Checking file ./setup.py.
+[7.263s] INFO     pydocstyle.utils:checker.py:1090 Checking file ./test/test_copyright.py.
+[7.263s] INFO     pydocstyle.utils:checker.py:1090 Checking file ./test/test_flake8.py.
+[7.263s] INFO     pydocstyle.utils:checker.py:1090 Checking file ./test/test_pep257.py.
+[7.263s] INFO     pydocstyle.utils:checker.py:1090 Checking file test/test_copyright.py.
+[7.264s] INFO     pydocstyle.utils:checker.py:1090 Checking file test/test_flake8.py.
+[7.264s] INFO     pydocstyle.utils:checker.py:1090 Checking file test/test_pep257.py.
+[7.264s] =============================== warnings summary ===============================
+[7.264s] test/test_copyright.py:19
+[7.264s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics/test/test_copyright.py:19: PytestUnknownMarkWarning: Unknown pytest.mark.copyright - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[7.264s]     @pytest.mark.copyright
+[7.264s] 
+[7.264s] test/test_copyright.py:20
+[7.264s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics/test/test_copyright.py:20: PytestUnknownMarkWarning: Unknown pytest.mark.linter - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[7.265s]     @pytest.mark.linter
+[7.265s] 
+[7.265s] test/test_flake8.py:19
+[7.265s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics/test/test_flake8.py:19: PytestUnknownMarkWarning: Unknown pytest.mark.flake8 - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[7.265s]     @pytest.mark.flake8
+[7.265s] 
+[7.265s] test/test_flake8.py:20
+[7.265s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics/test/test_flake8.py:20: PytestUnknownMarkWarning: Unknown pytest.mark.linter - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[7.265s]     @pytest.mark.linter
+[7.265s] 
+[7.266s] test/test_pep257.py:19
+[7.266s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics/test/test_pep257.py:19: PytestUnknownMarkWarning: Unknown pytest.mark.linter - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[7.266s]     @pytest.mark.linter
+[7.266s] 
+[7.266s] test/test_pep257.py:20
+[7.266s]   /home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics/test/test_pep257.py:20: PytestUnknownMarkWarning: Unknown pytest.mark.pep257 - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+[7.266s]     @pytest.mark.pep257
+[7.270s] 
+[7.271s] test/test_flake8.py::test_flake8
+[7.271s] test/test_flake8.py::test_flake8
+[7.271s]   /usr/lib/python3/dist-packages/flake8/plugins/manager.py:261: DeprecationWarning: SelectableGroups dict interface is deprecated. Use select.
+[7.271s]     eps = importlib_metadata.entry_points().get(self.namespace, ())
+[7.271s] 
+[7.271s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[7.271s] - generated xml file: /home/jetson/dobot-magician/build/dobot_kinematics/pytest.xml -
+[7.271s] =========================== short test summary info ============================
+[7.271s] FAILED test/test_copyright.py::test_copyright - AssertionError: Found errors
+[7.272s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 240 code styl...
+[7.272s] FAILED test/test_pep257.py::test_pep257 - AssertionError: Found code style er...
+[7.272s] ======================== 3 failed, 8 warnings in 1.94s =========================
+[7.272s] Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics' returned '1': AMENT_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_kinematics:/home/jetson/dobot-magician/install/dobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/dobot-magician/install/dobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/dobot-magician/install/dobot_msgs/lib:${LD_LIBRARY_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/dobot-magician/build/dobot_kinematics/pytest.xml --junit-prefix=dobot_kinematics -o cache_dir=/home/jetson/dobot-magician/build/dobot_kinematics/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

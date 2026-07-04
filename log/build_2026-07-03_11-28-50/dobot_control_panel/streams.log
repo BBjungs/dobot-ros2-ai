@@ -1,0 +1,60 @@
+[5.426s] Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_control_panel': PYTHONPATH=/home/jetson/dobot-magician/build/dobot_control_panel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_control_panel build --build-base /home/jetson/dobot-magician/build/dobot_control_panel/build install --record /home/jetson/dobot-magician/build/dobot_control_panel/install.log --single-version-externally-managed install_data
+[6.630s] running egg_info
+[6.632s] creating ../../../build/dobot_control_panel/dobot_control_panel.egg-info
+[6.633s] writing ../../../build/dobot_control_panel/dobot_control_panel.egg-info/PKG-INFO
+[6.635s] writing dependency_links to ../../../build/dobot_control_panel/dobot_control_panel.egg-info/dependency_links.txt
+[6.635s] writing entry points to ../../../build/dobot_control_panel/dobot_control_panel.egg-info/entry_points.txt
+[6.640s] writing requirements to ../../../build/dobot_control_panel/dobot_control_panel.egg-info/requires.txt
+[6.641s] writing top-level names to ../../../build/dobot_control_panel/dobot_control_panel.egg-info/top_level.txt
+[6.642s] writing manifest file '../../../build/dobot_control_panel/dobot_control_panel.egg-info/SOURCES.txt'
+[6.655s] reading manifest file '../../../build/dobot_control_panel/dobot_control_panel.egg-info/SOURCES.txt'
+[6.657s] writing manifest file '../../../build/dobot_control_panel/dobot_control_panel.egg-info/SOURCES.txt'
+[6.658s] running build
+[6.658s] running build_py
+[6.659s] creating /home/jetson/dobot-magician/build/dobot_control_panel/build
+[6.660s] creating /home/jetson/dobot-magician/build/dobot_control_panel/build/lib
+[6.660s] creating /home/jetson/dobot-magician/build/dobot_control_panel/build/lib/dobot_control_panel
+[6.661s] copying dobot_control_panel/dobot_control_panel_widget.py -> /home/jetson/dobot-magician/build/dobot_control_panel/build/lib/dobot_control_panel
+[6.681s] copying dobot_control_panel/__init__.py -> /home/jetson/dobot-magician/build/dobot_control_panel/build/lib/dobot_control_panel
+[6.682s] copying dobot_control_panel/ros2_dobot_control_panel.py -> /home/jetson/dobot-magician/build/dobot_control_panel/build/lib/dobot_control_panel
+[6.688s] copying dobot_control_panel/main.py -> /home/jetson/dobot-magician/build/dobot_control_panel/build/lib/dobot_control_panel
+[6.693s] running install
+[6.695s] running install_lib
+[6.697s] creating /home/jetson/dobot-magician/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel
+[6.698s] copying /home/jetson/dobot-magician/build/dobot_control_panel/build/lib/dobot_control_panel/dobot_control_panel_widget.py -> /home/jetson/dobot-magician/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel
+[6.699s] copying /home/jetson/dobot-magician/build/dobot_control_panel/build/lib/dobot_control_panel/__init__.py -> /home/jetson/dobot-magician/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel
+[6.700s] copying /home/jetson/dobot-magician/build/dobot_control_panel/build/lib/dobot_control_panel/ros2_dobot_control_panel.py -> /home/jetson/dobot-magician/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel
+[6.700s] copying /home/jetson/dobot-magician/build/dobot_control_panel/build/lib/dobot_control_panel/main.py -> /home/jetson/dobot-magician/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel
+[6.702s] byte-compiling /home/jetson/dobot-magician/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel/dobot_control_panel_widget.py to dobot_control_panel_widget.cpython-310.pyc
+[6.712s] byte-compiling /home/jetson/dobot-magician/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel/__init__.py to __init__.cpython-310.pyc
+[6.714s] byte-compiling /home/jetson/dobot-magician/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel/ros2_dobot_control_panel.py to ros2_dobot_control_panel.cpython-310.pyc
+[6.715s] byte-compiling /home/jetson/dobot-magician/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel/main.py to main.cpython-310.pyc
+[6.720s] running install_data
+[6.721s] creating /home/jetson/dobot-magician/install/dobot_control_panel/share/ament_index
+[6.722s] creating /home/jetson/dobot-magician/install/dobot_control_panel/share/ament_index/resource_index
+[6.722s] creating /home/jetson/dobot-magician/install/dobot_control_panel/share/ament_index/resource_index/packages
+[6.723s] copying resource/dobot_control_panel -> /home/jetson/dobot-magician/install/dobot_control_panel/share/ament_index/resource_index/packages
+[6.724s] copying package.xml -> /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel
+[6.725s] creating /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/resource
+[6.725s] copying resource/DobotControlPanel_layout.ui -> /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/resource
+[6.731s] copying plugin.xml -> /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel
+[6.735s] creating /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[6.736s] copying resource/images/dobot_joints_system.png -> /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[6.741s] copying resource/images/gripper.png -> /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[6.747s] copying resource/images/stop_rail.png -> /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[6.748s] copying resource/images/velocity.png -> /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[6.750s] copying resource/images/magician_gui_image.png -> /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[6.752s] copying resource/images/blue_house.png -> /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[6.754s] copying resource/images/settings.png -> /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[6.760s] copying resource/images/suction_cup.png -> /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[6.790s] copying resource/images/estop.png -> /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[6.791s] copying resource/images/coordinate_system.png -> /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[6.791s] copying resource/images/info.png -> /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[6.813s] copying resource/images/cartesian_system.png -> /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[6.820s] copying resource/images/sliding_rail2.png -> /home/jetson/dobot-magician/install/dobot_control_panel/share/dobot_control_panel/resource/images
+[6.829s] running install_egg_info
+[6.838s] Copying ../../../build/dobot_control_panel/dobot_control_panel.egg-info to /home/jetson/dobot-magician/install/dobot_control_panel/lib/python3.10/site-packages/dobot_control_panel-1.0.0-py3.10.egg-info
+[6.840s] running install_scripts
+[6.919s] Installing dobot_control_panel script to /home/jetson/dobot-magician/install/dobot_control_panel/lib/dobot_control_panel
+[6.922s] writing list of installed files to '/home/jetson/dobot-magician/build/dobot_control_panel/install.log'
+[7.131s] Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_control_panel' returned '0': PYTHONPATH=/home/jetson/dobot-magician/build/dobot_control_panel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_control_panel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_control_panel build --build-base /home/jetson/dobot-magician/build/dobot_control_panel/build install --record /home/jetson/dobot-magician/build/dobot_control_panel/install.log --single-version-externally-managed install_data

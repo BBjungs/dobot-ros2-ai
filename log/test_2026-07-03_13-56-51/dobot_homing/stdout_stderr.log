@@ -1,0 +1,179 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/jetson/dobot-magician/build/dobot_homing/.pytest_cache
+rootdir: /home/jetson/dobot-magician/src/magician_ros2/dobot_homing
+collected 3 items
+
+test/test_copyright.py F                                                 [ 33%]
+test/test_flake8.py F                                                    [ 66%]
+test/test_pep257.py .                                                    [100%]
+
+=================================== FAILURES ===================================
+________________________________ test_copyright ________________________________
+test/test_copyright.py:23: in test_copyright
+    assert rc == 0, 'Found errors'
+E   AssertionError: Found errors
+E   assert 1 == 0
+----------------------------- Captured stderr call -----------------------------
+dobot_homing/homing_server.py: could not find copyright notice
+launch/dobot_homing.launch.py: could not find copyright notice
+2 errors, checked 6 files
+_________________________________ test_flake8 __________________________________
+test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 18 code style errors / warnings:
+E     ./launch/dobot_homing.launch.py:7:1: E302 expected 2 blank lines, found 1
+E     ./launch/dobot_homing.launch.py:21:5: E122 continuation line missing indentation or outdented
+E     ./launch/dobot_homing.launch.py:23:32: E203 whitespace before ','
+E     ./launch/dobot_homing.launch.py:26:5: E122 continuation line missing indentation or outdented
+E     ./launch/dobot_homing.launch.py:28:1: W391 blank line at end of file
+E     ./dobot_homing/homing_server.py:11:1: E303 too many blank lines (3)
+E     ./dobot_homing/homing_server.py:15:100: E501 line too long (108 > 99 characters)
+E     ./dobot_homing/homing_server.py:16:100: E501 line too long (143 > 99 characters)
+E     ./dobot_homing/homing_server.py:17:100: E501 line too long (263 > 99 characters)
+E     ./dobot_homing/homing_server.py:17:188: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_homing/homing_server.py:17:190: E251 unexpected spaces around keyword / parameter equals
+E     ./dobot_homing/homing_server.py:18:100: E501 line too long (111 > 99 characters)
+E     ./dobot_homing/homing_server.py:23:5: E303 too many blank lines (2)
+E     ./dobot_homing/homing_server.py:27:100: E501 line too long (105 > 99 characters)
+E     ./dobot_homing/homing_server.py:34:5: E303 too many blank lines (3)
+E     ./dobot_homing/homing_server.py:36:34: W291 trailing whitespace
+E     ./dobot_homing/homing_server.py:46:1: E303 too many blank lines (4)
+E     ./dobot_homing/homing_server.py:57:11: W292 no newline at end of file
+E   assert 1 == 0
+----------------------------- Captured stdout call -----------------------------
+
+./launch/dobot_homing.launch.py:7:1: E302 expected 2 blank lines, found 1
+def generate_launch_description():
+^
+
+./launch/dobot_homing.launch.py:21:5: E122 continuation line missing indentation or outdented
+    ExecuteProcess(
+    ^
+
+./launch/dobot_homing.launch.py:23:32: E203 whitespace before ','
+            'sleep 5;', 'ros2 ' , 'param ',  'load ', '/dobot_homing_srv ', config
+                               ^
+
+./launch/dobot_homing.launch.py:26:5: E122 continuation line missing indentation or outdented
+    )
+    ^
+
+./launch/dobot_homing.launch.py:28:1: W391 blank line at end of file
+
+^
+
+./dobot_homing/homing_server.py:11:1: E303 too many blank lines (3)
+class HomingService(Node):
+^
+
+./dobot_homing/homing_server.py:15:100: E501 line too long (108 > 99 characters)
+        self.srv = self.create_service(ExecuteHomingProcedure, 'dobot_homing_service', self.homing_callback)
+                                                                                                   ^
+
+./dobot_homing/homing_server.py:16:100: E501 line too long (143 > 99 characters)
+        self.instruction = "The homing procedure has started. Wait until the arm stops moving and the led stops flashing blue and turns green."
+                                                                                                   ^
+
+./dobot_homing/homing_server.py:17:100: E501 line too long (263 > 99 characters)
+        self.parameter_descriptor = ParameterDescriptor(description='Position where Dobot finishes homing procedure expressed in Cartesian coordinates x, y, z, r.', additional_constraints = "Target position must be within Dobot's range! The unit is millimeters.")
+                                                                                                   ^
+
+./dobot_homing/homing_server.py:17:188: E251 unexpected spaces around keyword / parameter equals
+        self.parameter_descriptor = ParameterDescriptor(description='Position where Dobot finishes homing procedure expressed in Cartesian coordinates x, y, z, r.', additional_constraints = "Target position must be within Dobot's range! The unit is millimeters.")
+                                                                                                                                                                                           ^
+
+./dobot_homing/homing_server.py:17:190: E251 unexpected spaces around keyword / parameter equals
+        self.parameter_descriptor = ParameterDescriptor(description='Position where Dobot finishes homing procedure expressed in Cartesian coordinates x, y, z, r.', additional_constraints = "Target position must be within Dobot's range! The unit is millimeters.")
+                                                                                                                                                                                             ^
+
+./dobot_homing/homing_server.py:18:100: E501 line too long (111 > 99 characters)
+        self.declare_parameter('homing_position', rclpy.Parameter.Type.DOUBLE_ARRAY, self.parameter_descriptor)
+                                                                                                   ^
+
+./dobot_homing/homing_server.py:23:5: E303 too many blank lines (2)
+    def parameters_callback(self, params):
+    ^
+
+./dobot_homing/homing_server.py:27:100: E501 line too long (105 > 99 characters)
+                bot.set_homing_parameters(param.value[0], param.value[1], param.value[2], param.value[3])
+                                                                                                   ^
+
+./dobot_homing/homing_server.py:34:5: E303 too many blank lines (3)
+    def homing_callback(self, request, response):
+    ^
+
+./dobot_homing/homing_server.py:36:34: W291 trailing whitespace
+        bot.set_homing_command(0) 
+                                 ^
+
+./dobot_homing/homing_server.py:46:1: E303 too many blank lines (4)
+def main(args=None):
+^
+
+./dobot_homing/homing_server.py:57:11: W292 no newline at end of file
+    main()          ^
+
+2     E122 continuation line missing indentation or outdented
+1     E203 whitespace before ','
+2     E251 unexpected spaces around keyword / parameter equals
+1     E302 expected 2 blank lines, found 1
+4     E303 too many blank lines (3)
+5     E501 line too long (108 > 99 characters)
+1     W291 trailing whitespace
+1     W292 no newline at end of file
+1     W391 blank line at end of file
+
+7 files checked
+18 errors
+
+'E'-type errors: 15
+'W'-type errors: 3
+
+Checked files:
+
+* ./setup.py
+* ./launch/dobot_homing.launch.py
+* ./dobot_homing/homing_server.py
+* ./dobot_homing/__init__.py
+* ./test/test_pep257.py
+* ./test/test_copyright.py
+* ./test/test_flake8.py
+------------------------------ Captured log call -------------------------------
+WARNING  flake8.options.manager:manager.py:217 option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+=============================== warnings summary ===============================
+test/test_copyright.py:19
+  /home/jetson/dobot-magician/src/magician_ros2/dobot_homing/test/test_copyright.py:19: PytestUnknownMarkWarning: Unknown pytest.mark.copyright - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.copyright
+
+test/test_copyright.py:20
+  /home/jetson/dobot-magician/src/magician_ros2/dobot_homing/test/test_copyright.py:20: PytestUnknownMarkWarning: Unknown pytest.mark.linter - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.linter
+
+test/test_flake8.py:19
+  /home/jetson/dobot-magician/src/magician_ros2/dobot_homing/test/test_flake8.py:19: PytestUnknownMarkWarning: Unknown pytest.mark.flake8 - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.flake8
+
+test/test_flake8.py:20
+  /home/jetson/dobot-magician/src/magician_ros2/dobot_homing/test/test_flake8.py:20: PytestUnknownMarkWarning: Unknown pytest.mark.linter - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.linter
+
+test/test_pep257.py:19
+  /home/jetson/dobot-magician/src/magician_ros2/dobot_homing/test/test_pep257.py:19: PytestUnknownMarkWarning: Unknown pytest.mark.linter - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.linter
+
+test/test_pep257.py:20
+  /home/jetson/dobot-magician/src/magician_ros2/dobot_homing/test/test_pep257.py:20: PytestUnknownMarkWarning: Unknown pytest.mark.pep257 - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.pep257
+
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  /usr/lib/python3/dist-packages/flake8/plugins/manager.py:261: DeprecationWarning: SelectableGroups dict interface is deprecated. Use select.
+    eps = importlib_metadata.entry_points().get(self.namespace, ())
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated xml file: /home/jetson/dobot-magician/build/dobot_homing/pytest.xml -
+=========================== short test summary info ============================
+FAILED test/test_copyright.py::test_copyright - AssertionError: Found errors
+FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 18 code style...
+=================== 2 failed, 1 passed, 8 warnings in 1.43s ====================

@@ -1,0 +1,24 @@
+[6.531s] Invoking command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_visualization_tools': PYTHONPATH=/home/jetson/dobot-magician/build/dobot_visualization_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_visualization_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_visualization_tools build --build-base /home/jetson/dobot-magician/build/dobot_visualization_tools/build install --record /home/jetson/dobot-magician/build/dobot_visualization_tools/install.log --single-version-externally-managed install_data
+[7.740s] running egg_info
+[7.741s] writing ../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/PKG-INFO
+[7.756s] writing dependency_links to ../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/dependency_links.txt
+[7.756s] writing entry points to ../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/entry_points.txt
+[7.757s] writing requirements to ../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/requires.txt
+[7.757s] writing top-level names to ../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/top_level.txt
+[7.757s] reading manifest file '../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/SOURCES.txt'
+[7.770s] writing manifest file '../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info/SOURCES.txt'
+[7.770s] running build
+[7.770s] running build_py
+[7.771s] running install
+[7.772s] running install_lib
+[7.776s] running install_data
+[7.776s] running install_egg_info
+[7.788s] removing '/home/jetson/dobot-magician/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools-1.0.0-py3.10.egg-info' (and everything under it)
+[7.788s] Copying ../../../build/dobot_visualization_tools/dobot_visualization_tools.egg-info to /home/jetson/dobot-magician/install/dobot_visualization_tools/lib/python3.10/site-packages/dobot_visualization_tools-1.0.0-py3.10.egg-info
+[7.796s] running install_scripts
+[7.878s] Installing int_marker script to /home/jetson/dobot-magician/install/dobot_visualization_tools/lib/dobot_visualization_tools
+[7.878s] Installing show_camera_FOV script to /home/jetson/dobot-magician/install/dobot_visualization_tools/lib/dobot_visualization_tools
+[7.879s] Installing show_dobot_range script to /home/jetson/dobot-magician/install/dobot_visualization_tools/lib/dobot_visualization_tools
+[7.879s] Installing show_trajectory script to /home/jetson/dobot-magician/install/dobot_visualization_tools/lib/dobot_visualization_tools
+[7.880s] writing list of installed files to '/home/jetson/dobot-magician/build/dobot_visualization_tools/install.log'
+[8.072s] Invoked command in '/home/jetson/dobot-magician/src/magician_ros2/dobot_visualization_tools' returned '0': PYTHONPATH=/home/jetson/dobot-magician/build/dobot_visualization_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_visualization_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/dobot_visualization_tools build --build-base /home/jetson/dobot-magician/build/dobot_visualization_tools/build install --record /home/jetson/dobot-magician/build/dobot_visualization_tools/install.log --single-version-externally-managed install_data

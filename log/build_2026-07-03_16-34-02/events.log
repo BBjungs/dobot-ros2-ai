@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000393] (-) JobUnselected: {'identifier': 'dobot_bringup'}
+[0.000968] (-) JobUnselected: {'identifier': 'dobot_control_panel'}
+[0.001387] (-) JobUnselected: {'identifier': 'dobot_demos'}
+[0.001726] (-) JobUnselected: {'identifier': 'dobot_description'}
+[0.001844] (-) JobUnselected: {'identifier': 'dobot_diagnostics'}
+[0.001933] (-) JobUnselected: {'identifier': 'dobot_driver'}
+[0.002013] (-) JobUnselected: {'identifier': 'dobot_end_effector'}
+[0.002090] (-) JobUnselected: {'identifier': 'dobot_homing'}
+[0.002165] (-) JobUnselected: {'identifier': 'dobot_motion'}
+[0.002239] (-) JobUnselected: {'identifier': 'dobot_msgs'}
+[0.002316] (-) JobUnselected: {'identifier': 'dobot_state_updater'}
+[0.002394] (-) JobUnselected: {'identifier': 'dobot_visualization_tools'}
+[0.002505] (dobot_kinematics) JobQueued: {'identifier': 'dobot_kinematics', 'dependencies': OrderedDict([('dobot_msgs', '/home/jetson/dobot-magician/install/dobot_msgs')])}
+[0.002604] (dobot_web_interface) JobQueued: {'identifier': 'dobot_web_interface', 'dependencies': OrderedDict([('dobot_msgs', '/home/jetson/dobot-magician/install/dobot_msgs')])}
+[0.002713] (dobot_kinematics) JobStarted: {'identifier': 'dobot_kinematics'}
+[0.029394] (dobot_web_interface) JobStarted: {'identifier': 'dobot_web_interface'}
+[0.100134] (-) TimerEvent: {}
+[0.200572] (-) TimerEvent: {}
+[0.300901] (-) TimerEvent: {}
+[0.401235] (-) TimerEvent: {}
+[0.501586] (-) TimerEvent: {}
+[0.601931] (-) TimerEvent: {}
+[0.702282] (-) TimerEvent: {}
+[0.803261] (-) TimerEvent: {}
+[0.903637] (-) TimerEvent: {}
+[1.014104] (-) TimerEvent: {}
+[1.114470] (-) TimerEvent: {}
+[1.214820] (-) TimerEvent: {}
+[1.315164] (-) TimerEvent: {}
+[1.415509] (-) TimerEvent: {}
+[1.515853] (-) TimerEvent: {}
+[1.616189] (-) TimerEvent: {}
+[1.716575] (-) TimerEvent: {}
+[1.816953] (-) TimerEvent: {}
+[1.917382] (-) TimerEvent: {}
+[2.017748] (-) TimerEvent: {}
+[2.118092] (-) TimerEvent: {}
+[2.218429] (-) TimerEvent: {}
+[2.318779] (-) TimerEvent: {}
+[2.419120] (-) TimerEvent: {}
+[2.519465] (-) TimerEvent: {}
+[2.619814] (-) TimerEvent: {}
+[2.720183] (-) TimerEvent: {}
+[2.820934] (-) TimerEvent: {}
+[2.921336] (-) TimerEvent: {}
+[3.025432] (-) TimerEvent: {}
+[3.125786] (-) TimerEvent: {}
+[3.158059] (dobot_kinematics) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/dobot_kinematics', 'build', '--build-base', '/home/jetson/dobot-magician/build/dobot_kinematics/build', 'install', '--record', '/home/jetson/dobot-magician/build/dobot_kinematics/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/dobot-magician/src/magician_ros2/dobot_kinematics', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CODEX_CI': '1', 'USER': 'jetson', 'SSH_CLIENT': '172.30.40.23 17677 22', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jetson/dobot-magician/install/dobot_msgs/lib:/home/jetson/micro_ros_ws/install/micro_ros_agent/lib:/home/jetson/micro_ros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'OPENAI_BASE_URL': 'http://127.0.0.1:8787/v1', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson', 'HF_HUB_DISABLE_PROGRESS_BARS': '1', 'NVM_BIN': '/home/jetson/.nvm/versions/node/v22.22.2/bin', 'SSH_TTY': '/dev/pts/1', 'NVM_INC': '/home/jetson/.nvm/versions/node/v22.22.2/include/node', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'cat', 'LC_MONETARY': 'th_TH.UTF-8', 'LC_CTYPE': 'C.UTF-8', 'HEADROOM_HOST': '0.0.0.0', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': '', 'NVM_DIR': '/home/jetson/.nvm', 'COLCON_PREFIX_PATH': '/home/jetson/micro_ros_ws/install:/home/jetson/AGV-2026/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jetson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/jetson/.local/bin:/home/jetson/.codex/tmp/arg0/codex-arg0Ie5C9h:/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/jetson/.local/bin:/home/jetson/.local/bin:/home/jetson/AGV-2026/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/home/jetson/.nvm/versions/node/v22.22.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'th_TH.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'th_TH.UTF-8', 'GH_PAGER': 'cat', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jetson/dobot-magician/install/dobot_msgs:/home/jetson/micro_ros_ws/install/micro_ros_setup:/home/jetson/micro_ros_ws/install/micro_ros_agent:/home/jetson/micro_ros_ws/install/micro_ros_msgs:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ydlidar_ros2_driver:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/rf2o_laser_odometry:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CODEX_THREAD_ID': '019f2667-8d67-7910-86cc-317737de5322', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'HF_HUB_DISABLE_IMPLICIT_TOKEN': '1', 'GIT_PAGER': 'cat', 'HEADROOM_PROJECT': 'dobot-magician', 'PWD': '/home/jetson/dobot-magician/build/dobot_kinematics', 'LC_ALL': 'C.UTF-8', 'CODEX_MANAGED_PACKAGE_ROOT': '/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex', 'SSH_CONNECTION': '172.30.40.23 17677 172.30.40.45 22', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/dobot-magician/build/dobot_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:/home/jetson/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/jetson/AGV-2026/install/yolo_object_detect/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/ddsm115_controller/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/wit_ros2_imu/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/motor_control_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'CODEX_MANAGED_BY_NPM': '1', 'CMAKE_PREFIX_PATH': '/home/jetson/dobot-magician/install/dobot_msgs:/home/jetson/micro_ros_ws/install/micro_ros_setup:/home/jetson/micro_ros_ws/install/micro_ros_agent:/home/jetson/micro_ros_ws/install/micro_ros_msgs:/home/jetson/AGV-2026/install/ydlidar_sdk:/home/jetson/AGV-2026/install/ydlidar_ros2_driver:/home/jetson/AGV-2026/install/rf2o_laser_odometry'}, 'shell': False}
+[3.225964] (-) TimerEvent: {}
+[3.327078] (-) TimerEvent: {}
+[3.430760] (-) TimerEvent: {}
+[3.531118] (-) TimerEvent: {}
+[3.631464] (-) TimerEvent: {}
+[3.733436] (-) TimerEvent: {}
+[3.837435] (-) TimerEvent: {}
+[3.937803] (-) TimerEvent: {}
+[4.038151] (-) TimerEvent: {}
+[4.101625] (dobot_kinematics) StdoutLine: {'line': b'running egg_info\n'}
+[4.102055] (dobot_web_interface) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/dobot_web_interface', 'build', '--build-base', '/home/jetson/dobot-magician/build/dobot_web_interface/build', 'install', '--record', '/home/jetson/dobot-magician/build/dobot_web_interface/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/dobot-magician/src/magician_ros2/dobot_web_interface', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CODEX_CI': '1', 'USER': 'jetson', 'SSH_CLIENT': '172.30.40.23 17677 22', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jetson/dobot-magician/install/dobot_msgs/lib:/home/jetson/micro_ros_ws/install/micro_ros_agent/lib:/home/jetson/micro_ros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'OPENAI_BASE_URL': 'http://127.0.0.1:8787/v1', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson', 'HF_HUB_DISABLE_PROGRESS_BARS': '1', 'NVM_BIN': '/home/jetson/.nvm/versions/node/v22.22.2/bin', 'SSH_TTY': '/dev/pts/1', 'NVM_INC': '/home/jetson/.nvm/versions/node/v22.22.2/include/node', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'cat', 'LC_MONETARY': 'th_TH.UTF-8', 'LC_CTYPE': 'C.UTF-8', 'HEADROOM_HOST': '0.0.0.0', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': '', 'NVM_DIR': '/home/jetson/.nvm', 'COLCON_PREFIX_PATH': '/home/jetson/micro_ros_ws/install:/home/jetson/AGV-2026/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jetson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/jetson/.local/bin:/home/jetson/.codex/tmp/arg0/codex-arg0Ie5C9h:/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/jetson/.local/bin:/home/jetson/.local/bin:/home/jetson/AGV-2026/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/home/jetson/.nvm/versions/node/v22.22.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'th_TH.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'th_TH.UTF-8', 'GH_PAGER': 'cat', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jetson/dobot-magician/install/dobot_msgs:/home/jetson/micro_ros_ws/install/micro_ros_setup:/home/jetson/micro_ros_ws/install/micro_ros_agent:/home/jetson/micro_ros_ws/install/micro_ros_msgs:/home/jetson/AGV-2026/install/yolo_object_detect:/home/jetson/AGV-2026/install/ydlidar_ros2_driver:/home/jetson/AGV-2026/install/ddsm115_controller:/home/jetson/AGV-2026/install/wit_ros2_imu:/home/jetson/AGV-2026/install/rf2o_laser_odometry:/home/jetson/AGV-2026/install/motor_control_tools:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CODEX_THREAD_ID': '019f2667-8d67-7910-86cc-317737de5322', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'HF_HUB_DISABLE_IMPLICIT_TOKEN': '1', 'GIT_PAGER': 'cat', 'HEADROOM_PROJECT': 'dobot-magician', 'PWD': '/home/jetson/dobot-magician/build/dobot_web_interface', 'LC_ALL': 'C.UTF-8', 'CODEX_MANAGED_PACKAGE_ROOT': '/home/jetson/.nvm/versions/node/v22.22.2/lib/node_modules/@openai/codex', 'SSH_CONNECTION': '172.30.40.23 17677 172.30.40.45 22', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/dobot-magician/build/dobot_web_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages:/home/jetson/dobot-magician/install/dobot_msgs/local/lib/python3.10/dist-packages:/home/jetson/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/jetson/AGV-2026/install/yolo_object_detect/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/ddsm115_controller/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/wit_ros2_imu/lib/python3.10/site-packages:/home/jetson/AGV-2026/install/motor_control_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'CODEX_MANAGED_BY_NPM': '1', 'CMAKE_PREFIX_PATH': '/home/jetson/dobot-magician/install/dobot_msgs:/home/jetson/micro_ros_ws/install/micro_ros_setup:/home/jetson/micro_ros_ws/install/micro_ros_agent:/home/jetson/micro_ros_ws/install/micro_ros_msgs:/home/jetson/AGV-2026/install/ydlidar_sdk:/home/jetson/AGV-2026/install/ydlidar_ros2_driver:/home/jetson/AGV-2026/install/rf2o_laser_odometry'}, 'shell': False}
+[4.105464] (dobot_kinematics) StdoutLine: {'line': b'writing ../../../build/dobot_kinematics/dobot_kinematics.egg-info/PKG-INFO\n'}
+[4.105776] (dobot_kinematics) StdoutLine: {'line': b'writing dependency_links to ../../../build/dobot_kinematics/dobot_kinematics.egg-info/dependency_links.txt\n'}
+[4.106082] (dobot_kinematics) StdoutLine: {'line': b'writing entry points to ../../../build/dobot_kinematics/dobot_kinematics.egg-info/entry_points.txt\n'}
+[4.107955] (dobot_kinematics) StdoutLine: {'line': b'writing requirements to ../../../build/dobot_kinematics/dobot_kinematics.egg-info/requires.txt\n'}
+[4.108329] (dobot_kinematics) StdoutLine: {'line': b'writing top-level names to ../../../build/dobot_kinematics/dobot_kinematics.egg-info/top_level.txt\n'}
+[4.113952] (dobot_kinematics) StdoutLine: {'line': b"reading manifest file '../../../build/dobot_kinematics/dobot_kinematics.egg-info/SOURCES.txt'\n"}
+[4.119058] (dobot_kinematics) StdoutLine: {'line': b"writing manifest file '../../../build/dobot_kinematics/dobot_kinematics.egg-info/SOURCES.txt'\n"}
+[4.119584] (dobot_kinematics) StdoutLine: {'line': b'running build\n'}
+[4.119745] (dobot_kinematics) StdoutLine: {'line': b'running build_py\n'}
+[4.120478] (dobot_kinematics) StdoutLine: {'line': b'running install\n'}
+[4.121653] (dobot_kinematics) StdoutLine: {'line': b'running install_lib\n'}
+[4.125444] (dobot_kinematics) StdoutLine: {'line': b'running install_data\n'}
+[4.126039] (dobot_kinematics) StdoutLine: {'line': b'copying config/axis_limits.yaml -> /home/jetson/dobot-magician/install/dobot_kinematics/share/dobot_kinematics/config\n'}
+[4.126213] (dobot_kinematics) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.135765] (dobot_kinematics) StdoutLine: {'line': b"removing '/home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics-1.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.136335] (dobot_kinematics) StdoutLine: {'line': b'Copying ../../../build/dobot_kinematics/dobot_kinematics.egg-info to /home/jetson/dobot-magician/install/dobot_kinematics/lib/python3.10/site-packages/dobot_kinematics-1.0.0-py3.10.egg-info\n'}
+[4.138456] (dobot_kinematics) StdoutLine: {'line': b'running install_scripts\n'}
+[4.138716] (-) TimerEvent: {}
+[4.217871] (dobot_kinematics) StdoutLine: {'line': b'Installing trajectory_validator_client script to /home/jetson/dobot-magician/install/dobot_kinematics/lib/dobot_kinematics\n'}
+[4.218418] (dobot_kinematics) StdoutLine: {'line': b'Installing trajectory_validator_server script to /home/jetson/dobot-magician/install/dobot_kinematics/lib/dobot_kinematics\n'}
+[4.219201] (dobot_kinematics) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/dobot-magician/build/dobot_kinematics/install.log'\n"}
+[4.238895] (-) TimerEvent: {}
+[4.339249] (-) TimerEvent: {}
+[4.439590] (-) TimerEvent: {}
+[4.539941] (-) TimerEvent: {}
+[4.640303] (-) TimerEvent: {}
+[4.740661] (-) TimerEvent: {}
+[4.785599] (dobot_web_interface) StdoutLine: {'line': b'running egg_info\n'}
+[4.785947] (dobot_kinematics) CommandEnded: {'returncode': 0}
+[4.813220] (dobot_kinematics) JobEnded: {'identifier': 'dobot_kinematics', 'rc': 0}
+[4.817947] (dobot_web_interface) StdoutLine: {'line': b'writing ../../../build/dobot_web_interface/dobot_web_interface.egg-info/PKG-INFO\n'}
+[4.818262] (dobot_web_interface) StdoutLine: {'line': b'writing dependency_links to ../../../build/dobot_web_interface/dobot_web_interface.egg-info/dependency_links.txt\n'}
+[4.818405] (dobot_web_interface) StdoutLine: {'line': b'writing entry points to ../../../build/dobot_web_interface/dobot_web_interface.egg-info/entry_points.txt\n'}
+[4.818533] (dobot_web_interface) StdoutLine: {'line': b'writing requirements to ../../../build/dobot_web_interface/dobot_web_interface.egg-info/requires.txt\n'}
+[4.818655] (dobot_web_interface) StdoutLine: {'line': b'writing top-level names to ../../../build/dobot_web_interface/dobot_web_interface.egg-info/top_level.txt\n'}
+[4.818770] (dobot_web_interface) StdoutLine: {'line': b"reading manifest file '../../../build/dobot_web_interface/dobot_web_interface.egg-info/SOURCES.txt'\n"}
+[4.818883] (dobot_web_interface) StdoutLine: {'line': b"writing manifest file '../../../build/dobot_web_interface/dobot_web_interface.egg-info/SOURCES.txt'\n"}
+[4.818993] (dobot_web_interface) StdoutLine: {'line': b'running build\n'}
+[4.819103] (dobot_web_interface) StdoutLine: {'line': b'running build_py\n'}
+[4.819210] (dobot_web_interface) StdoutLine: {'line': b'copying dobot_web_interface/web_interface.py -> /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface\n'}
+[4.819351] (dobot_web_interface) StdoutLine: {'line': b'copying dobot_web_interface/static/index.html -> /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/static\n'}
+[4.819466] (dobot_web_interface) StdoutLine: {'line': b'copying dobot_web_interface/static/app.js -> /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/static\n'}
+[4.819575] (dobot_web_interface) StdoutLine: {'line': b'running install\n'}
+[4.819680] (dobot_web_interface) StdoutLine: {'line': b'running install_lib\n'}
+[4.819786] (dobot_web_interface) StdoutLine: {'line': b'copying /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/static/index.html -> /home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages/dobot_web_interface/static\n'}
+[4.819898] (dobot_web_interface) StdoutLine: {'line': b'copying /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/static/app.js -> /home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages/dobot_web_interface/static\n'}
+[4.820007] (dobot_web_interface) StdoutLine: {'line': b'copying /home/jetson/dobot-magician/build/dobot_web_interface/build/lib/dobot_web_interface/web_interface.py -> /home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages/dobot_web_interface\n'}
+[4.820116] (dobot_web_interface) StdoutLine: {'line': b'byte-compiling /home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages/dobot_web_interface/web_interface.py to web_interface.cpython-310.pyc\n'}
+[4.822902] (dobot_web_interface) StdoutLine: {'line': b'running install_data\n'}
+[4.823277] (dobot_web_interface) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.828394] (dobot_web_interface) StdoutLine: {'line': b"removing '/home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages/dobot_web_interface-1.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.829044] (dobot_web_interface) StdoutLine: {'line': b'Copying ../../../build/dobot_web_interface/dobot_web_interface.egg-info to /home/jetson/dobot-magician/install/dobot_web_interface/lib/python3.10/site-packages/dobot_web_interface-1.0.0-py3.10.egg-info\n'}
+[4.831161] (dobot_web_interface) StdoutLine: {'line': b'running install_scripts\n'}
+[4.840748] (-) TimerEvent: {}
+[4.872954] (dobot_web_interface) StdoutLine: {'line': b'Installing web_interface script to /home/jetson/dobot-magician/install/dobot_web_interface/lib/dobot_web_interface\n'}
+[4.873937] (dobot_web_interface) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/dobot-magician/build/dobot_web_interface/install.log'\n"}
+[4.940927] (-) TimerEvent: {}
+[4.953621] (dobot_web_interface) CommandEnded: {'returncode': 0}
+[4.967569] (dobot_web_interface) JobEnded: {'identifier': 'dobot_web_interface', 'rc': 0}
+[4.969326] (-) EventReactorShutdown: {}

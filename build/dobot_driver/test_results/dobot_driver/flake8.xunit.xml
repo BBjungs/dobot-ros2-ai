@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="dobot_driver.flake8"
+  tests="102"
+  errors="0"
+  failures="102"
+  time="0.794"
+>
+  <testcase
+    name="E302 (./dobot_driver/interface.py:7:1)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;class Interface:&#10;"/>
+  </testcase>
+  <testcase
+    name="E722 (./dobot_driver/interface.py:20:9)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="do not use bare 'except':&#10;        except:&#10;"/>
+  </testcase>
+  <testcase
+    name="E303 (./dobot_driver/interface.py:25:5)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="too many blank lines (2):&#10;    def send(self, message):&#10;"/>
+  </testcase>
+  <testcase
+    name="W291 (./dobot_driver/interface.py:35:14)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="trailing whitespace:&#10;        else: &#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:87:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (119 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 11, True, False, [manual, rear_arm_angle, front_arm_angle], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E261 (./dobot_driver/interface.py:99:81)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="at least two spaces before inline comment:&#10;        request = Message([0xAA, 0xAA], 2, 20, True, False, [], direction='out') #BUG&#10;"/>
+  </testcase>
+  <testcase
+    name="E262 (./dobot_driver/interface.py:99:82)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="inline comment should start with '# ':&#10;        request = Message([0xAA, 0xAA], 2, 20, True, False, [], direction='out') #BUG&#10;"/>
+  </testcase>
+  <testcase
+    name="E261 (./dobot_driver/interface.py:106:62)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="at least two spaces before inline comment:&#10;    def set_homing_parameters(self, x, y, z, r, queue=False): # changed from True&#10;"/>
+  </testcase>
+  <testcase
+    name="E261 (./dobot_driver/interface.py:110:56)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="at least two spaces before inline comment:&#10;    def set_homing_command(self, command, queue=False): # changed from True&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:148:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (102 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 60, True, False, [bias_x, bias_y, bias_z], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:156:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (108 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 61, True, queue, [enable_control, enable_laser], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:164:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (110 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 62, True, queue, [enable_control, enable_suction], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:172:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (107 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 63, True, queue, [enable_control, enable_grip], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:180:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (101 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 70, True, queue, velocity + acceleration, direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:188:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (101 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 71, True, queue, velocity + acceleration, direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:196:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (114 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 72, True, queue, [velocity_ratio, acceleration_ratio], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:208:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (102 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 74, True, queue, [velocity, acceleration], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:216:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (101 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 80, True, queue, velocity + acceleration, direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:223:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (152 &gt; 99 characters):&#10;    def set_point_to_point_coordinate_params(self, coordinate_velocity, effector_velocity, coordinate_acceleration, effector_acceleration, queue=False):&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:224:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (166 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 81, True, queue, [coordinate_velocity, effector_velocity, coordinate_acceleration, effector_acceleration], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:232:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (100 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 82, True, queue, [jump_height, z_limit], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:240:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (114 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 83, True, queue, [velocity_ratio, acceleration_ratio], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E261 (./dobot_driver/interface.py:243:73)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="at least two spaces before inline comment:&#10;    def set_point_to_point_command(self, mode, x, y, z, r, queue=False): #changed from True&#10;"/>
+  </testcase>
+  <testcase
+    name="E262 (./dobot_driver/interface.py:243:74)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="inline comment should start with '# ':&#10;    def set_point_to_point_command(self, mode, x, y, z, r, queue=False): #changed from True&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:252:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (102 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 85, True, queue, [velocity, acceleration], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E741 (./dobot_driver/interface.py:255:73)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="ambiguous variable name 'l':&#10;    def set_point_to_point_sliding_rail_command(self, mode, x, y, z, r, l, queue=False):&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:264:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (113 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 87, True, queue, [start_height, end_height, z_limit], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:274:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (101 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 89, True, queue, [ratio, address, level], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:281:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (122 &gt; 99 characters):&#10;    def set_continous_trajectory_params(self, max_planned_acceleration, max_junction_velocity, acceleration, queue=False):&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:282:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (144 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 90, True, queue, [max_planned_acceleration, max_junction_velocity, acceleration, 0], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:285:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (125 &gt; 99 characters):&#10;    def set_continous_trajectory_real_time_params(self, max_planned_acceleration, max_junction_velocity, period, queue=True):&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:286:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (138 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 90, True, queue, [max_planned_acceleration, max_junction_velocity, period, 1], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:290:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (103 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 91, True, queue, [mode, x, y, z, velocity], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:294:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (100 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 92, True, queue, [mode, x, y, z, power], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:301:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (129 &gt; 99 characters):&#10;    def set_arc_params(self, coordinate_velocity, effector_velocity, coordinate_acceleration, effector_acceleration, queue=True):&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:302:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (167 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 100, True, queue, [coordinate_velocity, effector_velocity, coordinate_acceleration, effector_acceleration], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:306:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (113 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 101, True, queue, circumference_point + ending_point, direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:314:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (116 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 120, True, queue, [address, mode, condition, threshold], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:338:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (111 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 132, True, queue, [address, frequency, duty_cycle], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:350:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (101 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 135, True, queue, [index, enable, speed], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:358:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (102 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 137, True, queue, [enable, port, version], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:366:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (102 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 138, True, queue, [enable, port, version], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:374:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (124 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 140, True, False, [rear_arm_angle_error, front_arm_angle_error], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:407:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (101 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 153, True, False, [use_dhcp, a, b, c, d], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:425:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (101 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 155, True, False, [use_dhcp, a, b, c, d], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:434:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (101 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 156, True, False, [use_dhcp, a, b, c, d], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/interface.py:458:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (106 &gt; 99 characters):&#10;        request = Message([0xAA, 0xAA], 2, 243, True, False, [total_loop, line_per_loop], direction='out')&#10;"/>
+  </testcase>
+  <testcase
+    name="W292 (./dobot_driver/interface.py:482:29)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="no newline at end of file:&#10;    print(request.package())"/>
+  </testcase>
+  <testcase
+    name="W292 (./dobot_driver/dobot_handle.py:2:32)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="no newline at end of file:&#10;bot = Interface('/dev/ttyUSB0')"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:24:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (108 &gt; 99 characters):&#10;    3: [lambda x: struct.unpack('&lt;B', bytearray(x))[0], None, None, lambda x: list(struct.pack('&lt;BB', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E261 (./dobot_driver/parsers.py:32:83)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="at least two spaces before inline comment:&#10;    20: [lambda x: struct.unpack('&lt;' + 'B' * 16, bytearray(x)), None, None, None], #BUG&#10;"/>
+  </testcase>
+  <testcase
+    name="E262 (./dobot_driver/parsers.py:32:84)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="inline comment should start with '# ':&#10;    20: [lambda x: struct.unpack('&lt;' + 'B' * 16, bytearray(x)), None, None, None], #BUG&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:35:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (165 &gt; 99 characters):&#10;    30: [lambda x: struct.unpack('&lt;' + 'f' * 4, bytearray(x)), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'f' * 4, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:36:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (108 &gt; 99 characters):&#10;    31: [None, None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;f', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:37:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (149 &gt; 99 characters):&#10;    32: [lambda x: struct.unpack('&lt;Bf', bytearray(x)), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;Bf', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E261 (./dobot_driver/parsers.py:43:76)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="at least two spaces before inline comment:&#10;    60: [None, None, None, lambda x: list(struct.pack('&lt;' + 'f' * 3, *x))], #BUG in original lib version was 4 instead of 3 !&#10;"/>
+  </testcase>
+  <testcase
+    name="E262 (./dobot_driver/parsers.py:43:77)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="inline comment should start with '# ':&#10;    60: [None, None, None, lambda x: list(struct.pack('&lt;' + 'f' * 3, *x))], #BUG in original lib version was 4 instead of 3 !&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:43:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (125 &gt; 99 characters):&#10;    60: [None, None, None, lambda x: list(struct.pack('&lt;' + 'f' * 3, *x))], #BUG in original lib version was 4 instead of 3 !&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:44:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (137 &gt; 99 characters):&#10;    61: [lambda x: (x[0] == 1, x[1] == 2), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;BB', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:45:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (137 &gt; 99 characters):&#10;    62: [lambda x: (x[0] == 1, x[1] == 2), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;BB', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:46:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (137 &gt; 99 characters):&#10;    63: [lambda x: (x[0] == 1, x[1] == 2), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;BB', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:48:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (123 &gt; 99 characters):&#10;    70: [lambda x: struct.unpack('&lt;' + 'f' * 8, bytearray(x)), None, None, lambda x: list(struct.pack('&lt;' + 'f' * 8, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:49:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (165 &gt; 99 characters):&#10;    71: [lambda x: struct.unpack('&lt;' + 'f' * 8, bytearray(x)), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'f' * 8, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:50:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (165 &gt; 99 characters):&#10;    72: [lambda x: struct.unpack('&lt;' + 'f' * 2, bytearray(x)), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'f' * 2, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:51:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (117 &gt; 99 characters):&#10;    73: [None, None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'B' * 2, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:52:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (165 &gt; 99 characters):&#10;    74: [lambda x: struct.unpack('&lt;' + 'f' * 2, bytearray(x)), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'f' * 2, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:54:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (117 &gt; 99 characters):&#10;    80: [None, None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'f' * 8, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:55:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (117 &gt; 99 characters):&#10;    81: [None, None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'f' * 4, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:56:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (165 &gt; 99 characters):&#10;    82: [lambda x: struct.unpack('&lt;' + 'f' * 2, bytearray(x)), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'f' * 2, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:57:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (117 &gt; 99 characters):&#10;    83: [None, None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'f' * 2, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:58:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (112 &gt; 99 characters):&#10;    84: [None, None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;Bffff', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:59:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (165 &gt; 99 characters):&#10;    85: [lambda x: struct.unpack('&lt;' + 'f' * 2, bytearray(x)), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'f' * 2, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:60:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (113 &gt; 99 characters):&#10;    86: [None, None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;Bfffff', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:61:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (165 &gt; 99 characters):&#10;    87: [lambda x: struct.unpack('&lt;' + 'f' * 3, bytearray(x)), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'f' * 3, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:62:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (112 &gt; 99 characters):&#10;    88: [None, None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;Bffff', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:63:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (113 &gt; 99 characters):&#10;    89: [None, None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;Bfffff', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:65:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (153 &gt; 99 characters):&#10;    90: [lambda x: struct.unpack('&lt;fffB', bytearray(x)), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;fffB', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:66:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (112 &gt; 99 characters):&#10;    91: [None, None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;Bffff', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:67:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (112 &gt; 99 characters):&#10;    92: [None, None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;Bffff', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:69:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (166 &gt; 99 characters):&#10;    100: [lambda x: struct.unpack('&lt;' + 'f' * 4, bytearray(x)), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'f' * 4, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:70:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (118 &gt; 99 characters):&#10;    101: [None, None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'f' * 8, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:72:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (109 &gt; 99 characters):&#10;    110: [None, None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;L', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:74:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (112 &gt; 99 characters):&#10;    120: [None, None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;BBBH', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:76:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (161 &gt; 99 characters):&#10;    130: [lambda x: struct.unpack('&lt;B' * 2, bytearray(x)), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'B' * 2, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:77:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (161 &gt; 99 characters):&#10;    131: [lambda x: struct.unpack('&lt;B' * 2, bytearray(x)), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'B' * 2, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:78:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (152 &gt; 99 characters):&#10;    132: [lambda x: struct.unpack('&lt;Bff', bytearray(x)), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;Bff', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:81:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (111 &gt; 99 characters):&#10;    135: [None, None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;BBf', *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:82:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (161 &gt; 99 characters):&#10;    137: [lambda x: struct.unpack('&lt;B' * 3, bytearray(x)), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'B' * 3, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:83:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (157 &gt; 99 characters):&#10;    138: [lambda x: struct.unpack('&lt;B', bytearray(x)), None, lambda x: struct.unpack('&lt;Q', bytearray(x))[0], lambda x: list(struct.pack('&lt;' + 'B' * 3, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:85:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (124 &gt; 99 characters):&#10;    140: [lambda x: struct.unpack('&lt;' + 'f' * 2, bytearray(x)), None, None, lambda x: list(struct.pack('&lt;' + 'f' * 2, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:88:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (101 &gt; 99 characters):&#10;    151: [lambda x: ''.join(map(chr, x)), None, None, lambda x: list(x[0].encode('ascii')) + [0x00]],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:89:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (101 &gt; 99 characters):&#10;    152: [lambda x: ''.join(map(chr, x)), None, None, lambda x: list(x[0].encode('ascii')) + [0x00]],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:90:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (114 &gt; 99 characters):&#10;    153: [lambda x: struct.unpack('&lt;B' * 5, bytearray(x)), None, None, lambda x: list(struct.pack('&lt;B' * 5, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:91:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (114 &gt; 99 characters):&#10;    154: [lambda x: struct.unpack('&lt;B' * 4, bytearray(x)), None, None, lambda x: list(struct.pack('&lt;B' * 4, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:92:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (114 &gt; 99 characters):&#10;    155: [lambda x: struct.unpack('&lt;B' * 4, bytearray(x)), None, None, lambda x: list(struct.pack('&lt;B' * 4, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/parsers.py:93:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (114 &gt; 99 characters):&#10;    156: [lambda x: struct.unpack('&lt;B' * 4, bytearray(x)), None, None, lambda x: list(struct.pack('&lt;B' * 4, *x))],&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (./dobot_driver/message.py:1:1)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="'sys' imported but unused:&#10;import sys&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./dobot_driver/message.py:4:1)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;class Message:&#10;"/>
+  </testcase>
+  <testcase
+    name="E225 (./dobot_driver/message.py:47:14)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="missing whitespace around operator:&#10;        if id==10 or id==20 or id==13:&#10;"/>
+  </testcase>
+  <testcase
+    name="E225 (./dobot_driver/message.py:47:24)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="missing whitespace around operator:&#10;        if id==10 or id==20 or id==13:&#10;"/>
+  </testcase>
+  <testcase
+    name="E225 (./dobot_driver/message.py:47:34)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="missing whitespace around operator:&#10;        if id==10 or id==20 or id==13:&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./dobot_driver/message.py:105:100)"
+    classname="dobot_driver.flake8"
+  >
+      <failure message="line too long (111 &gt; 99 characters):&#10;        result = bytes(self.header + [self.length] + [self.id] + [control] + self.raw_params + [self.checksum])&#10;"/>
+  </testcase>
+  <system-out>Checked files:
+* ./dobot_driver/interface.py
+* ./dobot_driver/dobot_handle.py
+* ./dobot_driver/parsers.py
+* ./dobot_driver/message.py
+* ./dobot_driver/__init__.py</system-out>
+</testsuite>

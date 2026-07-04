@@ -1,0 +1,1 @@
+cv_bridge:dobot_msgs:python3-fastapi:python3-numpy:python3-opencv:python3-uvicorn:rclpy:sensor_msgs
