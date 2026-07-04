@@ -1,1 +1,294 @@
 # dobot-ros2-ai
+
+โปรเจกต์นี้เป็น ROS 2 workspace สำหรับควบคุมแขนกล **Dobot Magician** ผ่าน USB serial พร้อม web interface สำหรับดูภาพกล้องและสั่งงานพื้นฐานจาก browser.
+
+โค้ดหลักอยู่ใน `src/magician_ros2` ซึ่งต่อยอดจาก control stack ของ Dobot Magician บน ROS 2 Humble และ repo นี้เพิ่มไฟล์สำหรับใช้งานบนเครื่อง `/home/jetson/dobot-magician` เช่น web interface, autostart script, config และ systemd user service.
+
+## ความสามารถหลัก
+
+- ควบคุม Dobot Magician ผ่าน ROS 2 action/service
+- สั่ง homing, point-to-point motion, gripper และ suction cup
+- อ่านสถานะ joint, TCP pose, alarm และสถานะ end effector
+- แสดงภาพกล้องแบบ MJPEG ผ่าน browser
+- เปิด web control panel ที่ `http://<jetson-ip>:8080/`
+- ตั้งค่า autostart ด้วย `systemd --user`
+
+## โครงสร้างโปรเจกต์
+
+```text
+.
+├── config/
+│   └── dobot-autostart.env          # ค่า environment สำหรับ autostart
+├── scripts/
+│   └── start_dobot_autostart.sh     # script เริ่ม ROS 2 stack + web interface
+├── systemd/
+│   └── dobot-magician.service       # systemd user service
+└── src/magician_ros2/
+    ├── dobot_bringup/               # launch หลักของ control stack
+    ├── dobot_driver/                # serial driver ไปยัง Dobot
+    ├── dobot_motion/                # PointToPoint action server
+    ├── dobot_homing/                # homing service
+    ├── dobot_end_effector/          # gripper และ suction services
+    ├── dobot_web_interface/         # FastAPI web UI + camera stream
+    └── ...                          # messages, kinematics, diagnostics, RViz tools
+```
+
+`build/`, `install/` และ `log/` เป็น output จาก `colcon build`.
+
+## Requirements
+
+- Ubuntu 22.04
+- ROS 2 Humble
+- Dobot Magician ต่อผ่าน USB
+- กล้อง USB หรือ ROS camera topic ถ้าต้องการ live view
+- สิทธิ์ serial port สำหรับผู้ใช้ปัจจุบัน
+
+ติดตั้ง dependency พื้นฐาน:
+
+```bash
+sudo apt update
+sudo apt install -y \
+  python3-colcon-common-extensions \
+  python3-rosdep \
+  python3-pip \
+  python3-fastapi \
+  python3-uvicorn \
+  python3-opencv \
+  ros-humble-cv-bridge \
+  ros-humble-diagnostic-aggregator \
+  ros-humble-rqt-robot-monitor \
+  python3-pykdl
+```
+
+เพิ่ม user เข้า group `dialout` เพื่อเปิด serial port โดยไม่ต้องใช้ `sudo`:
+
+```bash
+sudo usermod -a -G dialout "$USER"
+```
+
+หลังรันคำสั่งนี้ให้ logout/login ใหม่ หรือ reboot เครื่อง.
+
+ค่า serial port เริ่มต้นอยู่ที่ `/dev/ttyUSB0` ใน `src/magician_ros2/dobot_driver/dobot_driver/dobot_handle.py`.
+
+## Build
+
+จาก root ของ repo:
+
+```bash
+cd /home/jetson/dobot-magician
+source /opt/ros/humble/setup.bash
+
+rosdep install --from-paths src/magician_ros2 --ignore-src -r -y
+pip3 install -r src/magician_ros2/requirements.txt
+
+colcon build
+source install/setup.bash
+```
+
+## Run แบบ manual
+
+ต่อ Dobot Magician กับเครื่องผ่าน USB, เปิดไฟเลี้ยง robot และตั้งค่า tool ที่ติดอยู่กับปลายแขน:
+
+```bash
+cd /home/jetson/dobot-magician
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+
+export MAGICIAN_TOOL=extended_gripper
+ros2 launch dobot_bringup dobot_magician_control_system.launch.py
+```
+
+ค่า `MAGICIAN_TOOL` ที่รองรับ:
+
+```text
+none, pen, suction_cup, gripper, extended_gripper
+```
+
+หลังเปิดระบบ ควรทำ homing ก่อนสั่ง motion:
+
+```bash
+ros2 service call /dobot_homing_service dobot_msgs/srv/ExecuteHomingProcedure
+```
+
+ตัวอย่างสั่ง point-to-point motion:
+
+```bash
+ros2 action send_goal /PTP_action dobot_msgs/action/PointToPoint \
+  "{motion_type: 1, target_pose: [200.0, 0.0, 100.0, 0.0], velocity_ratio: 0.5, acceleration_ratio: 0.3}" \
+  --feedback
+```
+
+## Run web interface
+
+ถ้าต้องการเปิดเฉพาะ web interface ให้รัน control stack ในอีก terminal ก่อน แล้วเปิด:
+
+```bash
+cd /home/jetson/dobot-magician
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+
+ros2 launch dobot_web_interface dobot_web_interface.launch.py host:=0.0.0.0 port:=8080
+```
+
+เปิด browser:
+
+```text
+http://<jetson-ip>:8080/
+```
+
+ถ้าต้องการเปิด control stack และ web interface พร้อมกัน:
+
+```bash
+cd /home/jetson/dobot-magician
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+
+ros2 launch dobot_web_interface dobot_auto.launch.py \
+  tool:=extended_gripper \
+  host:=0.0.0.0 \
+  port:=8080 \
+  camera_device:=/dev/video0
+```
+
+ค่า camera เริ่มต้น:
+
+```text
+camera_device=/dev/video0
+camera_width=1280
+camera_height=720
+camera_fps=15.0
+stream_fps=12.0
+```
+
+web interface จะอ่านภาพจาก `/dev/video0` โดยตรง และรองรับ ROS camera topics:
+
+```text
+/camera/color/image_raw
+/camera/color/image_raw/compressed
+```
+
+## HTTP API
+
+web interface มี endpoint หลักดังนี้:
+
+```text
+GET  /api/status
+GET  /api/snapshot
+GET  /stream
+POST /api/homing
+POST /api/move
+POST /api/cancel
+POST /api/gripper
+POST /api/suction
+```
+
+ตัวอย่างเรียก motion ผ่าน HTTP:
+
+```bash
+curl -X POST "http://<jetson-ip>:8080/api/move" \
+  -H "Content-Type: application/json" \
+  -d '{"motion_type":1,"target_pose":[200,0,100,0],"velocity_ratio":0.5,"acceleration_ratio":0.3}'
+```
+
+ตัวอย่างเปิด gripper:
+
+```bash
+curl -X POST "http://<jetson-ip>:8080/api/gripper" \
+  -H "Content-Type: application/json" \
+  -d '{"state":"open","keep_compressor_running":false}'
+```
+
+web interface นี้ไม่มี authentication. ควร bind เฉพาะ network ที่เชื่อถือได้เท่านั้น.
+
+## Autostart ด้วย systemd user service
+
+ค่า autostart อยู่ที่:
+
+```text
+config/dobot-autostart.env
+```
+
+ค่าเริ่มต้น:
+
+```text
+MAGICIAN_TOOL=extended_gripper
+WEB_HOST=0.0.0.0
+WEB_PORT=8080
+CAMERA_DEVICE=/dev/video0
+CAMERA_WIDTH=1280
+CAMERA_HEIGHT=720
+CAMERA_FPS=15.0
+STREAM_FPS=12.0
+ROS_LOG_DIR=/tmp/dobot_ros_logs
+```
+
+ติดตั้ง service:
+
+```bash
+mkdir -p ~/.config/systemd/user
+ln -sf /home/jetson/dobot-magician/systemd/dobot-magician.service ~/.config/systemd/user/dobot-magician.service
+systemctl --user daemon-reload
+systemctl --user enable --now dobot-magician.service
+```
+
+ดูสถานะและ log:
+
+```bash
+systemctl --user status dobot-magician.service
+journalctl --user -u dobot-magician.service -f
+```
+
+restart service:
+
+```bash
+systemctl --user restart dobot-magician.service
+```
+
+ถ้าต้องการให้ service ทำงานหลัง boot แม้ยังไม่ได้ login:
+
+```bash
+loginctl enable-linger "$USER"
+```
+
+หมายเหตุ: service และ script มี path แบบ hard-coded เป็น `/home/jetson/dobot-magician`. ถ้าย้าย repo ไป path อื่นให้แก้ `systemd/dobot-magician.service` และ `scripts/start_dobot_autostart.sh`.
+
+## Topics และ interfaces สำคัญ
+
+Published topics:
+
+```text
+/dobot_joint_states
+/joint_states
+/dobot_TCP
+/dobot_pose_raw
+/dobot_rail_pose
+```
+
+Services:
+
+```text
+/dobot_homing_service
+/dobot_gripper_service
+/dobot_suction_cup_service
+```
+
+Action:
+
+```text
+/PTP_action
+```
+
+## Troubleshooting
+
+- ถ้า launch แล้วขึ้นว่า Dobot disconnected ให้เช็ก USB cable, power adapter และผลลัพธ์จาก `lsusb`.
+- ถ้าเปิด serial ไม่ได้ ให้เช็กว่า user อยู่ใน group `dialout` แล้ว logout/login ใหม่.
+- ถ้า Dobot ไม่ได้อยู่ที่ `/dev/ttyUSB0` ให้แก้ port ใน `dobot_driver/dobot_handle.py`.
+- ถ้า web เปิดได้แต่ control ไม่ทำงาน ให้เช็กว่า control stack พร้อมแล้วผ่าน `GET /api/status`.
+- ถ้ากล้องไม่ขึ้น ให้เช็ก `/dev/video0`, permission ของ device และลองลด resolution/FPS ใน `config/dobot-autostart.env`.
+- ก่อนสั่ง motion หลังเปิดเครื่อง ควรเรียก homing ก่อนเสมอ.
+
+## เอกสารเพิ่มเติม
+
+- README ของ control stack หลัก: `src/magician_ros2/README.md`
+- README ของ web interface: `src/magician_ros2/dobot_web_interface/README.md`
+- license ของ upstream control stack: `src/magician_ros2/LICENSE`
