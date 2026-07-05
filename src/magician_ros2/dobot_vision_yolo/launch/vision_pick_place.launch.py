@@ -14,7 +14,16 @@ def generate_launch_description():
     config_dir = package_share / "config"
 
     dry_run = LaunchConfiguration("dry_run")
+    source_type = LaunchConfiguration("source_type")
+    http_snapshot_url = LaunchConfiguration("http_snapshot_url")
+    camera_device = LaunchConfiguration("camera_device")
     start_calibration_tool = LaunchConfiguration("start_calibration_tool")
+    detector_params = {
+        "dry_run": ParameterValue(dry_run, value_type=bool),
+        "source_type": ParameterValue(source_type, value_type=str),
+        "http_snapshot_url": ParameterValue(http_snapshot_url, value_type=str),
+        "camera_device": ParameterValue(camera_device, value_type=str),
+    }
     common_params = {
         "dry_run": ParameterValue(dry_run, value_type=bool),
     }
@@ -44,6 +53,21 @@ def generate_launch_description():
                 description="Keep all vision pick-and-place nodes in dry-run mode.",
             ),
             DeclareLaunchArgument(
+                "source_type",
+                default_value="http_snapshot",
+                description="Detector source: http_snapshot for web dry-run, camera for direct V4L2.",
+            ),
+            DeclareLaunchArgument(
+                "http_snapshot_url",
+                default_value="http://127.0.0.1:8080/api/snapshot",
+                description="Snapshot URL used when source_type is http_snapshot.",
+            ),
+            DeclareLaunchArgument(
+                "camera_device",
+                default_value="/dev/video0",
+                description="Camera device used when source_type is camera.",
+            ),
+            DeclareLaunchArgument(
                 "start_calibration_tool",
                 default_value="false",
                 description="Start the calibration skeleton together with the pipeline.",
@@ -54,7 +78,7 @@ def generate_launch_description():
                 name="yolo_detector_node",
                 output="screen",
                 emulate_tty=True,
-                parameters=[yolo_config, common_params],
+                parameters=[yolo_config, detector_params],
             ),
             Node(
                 package="dobot_vision_yolo",

@@ -3,8 +3,14 @@ robot_points: []
 safe_z: 60.0
 pick_z: -35.0
 homography: []
+calibration_valid: false
+mean_error_mm:
+max_error_mm:
+calibrated_at:
 validation:
   mean_error_mm:
   max_error_mm:
   point_errors_mm: []
+  calibration_valid: false
+  calibrated_at:
   warning: ""

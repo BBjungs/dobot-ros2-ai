@@ -1,9 +1,33 @@
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, SetEnvironmentVariable
+from launch.actions import (
+    DeclareLaunchArgument,
+    IncludeLaunchDescription,
+    OpaqueFunction,
+    SetEnvironmentVariable,
+)
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 from launch_ros.actions import Node
+
+
+def _truthy(value):
+    return str(value).strip().lower() in ('1', 'true', 'yes', 'on')
+
+
+def _maybe_start_bringup(context, *args, **kwargs):
+    if not _truthy(LaunchConfiguration('start_bringup').perform(context)):
+        return []
+
+    bringup_launch = PathJoinSubstitution([
+        get_package_share_directory('dobot_bringup'),
+        'dobot_magician_control_system.launch.py',
+    ])
+    return [
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(bringup_launch),
+        ),
+    ]
 
 
 def generate_launch_description():
@@ -20,14 +44,10 @@ def generate_launch_description():
     camera_height_arg = DeclareLaunchArgument('camera_height', default_value='720')
     camera_fps_arg = DeclareLaunchArgument('camera_fps', default_value='15.0')
     stream_fps_arg = DeclareLaunchArgument('stream_fps', default_value='12.0')
-
-    bringup_launch = PathJoinSubstitution([
-        get_package_share_directory('dobot_bringup'),
-        'dobot_magician_control_system.launch.py',
-    ])
-
-    bringup = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(bringup_launch),
+    start_bringup_arg = DeclareLaunchArgument(
+        'start_bringup',
+        default_value='false',
+        description='Start Dobot hardware bringup. Keep false for dry-run web tests.',
     )
 
     web_node = Node(
@@ -54,7 +74,8 @@ def generate_launch_description():
         camera_height_arg,
         camera_fps_arg,
         stream_fps_arg,
+        start_bringup_arg,
         SetEnvironmentVariable('MAGICIAN_TOOL', LaunchConfiguration('tool')),
-        bringup,
+        OpaqueFunction(function=_maybe_start_bringup),
         web_node,
     ])

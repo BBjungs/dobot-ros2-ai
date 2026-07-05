@@ -857,11 +857,13 @@ class DobotWebNode(Node):
 
     @staticmethod
     def _extract_image_point(payload):
+        if 'pixel' in payload:
+            return payload['pixel']
         if 'image_point' in payload:
             return payload['image_point']
         if 'u' in payload and 'v' in payload:
             return [payload['u'], payload['v']]
-        raise ValueError('image_point or u/v is required')
+        raise ValueError('pixel, image_point, or u/v is required')
 
     @staticmethod
     def _extract_robot_point(payload):
