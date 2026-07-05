@@ -1,0 +1,15 @@
+places:
+  tray_A:
+    pose: [220.0, 160.0, -35.0, 0.0]
+  tray_B:
+    pose: [260.0, 160.0, -35.0, 0.0]
+  reject_box:
+    pose: [180.0, 210.0, -35.0, 0.0]
+
+vision_pick_place_node:
+  ros__parameters:
+    place_pose_mm: [220.0, 160.0, -35.0, 0.0]
+    approach_height_mm: 30.0
+    retreat_height_mm: 30.0
+    gripper_strategy: disabled
+    suction_strategy: disabled

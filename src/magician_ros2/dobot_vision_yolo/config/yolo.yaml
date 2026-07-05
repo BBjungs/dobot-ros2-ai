@@ -1,0 +1,31 @@
+yolo_detector_node:
+  ros__parameters:
+    model_path: models/best.engine
+    fallback_model_path: models/best.pt
+    prefer_tensorrt: true
+    precision: fp16
+    device: cuda
+    imgsz: 640
+    camera_device: /dev/video0
+    http_snapshot_url: http://127.0.0.1:8080/api/snapshot
+    source_type: camera
+    detections_topic: /dobot_vision/detections
+    status_topic: /dobot_vision/status
+    detect_once_command_topic: /dobot_vision/detect_once
+    confidence_threshold: 0.70
+    detect_fps: 10.0
+    image_width: 640
+    image_height: 480
+    dry_run: true
+    detect_only: true
+    annotated_image_path: /tmp/dobot_vision_annotated.jpg
+
+target_selector_node:
+  ros__parameters:
+    detections_topic: /dobot_vision/detections
+    select_target_topic: /dobot_vision/select_target
+    selected_target_topic: /dobot_vision_yolo/selected_target
+    status_topic: /dobot_vision/target_selector/status
+    target_class: all
+    object_classes: [black_cap, bottle, custom]
+    min_confidence: 0.70

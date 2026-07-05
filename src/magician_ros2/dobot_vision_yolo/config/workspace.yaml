@@ -1,0 +1,43 @@
+workspace:
+  x_min: 150.0
+  x_max: 320.0
+  y_min: -180.0
+  y_max: 180.0
+  z_min: -45.0
+  z_max: 120.0
+min_confidence: 0.70
+require_homing: true
+homing_policy: reject
+dry_run_default: true
+allow_real_motion: false
+camera_timeout_sec: 5.0
+
+vision_pick_place_node:
+  ros__parameters:
+    robot_target_topic: /dobot_vision_yolo/robot_target
+    status_topic: /dobot_vision_yolo/pick_place_status
+    workspace_x_min_mm: 150.0
+    workspace_x_max_mm: 320.0
+    workspace_y_min_mm: -180.0
+    workspace_y_max_mm: 180.0
+    workspace_z_min_mm: -45.0
+    workspace_z_max_mm: 120.0
+    max_velocity_ratio: 0.25
+    max_acceleration_ratio: 0.20
+    require_homing_before_motion: true
+    allow_real_motion: false
+    velocity_ratio: 0.3
+    acceleration_ratio: 0.2
+    tool_type: suction
+
+safety_guard_node:
+  ros__parameters:
+    workspace_x_min_mm: 150.0
+    workspace_x_max_mm: 320.0
+    workspace_y_min_mm: -180.0
+    workspace_y_max_mm: 180.0
+    workspace_z_min_mm: -45.0
+    workspace_z_max_mm: 120.0
+    min_confidence: 0.70
+    require_homing: true
+    dry_run: true
