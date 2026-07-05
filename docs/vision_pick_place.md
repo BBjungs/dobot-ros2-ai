@@ -23,7 +23,7 @@ sudo apt install -y \
   python3-opencv \
   ros-humble-cv-bridge \
   python3-yaml
-python3 -m pip install --user ultralytics
+python3 -m pip install --user --no-deps ultralytics
 ```
 
 ## 2. Build
@@ -288,12 +288,12 @@ Camera does not show:
 
 YOLO import fails:
 
-- Install Ultralytics explicitly: `python3 -m pip install --user ultralytics`.
+- Install Ultralytics explicitly without replacing Jetson PyTorch: `python3 -m pip install --user --no-deps ultralytics`.
 - Check the active Python environment used by ROS.
 
 Model not found:
 
-- Place `best.engine` or `best.pt` in `src/magician_ros2/dobot_vision_yolo/models/`.
+- Place `best.engine` or `best.pt` in `models/`.
 - Check `/api/vision/status` field `model_error`.
 
 TensorRT engine fails:

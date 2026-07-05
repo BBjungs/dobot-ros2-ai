@@ -12,5 +12,8 @@ __pycache__/
 *.pt
 *.engine
 *.onnx
+models/*.pt
+models/*.engine
+models/*.onnx
 datasets/
 runs/

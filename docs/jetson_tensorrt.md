@@ -9,7 +9,7 @@ The project never downloads model files automatically.
 Place model artifacts here:
 
 ```text
-src/magician_ros2/dobot_vision_yolo/models/
+models/
 ```
 
 Supported files:
@@ -19,12 +19,7 @@ best.engine  # TensorRT engine, preferred
 best.pt      # PyTorch fallback
 ```
 
-Git keeps only:
-
-```text
-models/README.md
-models/.gitkeep
-```
+Do not commit model binaries. The local `models/` directory is recreated by the export script when needed.
 
 The following are ignored:
 
@@ -32,6 +27,9 @@ The following are ignored:
 *.pt
 *.engine
 *.onnx
+models/*.pt
+models/*.engine
+models/*.onnx
 datasets/
 runs/
 ```
@@ -41,7 +39,7 @@ runs/
 Install Ultralytics explicitly:
 
 ```bash
-python3 -m pip install --user ultralytics
+python3 -m pip install --user --no-deps ultralytics
 ```
 
 On Jetson, use a PyTorch/Ultralytics version that matches the installed JetPack, CUDA, and TensorRT stack.
@@ -71,28 +69,27 @@ jtop
 Place `best.pt` first:
 
 ```text
-src/magician_ros2/dobot_vision_yolo/models/best.pt
+models/best.pt
 ```
 
 Export:
 
 ```bash
 cd /home/jetson/dobot-magician
-./scripts/export_yolo26_tensorrt.sh \
-  src/magician_ros2/dobot_vision_yolo/models/best.pt
+./scripts/export_yolo26_tensorrt.sh
 ```
 
 Optional settings:
 
 ```bash
 IMGSZ=640 PRECISION=fp16 DEVICE=cuda \
-  ./scripts/export_yolo26_tensorrt.sh src/magician_ros2/dobot_vision_yolo/models/best.pt
+./scripts/export_yolo26_tensorrt.sh models/best.pt models
 ```
 
 Expected output:
 
 ```text
-src/magician_ros2/dobot_vision_yolo/models/best.engine
+models/best.engine
 ```
 
 The script exits with an error if:
@@ -172,14 +169,13 @@ curl http://localhost:8080/api/vision/status
 To test fallback, remove or rename the engine:
 
 ```bash
-mv src/magician_ros2/dobot_vision_yolo/models/best.engine \
-   src/magician_ros2/dobot_vision_yolo/models/best.engine.disabled
+mv models/best.engine models/best.engine.disabled
 ```
 
 Keep:
 
 ```text
-src/magician_ros2/dobot_vision_yolo/models/best.pt
+models/best.pt
 ```
 
 Restart the detector. The status should show `model_path` ending in `best.pt`.
@@ -190,13 +186,13 @@ Ultralytics import fails:
 
 ```bash
 python3 -c "import ultralytics; print(ultralytics.__version__)"
-python3 -m pip install --user ultralytics
+python3 -m pip install --user --no-deps ultralytics
 ```
 
 Model not found:
 
 - Check file names are exactly `best.engine` or `best.pt`.
-- Check path under `src/magician_ros2/dobot_vision_yolo/models/`.
+- Check path under `models/`.
 - Check `/dobot_vision/status` field `model_error`.
 
 TensorRT engine fails to load:

@@ -25,7 +25,7 @@ source install/setup.bash
 ## Install YOLO Runtime
 
 ```bash
-python3 -m pip install --user ultralytics
+python3 -m pip install --user --no-deps ultralytics
 ```
 
 On Jetson, install a PyTorch/Ultralytics combination that matches the JetPack, CUDA, and TensorRT stack already on the device.
@@ -35,13 +35,13 @@ On Jetson, install a PyTorch/Ultralytics combination that matches the JetPack, C
 Default paths:
 
 ```text
-src/magician_ros2/dobot_vision_yolo/models/best.engine
-src/magician_ros2/dobot_vision_yolo/models/best.pt
+models/best.engine
+models/best.pt
 ```
 
 `best.engine` is preferred when present. If it is missing, the detector falls back to `best.pt`. No model is downloaded automatically.
 
-Model binaries are ignored by git. Keep only `models/README.md` and `models/.gitkeep` committed.
+Model binaries are ignored by git. Do not commit `*.pt`, `*.engine`, or `*.onnx`.
 
 ## Jetson TensorRT Optimization
 
@@ -54,15 +54,14 @@ Optional max performance mode:
 Export an existing `best.pt` to TensorRT:
 
 ```bash
-./scripts/export_yolo26_tensorrt.sh \
-  src/magician_ros2/dobot_vision_yolo/models/best.pt
+./scripts/export_yolo26_tensorrt.sh
 ```
 
 Override export settings if needed:
 
 ```bash
 IMGSZ=640 PRECISION=fp16 DEVICE=cuda \
-  ./scripts/export_yolo26_tensorrt.sh src/magician_ros2/dobot_vision_yolo/models/best.pt
+./scripts/export_yolo26_tensorrt.sh models/best.pt models
 ```
 
 The export script prints every step and exits if `best.pt` or `ultralytics` is missing. It does not download models.

@@ -322,7 +322,7 @@ sudo apt install -y \
   python3-opencv \
   ros-humble-cv-bridge \
   python3-yaml
-python3 -m pip install --user ultralytics
+python3 -m pip install --user --no-deps ultralytics
 ```
 
 ### Build
@@ -359,8 +359,8 @@ http://<jetson-ip>:8080/
 วาง model เองใน:
 
 ```text
-src/magician_ros2/dobot_vision_yolo/models/best.engine
-src/magician_ros2/dobot_vision_yolo/models/best.pt
+models/best.engine
+models/best.pt
 ```
 
 รัน detector:
@@ -535,12 +535,12 @@ curl http://localhost:8080/api/vision/safety
 
 YOLO import ไม่ได้:
 
-- ติดตั้ง: `python3 -m pip install --user ultralytics`
+- ติดตั้ง: `python3 -m pip install --user --no-deps ultralytics`
 - เช็ก: `python3 -c "import ultralytics; print(ultralytics.__version__)"`
 
 ไม่เจอ model:
 
-- วาง `best.engine` หรือ `best.pt` ใน `src/magician_ros2/dobot_vision_yolo/models/`
+- วาง `best.engine` หรือ `best.pt` ใน `models/`
 - ดู `model_error` จาก `curl http://localhost:8080/api/vision/status`
 
 TensorRT engine ใช้ไม่ได้:
