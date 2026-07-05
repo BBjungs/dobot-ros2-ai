@@ -292,3 +292,278 @@ Action:
 - README ของ control stack หลัก: `src/magician_ros2/README.md`
 - README ของ web interface: `src/magician_ros2/dobot_web_interface/README.md`
 - license ของ upstream control stack: `src/magician_ros2/LICENSE`
+
+## Vision Pick-and-Place
+
+เอกสารละเอียด:
+
+- [End-to-end vision pick-and-place](docs/vision_pick_place.md)
+- [Camera calibration pixel-to-robot](docs/calibration.md)
+- [Jetson TensorRT YOLO](docs/jetson_tensorrt.md)
+
+ค่าเริ่มต้นปลอดภัย:
+
+- `dry_run=true`
+- `allow_real_motion=false`
+- ถ้า safety ไม่ผ่าน ระบบ Vision จะไม่ส่งคำสั่ง motion
+- `Preview Pick` เป็น simulation เท่านั้น
+
+### Install Dependencies
+
+```bash
+cd /home/jetson/dobot-magician
+sudo apt update
+sudo apt install -y \
+  python3-colcon-common-extensions \
+  python3-rosdep \
+  python3-pip \
+  python3-fastapi \
+  python3-uvicorn \
+  python3-opencv \
+  ros-humble-cv-bridge \
+  python3-yaml
+python3 -m pip install --user ultralytics
+```
+
+### Build
+
+```bash
+cd /home/jetson/dobot-magician
+source /opt/ros/humble/setup.bash
+rosdep install --from-paths src/magician_ros2 --ignore-src -r -y
+pip3 install -r src/magician_ros2/requirements.txt
+colcon build
+source install/setup.bash
+```
+
+### Run Web
+
+```bash
+cd /home/jetson/dobot-magician
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+ros2 launch dobot_web_interface dobot_web_interface.launch.py \
+  host:=0.0.0.0 \
+  port:=8080 \
+  camera_device:=/dev/video0
+```
+
+เปิดเว็บ:
+
+```text
+http://<jetson-ip>:8080/
+```
+
+### Run Detector
+
+วาง model เองใน:
+
+```text
+src/magician_ros2/dobot_vision_yolo/models/best.engine
+src/magician_ros2/dobot_vision_yolo/models/best.pt
+```
+
+รัน detector:
+
+```bash
+ros2 run dobot_vision_yolo yolo_detector_node --ros-args \
+  -p dry_run:=true \
+  -p prefer_tensorrt:=true \
+  -p model_path:=models/best.engine \
+  -p fallback_model_path:=models/best.pt \
+  -p device:=cuda \
+  -p imgsz:=640 \
+  -p precision:=fp16
+```
+
+### Test Detection
+
+```bash
+curl -X POST http://localhost:8080/api/vision/detect_once \
+  -H 'Content-Type: application/json' \
+  -d '{"dry_run":true,"object_class":"all","place_id":"tray_A"}'
+curl http://localhost:8080/api/vision/status
+curl http://localhost:8080/api/vision/detections
+```
+
+### Calibration
+
+```bash
+curl -X POST http://localhost:8080/api/vision/calibration/add_point \
+  -H 'Content-Type: application/json' \
+  -d '{"image_point":[120,80],"robot_point":[180.0,-120.0]}'
+
+curl -X POST http://localhost:8080/api/vision/calibration/compute \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+
+curl -X POST http://localhost:8080/api/vision/calibration/test_point \
+  -H 'Content-Type: application/json' \
+  -d '{"u":320,"v":240}'
+```
+
+รายละเอียดอยู่ใน [docs/calibration.md](docs/calibration.md)
+
+### Select Target
+
+```bash
+curl -X POST http://localhost:8080/api/vision/select_target \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "object_class":"black_cap",
+    "place_id":"tray_A",
+    "selection_mode":"highest_confidence",
+    "manual_id":null,
+    "dry_run":true
+  }'
+```
+
+### Preview Pick
+
+```bash
+curl -X POST http://localhost:8080/api/vision/preview_pick \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "object_class":"black_cap",
+    "place_id":"tray_A",
+    "selection_mode":"highest_confidence",
+    "dry_run":true
+  }'
+```
+
+ผลลัพธ์ต้องเป็น motion sequence แบบ simulated และไม่มีการเรียก `/api/move`.
+
+### Dry Run and Safety
+
+```bash
+curl http://localhost:8080/api/vision/safety
+curl -X POST http://localhost:8080/api/vision/validate_pick \
+  -H 'Content-Type: application/json' \
+  -d '{"dry_run":true}'
+```
+
+Safety Checklist บนเว็บต้องผ่านก่อน real motion:
+
+- Camera OK
+- YOLO OK
+- Calibration OK
+- Target OK
+- Workspace OK
+- Dry Run ON/OFF ตรงตามโหมดที่ตั้งใจ
+
+### Enable Real Motion
+
+ค่า default คือปิด real motion:
+
+```yaml
+allow_real_motion: false
+```
+
+ถ้าจะทดสอบจริง ให้แก้:
+
+```text
+src/magician_ros2/dobot_vision_yolo/config/workspace.yaml
+```
+
+เป็น:
+
+```yaml
+allow_real_motion: true
+```
+
+จากนั้น restart web/vision process และใช้ความเร็วต่ำ:
+
+```yaml
+velocity_ratio: 0.3
+acceleration_ratio: 0.2
+```
+
+### Pick Real
+
+ก่อนรันจริงต้องผ่าน checklist:
+
+- Homing แล้ว
+- Calibration ผ่าน
+- Workspace ถูก
+- Dry run ทดสอบผ่าน
+- วัตถุอยู่ในพื้นที่
+- ไม่มีสิ่งกีดขวาง
+- พร้อมกด Cancel
+
+คำสั่ง:
+
+```bash
+curl -X POST http://localhost:8080/api/vision/pick_selected \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "object_class":"black_cap",
+    "place_id":"tray_A",
+    "selection_mode":"highest_confidence",
+    "dry_run":false,
+    "confirm_real_motion":true,
+    "tool_type":"suction",
+    "velocity_ratio":0.3,
+    "acceleration_ratio":0.2
+  }'
+```
+
+Cancel:
+
+```bash
+curl -X POST http://localhost:8080/api/vision/cancel
+curl -X POST http://localhost:8080/api/cancel
+```
+
+### System Check Commands
+
+```bash
+ros2 topic list
+ros2 service list
+ros2 action list
+curl http://localhost:8080/api/status
+curl http://localhost:8080/api/vision/status
+curl http://localhost:8080/api/vision/safety
+```
+
+### Vision Troubleshooting
+
+กล้องไม่ขึ้น:
+
+- ตรวจ `/dev/video0`: `ls -l /dev/video*`
+- ทดสอบ snapshot: `curl http://localhost:8080/api/snapshot --output /tmp/snapshot.jpg`
+- เช็ก `camera_device` ใน launch/config
+
+YOLO import ไม่ได้:
+
+- ติดตั้ง: `python3 -m pip install --user ultralytics`
+- เช็ก: `python3 -c "import ultralytics; print(ultralytics.__version__)"`
+
+ไม่เจอ model:
+
+- วาง `best.engine` หรือ `best.pt` ใน `src/magician_ros2/dobot_vision_yolo/models/`
+- ดู `model_error` จาก `curl http://localhost:8080/api/vision/status`
+
+TensorRT engine ใช้ไม่ได้:
+
+- re-export บน Jetson เครื่องเดียวกัน
+- fallback เป็น `best.pt`
+- ดู [docs/jetson_tensorrt.md](docs/jetson_tensorrt.md)
+
+Calibration error สูง:
+
+- ใช้จุดกระจายกว้างในพื้นที่ทำงาน
+- ตรวจลำดับ `image_points` กับ `robot_points`
+- ดู [docs/calibration.md](docs/calibration.md)
+
+พิกัดหลุด workspace:
+
+- ตรวจ `src/magician_ros2/dobot_vision_yolo/config/workspace.yaml`
+- เช็กว่า calibration ไม่กลับแกน
+- เช็กว่า object/place อยู่ในพื้นที่จริง
+
+API move fail:
+
+- เช็ก `curl http://localhost:8080/api/status`
+- เช็ก `ros2 action list` ว่ามี `/PTP_action`
+- ทำ homing ก่อน
+- ลด velocity/acceleration

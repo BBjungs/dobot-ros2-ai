@@ -9,3 +9,8 @@ __pycache__/
 .env
 *.bag
 *.db3
+*.pt
+*.engine
+*.onnx
+datasets/
+runs/
